@@ -24,7 +24,7 @@ g.nd{cursor:grab}
 <div class="wrap">
 <h1>Commonwealth Accountability Board</h1>
 <p class="lede">The Commonwealth of Massachusetts Justice System Accountability Board began as a historical investigation and outgrew its scope. The past and present share the same nodes — a map of the injustice of justice that has wracked victims across this Commonwealth since 1854. Karen Read, Juston Root, Sandra Birchmore, and John O’Keefe: each case traces back through the same institutions, the same people, the same decisions protected by the same power. The accountability board rewards exploration — any node pulls loose; any cluster isolates on hover. Jonathan Bowen built this map; suggestions can be sent to @BostonByBirth on X.</p>
-<svg id="cab" viewBox="0 0 1040 700" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
+<svg id="cab" viewBox="0 0 1600 900" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
 <desc>The statewide accountability map: Norfolk County investigations, the drug-lab scandal, the institutions, and the people.</desc>
 <g id="lk"></g><g id="nd"></g>
 </svg>
@@ -36,21 +36,21 @@ function build(){
 if(typeof d3==='undefined'){return setTimeout(build,60);}
 var tier={out:{f:'#E4B09A',s:'#9B4A27',l:'Career Ended'},purg:{f:'#E4C38B',s:'#8F661E',l:'Sidelined'},depart:{f:'#BD9E7F',s:'#6D4C2C',l:'Left Office'},charged:{f:'#E6A8AD',s:'#9F2D36',l:'Charged'},exposed:{f:'#A2C6E2',s:'#275D86',l:'Named, No Discipline'},victim:{f:'#C8AFDE',s:'#693795',l:'Victim'},other:{f:'#C4C2BA',s:'#78725E',l:'Official'},wit:{f:'#A1D9BD',s:'#29704D',l:'Connected'},atty:{f:'#E6D699',s:'#836F21',l:'Attorney'}};
 var N=[
-{id:'IMSP',k:'inst',l:"Massachusetts State Police",fx:185,fy:318},
-{id:'IBPD',k:'inst',l:"Boston Police Department",fx:675,fy:388},
-{id:'ICANTON',k:'inst',l:"Canton Police Department",fx:602,fy:278},
-{id:'ISTOUGHTON',k:'inst',l:"Stoughton Police Department",fx:304,fy:106},
-{id:'IAG',k:'inst',l:"Office of the Attorney General",fx:668,fy:115},
-{id:'INORFOLK',k:'inst',l:"Norfolk County DA",fx:529,fy:199},
-{id:'IWORCESTER',k:'inst',l:"Worcester County DA",fx:112,fy:481},
-{id:'IESSEX',k:'inst',l:"Essex County DA",fx:622,fy:529},{id:'ILYNN',k:'inst',l:"Lynn Police Dept.",fx:600,fy:590},{id:'IAYER',k:'inst',l:"Ayer Police Dept.",fx:815,fy:42},
-{id:'CROOT',k:'victim',l:"Juston Root",fx:278,fy:238},{id:'IBROOKLINE',k:'inst',l:"Brookline Police Department",fx:382,fy:178},{id:'mattaliano',t:'other',l:"Lt. Gerard Mattaliano"},{id:'antoine',t:'other',l:"Sgt. Romere Antoine"},{id:'dunne',t:'other',l:"Tpr. Matthew Dunne"},{id:'farioli',t:'other',l:"Mark Farioli"},{id:'keefe',t:'other',l:"Edward Keefe"},{id:'dlynch',t:'other',l:"Dennis Lynch"},{id:'nichol',t:'other',l:"Tpr. Kevin Nichol"},{id:'pantazelos',t:'other',l:"Sgt. Keith Pantazelos"},{id:'powers',t:'other',l:"Meaghan Powers"},{id:'prince',t:'other',l:"Tpr. Kathleen Prince"},{id:'bsullivan',t:'other',l:"Tpr. Brian Sullivan"},{id:'msullivan',t:'other',l:"Sgt. Michael Sullivan"},{id:'crawford',t:'other',l:"Coleen Crawford"},{id:'stpeter',t:'exposed',l:"Off. Michael St. Peter"},{id:'broderick',t:'other',l:"Sgt. Det. John Broderick"},{id:'rollins',t:'depart',l:"DA Rachael Rollins"},{id:'roby',t:'other',l:"P.O. Scott Roby"},{id:'duff',t:'other',l:"Lt. Dan Duff"},{id:'mason',t:'other',l:"Col. Christopher Mason"},{id:'valet',t:'victim',l:"Justin Desmarais"},{id:'elcock',t:'other',l:"Off. Christopher Elcock"},{id:'mbarry',t:'victim',l:"Michael C. Barry"},{id:'apolk',t:'victim',l:"Alonzo Polk"},{id:'wagner',t:'other',l:"Det. David Wagner"},{id:'lipson',t:'other',l:"Chief Andrew Lipson"},
-{id:'CBIRCH',k:'victim',l:"Sandra Birchmore",fx:424,fy:154},
-{id:'CREAD',k:'victim',l:"Off. John O'Keefe",fx:476,fy:287},
-{id:'CWALSHE',k:'victim',l:"Ana Walshe",fx:417,fy:393},
-{id:'CACAD',k:'victim',l:"Recruit Enrique Delgado-Garcia",fx:225,fy:441},
-{id:'CDRUG',k:'inst',l:"State Police Crime Laboratory",fx:814,fy:203},
-{id:'CSHOW',k:'inst',l:"Boston's Finest (2013)",fx:788,fy:481},
+{id:'IMSP',k:'inst',l:"Massachusetts State Police",fx:285,fy:409},
+{id:'IBPD',k:'inst',l:"Boston Police Department",fx:1038,fy:499},
+{id:'ICANTON',k:'inst',l:"Canton Police Department",fx:926,fy:357},
+{id:'ISTOUGHTON',k:'inst',l:"Stoughton Police Department",fx:468,fy:136},
+{id:'IAG',k:'inst',l:"Office of the Attorney General",fx:1028,fy:148},
+{id:'INORFOLK',k:'inst',l:"Norfolk County DA",fx:814,fy:256},
+{id:'IWORCESTER',k:'inst',l:"Worcester County DA",fx:172,fy:618},
+{id:'IESSEX',k:'inst',l:"Essex County DA",fx:957,fy:680},{id:'ILYNN',k:'inst',l:"Lynn Police Dept.",fx:923,fy:759},{id:'IAYER',k:'inst',l:"Ayer Police Dept.",fx:1254,fy:54},
+{id:'CROOT',k:'victim',l:"Juston Root",fx:428,fy:306},{id:'IBROOKLINE',k:'inst',l:"Brookline Police Department",fx:588,fy:229},{id:'mattaliano',t:'other',l:"Lt. Gerard Mattaliano"},{id:'antoine',t:'other',l:"Sgt. Romere Antoine"},{id:'dunne',t:'other',l:"Tpr. Matthew Dunne"},{id:'farioli',t:'other',l:"Mark Farioli"},{id:'keefe',t:'other',l:"Edward Keefe"},{id:'dlynch',t:'other',l:"Dennis Lynch"},{id:'nichol',t:'other',l:"Tpr. Kevin Nichol"},{id:'pantazelos',t:'other',l:"Sgt. Keith Pantazelos"},{id:'powers',t:'other',l:"Meaghan Powers"},{id:'prince',t:'other',l:"Tpr. Kathleen Prince"},{id:'bsullivan',t:'other',l:"Tpr. Brian Sullivan"},{id:'msullivan',t:'other',l:"Sgt. Michael Sullivan"},{id:'crawford',t:'other',l:"Coleen Crawford"},{id:'stpeter',t:'exposed',l:"Off. Michael St. Peter"},{id:'broderick',t:'other',l:"Sgt. Det. John Broderick"},{id:'rollins',t:'depart',l:"DA Rachael Rollins"},{id:'roby',t:'other',l:"P.O. Scott Roby"},{id:'duff',t:'other',l:"Lt. Dan Duff"},{id:'mason',t:'other',l:"Col. Christopher Mason"},{id:'valet',t:'victim',l:"Justin Desmarais"},{id:'elcock',t:'other',l:"Off. Christopher Elcock"},{id:'mbarry',t:'victim',l:"Michael C. Barry"},{id:'apolk',t:'victim',l:"Alonzo Polk"},{id:'wagner',t:'other',l:"Det. David Wagner"},{id:'lipson',t:'other',l:"Chief Andrew Lipson"},
+{id:'CBIRCH',k:'victim',l:"Sandra Birchmore",fx:652,fy:198},
+{id:'CREAD',k:'victim',l:"Off. John O'Keefe",fx:732,fy:369},
+{id:'CWALSHE',k:'victim',l:"Ana Walshe",fx:642,fy:505},
+{id:'CACAD',k:'victim',l:"Recruit Enrique Delgado-Garcia",fx:346,fy:567},
+{id:'CDRUG',k:'inst',l:"State Police Crime Laboratory",fx:1252,fy:261},
+{id:'CSHOW',k:'inst',l:"Boston's Finest (2013)",fx:1212,fy:618},
 {id:'proctor',t:'out',l:"Tpr. Michael Proctor"},
 {id:'bukhenik',t:'purg',l:"Sgt. Yuriy Bukhenik"},
 {id:'fanning',t:'exposed',l:"Lt. John Fanning"},
@@ -89,17 +89,17 @@ var N=[
 {id:'tucker',t:'other',l:"DA Paul Tucker"},
 {id:'thayer',t:'other',l:"Judge Webster Thayer"},
 {id:'cannone',t:'depart',l:"Judge Beverly Cannone (née Prescott)"},{id:'scordi_bello',t:'other',l:"Dr. Irini Scordi-Bello"},{id:'atkinson',t:'other',l:"Dr. Richard Atkinson"},{id:'stonebridge',t:'other',l:"Dr. Renee Stonebridge"},{id:'stanley',t:'other',l:"Dr. Christina Stanley"},{id:'gprescott',t:'other',l:"Trudy Prescott"},{id:'jprescott',t:'other',l:"ADA John Prescott"},{id:'wolohojian',t:'other',l:"Justice Gabrielle Wolohojian"},
-{id:'ISHS',k:'inst',l:"Stoughton High School",fx:463,fy:44},
-{id:'ICHS',k:'inst',l:"Canton High School",fx:560,fy:110},
-{id:'IQHS',k:'inst',l:"Quincy High School",fx:700,fy:55},
-{id:'INHS',k:'inst',l:"Norwood High School",fx:810,fy:145},
-{id:'ISJC',k:'inst',l:"MA Supreme Judicial Court",fx:450,fy:15},
-{id:'IBSH',k:'inst',l:"Bridgewater State Hospital",fx:588,fy:388},
+{id:'ISHS',k:'inst',l:"Stoughton High School",fx:712,fy:57},
+{id:'ICHS',k:'inst',l:"Canton High School",fx:862,fy:141},
+{id:'IQHS',k:'inst',l:"Quincy High School",fx:1077,fy:71},
+{id:'INHS',k:'inst',l:"Norwood High School",fx:1246,fy:186},
+{id:'ISJC',k:'inst',l:"MA Supreme Judicial Court",fx:692,fy:19},
+{id:'IBSH',k:'inst',l:"Bridgewater State Hospital",fx:905,fy:499},
 {id:'mccabe',t:'wit',l:"Matthew McCabe"},
 {id:'mkennedy',t:'wit',l:"Councilor Meg Kennedy"},
-{id:'IMIDDLESEX',k:'inst',l:"Middlesex County DA",fx:768,fy:88},
-{id:'ISUFFOLK',k:'inst',l:"Suffolk County DA",fx:801,fy:309},
-{id:'INCOURT',k:'inst',l:"Norfolk Superior Court",fx:629,fy:234},{id:'ISUFFOLKCOURT',k:'inst',l:"Suffolk Superior Court",fx:845,fy:375},
+{id:'IMIDDLESEX',k:'inst',l:"Middlesex County DA",fx:1182,fy:113},
+{id:'ISUFFOLK',k:'inst',l:"Suffolk County DA",fx:1232,fy:397},
+{id:'INCOURT',k:'inst',l:"Norfolk Superior Court",fx:968,fy:301},{id:'ISUFFOLKCOURT',k:'inst',l:"Suffolk Superior Court",fx:1300,fy:482},
 {id:'katzmann',t:'depart',l:"DA Frederick Katzmann"},
 {id:'sacco',t:'victim',l:"Nicola Sacco"},
 {id:'vanzetti',t:'victim',l:"Bartolomeo Vanzetti"},
@@ -114,18 +114,18 @@ var N=[
 
 {id:'stuart',t:'exposed',l:"Charles Stuart"},
 {id:'ellissean',t:'victim',l:"Sean Ellis"},{id:'billydunn',t:'other',l:"Off. Billy Dunn"},{id:'rsanchez',t:'wit',l:"Rosa Sanchez"},{id:'tpatterson',t:'wit',l:"Terry L. Patterson"},{id:'desalvo',t:'charged',l:"Albert DeSalvo"},{id:'brooke',t:'other',l:"AG Edward Brooke"},{id:'bottomly',t:'other',l:"Asst AG John Bottomly"},{id:'dinatale',t:'other',l:"Det. Phillip DiNatale"},{id:'mellon',t:'other',l:"Off. James Mellon"},{id:'tuney',t:'other',l:"Det. Lt. Andrew Tuney"},{id:'delaney',t:'other',l:"Off. Stephen Delaney"},{id:'conn',t:'other',l:"ADA Donald Conn"},{id:'moynihan',t:'other',l:"Judge Cornelius Moynihan"},{id:'bailey',t:'atty',l:"Atty. F. Lee Bailey"},{id:'nmiller',t:'victim',l:"Neil Miller"},{id:'dmaher',t:'victim',l:"Dennis Maher"},{id:'gperrot',t:'victim',l:"George Perrot"},{id:'echavarria',t:'victim',l:"Angel Echavarria"},{id:'fclay',t:'victim',l:"Fred Clay"},{id:'fchoy',t:'victim',l:"Frances Choy"},{id:'leblanc',t:'exposed',l:"Analyst Dennis LeBlanc"},{id:'rmclaughlin',t:'exposed',l:"Analyst Rosemary McLaughlin"},
-{id:'IWATCHWARD',k:'inst',l:"Watch and Ward Society",fx:463,fy:572},
+{id:'IWATCHWARD',k:'inst',l:"Watch and Ward Society",fx:712,fy:735},
 {id:'kotkowski',t:'purg',l:"Det. Jeff Kotkowski"},
 {id:'traub',t:'depart',l:"David Traub"},
 {id:'brennan',t:'other',l:"Special ADA Hank Brennan"},
-{id:'ICFD',k:'inst',l:"Canton Fire Department",fx:675,fy:331},
+{id:'ICFD',k:'inst',l:"Canton Fire Department",fx:1038,fy:426},
 {id:'mclaughlin',t:'purg',l:"Paramedic Katie McLaughlin"},
 {id:'caitlinalbert',t:'wit',l:"Investigator Caitlin Albert"},
 {id:'tmorris',t:'wit',l:"Tristan Morris"},
 {id:'connolly_j',t:'depart',l:"Chair John Connolly"},
 {id:'theodore_t',t:'depart',l:"Chair Tom Theodore"},
-{id:'ICSB',k:'inst',l:"Canton Select Board",fx:721,fy:300},
-{id:'IPOST',k:'inst',l:"POST Commission",fx:265,fy:379},
+{id:'ICSB',k:'inst',l:"Canton Select Board",fx:1109,fy:386},
+{id:'IPOST',k:'inst',l:"POST Commission",fx:408,fy:487},
 {id:'karenread',t:'victim',l:"Karen Read"},
 {id:'guarino',t:'other',l:"Tpr. Nicholas Guarino"},
 {id:'lank',t:'other',l:"Sgt. Michael Lank"},
@@ -147,10 +147,10 @@ var N=[
 {id:'vrosario',t:'victim',l:"Victor Rosario"},
 {id:'djones',t:'victim',l:"Darrell Jones"},
 {id:'ewright',t:'victim',l:"Edward Wright"},
-{id:'IPLYMOUTH',k:'inst',l:"Plymouth County DA",fx:900,fy:460},
+{id:'IPLYMOUTH',k:'inst',l:"Plymouth County DA",fx:1385,fy:591},
 {id:'droney',t:'depart',l:"DA John J. Droney"},
 {id:'omalley_wc',t:'depart',l:"DA W.C. O'Malley"},
-{id:'IHAMPDEN',k:'inst',l:"Hampden County DA",fx:480,fy:520},{id:'IBRISTOL',k:'inst',l:"Bristol County DA",fx:715,fy:558},{id:'IESSEXCOURT',k:'inst',l:"Essex Superior Court",fx:558,fy:498},{id:'IBRISTOLCOURT',k:'inst',l:"Bristol Superior Court",fx:812,fy:545},{id:'IMIDDLESEXCOURT',k:'inst',l:"Middlesex Superior Court",fx:872,fy:128},{id:'OCME',k:'inst',l:"Office of Chief Medical Examiner",fx:730,fy:180},
+{id:'IHAMPDEN',k:'inst',l:"Hampden County DA",fx:738,fy:669},{id:'IBRISTOL',k:'inst',l:"Bristol County DA",fx:1100,fy:717},{id:'IESSEXCOURT',k:'inst',l:"Essex Superior Court",fx:858,fy:640},{id:'IBRISTOLCOURT',k:'inst',l:"Bristol Superior Court",fx:1249,fy:701},{id:'IMIDDLESEXCOURT',k:'inst',l:"Middlesex Superior Court",fx:1342,fy:165},{id:'OCME',k:'inst',l:"Office of Chief Medical Examiner",fx:1123,fy:231},
 {id:'mjryan',t:'depart',l:"DA M.J. Ryan Jr."},
 
 {id:'vamirault',t:'victim',l:"Violet Amirault"},
@@ -430,7 +430,7 @@ var sim=d3.forceSimulation(N)
 .force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
 .force('charge',d3.forceManyBody().strength(-350))
 .force('collide',d3.forceCollide().radius(function(d){return d.k?38:22;}))
-.force('x',d3.forceX(495).strength(0.035)).force('y',d3.forceY(340).strength(0.035));
+.force('x',d3.forceX(762).strength(0.035)).force('y',d3.forceY(437).strength(0.035));
 sim.on('tick',function(){
 node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(820,d.x));d.y=Math.max(80,Math.min(520,d.y));}return 'translate('+d.x+','+d.y+')';});
 link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;}).attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
