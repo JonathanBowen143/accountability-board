@@ -24,7 +24,7 @@ g.nd{cursor:grab}
 <div class="wrap">
 <h1>Commonwealth Accountability Board</h1>
 <p class="lede">The Commonwealth of Massachusetts Justice System Accountability Board began as a historical investigation and outgrew its scope. The past and present share the same nodes — a map of the injustice of justice that has wracked victims across this Commonwealth since 1854. Karen Read, Juston Root, Sandra Birchmore, and John O’Keefe: each case traces back through the same institutions, the same people, the same decisions protected by the same power. The accountability board rewards exploration — any node pulls loose; any cluster isolates on hover. Jonathan Bowen built this map; suggestions can be sent to @BostonByBirth on X.</p>
-<svg id="cab" viewBox="0 0 900 600" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
+<svg id="cab" viewBox="0 0 1040 700" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
 <desc>The statewide accountability map: Norfolk County investigations, the drug-lab scandal, the institutions, and the people.</desc>
 <g id="lk"></g><g id="nd"></g>
 </svg>
@@ -428,9 +428,9 @@ node.on('mouseover',function(ev,d){var f=adj[d.id];node.classed('dim',function(n
 .on('mouseout',function(){node.classed('dim',false);link.classed('dim',false);});
 var sim=d3.forceSimulation(N)
 .force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
-.force('charge',d3.forceManyBody().strength(-320))
+.force('charge',d3.forceManyBody().strength(-350))
 .force('collide',d3.forceCollide().radius(function(d){return d.k?38:22;}))
-.force('x',d3.forceX(450).strength(0.035)).force('y',d3.forceY(300).strength(0.035));
+.force('x',d3.forceX(495).strength(0.035)).force('y',d3.forceY(340).strength(0.035));
 sim.on('tick',function(){
 node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(820,d.x));d.y=Math.max(80,Math.min(520,d.y));}return 'translate('+d.x+','+d.y+')';});
 link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;}).attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
