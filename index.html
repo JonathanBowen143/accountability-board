@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;background:#faf9f6;color:#26241f;font-family:-apple-system,system-ui,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:28px 22px 60px}
+h1{font-size:24px;font-weight:600;margin:0 0 6px}
+p.lede{font-size:15px;color:#4a4843;margin:0 0 18px;max-width:780px}
+svg{width:100%;height:auto;display:block}
+text.lbl{paint-order:stroke;stroke:#faf9f6;stroke-width:3px;stroke-linejoin:round;fill:#26241f;font-size:10px;pointer-events:none}
+text.hl{font-size:11px;font-weight:600;fill:#16150f}
+.dim{opacity:.08}
+g.nd{cursor:grab}
+.lgd{display:flex;flex-wrap:wrap;gap:7px 16px;font-size:12.5px;color:#4a4843;margin:14px 2px 0;line-height:1.5}
+.lgd span{display:inline-flex;align-items:center;gap:6px}
+.lgd i{width:12px;height:12px;border-radius:50%;display:inline-block;border:0.5px solid rgba(90,90,90,.55)}
+.lgd q{width:11px;height:11px;display:inline-block;border:1px solid #5F5E5A;background:#cfcdc3;border-radius:2px}
+.lgd b{width:20px;border-top:2px solid;display:inline-block;font-size:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Commonwealth Accountability Board</h1>
+<p class="lede">Squares = institutions. Large circles = cases. Small circles = people, colored by outcome. Drag any pin to pull a thread loose; hover to isolate connections. Bukhenik connects to Stoughton Police Department via community/residential tie (Stoughton High School, current residence; prior employment was Attleboro Police Department).</p>
+<svg id="cab" viewBox="0 0 900 600" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
+<desc>The statewide accountability map: Norfolk County investigations, the drug-lab scandal, the institutions, and the people.</desc>
+<g id="lk"></g><g id="nd"></g>
+</svg>
+<div class="lgd" id="lg"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+function build(){
+if(typeof d3==='undefined'){return setTimeout(build,60);}
+var tier={out:{f:'#F7C1C1',s:'#A32D2D',l:'Career Ended'},purg:{f:'#FAC775',s:'#854F0B',l:'Sidelined'},depart:{f:'#F5C4B3',s:'#993C1D',l:'Left Office'},charged:{f:'#F4C0D1',s:'#993556',l:'Charged'},exposed:{f:'#B5D4F4',s:'#185FA5',l:'Named, No Discipline'},victim:{f:'#CECBF6',s:'#534AB7',l:'Victim'},other:{f:'#D3D1C7',s:'#5F5E5A',l:'Official'},wit:{f:'#C6E6D9',s:'#2E7D5B',l:'Witness / Associate'},atty:{f:'#F0DEB4',s:'#8A6914',l:'Attorney'}};
+var N=[
+{id:'IMSP',k:'inst',l:"Massachusetts State Police",fx:185,fy:318},
+{id:'IBPD',k:'inst',l:"Boston Police Department",fx:675,fy:388},
+{id:'ICANTON',k:'inst',l:"Canton Police Department",fx:602,fy:278},
+{id:'ISTOUGHTON',k:'inst',l:"Stoughton Police Department",fx:304,fy:106},
+{id:'IAG',k:'inst',l:"Office of the Attorney General",fx:668,fy:115},
+{id:'INORFOLK',k:'inst',l:"Norfolk County DA",fx:529,fy:199},
+{id:'IWORCESTER',k:'inst',l:"Worcester County DA",fx:112,fy:481},
+{id:'IESSEX',k:'inst',l:"Essex County DA",fx:622,fy:529},
+{id:'CROOT',k:'case',l:"Juston Root (2020)",fx:278,fy:238},{id:'IBROOKLINE',k:'inst',l:"Brookline Police Department",fx:382,fy:178},{id:'mattaliano',t:'other',l:"Lt. Gerard Mattaliano"},{id:'antoine',t:'other',l:"Sgt. Romere Antoine"},{id:'dunne',t:'other',l:"Tpr. Matthew Dunne"},{id:'farioli',t:'other',l:"Mark Farioli"},{id:'keefe',t:'other',l:"Edward Keefe"},{id:'dlynch',t:'other',l:"Dennis Lynch"},{id:'nichol',t:'other',l:"Tpr. Kevin Nichol"},{id:'pantazelos',t:'other',l:"Sgt. Keith Pantazelos"},{id:'powers',t:'other',l:"Meaghan Powers"},{id:'prince',t:'other',l:"Tpr. Kathleen Prince"},{id:'bsullivan',t:'other',l:"Tpr. Brian Sullivan"},{id:'msullivan',t:'other',l:"Sgt. Michael Sullivan"},{id:'crawford',t:'other',l:"Coleen Crawford (Norfolk DA forensic video)"},{id:'stpeter',t:'exposed',l:"Off. Michael St. Peter"},{id:'broderick',t:'other',l:"Sgt. Det. John Broderick"},{id:'rollins',t:'other',l:"DA Rachael Rollins"},{id:'roby',t:'other',l:"P.O. Scott Roby"},{id:'duff',t:'other',l:"Lt. Dan Duff"},{id:'mason',t:'other',l:"Col. Christopher Mason"},{id:'valet',t:'victim',l:"Justin Desmarais (BWH Valet)"},{id:'elcock',t:'other',l:"Off. Christopher Elcock"},{id:'mbarry',t:'victim',l:"Michael C. Barry"},{id:'apolk',t:'victim',l:"Alonzo Polk"},{id:'wagner',t:'other',l:"Det. David Wagner"},{id:'lipson',t:'other',l:"Chief Andrew Lipson"},
+{id:'CBIRCH',k:'case',l:"Sandra Birchmore (2021)",fx:424,fy:154},
+{id:'CREAD',k:'case',l:"Off. John O'Keefe (2022)",fx:476,fy:287},
+{id:'CWALSHE',k:'case',l:"Ana Walshe (2023)",fx:417,fy:393},
+{id:'CACAD',t:'victim',l:"Recruit Enrique Delgado-Garcia",fx:225,fy:441},
+{id:'CDRUG',k:'inst',l:"State Police Crime Laboratory",fx:814,fy:203},
+{id:'CSHOW',k:'inst',l:"Boston's Finest (2013)",fx:788,fy:481},
+{id:'proctor',t:'out',l:"Tpr. Michael Proctor"},
+{id:'bukhenik',t:'purg',l:"Sgt. Yuriy Bukhenik"},
+{id:'fanning',t:'exposed',l:"Lt. John Fanning"},
+{id:'tully',t:'purg',l:"Lt. Brian Tully"},
+{id:'dicicco',t:'purg',l:"Tpr. David DiCicco"},{id:'fernandes',t:'exposed',l:"Off. Leroy Fernandes"},{id:'figueroa',t:'exposed',l:"Off. Brenda Figueroa"},{id:'godin',t:'exposed',l:"Off. David Godin"},{id:'mcmenamy',t:'exposed',l:"Off. Joseph McMenamy"},{id:'cthomas',t:'exposed',l:"Off. Corey Thomas"},
+{id:'conneely',t:'out',l:"Tpr. Paul Conneely"},
+{id:'dever',t:'out',l:"Off. Kelly Dever"},
+{id:'goode',t:'out',l:"Sgt. Sean Goode"},
+{id:'kalbert',t:'purg',l:"Det. Kevin Albert"},
+{id:'rafferty',t:'out',l:"Chief Helena Rafferty"},
+{id:'berkowitz',t:'depart',l:"Chief Kenneth Berkowitz"},
+{id:'morrissey',t:'depart',l:"DA Michael Morrissey"},{id:'amerrissey',t:'other',l:"Arthur H. Morrissey"},{id:'okeefe',t:'victim',l:"Off. John O'Keefe"},{id:'dseaman',t:'other',l:"Douglas Seaman"},{id:'jmarathas',t:'other',l:"Jim Marathas"},{id:'timalbert',t:'wit',l:"Tim Albert"},{id:'brendanalbert',t:'wit',l:"Brendan Albert"},{id:'crisilio',t:'wit',l:"Lisa Crisilio"},{id:'oconnell',t:'other',l:"William O'Connell"},
+{id:'calbert',t:'depart',l:"Member Christopher Albert"},
+{id:'balbert',t:'other',l:"Sgt. Brian Albert"},
+{id:'heal',t:'out',l:"Off. Joshua Heal"},
+{id:'devine',t:'out',l:"Dep. Chief Robert Devine"},
+{id:'wfarwell',t:'out',l:"Off. William Farwell"},
+{id:'mfarwell',t:'charged',l:"Det. Matthew Farwell"},
+{id:'walshe',t:'charged',l:"Brian Walshe"},
+{id:'penton',t:'charged',l:"Lt. Jennifer Penton"},
+
+{id:'rogers',t:'other',l:"Off. Patrick Rogers"},
+
+{id:'sullivan',t:'wit',l:"Laura Sullivan"},
+{id:'coakley',t:'other',l:"AG Martha Coakley"},
+{id:'healey',t:'other',l:"Gov. Maura Healey"},
+{id:'campbell',t:'other',l:"AG Andrea Campbell"},
+{id:'velis',t:'other',l:"Judge Peter Velis"},
+{id:'merrigan',t:'other',l:"Judge Thomas Merrigan"},
+{id:'litalien',t:'other',l:"Det. Capt. Paul L'Italien"},
+{id:'coughlin',t:'other',l:"Capt. James Coughlin"},
+{id:'ryan',t:'atty',l:"Atty. Luke Ryan"},
+{id:'cox',t:'other',l:"Comm. Michael Cox"},{id:'kconley',t:'other',l:"Off. Kenneth Conley"},{id:'mulligan',t:'other',l:"Det. John Mulligan"},{id:'acerra',t:'charged',l:"Det. Kenneth Acerra"},{id:'robinson',t:'charged',l:"Det. Walter Robinson"},{id:'brazil',t:'exposed',l:"Det. John Brazil"},{id:'williams',t:'exposed',l:"Off. David Williams"},
+{id:'fitz',t:'victim',l:"Off. Kelsey Fitzsimmons"},
+{id:'early',t:'depart',l:"DA Joseph Early"},
+{id:'tucker',t:'other',l:"DA Paul Tucker"},
+{id:'thayer',t:'other',l:"Judge Webster Thayer"},
+{id:'cannone',t:'depart',l:"Judge Beverly Cannone"},{id:'wolohojian',t:'other',l:"Justice Gabrielle Wolohojian"},
+{id:'ISHS',k:'inst',l:"Stoughton High School",fx:463,fy:44},
+{id:'ICHS',k:'inst',l:"Canton High School",fx:560,fy:110},
+{id:'IQHS',k:'inst',l:"Quincy High School",fx:700,fy:55},
+{id:'INHS',k:'inst',l:"Norwood High School",fx:810,fy:145},
+{id:'ISJC',k:'inst',l:"MA Supreme Judicial Court",fx:450,fy:15},
+{id:'mccabe',t:'wit',l:"Matthew McCabe"},
+{id:'mkennedy',t:'wit',l:"Councilor Meg Kennedy"},
+{id:'IMIDDLESEX',k:'inst',l:"Middlesex County DA",fx:768,fy:88},
+{id:'ISUFFOLK',k:'inst',l:"Suffolk County DA",fx:801,fy:309},
+{id:'INCOURT',k:'inst',l:"Norfolk Superior Court",fx:629,fy:234},{id:'ISUFFOLKCOURT',k:'inst',l:"Suffolk Superior Court",fx:845,fy:375},
+{id:'katzmann',t:'depart',l:"DA Frederick Katzmann"},
+{id:'sacco',t:'victim',l:"Nicola Sacco"},
+{id:'vanzetti',t:'victim',l:"Bartolomeo Vanzetti"},
+{id:'allen',t:'other',l:"AG J. Weston Allen"},
+{id:'tufts',t:'depart',l:"DA Nathan Tufts"},
+{id:'pelletier',t:'depart',l:"DA Joseph Pelletier"},
+{id:'jmccabe',t:'wit',l:"Jennifer McCabe"},
+{id:'lamonte',t:'charged',l:"Tpr. Casey LaMonte"},
+{id:'montanez',t:'charged',l:"Tpr. David Montanez"},
+{id:'colinalbert',t:'wit',l:"Colin Albert"},
+{id:'higgins',t:'exposed',l:"Agent Brian Higgins"},{id:'jackson',t:'atty',l:"Atty. Alan Jackson"},{id:'yannetti',t:'atty',l:"Atty. David Yannetti"},{id:'scapicchio',t:'atty',l:"Atty. Rosemary Scapicchio"},{id:'gallagher',t:'other',l:"Lt. Paul Gallagher"},{id:'saraf',t:'other',l:"Off. Steven Saraf"},{id:'mullaney',t:'other',l:"Off. Stephen Mullaney"},{id:'keleher',t:'other',l:"Dep. Chief Tom Keleher"},{id:'wanless',t:'exposed',l:"Off. Brian Wanless"},{id:'wade',t:'other',l:"Det. Eric Wade"},{id:'ellburg',t:'wit',l:"Courtney Proctor Ellburg"},{id:'loughran',t:'wit',l:"Brian Loughran"},{id:'reardon',t:'wit',l:"Michelle Reardon"},{id:'dgalvin',t:'wit',l:"Denise Galvin"},{id:'doody',t:'other',l:"Admin. Charles Doody"},{id:'nmarathas',t:'wit',l:"Nick Marathas"},{id:'juliedalbert',t:'wit',l:"Julie Daniels Albert"},{id:'mloughran',t:'other',l:"Michael Loughran"},{id:'noe',t:'other',l:"Lt. Vincent Noe"},{id:'keithalbert',t:'wit',l:"Keith Albert"},{id:'sbrown',t:'other',l:"Off. Scott Brown"},{id:'kbrown',t:'wit',l:"Kati Brown"},{id:'jdaniels',t:'wit',l:"Jill Daniels"},{id:'albertjr',t:'wit',l:"Brian Albert Jr."},{id:'amccabe',t:'wit',l:"Allie McCabe"},{id:'nagel',t:'wit',l:"Julie Nagel"},{id:'levinson',t:'wit',l:"Sarah Levinson"},{id:'nalbert',t:'wit',l:"Nicole Albert"},{id:'lally',t:'other',l:"ADA Adam Lally"},
+
+{id:'stuart',t:'exposed',l:"Charles Stuart"},
+{id:'ellissean',t:'victim',l:"Sean Ellis"},
+{id:'IWATCHWARD',k:'inst',l:"Watch and Ward Society",fx:463,fy:572},
+{id:'kotkowski',t:'purg',l:"Det. Jeff Kotkowski"},
+{id:'traub',t:'depart',l:"David Traub"},
+{id:'brennan',t:'other',l:"Special ADA Hank Brennan"},
+{id:'ICFD',k:'inst',l:"Canton Fire Department",fx:675,fy:331},
+{id:'mclaughlin',t:'purg',l:"Paramedic Katie McLaughlin"},
+{id:'caitlinalbert',t:'wit',l:"Investigator Caitlin Albert"},
+{id:'tmorris',t:'wit',l:"Tristan Morris"},
+{id:'connolly_j',t:'depart',l:"Chair John Connolly"},
+{id:'theodore_t',t:'depart',l:"Chair Tom Theodore"},
+{id:'ICSB',k:'inst',l:"Canton Select Board",fx:721,fy:300},
+{id:'IPOST',k:'inst',l:"POST Commission",fx:265,fy:379},
+{id:'karenread',t:'victim',l:"Karen Read"},
+{id:'guarino',t:'other',l:"Tpr. Nicholas Guarino"},
+{id:'lank',t:'other',l:"Sgt. Michael Lank"},
+{id:'dookhan',t:'out',l:"Chemist Annie Dookhan"},
+{id:'farak',t:'out',l:"Chemist Sonja Farak"},
+{id:'wbennett',t:'victim',l:"Willie Bennett"},
+{id:'swanson',t:'victim',l:"Alan Swanson"},
+{id:'flanagan',t:'depart',l:"DA Newman Flanagan"},
+{id:'omalley_p',t:'other',l:"Det. Peter O'Malley"},
+{id:'broker',t:'exposed',l:"ADA Phyllis Broker"},
+{id:'rmartin',t:'depart',l:"DA Ralph Martin"},
+{id:'dconley',t:'depart',l:"DA Daniel Conley"},
+{id:'pappas',t:'other',l:"DA John Pappas"},
+{id:'harshbarger',t:'depart',l:"AG Scott Harshbarger"},
+{id:'gamirault',t:'victim',l:"Gerald Amirault"},
+{id:'scowans',t:'victim',l:"Stephan Cowans"},
+{id:'trosa',t:'victim',l:"Thomas Rosa Jr."},
+{id:'kwaters',t:'victim',l:"Kenneth Waters"},
+{id:'vrosario',t:'victim',l:"Victor Rosario"},
+{id:'djones',t:'victim',l:"Darrell Jones"},
+{id:'ewright',t:'victim',l:"Edward Wright"},
+{id:'IPLYMOUTH',k:'inst',l:"Plymouth County DA",fx:900,fy:460},
+{id:'droney',t:'depart',l:"DA John J. Droney"},
+{id:'omalley_wc',t:'depart',l:"DA W.C. O'Malley"},
+{id:'IHAMPDEN',k:'inst',l:"Hampden County DA",fx:480,fy:520},{id:'IBRISTOL',k:'inst',l:"Bristol County DA",fx:715,fy:558},{id:'IESSEXCOURT',k:'inst',l:"Essex Superior Court",fx:558,fy:498},{id:'IBRISTOLCOURT',k:'inst',l:"Bristol Superior Court",fx:812,fy:545},
+{id:'mjryan',t:'depart',l:"DA M.J. Ryan Jr."},
+
+{id:'vamirault',t:'victim',l:"Violet Amirault"},
+{id:'camirault',t:'victim',l:"Cheryl Amirault LeFave"},
+{id:'penate',t:'victim',l:"Rolando Penate"}];
+var spine={proctor:1,bukhenik:1,fanning:1,tully:1,dicicco:1};
+var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,kwaters:1,vrosario:1,djones:1,ewright:1,penate:1};
+function E(s,t,y){return {source:s,target:t,ty:y};}
+var L=[
+E('IMSP','CROOT','juris'),E('IMSP','CREAD','juris'),E('IMSP','CWALSHE','juris'),E('IMSP','CBIRCH','juris'),E('IMSP','CACAD','juris'),E('IMSP','CDRUG','juris'),
+E('INORFOLK','CROOT','juris'),E('INORFOLK','CBIRCH','juris'),E('INORFOLK','CREAD','juris'),E('INORFOLK','CWALSHE','juris'),
+E('ICANTON','CREAD','juris'),E('ISTOUGHTON','CBIRCH','juris'),E('IWORCESTER','CACAD','juris'),
+E('IAG','CDRUG','juris'),
+E('proctor','CROOT','spine'),E('proctor','CREAD','spine'),E('proctor','CWALSHE','spine'),
+E('bukhenik','CROOT','spine'),E('bukhenik','CREAD','spine'),
+E('fanning','CROOT','spine'),E('fanning','CREAD','spine'),E('fanning','CBIRCH','spine'),
+E('tully','CREAD','spine'),E('tully','CBIRCH','spine'),
+E('dicicco','CROOT','spine'),E('dicicco','CREAD','spine'),E('dicicco','CWALSHE','spine'),
+E('conneely','CROOT','case'),E('dever','CREAD','case'),E('goode','CREAD','case'),E('kalbert','CREAD','case'),
+E('rafferty','CREAD','case'),E('berkowitz','CREAD','case'),E('calbert','CREAD','case'),E('balbert','CREAD','case'),
+E('heal','CBIRCH','case'),E('devine','CBIRCH','case'),E('wfarwell','CBIRCH','case'),E('mfarwell','CBIRCH','case'),
+E('walshe','CWALSHE','case'),E('penton','CACAD','case'),E('campbell','CACAD','case'),E('fitz','IESSEX','case'),
+E('morrissey','INORFOLK','emp'),E('early','IWORCESTER','emp'),E('tucker','IESSEX','emp'),
+E('coakley','IAG','emp'),E('campbell','IAG','emp'),E('healey','IAG','emp'),E('cox','IBPD','emp'),
+E('litalien','IMSP','emp'),E('coughlin','IMSP','emp'),
+
+E('CACAD','IWORCESTER','emp'),
+E('rogers','IBPD','emp'),E('balbert','IBPD','emp'),E('penton','IBPD','emp'),E('dever','IBPD','emp'),
+E('CSHOW','balbert','show'),E('CSHOW','penton','show'),E('CSHOW','rogers','show'),E('CSHOW','CREAD','show'),
+E('balbert','kalbert','fam'),E('balbert','calbert','fam'),
+E('rogers','sullivan','pers'),
+E('healey','IMSP','oversee'),
+E('bukhenik','ISTOUGHTON','comm'),
+E('bukhenik','ISHS','alum'),
+E('fanning','ISHS','alum'),
+E('mccabe','ISHS','alum'),
+E('mkennedy','ISHS','emp'),
+E('mccabe','CREAD','case'),
+E('cannone','INORFOLK','emp'),
+E('cannone','CREAD','case'),
+E('thayer','INORFOLK','emp'),
+E('katzmann','INORFOLK','emp'),
+E('katzmann','INCOURT','case'),
+E('sacco','INCOURT','case'),
+E('vanzetti','INCOURT','case'),
+E('thayer','INCOURT','emp'),
+E('cannone','INCOURT','emp'),
+E('CREAD','INCOURT','juris'),
+E('allen','IAG','emp'),
+E('allen','tufts','removed'),
+E('allen','pelletier','removed'),
+E('tufts','IMIDDLESEX','emp'),
+E('pelletier','ISUFFOLK','emp'),
+E('coakley','IMIDDLESEX','emp'),
+E('INORFOLK','INCOURT','juris'),
+E('jmccabe','CREAD','case'),
+E('jmccabe','mccabe','pers'),
+E('lamonte','CACAD','case'),
+E('lamonte','IMSP','emp'),
+E('montanez','CACAD','case'),
+E('montanez','IMSP','emp'),
+E('colinalbert','CREAD','case'),
+E('colinalbert','calbert','fam'),
+E('higgins','CREAD','case'),
+
+E('stuart','IBPD','case'),
+E('ellissean','IBPD','case'),
+E('kotkowski','CREAD','case'),E('kotkowski','IMSP','emp'),
+
+
+E('traub','CREAD','case'),E('traub','INORFOLK','emp'),
+E('brennan','CREAD','case'),E('brennan','INORFOLK','emp'),
+E('goode','ICANTON','emp'),
+E('ICFD','CREAD','juris'),
+E('mclaughlin','CREAD','case'),E('mclaughlin','ICFD','emp'),
+E('caitlinalbert','CREAD','case'),E('caitlinalbert','balbert','fam'),E('caitlinalbert','IAG','emp'),E('caitlinalbert','tmorris','pers'),
+E('tmorris','CREAD','case'),
+E('connolly_j','CREAD','case'),E('connolly_j','ICSB','emp'),
+E('theodore_t','CREAD','case'),E('theodore_t','ICSB','emp'),
+E('calbert','ICSB','emp'),
+E('ICSB','ICANTON','oversee'),E('ICSB','CREAD','case'),E('early','CACAD','case'),E('calbert','kalbert','fam'),
+E('IPOST','IMSP','oversee'),
+E('proctor','IPOST','case'),
+E('devine','IPOST','case'),E('heal','IPOST','case'),E('healey','IPOST','oversee'),
+E('higgins','ICANTON','emp'),
+E('thayer','sacco','case'),E('thayer','vanzetti','case'),
+E('cannone','karenread','case'),
+E('karenread','INCOURT','case'),E('karenread','CREAD','case'),E('karenread','INORFOLK','case'),
+E('IBPD','CREAD','case'),
+E('guarino','IMSP','emp'),E('guarino','CREAD','case'),
+E('lank','ICANTON','emp'),E('lank','CBIRCH','case'),E('lank','CREAD','case'),
+E('kalbert','CBIRCH','case'),E('morrissey','CBIRCH','case'),
+E('sullivan','CREAD','case'),
+E('dookhan','CDRUG','case'),E('farak','CDRUG','case'),E('coakley','morrissey','oversee'),E('healey','morrissey','oversee'),E('campbell','morrissey','oversee'),
+E('coakley','early','oversee'),E('healey','early','oversee'),E('campbell','early','oversee'),
+E('campbell','tucker','oversee'),
+E('wbennett','IBPD','case'),E('wbennett','ISUFFOLK','case'),E('stuart','wbennett','case'),
+E('swanson','IBPD','case'),E('swanson','ISUFFOLK','case'),E('stuart','swanson','case'),
+E('flanagan','ISUFFOLK','emp'),E('flanagan','wbennett','case'),
+E('omalley_p','IBPD','emp'),E('omalley_p','wbennett','case'),E('omalley_p','stuart','case'),
+E('broker','ISUFFOLK','case'),E('broker','ellissean','case'),
+E('rmartin','ISUFFOLK','emp'),E('rmartin','ellissean','case'),
+E('dconley','ISUFFOLK','emp'),E('dconley','ellissean','case'),
+E('pappas','ISUFFOLK','case'),E('pappas','ellissean','case'),
+E('harshbarger','IMIDDLESEX','emp'),E('harshbarger','IAG','emp'),
+E('harshbarger','gamirault','case'),E('gamirault','IMIDDLESEX','case'),
+E('katzmann','sacco','case'),E('katzmann','vanzetti','case'),
+E('scowans','IBPD','case'),E('scowans','ISUFFOLK','case'),E('rmartin','scowans','case'),
+E('trosa','ISUFFOLK','case'),
+E('kwaters','IMIDDLESEX','case'),
+E('vrosario','IMIDDLESEX','case'),
+E('djones','IPLYMOUTH','case'),
+E('morrissey','karenread','case'),
+E('tucker','fitz','case'),
+E('flanagan','trosa','case'),E('rmartin','trosa','case'),
+E('harshbarger','kwaters','case'),
+E('droney','IMIDDLESEX','emp'),E('droney','vrosario','case'),
+E('omalley_wc','IPLYMOUTH','emp'),E('omalley_wc','djones','case'),
+E('mjryan','IHAMPDEN','emp'),E('mjryan','ewright','case'),
+E('ewright','IHAMPDEN','case'),
+
+E('vamirault','IMIDDLESEX','case'),E('camirault','IMIDDLESEX','case'),
+E('harshbarger','vamirault','case'),E('harshbarger','camirault','case'),
+E('healey','CDRUG','oversee'),E('healey','CBIRCH','oversee'),
+E('healey','proctor','oversee'),E('healey','CREAD','oversee'),E('healey','CROOT','oversee'),
+E('velis','IAG','oversee'),E('merrigan','IAG','oversee'),
+E('healey','litalien','oversee'),E('healey','coughlin','oversee'),
+E('ryan','penate','case'),E('farak','penate','case'),E('penate','IHAMPDEN','case'),
+E('berkowitz','ICANTON','emp'),E('rafferty','ICANTON','emp'),
+E('morrissey','brennan','oversee'),
+E('guarino','karenread','case'),
+E('devine','ISTOUGHTON','emp'),E('wfarwell','ISTOUGHTON','emp'),E('wfarwell','IPOST','case'),
+E('mfarwell','ISTOUGHTON','emp'),E('mfarwell','IPOST','case'),
+E('devine','mfarwell','oversee'),E('devine','wfarwell','oversee'),E('heal','ISTOUGHTON','emp'),E('penton','IMSP','emp'),E('guarino','CWALSHE','case'),E('rogers','CREAD','pers'),E('cox','swanson','case'),E('cox','wbennett','case'),E('cox','balbert','oversee'),E('cox','dever','oversee'),
+E('walshe','proctor','case'),
+E('walshe','guarino','case'),
+E('heal','ISHS','emp'),
+E('kconley','cox','case'),
+E('proctor','IMSP','emp'),
+E('bukhenik','proctor','oversee'),
+E('tully','bukhenik','oversee'),
+E('ICANTON','CBIRCH','juris'),
+E('IWATCHWARD','ISUFFOLK','juris'),
+E('berkowitz','CBIRCH','case'),
+E('bukhenik','IMSP','emp'),
+E('tully','IMSP','emp'),
+E('fanning','IMSP','emp'),
+E('dicicco','IMSP','emp'),
+E('conneely','IMSP','emp'),
+E('proctor','INORFOLK','emp'),
+E('bukhenik','INORFOLK','emp'),
+E('tully','INORFOLK','emp'),
+E('fanning','INORFOLK','emp'),
+E('proctor','karenread','case'),
+E('brennan','karenread','case'),
+E('coakley','gamirault','case'),
+E('coakley','dookhan','case'),
+E('mulligan','IBPD','emp'),
+E('acerra','IBPD','emp'),
+E('robinson','IBPD','emp'),
+E('brazil','IBPD','emp'),
+E('mulligan','ellissean','case'),
+E('acerra','ellissean','case'),
+E('robinson','ellissean','case'),
+E('brazil','ellissean','case'),
+E('williams','IBPD','emp'),
+E('williams','cox','case'),
+E('kconley','IBPD','emp'),
+E('healey','velis','oversee'),
+E('healey','merrigan','oversee'),
+E('fanning','mfarwell','case'),
+E('fanning','proctor','oversee'),
+E('vamirault','gamirault','fam'),
+E('vamirault','camirault','fam'),
+E('gamirault','camirault','fam'),
+E('colinalbert','caitlinalbert','fam'),
+E('jackson','karenread','case'),
+E('yannetti','karenread','case'),
+E('lally','CREAD','case'),
+E('lally','INORFOLK','emp'),
+E('nalbert','CREAD','case'),
+E('nalbert','balbert','fam'),
+E('nalbert','jmccabe','fam'),
+E('kalbert','ICANTON','emp'),
+E('morrissey','CROOT','case'),
+E('morrissey','CWALSHE','case'),
+E('ISUFFOLK','ISUFFOLKCOURT','juris'),
+E('IWATCHWARD','ISUFFOLKCOURT','juris'),
+E('ellissean','ISUFFOLKCOURT','case'),
+E('scowans','ISUFFOLKCOURT','case'),
+E('trosa','ISUFFOLKCOURT','case'),
+E('dever','ICANTON','emp'),
+E('ICSB','ICFD','oversee'),
+E('sacco','vanzetti','pers'),
+E('healey','campbell','business'),
+E('acerra','robinson','business'),
+E('higgins','karenread','pers'),
+E('IWATCHWARD','IESSEX','juris'),
+E('IWATCHWARD','IBRISTOL','juris'),
+E('IPOST','ICANTON','oversee'),
+E('IPOST','IBPD','oversee'),
+E('IPOST','ISTOUGHTON','oversee'),
+E('morrissey','lally','oversee'),
+E('fernandes','CROOT','case'),
+E('fernandes','IBPD','emp'),
+E('figueroa','CROOT','case'),
+E('figueroa','IBPD','emp'),
+E('godin','CROOT','case'),
+E('godin','IBPD','emp'),
+E('mcmenamy','CROOT','case'),
+E('mcmenamy','IBPD','emp'),
+E('cthomas','CROOT','case'),
+E('cthomas','IBPD','emp'),
+E('campbell','IMIDDLESEX','oversee'),
+E('campbell','ISUFFOLK','oversee'),
+E('campbell','IPLYMOUTH','oversee'),
+E('campbell','IHAMPDEN','oversee'),
+E('campbell','IBRISTOL','oversee'),
+E('IWATCHWARD','IESSEXCOURT','juris'),
+E('IWATCHWARD','IBRISTOLCOURT','juris'),
+E('IESSEX','IESSEXCOURT','juris'),
+E('IBRISTOL','IBRISTOLCOURT','juris'),
+E('IBROOKLINE','CROOT','juris'),
+E('mattaliano','CROOT','case'),
+E('antoine','CROOT','case'),
+E('dunne','CROOT','case'),
+E('farioli','CROOT','case'),
+E('keefe','CROOT','case'),
+E('dlynch','CROOT','case'),
+E('nichol','CROOT','case'),
+E('pantazelos','CROOT','case'),
+E('powers','CROOT','case'),
+E('bsullivan','CROOT','case'),
+E('crawford','CROOT','case'),
+E('kotkowski','CROOT','case'),
+E('crawford','CREAD','case'),
+E('antoine','IMSP','emp'),
+E('dunne','IMSP','emp'),
+E('nichol','IMSP','emp'),
+E('prince','IMSP','emp'),
+E('bsullivan','IMSP','emp'),
+E('mattaliano','INORFOLK','emp'),
+E('farioli','INORFOLK','emp'),
+E('keefe','INORFOLK','emp'),
+E('dlynch','INORFOLK','emp'),
+E('pantazelos','INORFOLK','emp'),
+E('powers','INORFOLK','emp'),
+E('crawford','INORFOLK','emp'),E('stpeter','CROOT','case'),E('stpeter','IBPD','emp'),E('broderick','CROOT','case'),E('broderick','IBPD','emp'),E('fanning','bukhenik','comm'),E('fanning','bukhenik','business'),E('fanning','crawford','business'),E('fanning','mattaliano','business'),E('fanning','broderick','business'),E('guarino','CROOT','case'),E('tully','CROOT','spine'),E('rollins','ISUFFOLK','emp'),E('rollins','CROOT','case'),E('roby','IBPD','emp'),E('roby','CROOT','case'),E('duff','IBPD','emp'),E('duff','CROOT','case'),E('mason','IMSP','emp'),E('mason','CROOT','oversee'),E('valet','CROOT','case'),E('valet','godin','case'),E('valet','stpeter','case'),E('elcock','IBROOKLINE','emp'),E('elcock','CROOT','case'),E('wagner','IBROOKLINE','emp'),E('wagner','CROOT','case'),E('lipson','IBROOKLINE','emp'),E('lipson','CROOT','oversee'),E('mbarry','rafferty','case'),E('apolk','coughlin','case'),E('mkennedy','jmccabe','pers'),E('scapicchio','ellissean','case'),E('scapicchio','proctor','case'),E('theodore_t','ICHS','alum'),E('connolly_j','ICHS','alum'),E('rafferty','ICHS','alum'),E('nalbert','ICHS','alum'),E('lank','ICHS','alum'),E('kalbert','ICHS','alum'),E('mkennedy','ICHS','alum'),E('jmccabe','ICHS','alum'),E('goode','ICHS','alum'),E('proctor','ICHS','alum'),E('mclaughlin','ICHS','alum'),E('caitlinalbert','ICHS','alum'),E('colinalbert','ICHS','alum'),E('prince','CREAD','case'),E('prince','jmccabe','comm'),E('gallagher','ICHS','alum'),E('gallagher','ICANTON','emp'),E('gallagher','CREAD','case'),E('saraf','ICHS','alum'),E('saraf','ICANTON','emp'),E('saraf','CREAD','case'),E('mullaney','ICHS','alum'),E('mullaney','ICANTON','emp'),E('mullaney','CREAD','case'),E('keleher','ICHS','alum'),E('keleher','ICANTON','emp'),E('keleher','CREAD','case'),E('wanless','ICHS','alum'),E('wanless','ICANTON','emp'),E('wanless','CREAD','case'),E('wade','ICHS','alum'),E('wade','ICANTON','emp'),E('wade','CREAD','case'),E('ellburg','ICHS','alum'),E('ellburg','proctor','fam'),E('ellburg','CREAD','case'),E('loughran','ICHS','alum'),E('loughran','CREAD','case'),E('lally','INHS','alum'),E('guarino','INHS','alum'),E('reardon','ICHS','alum'),E('reardon','jmccabe','fam'),E('reardon','CREAD','case'),E('dgalvin','ICHS','alum'),E('dgalvin','jmccabe','fam'),E('dgalvin','CREAD','case'),E('doody','ICHS','alum'),E('doody','CREAD','case'),E('nmarathas','ICHS','alum'),E('nmarathas','CREAD','case'),E('juliedalbert','ICHS','alum'),E('juliedalbert','CREAD','case'),E('juliedalbert','calbert','fam'),E('mloughran','ICHS','alum'),E('mloughran','ICSB','emp'),E('mloughran','CREAD','case'),E('noe','ISHS','alum'),E('noe','fanning','pers'),E('noe','CBIRCH','case'),E('keithalbert','ICHS','alum'),E('keithalbert','CREAD','case'),E('sbrown','ICHS','alum'),E('sbrown','ICANTON','emp'),E('sbrown','CREAD','case'),E('kbrown','ICHS','alum'),E('kbrown','CREAD','case'),E('jdaniels','ICHS','alum'),E('jdaniels','CREAD','case'),E('albertjr','ICHS','alum'),E('albertjr','CREAD','case'),E('amccabe','ICHS','alum'),E('amccabe','jmccabe','fam'),E('amccabe','CREAD','case'),E('nagel','ICHS','alum'),E('nagel','CREAD','case'),E('levinson','ICHS','alum'),E('levinson','CREAD','case'),E('msullivan','IBPD','emp'),E('msullivan','CROOT','case'),E('proctor','kalbert','pers'),E('colinalbert','amccabe','pers'),E('nagel','jmccabe','pers'),E('levinson','jmccabe','pers'),E('goode','lank','comm'),E('keleher','nalbert','pers'),E('albertjr','balbert','fam'),E('keithalbert','balbert','fam'),E('keithalbert','kalbert','fam'),E('kbrown','keithalbert','pers'),E('loughran','mloughran','fam'),E('jdaniels','ellburg','pers'),E('nmarathas','balbert','business'),E('kbrown','colinalbert','pers'),E('cannone','morrissey','pers'),E('oconnell','morrissey','business'),E('oconnell','INORFOLK','case'),E('prince','oconnell','case'),E('coakley','healey','oversee'),E('cannone','mccabe','pers'),E('morrissey','early','pers'),E('wolohojian','ISJC','emp'),E('healey','wolohojian','pers'),E('oconnell','ISJC','case'),E('prince','ISJC','case'),E('amerrissey','IQHS','emp'),E('amerrissey','morrissey','fam'),E('cannone','IQHS','alum'),E('okeefe','CREAD','case'),E('okeefe','IBPD','emp'),E('karenread','okeefe','pers'),E('dseaman','ICHS','alum'),E('dseaman','CREAD','case'),E('dseaman','proctor','business'),E('jmarathas','ICHS','alum'),E('jmarathas','CREAD','case'),E('jmarathas','calbert','pers'),E('timalbert','ICHS','alum'),E('timalbert','CREAD','case'),E('timalbert','balbert','fam'),E('brendanalbert','ICHS','alum'),E('brendanalbert','CREAD','case'),E('brendanalbert','balbert','fam'),E('crisilio','ICHS','alum'),E('crisilio','CREAD','case'),E('crisilio','timalbert','pers')];
+var ec={spine:['#E24B4A',2.2,''],case:['#9a988f',1,''],juris:['#5F5E5A',1,'2 3'],emp:['#b9b7ad',0.8,''],show:['#1D9E75',1.6,''],fam:['#BA7517',1.6,'5 4'],pers:['#D4537E',1.6,''],oversee:['#534AB7',1.4,'6 4'],comm:['#8B6FAE',1,'3 3'],alum:['#6B8552',1.2,'3 2'],removed:['#E24B4A',1.4,'7 3'],business:['#2C7DA0',1.4,'']};
+var adj={},inc={};N.forEach(function(n){adj[n.id]=new Set();inc[n.id]=new Set();});
+L.forEach(function(k,i){adj[k.source].add(k.target);adj[k.target].add(k.source);inc[k.source].add(i);inc[k.target].add(i);});
+N.forEach(function(n,i){if(!n.k){n.x=450+Math.cos(i)*90;n.y=300+Math.sin(i)*90;}});
+var svg=d3.select('#cab');
+var link=svg.select('#lk').selectAll('line').data(L).join('line')
+.attr('stroke',function(d){return ec[d.ty][0];}).attr('stroke-width',function(d){return ec[d.ty][1];})
+.attr('stroke-linecap','round').attr('stroke-dasharray',function(d){return ec[d.ty][2];})
+.attr('opacity',function(d){return d.ty==='emp'?0.4:d.ty==='case'?0.5:0.85;});
+var node=svg.select('#nd').selectAll('g').data(N).join('g').attr('class','nd');
+node.each(function(d){
+var g=d3.select(this);
+if(d.k==='inst'){
+g.append('rect').attr('x',-9).attr('y',-9).attr('width',18).attr('height',18).attr('rx',3).attr('fill','#cfcdc3').attr('stroke','#5F5E5A').attr('stroke-width',1.2);
+g.append('text').attr('class','lbl hl').attr('text-anchor','middle').attr('y',22).text(d.l);
+}else if(d.k==='case'){
+g.append('circle').attr('r',11).attr('fill','#E8E6DE').attr('stroke','#5F5E5A').attr('stroke-width',1);
+g.append('text').attr('class','lbl hl').attr('text-anchor','middle').attr('y',24).text(d.l);
+}else{
+if(exon[d.id]){g.append('circle').attr('r',12).attr('fill','none').attr('stroke','#B8860B').attr('stroke-width',2);}
+if(spine[d.id]){g.append('circle').attr('r',10).attr('fill','none').attr('stroke','#E24B4A').attr('stroke-width',1.8);}
+var c=tier[d.t];
+g.append('circle').attr('r',7).attr('fill',c.f).attr('stroke',c.s).attr('stroke-width',0.8);
+g.append('text').attr('class','lbl').attr('x',10).attr('dy','0.32em').text(d.l);
+}});
+node.on('mouseover',function(ev,d){var f=adj[d.id];node.classed('dim',function(n){return n.id!==d.id&&!f.has(n.id);});link.classed('dim',function(k,i){return !inc[d.id].has(i);});})
+.on('mouseout',function(){node.classed('dim',false);link.classed('dim',false);});
+var sim=d3.forceSimulation(N)
+.force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
+.force('charge',d3.forceManyBody().strength(-320))
+.force('collide',d3.forceCollide().radius(function(d){return d.k?38:22;}))
+.force('x',d3.forceX(450).strength(0.035)).force('y',d3.forceY(300).strength(0.035));
+sim.on('tick',function(){
+node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(820,d.x));d.y=Math.max(80,Math.min(520,d.y));}return 'translate('+d.x+','+d.y+')';});
+link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;}).attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
+});
+node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
+.on('drag',function(ev,d){d.fx=ev.x;d.fy=ev.y;})
+.on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}}));
+var lg=d3.select('#lg');
+Object.keys(tier).forEach(function(k){lg.append('span').html('<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>'+tier[k].l);});
+lg.append('span').html('<q></q>Institution');
+lg.append('span').html('<b style="border-color:#9a988f"></b>case connection');
+lg.append('span').html('<b style="border-color:#b9b7ad"></b>employment');
+lg.append('span').html('<b style="border-color:#E24B4A"></b>recurs across cases');
+lg.append('span').html('<b style="border-color:#5F5E5A;border-top-style:dashed"></b>jurisdiction');
+lg.append('span').html('<b style="border-color:#1D9E75"></b>Boston\u2019s Finest');
+lg.append('span').html('<b style="border-color:#534AB7;border-top-style:dashed"></b>oversight');
+lg.append('span').html('<b style="border-color:#BA7517;border-top-style:dashed"></b>family');
+lg.append('span').html('<b style="border-color:#D4537E"></b>personal tie');
+lg.append('span').html('<b style="border-color:#8B6FAE;border-top-style:dashed"></b>community / residential tie');
+lg.append('span').html('<b style="border-color:#6B8552;border-top-style:dashed"></b>alumni tie');
+lg.append('span').html('<b style="border-color:#E24B4A;border-top-style:dashed"></b>removed by AG');
+lg.append('span').html('<i style="background:none;border-color:#B8860B;border-width:2px"></i>Exonerated');
+}
+build();
+</script>
+</body>
+</html>
