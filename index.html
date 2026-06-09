@@ -6,9 +6,10 @@
 <style>
 body{margin:0;background:#faf9f6;color:#26241f;font-family:-apple-system,system-ui,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
 .wrap{max-width:960px;margin:0 auto;padding:28px 22px 60px}
+.hint{font-size:12px;color:#6b6962;margin:9px 2px 0;text-align:center}
 h1{font-size:24px;font-weight:600;margin:0 0 6px}
 p.lede{font-size:15px;color:#4a4843;margin:0 0 18px;max-width:780px}
-svg{width:96vw;max-width:2400px;position:relative;left:50%;transform:translateX(-50%);height:auto;display:block;margin-top:12px}
+svg{width:96vw;max-width:2400px;position:relative;left:50%;transform:translateX(-50%);height:min(82vh,1400px);display:block;margin-top:12px;overflow:hidden;background:#f3f1ec;border-radius:10px;touch-action:none}
 text.lbl{paint-order:stroke;stroke:#faf9f6;stroke-width:3px;stroke-linejoin:round;fill:#26241f;font-size:10px;pointer-events:none}
 text.hl{font-size:11px;font-weight:600;fill:#16150f}
 .dim{opacity:.08}
@@ -18,16 +19,18 @@ g.nd{cursor:grab}
 .lgd i{width:12px;height:12px;border-radius:50%;display:inline-block;border:0.5px solid rgba(90,90,90,.55)}
 .lgd q{width:11px;height:11px;display:inline-block;border:1px solid #5F5E5A;background:#cfcdc3;border-radius:2px}
 .lgd b{width:20px;border-top:2px solid;display:inline-block;font-size:0}
+@media (max-width:640px){.wrap{padding:18px 14px 44px}h1{font-size:20px}p.lede{font-size:14px}svg{height:74vh}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>Commonwealth Accountability Board</h1>
 <p class="lede">The Commonwealth of Massachusetts Justice System Accountability Board began as a historical investigation and outgrew its scope. The past and present share the same nodes — a map of the injustice of justice that has wracked victims across this Commonwealth since 1854. Juston Root, Sandra Birchmore, and John O'Keefe: each case traces back through the same institutions, the same people, the same decisions protected by the same power. The accountability board rewards exploration — any node pulls loose; any cluster isolates on hover. Jonathan Bowen built this map; suggestions can be sent to @BostonByBirth on X.</p>
-<svg id="cab" viewBox="0 0 1600 900" role="img" aria-label="Commonwealth Accountability Board" style="overflow:visible">
+<svg id="cab" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Commonwealth Accountability Board" style="overflow:hidden">
 <desc>The statewide accountability map: Norfolk County investigations, the drug-lab scandal, the institutions, and the people.</desc>
-<g id="lk"></g><g id="nd"></g>
+<g id="view"><g id="lk"></g><g id="nd"></g></g>
 </svg>
+<p class="hint">Scroll or pinch to zoom &middot; drag to pan &middot; drag a node to move it &middot; hover a node to spotlight its ties.</p>
 <div class="lgd" id="lg"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -438,6 +441,7 @@ link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.s
 node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
 .on('drag',function(ev,d){d.fx=ev.x;d.fy=ev.y;})
 .on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}}));
+var zoom=d3.zoom().scaleExtent([0.25,8]).on('zoom',function(ev){d3.select('#view').attr('transform',ev.transform);});svg.call(zoom);
 var lg=d3.select('#lg');
 Object.keys(tier).forEach(function(k){lg.append('span').html('<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>'+tier[k].l);});
 lg.append('span').html('<q></q>Institution');
