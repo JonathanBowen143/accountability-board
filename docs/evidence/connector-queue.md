@@ -1,0 +1,231 @@
+# Connector Queue
+
+Last updated: June 9, 2026.
+
+This queue is the holding area between evidence ingestion and graph edits. It prevents the board from becoming either under-connected or over-claimed.
+
+## Visual Encoding Notes
+
+### Victim Anchor Node Size
+
+Status: `implemented`.
+
+Evidence: `index.html` draws nodes with `k:'victimAnchor'` as larger centered murdered-person anchors and uses regular `t:'victim'` nodes for smaller person-level victim/exoneree nodes.
+
+Decision: Keep the larger Root, Birchmore, O'Keefe, Walshe, and Delgado-Garcia victim anchors as a style choice for navigation and moral focus. Do not let size imply blame, certainty, or evidence strength. The legend now names this as `Victim Anchor`.
+
+## Current Norfolk Hot-Button Issues
+
+### Read / O'Keefe Civil Suit
+
+Status: `lead`.
+
+Evidence: `WEB-READ-CIVIL-SUIT-2026-06`.
+
+Current board state: The Read/O'Keefe lane already has direct links to Karen Read, John O'Keefe, MSP, Canton Police, Proctor, Goode, and Norfolk DA figures.
+
+Decision: Do not add new claim-heavy connectors from the complaint alone. First localize the complaint PDF, then split adjudicated facts from allegations and decide whether the suit creates filing edges, oversight edges, or source notes.
+
+### Sandra Birchmore Federal Superseding Indictment
+
+Status: `graph-ready`.
+
+Evidence: `WEB-BIRCHMORE-FARWELL-SUPERSEDING-2025`; `WEB-BIRCHMORE-FARWELL-DETENTION-AFFIDAVIT-2024`.
+
+Current board state: Birchmore already functions as a victim anchor tied to Stoughton Police, Matthew Farwell, MSP/POST context, Canton, OCME, and related Norfolk/Canton institutions. The Stoughton Police Explorers program is documented as Stoughton Police context, not as a standalone public graph node.
+
+Decision: Use the federal indictment and detention affidavit to harden existing Birchmore and Stoughton Police connectors. Preserve allegation language until adjudication.
+
+### Stoughton Police Explorers / Birchmore / Farwell
+
+Status: `folded back into Stoughton Police`.
+
+Evidence: `WEB-BIRCHMORE-FARWELL-SUPERSEDING-2025`; `WEB-BIRCHMORE-FARWELL-DETENTION-AFFIDAVIT-2024`.
+
+Current board state: Removed the standalone `Stoughton Police Explorers` institution/program node from the public graph. The program remains documented as Stoughton Police context in the evidence files.
+
+Decision: Do not keep a separate Explorers graph node in the current victim/public-official view. Treat it as an offshoot/program of the Stoughton Police Department unless the project later opens a dedicated youth-program or departmental-program layer.
+
+### Birchmore Federal Lane / Internal-Only Actors
+
+Status: `internal-only`.
+
+Evidence: `WEB-BIRCHMORE-FEDERAL-LANE-ACTORS-2025`; `WEB-BIRCHMORE-FARWELL-PRETRIAL-STATUS-2026`.
+
+Current board state: The federal prosecutors, FBI federal actor, federal judge, and federal procedural actors are not represented as graph nodes.
+
+Decision: Keep the federal lane out of the public chart for now. Document Leah B. Foley, Ted E. Docks, Elizabeth Riley, Torey B. Cummings, Brian A. Fogerty, Magistrate Judge M. Page Kelley, and Pam Bondi in the evidence files as federal-lane or procedural actors only. They may become public graph nodes later if the project scope shifts from Massachusetts accountability connectors to the federal prosecution lane.
+
+### Delgado-Garcia Academy Charges and Reforms
+
+Status: `graph-ready`.
+
+Evidence: `WEB-DELGADO-GARCIA-INDICTMENTS-2026`; `WEB-MSP-ACADEMY-REVIEW-2026`.
+
+Current board state: Delgado-Garcia is already a victim anchor, with MSP Academy-related nodes and several charged staff represented.
+
+Decision: Keep the charged academy staff connected to Delgado-Garcia with charge/status language and add reform context as institutional evidence, not as individual culpability expansion.
+
+### Norfolk County Public-Trust Cluster
+
+Status: `lead`.
+
+Evidence: `WEB-NORFOLK-CONFIDENTIAL-2024`; `WEB-NORFOLK-DA-FALLOUT-2025`.
+
+Current board state: Root, Birchmore, and O'Keefe already share Norfolk DA, MSP, Canton/Stoughton/Brookline/Boston, and investigator-overlap lanes.
+
+Decision: Treat these sources as prioritization evidence for a Norfolk-specialized pass. They justify focused ingestion across Root, Birchmore, O'Keefe, and related MSP/Norfolk DA figures, but individual connectors still need primary records, court filings, official reports, or direct quoted source material.
+
+### Ana Walshe / Cohasset Public Officials
+
+Status: `graph-ready`.
+
+Evidence: `WEB-WALSHE-CASE-STATUS-2025`; `WEB-WALSHE-COHASSET-PUBLIC-OFFICIALS-2025`.
+
+Current board state: Added Cohasset Police Department, Chief William Quigley, Sgt. Harrison Schmidt, Detective Commander Michael Lopes, ADA Gregory Connor, and Judge Diane Freniere. Brian Walshe is now styled as `Convicted`, and the Walshe lane is connected to Norfolk Superior Court and the Norfolk DA's office.
+
+Decision: Keep this first Walshe expansion focused on victim/public-official structure. Do not add private attorneys, private family/friend witnesses, or Brian Walshe's unrelated federal art-fraud actors to the public chart in this pass.
+
+## Ready or Mostly Ready
+
+### Norfolk County DA / Juston Root
+
+Status: `graph-ready`.
+
+Evidence: `ROOT-NDAO-2020-REPORT`; `ROOT-FIRST-CIRCUIT-2024`.
+
+Current board state: Root is already connected to `INORFOLK`, `morrissey`, the main shooting-officer cluster, Brookline, Boston Police, Massachusetts State Police, OCME, and related investigative/personnel nodes.
+
+Decision: Keep the current graph connectors. The evidence supports institutional review and no further action; it does not, by itself, support stronger misconduct language.
+
+### David Godin / Root Body-Worn Camera Lane
+
+Status: `graph-ready`.
+
+Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-FIRST-CIRCUIT-2024`.
+
+Current board state: Godin is connected to Root and Boston Police. William Doogan and Marc Sullivan have been added as separate Root/BPD handling connectors.
+
+Decision: Keep the connectors role-based. These sources support the BWC-handling lane, but they do not turn every BWC assertion into adjudicated misconduct language.
+
+### Root Federal Civil Action / Shooting Officer Cluster
+
+Status: `graph-ready`.
+
+Evidence: `ROOT-BANNON-COMPLAINT-2020`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-NDAO-2020-REPORT`.
+
+Current board state: David Godin, Joseph McMenamy, Leroy Fernandes, Brenda Figueroa, Corey Thomas, and Paul Conneely already connect to Root. Michael St. Peter, John Broderick, Christopher Elcock, David Wagner, and Brookline/Boston institutional connectors are also present.
+
+Decision: Preserve the existing officer-cluster connectors. Use the First Circuit opinion as the primary adjudicated source for outcome language and use the complaint as a filing/claim source only.
+
+### Justin Desmarais / Valet Collision
+
+Status: `corrected`.
+
+Evidence: `ROOT-BANNON-COMPLAINT-2020`.
+
+Current board state: Justin Desmarais remains connected to David Godin and Michael St. Peter, but the direct Desmarais-to-Juston Root edge has been removed. His node category has also been changed from `Victim` to `Connected` so the board does not imply that he was a victim of Juston Root.
+
+Decision: Do not connect Desmarais directly to Root. Godin and St. Peter are tied directly to Root because they shot at Root. Desmarais is tied to Godin and St. Peter because of the separate valet encounter involving those officers. The current evidence note does not resolve which officer shot Desmarais, so the graph should keep Desmarais connected to both officers without drawing a Root edge or assigning a shooter.
+
+### Brian Walshe / Ana Walshe Direct Connector
+
+Status: `corrected`.
+
+Evidence: current graph source state; Walshe source-ledger entry still needed.
+
+Current board state: The direct Brian Walshe-to-Ana Walshe edge is now a family connector, not a generic case connector. Brian Walshe is now a convicted node, and Ana Walshe remains a victim anchor.
+
+Decision: Keep the direct relationship visually distinct from the investigative/prosecution connectors. Do not let the family connector soften or replace the separate criminal-case status language attached to Brian Walshe.
+
+### Marc Sullivan / Root FDIT Connector
+
+Status: `graph-ready`.
+
+Evidence: `ROOT-FIRST-CIRCUIT-2024`; `ROOT-GODIN-IAD-2022-0053`.
+
+Current board state: Added `Sgt. Det. Marc Sullivan` as a separate node connected to Root, Boston Police, and Godin.
+
+Decision: Keep this separate from the existing `Sgt. Michael Sullivan` node. The Root archive contains a Michael Sullivan Form 26 trail and a Marc/Mark Sullivan FDIT trail; merging them would create a name error.
+
+### William Doogan / Godin BWC Handling
+
+Status: `graph-ready`.
+
+Evidence: `ROOT-GODIN-BWC-MOTION-2021`.
+
+Current board state: Added `Sgt. Det. William Doogan` as a Root/BPD connector tied to Godin.
+
+Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector.
+
+## Priority Holds
+
+### John Fanning / Root Public-Records Email
+
+Status: `graph-supporting lead; public-records PDF still hold`.
+
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags it as a priority retrieval item.
+
+Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, and Crawford.
+
+Next action: locate or download the Fanning PDF, OCR it, and determine whether it supports a stronger direct Root connector, a Norfolk DA communication connector, or only a source note.
+
+### Yuriy Bukhenik / Root Public-Records Correspondence
+
+Status: `graph-supporting lead; correspondence PDF still hold`.
+
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags the correspondence as not yet OCR'd.
+
+Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, and Stoughton High context.
+
+Next action: OCR the correspondence if the PDF is recovered locally; otherwise keep the Drive IDs as retrieval handles.
+
+### David DiCicco
+
+Status: `lead`.
+
+Evidence: `_CAREER_INVENTORY_NorfolkCounty.md` says DiCicco overlaps Root, Read, and Walshe, but the first local Root-mirror text search only found that inventory entry.
+
+Current board state: DiCicco already has Root and Read spine edges and a Walshe edge.
+
+Decision: Do not strengthen or expand DiCicco until the Root-specific source is identified. Treat the existing edge as inherited from prior documented work, not freshly proven by this pass.
+
+## Needs Primary Source
+
+### William Farwell / Robert Devine / Joshua Heal
+
+Status: `lead`.
+
+Evidence found this pass: the DOJ indictment and detention affidavit support Matthew Farwell, Stoughton Police, Police Explorers, Canton, and OCME. The detention-affidavit text search did not surface William Farwell, Robert Devine, or Joshua Heal by name.
+
+Current board state: William Farwell, Robert Devine, and Joshua Heal already have Birchmore graph edges inherited from prior work.
+
+Next action: recover the civil-case filings, POST materials, internal-affairs findings, or other primary documents that directly support each edge before strengthening their labels, adding new edges, or treating them as federal-case evidence.
+
+### Kathleen Prince
+
+Status: `hold`.
+
+Evidence found this pass: no direct Root-mirror text/OCR hit in the searched OCR, index, or inventory files.
+
+Current board state: Prince is already represented on the Read side of the board.
+
+Next action: search Read trial records, Norfolk DA office materials, and court filings for the precise connector before adding or changing any Prince edges.
+
+### Coleen Crawford
+
+Status: `hold`.
+
+Evidence found this pass: no direct Root-mirror text/OCR hit in the searched OCR, index, or inventory files.
+
+Current board state: Crawford is already represented in Root/Norfolk DA employment and Fanning business/community context.
+
+Next action: recover the prior source for Crawford before expanding her graph footprint. The name should remain in the queue because the user specifically flagged it.
+
+### Norfolk County DA Staff Beyond Morrissey
+
+Status: `lead`.
+
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+
+Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors.
