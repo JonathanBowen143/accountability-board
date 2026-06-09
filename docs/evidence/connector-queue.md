@@ -98,6 +98,16 @@ Current board state: Boston Police now connects to Suffolk County DA; Canton, St
 
 Decision: Keep these as `juris` edges only. They are structural prosecutorial-district connectors, not case-specific claims about conduct, discipline, or charging decisions.
 
+### David DiCicco / Norfolk Assignment and Cross-Case Investigator Lane
+
+Status: `graph-ready`.
+
+Evidence: `WEB-DICICCO-NORFOLK-OVERLAP-2025-2026`; `WEB-WALSHE-COHASSET-PUBLIC-OFFICIALS-2025`.
+
+Current board state: DiCicco now connects to Massachusetts State Police, Norfolk County DA, Birchmore, O'Keefe/Read, Walshe, and the existing MSP investigator-overlap cluster. The new graph change is the Norfolk DA assignment edge; the O'Keefe/Read and Walshe relationships remain on the existing `spine` connectors.
+
+Decision: Treat these as investigator/assignment connectors only. The visible board should show the overlap, but misconduct or disciplinary conclusions require separate adjudicated or official disciplinary sources.
+
 ### Norfolk County DA / Juston Root
 
 Status: `graph-ready`.

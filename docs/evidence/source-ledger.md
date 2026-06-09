@@ -32,6 +32,26 @@ Board implications:
 
 Add local police-to-DA-office jurisdiction connectors using the existing `juris` edge type: `IBPD` to `ISUFFOLK`; `ICANTON`, `ISTOUGHTON`, and `IBROOKLINE` to `INORFOLK`; `ILYNN` to `IESSEX`; and `IAYER` to `IMIDDLESEX`. These edges are structural jurisdiction context only. They do not assert case-specific action or misconduct by a DA office.
 
+## WEB-DICICCO-NORFOLK-OVERLAP-2025-2026
+
+Status: `ingested`, `graph-ready`.
+
+Source titles:
+
+NBC10 Boston, `Michael Proctor's appeal over state police termination moves forward with hearing`, published July 8, 2025: `https://www.nbcboston.com/news/local/michael-proctor-mass-state-police-appeal-hearing/3761846/`.
+
+Boston.com, `Here's what happened on the first day of the Brian Walshe murder trial`, updated December 1, 2025: `https://www.boston.com/news/crime/2025/12/01/brian-walshe-murder-trial-opening-statements/`.
+
+Vanity Fair, `Beyond the Karen Read Verdict: DA Michael Morrissey and the Scandal Still Haunting Massachusetts`, published July 2025: `https://www.vanityfair.com/style/story/karen-read-verdict-norfolk-county-da`.
+
+Extracted facts:
+
+NBC10 Boston reports that State Police confirmed David DiCicco, described as another trooper involved in the Karen Read case, was moved out of the Norfolk County District Attorney's Office. Boston.com reports that State Police investigators Michael Proctor and David DiCicco were included in a January 7 Brian Walshe interview recording and that both worked on the Karen Read case. Vanity Fair also reports that DiCicco was moved out of Morrissey's office.
+
+Board implications:
+
+Add `dicicco` to `INORFOLK` as an employment/assignment connector and use these sources to support the existing cross-case `spine` connectors from `dicicco` to `CREAD` and `CWALSHE`. Do not add parallel `case` edges for the same relationship unless a later graph grammar change separates investigative participation from recurring-cross-case status. These are investigator/assignment links. They should not be framed as misconduct findings without separate adjudicated or official disciplinary evidence.
+
 ## WEB-READ-CIVIL-SUIT-2026-06
 
 Status: `indexed`, `lead`.
