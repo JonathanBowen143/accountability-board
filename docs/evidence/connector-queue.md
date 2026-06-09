@@ -76,15 +76,15 @@ Current board state: Root, Birchmore, and O'Keefe already share Norfolk DA, MSP,
 
 Decision: Treat these sources as prioritization evidence for a Norfolk-specialized pass. They justify focused ingestion across Root, Birchmore, O'Keefe, and related MSP/Norfolk DA figures, but individual connectors still need primary records, court filings, official reports, or direct quoted source material.
 
-### Ana Walshe / Cohasset Public Officials
+### Ana Walshe / County and State Actors
 
 Status: `graph-ready`.
 
 Evidence: `WEB-WALSHE-CASE-STATUS-2025`; `WEB-WALSHE-COHASSET-PUBLIC-OFFICIALS-2025`.
 
-Current board state: Added Cohasset Police Department, Chief William Quigley, Sgt. Harrison Schmidt, Detective Commander Michael Lopes, ADA Gregory Connor, and Judge Diane Freniere. Brian Walshe is now styled as `Convicted`, and the Walshe lane is connected to Norfolk Superior Court and the Norfolk DA's office.
+Current board state: Removed Cohasset Police Department, Chief William Quigley, Sgt. Harrison Schmidt, and Detective Commander Michael Lopes from the public graph. Brian Walshe remains styled as `Convicted`, and the visible Walshe lane is connected to Norfolk Superior Court, the Norfolk DA's office, MSP/investigator overlap, ADA Gregory Connor, and Judge Diane Freniere.
 
-Decision: Keep this first Walshe expansion focused on victim/public-official structure. Do not add private attorneys, private family/friend witnesses, or Brian Walshe's unrelated federal art-fraud actors to the public chart in this pass.
+Decision: Keep the Walshe lane focused on county-level and state-level actors. Cohasset local police names stay documented internally as chronology, but they do not belong on the visible board for this pass because the conviction itself is not contested. Do not add private attorneys, private family/friend witnesses, or Brian Walshe's unrelated federal art-fraud actors to the public chart.
 
 ## Ready or Mostly Ready
 

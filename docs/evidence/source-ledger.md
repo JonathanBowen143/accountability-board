@@ -94,7 +94,7 @@ Keep these federal-lane actors in the internal evidence file and out of the publ
 
 ## WEB-WALSHE-CASE-STATUS-2025
 
-Status: `indexed`, `graph-ready`.
+Status: `indexed`, `local chronology / internal-only for visible graph`.
 
 Source titles:
 
@@ -132,7 +132,7 @@ Cohasset Anchor reports that Cohasset Police worked with the Norfolk DA's office
 
 Board implications:
 
-This supports a Cohasset Police Department institution node, public-official nodes for Quigley, Schmidt, and Lopes, and Walshe-lane edges for Judge Diane Freniere and ADA Gregory Connor. Lowrance and Reardon are documented but held out of the graph for now because their reported role is narrower and would add clutter before the larger Walshe lane is fully mined.
+This documents local investigative chronology and identifies local Cohasset police participants, but the visible board should not include Cohasset Police Department or its members in the Walshe lane because Brian Walshe's conviction is not the contested public-accountability issue. Use this source internally while keeping the public graph focused on county-level and state-level actors: Norfolk DA, Norfolk Superior Court, MSP/investigators, OCME, ADA Gregory Connor, Judge Diane Freniere, Brian Walshe, and Ana Walshe.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 

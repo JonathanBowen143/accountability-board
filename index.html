@@ -62,13 +62,12 @@ g.nd.pinned .pin-ring{opacity:1}
 var buildStarted=Date.now();
 function build(){
 if(typeof d3==='undefined'){if(Date.now()-buildStarted>3000){var fail=document.getElementById('loadFail');if(fail)fail.hidden=false;return;}return setTimeout(build,60);}
-var tier={out:{f:'#E4B09A',s:'#9B4A27',l:'Career Ended'},purg:{f:'#E4C38B',s:'#8F661E',l:'Sidelined'},depart:{f:'#BD9E7F',s:'#6D4C2C',l:'Left Office'},charged:{f:'#E6A8AD',s:'#9F2D36',l:'Charged'},convicted:{f:'#D9858B',s:'#7F1D1D',l:'Convicted'},exposed:{f:'#A2C6E2',s:'#275D86',l:'Named, No Discipline'},victim:{f:'#C8AFDE',s:'#693795',l:'Victim'},other:{f:'#C4C2BA',s:'#78725E',l:'Official'},wit:{f:'#A1D9BD',s:'#29704D',l:'Connected'},atty:{f:'#E6D699',s:'#836F21',l:'Attorney'}};
+var tier={out:{f:'#E4B09A',s:'#9B4A27',l:'Career Ended'},purg:{f:'#E4C38B',s:'#8F661E',l:'Sidelined'},depart:{f:'#BD9E7F',s:'#6D4C2C',l:'Left Office'},charged:{f:'#E6A8AD',s:'#9F2D36',l:'Charged'},convicted:{f:'#2F3542',s:'#0F172A',l:'Convicted'},exposed:{f:'#A2C6E2',s:'#275D86',l:'Named, No Discipline'},victim:{f:'#C8AFDE',s:'#693795',l:'Victim'},other:{f:'#C4C2BA',s:'#78725E',l:'Official'},wit:{f:'#A1D9BD',s:'#29704D',l:'Connected'},atty:{f:'#E6D699',s:'#836F21',l:'Attorney'}};
 var N=[
 {id:'IMSP',k:'inst',l:"Massachusetts State Police",fx:285,fy:409},
 {id:'IBPD',k:'inst',l:"Boston Police Dept.",fx:1038,fy:499},
 {id:'ICANTON',k:'inst',l:"Canton Police Dept.",fx:926,fy:357},
 {id:'ISTOUGHTON',k:'inst',l:"Stoughton Police Dept.",fx:468,fy:136},
-{id:'ICOHASSET',k:'inst',l:"Cohasset Police Dept.",fx:550,fy:642},
 {id:'IAG',k:'inst',l:"Office of the Attorney General",fx:1028,fy:148},
 {id:'INORFOLK',k:'inst',l:"Norfolk County DA",fx:814,fy:256},
 {id:'IWORCESTER',k:'inst',l:"Worcester County DA",fx:172,fy:618},
@@ -130,9 +129,6 @@ var N=[
 {id:'IMIDDLESEX',k:'inst',l:"Middlesex County DA",fx:1182,fy:113},
 {id:'ISUFFOLK',k:'inst',l:"Suffolk County DA",fx:1232,fy:397},
 {id:'INCOURT',k:'inst',l:"Norfolk Superior Court",fx:968,fy:301},{id:'ISUFFOLKCOURT',k:'inst',l:"Suffolk Superior Court",fx:1300,fy:482},
-{id:'quigley',t:'other',l:"Chief William Quigley"},
-{id:'hschmidt',t:'other',l:"Sgt. Harrison Schmidt"},
-{id:'mlopes',t:'other',l:"Det. Cmdr. Michael Lopes"},
 {id:'gconnor',t:'atty',l:"ADA Gregory Connor"},
 {id:'freniere',t:'other',l:"Judge Diane Freniere"},
 {id:'katzmann',t:'depart',l:"DA Frederick Katzmann"},
@@ -198,7 +194,7 @@ function E(s,t,y){return {source:s,target:t,ty:y};}
 var L=[
 E('IMSP','CROOT','juris'),E('IMSP','CREAD','juris'),E('IMSP','CWALSHE','juris'),E('IMSP','CBIRCH','juris'),E('IMSP','CACAD','juris'),E('IMSP','CDRUG','juris'),
 E('INORFOLK','CROOT','juris'),E('INORFOLK','CBIRCH','juris'),E('INORFOLK','CREAD','juris'),E('INORFOLK','CWALSHE','juris'),
-E('ICANTON','CREAD','juris'),E('ISTOUGHTON','CBIRCH','juris'),E('ICOHASSET','CWALSHE','juris'),E('IWORCESTER','CACAD','juris'),
+E('ICANTON','CREAD','juris'),E('ISTOUGHTON','CBIRCH','juris'),E('IWORCESTER','CACAD','juris'),
 E('IAG','CDRUG','juris'),
 E('proctor','CROOT','spine'),E('proctor','CREAD','spine'),E('proctor','CWALSHE','spine'),
 E('bukhenik','CROOT','spine'),E('bukhenik','CREAD','spine'),
@@ -326,10 +322,7 @@ E('mfarwell','ISTOUGHTON','emp'),E('mfarwell','IPOST','case'),
 E('devine','mfarwell','oversee'),E('devine','wfarwell','oversee'),E('heal','ISTOUGHTON','emp'),E('penton','IMSP','emp'),E('guarino','CWALSHE','case'),E('rogers','CREAD','pers'),E('cox','swanson','case'),E('cox','wbennett','case'),E('cox','balbert','oversee'),E('cox','dever','oversee'),
 E('walshe','proctor','case'),
 E('walshe','guarino','case'),
-E('walshe','INCOURT','case'),E('walshe','INORFOLK','case'),E('ICOHASSET','walshe','case'),
-E('quigley','ICOHASSET','emp'),E('quigley','CWALSHE','case'),
-E('hschmidt','ICOHASSET','emp'),E('hschmidt','CWALSHE','case'),E('hschmidt','walshe','case'),
-E('mlopes','ICOHASSET','emp'),E('mlopes','CWALSHE','case'),
+E('walshe','INCOURT','case'),E('walshe','INORFOLK','case'),
 E('gconnor','INORFOLK','emp'),E('gconnor','CWALSHE','case'),E('gconnor','walshe','case'),
 E('freniere','INCOURT','emp'),E('freniere','CWALSHE','case'),E('freniere','walshe','case'),
 E('heal','ISHS','emp'),

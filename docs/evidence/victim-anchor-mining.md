@@ -50,9 +50,9 @@ Mining status: active, first Walshe source-ledger pass in hand.
 
 Current source surfaces: `WEB-WALSHE-CASE-STATUS-2025`, `WEB-WALSHE-COHASSET-PUBLIC-OFFICIALS-2025`, current graph edges, and prior connector notes.
 
-Connector work already started: Brian Walshe, Cohasset Police, Chief William Quigley, Sgt. Harrison Schmidt, Detective Commander Michael Lopes, Norfolk DA/Morrissey context, ADA Gregory Connor, Judge Diane Freniere, MSP, Proctor, Guarino, DiCicco, OCME, and Brian Walshe case/source overlap. The direct Brian Walshe-to-Ana Walshe graph edge has been corrected to a family connector so it does not collapse the spousal relationship into a generic case connector.
+Connector work already started: Brian Walshe, Norfolk DA/Morrissey context, ADA Gregory Connor, Judge Diane Freniere, MSP, Proctor, Guarino, DiCicco, OCME, and Brian Walshe case/source overlap. Cohasset Police and its members are documented as local chronology but are not visible graph nodes in this pass. The direct Brian Walshe-to-Ana Walshe graph edge has been corrected to a family connector so it does not collapse the spousal relationship into a generic case connector.
 
-Next mining actions: recover primary court docket materials if available; verify the roles of Officer Gregory Lowrance and Sgt. Patrick Reardon before graphing them; keep private attorneys and family/friend witnesses in internal notes unless they become structurally necessary; keep Brian Walshe's unrelated federal art-fraud lane out of the public chart; and separate Walshe as a homicide/prosecution lane from the Norfolk County public-trust lane.
+Next mining actions: recover primary court docket materials if available; keep Cohasset local police, private attorneys, and family/friend witnesses in internal notes unless they become structurally necessary; keep Brian Walshe's unrelated federal art-fraud lane out of the public chart; and mine the Walshe lane for county-level and state-level connectors rather than local chronology.
 
 ### Recruit Enrique Delgado-Garcia
 
