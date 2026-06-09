@@ -30,11 +30,15 @@ g.nd.pinned .pin-ring{opacity:1}
 .load-fail[hidden]{display:none}
 .legend-title{font-size:13px;font-weight:600;color:#34302a;margin:16px 2px 4px}
 .lgd{display:flex;flex-wrap:wrap;gap:7px 16px;font-size:12.5px;color:#4a4843;margin:0 2px 0;line-height:1.5}
-.lgd span{display:inline-flex;align-items:center;gap:6px}
+.lgd span,.lgd button{display:inline-flex;align-items:center;gap:6px}
+.lgd button{font:inherit;color:inherit;line-height:inherit;border:1px solid transparent;background:transparent;border-radius:6px;padding:2px 5px;margin:-2px -5px;cursor:pointer}
+.lgd button:hover,.lgd button:focus-visible,.lgd button.active{background:#fffdfa;border-color:#c8c3b8;color:#26241f;outline:none}
+.lgd button.active{box-shadow:0 0 0 1px #8f887b inset}
 .lgd i{width:12px;height:12px;border-radius:50%;display:inline-block;border:0.5px solid rgba(90,90,90,.55)}
 .lgd q{width:11px;height:11px;display:inline-block;border:1px solid #5F5E5A;background:#cfcdc3;border-radius:2px}
 .lgd q:before,.lgd q:after{content:""}
 .lgd b{width:20px;border-top:2px solid;display:inline-block;font-size:0}
+.legend-hit{filter:drop-shadow(0 0 3px rgba(22,21,15,.35))}
 .backtop{margin:14px 2px 0}
 @media (max-width:900px){.wrap{padding:22px 18px 50px}p.lede{max-width:none}.board-stage{width:100vw;overflow-x:auto;border-radius:0}.board-stage svg#cab{width:1100px;max-width:none}}
 @media (max-width:640px){.wrap{padding:18px 14px 44px}h1{font-size:20px}p.lede{font-size:14px}.board-stage svg#cab{width:940px}.hint{text-align:left}}
@@ -52,7 +56,7 @@ g.nd.pinned .pin-ring{opacity:1}
 </svg>
 </div>
 <p class="load-fail" id="loadFail" hidden>The board could not load its D3 runtime. Refresh the page or check that vendor/d3.v7.min.js is present.</p>
-<p class="hint">Drag the Board to Pan &middot; Drag a Node to Move It &middot; Hover or Tap a Node to Spotlight Its Ties &middot; Tap a Node Again to Clear &middot; Federal Lane Kept Out of the Chart and Tracked in Internal Evidence Notes</p>
+<p class="hint">Drag the Board to Pan &middot; Drag a Node to Move It &middot; Hover or Tap a Node to Spotlight Its Ties &middot; Tap a Node Again to Clear &middot; Tap a Legend Key to Highlight; Tap It Again to Clear &middot; Federal Lane Kept Out of the Chart and Tracked in Internal Evidence Notes</p>
 <div class="legend-title">Legend</div>
 <div class="lgd" id="lg"></div>
 <p class="backtop"><a href="#top">Back to Top</a></p>
@@ -517,11 +521,55 @@ else if(d.x+x<left){x=10;anchor='start';}
 t.attr('x',x).attr('text-anchor',anchor);
 }
 }
-var pin=null;function spot(id){node.classed('pinned',function(n){return n.id===pin;});if(id){var f=adj[id];node.classed('dim',function(n){return n.id!==id&&!f.has(n.id);});link.classed('dim',function(k,i){return !inc[id].has(i);});}else{node.classed('dim',false).classed('pinned',false);link.classed('dim',false);}}node.on('mouseover',function(ev,d){if(!pin)spot(d.id);})
-.on('mouseout',function(){if(!pin)spot(null);})
-.on('focus',function(ev,d){if(!pin)spot(d.id);})
-.on('blur',function(){if(!pin)spot(null);})
-.on('keydown',function(ev,d){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();pin=(pin===d.id)?null:d.id;spot(pin);}});
+function linkId(v){return typeof v==='object'?v.id:v;}
+function nodeMatchesFilter(n,f){
+if(!f)return false;
+if(f.kind==='tier')return n.t===f.key||(f.key==='victim'&&n.k==='victimAnchor');
+if(f.kind==='kind')return n.k===f.key;
+if(f.kind==='exon')return !!exon[n.id];
+return false;
+}
+function linkMatchesFilter(k,f){
+if(!f)return false;
+if(f.kind==='edge')return k.ty===f.key;
+if(f.kind==='tier'||f.kind==='kind'||f.kind==='exon')return nodeMatchesFilter(k.source,f)||nodeMatchesFilter(k.target,f);
+return false;
+}
+var pin=null,legendFilter=null,legendButtons=null;
+function syncLegendButtons(){
+if(!legendButtons)return;
+legendButtons.classed('active',function(){return legendFilter&&this.getAttribute('data-kind')===legendFilter.kind&&this.getAttribute('data-key')===legendFilter.key;})
+.attr('aria-pressed',function(){return legendFilter&&this.getAttribute('data-kind')===legendFilter.kind&&this.getAttribute('data-key')===legendFilter.key?'true':'false';});
+}
+function applyView(id){
+node.classed('pinned',function(n){return n.id===pin;});
+if(id){
+var f=adj[id];
+node.classed('legend-hit',false).classed('dim',function(n){return n.id!==id&&!f.has(n.id);});
+link.classed('dim',function(k,i){return !inc[id].has(i);});
+}else if(legendFilter){
+var activeNodeIds=new Set();
+link.each(function(k){if(linkMatchesFilter(k,legendFilter)){activeNodeIds.add(linkId(k.source));activeNodeIds.add(linkId(k.target));}});
+node.classed('legend-hit',function(n){return nodeMatchesFilter(n,legendFilter)||(legendFilter.kind==='edge'&&activeNodeIds.has(n.id));})
+.classed('dim',function(n){return !(nodeMatchesFilter(n,legendFilter)||(legendFilter.kind==='edge'&&activeNodeIds.has(n.id)));});
+link.classed('dim',function(k){return !linkMatchesFilter(k,legendFilter);});
+}else{
+node.classed('dim',false).classed('pinned',false).classed('legend-hit',false);
+link.classed('dim',false);
+}
+syncLegendButtons();
+}
+function setLegendFilter(f){
+pin=null;
+legendFilter=legendFilter&&f&&legendFilter.kind===f.kind&&legendFilter.key===f.key?null:f;
+applyView(null);
+}
+function togglePin(id){legendFilter=null;pin=(pin===id)?null:id;applyView(pin);}
+node.on('mouseover',function(ev,d){if(!pin)applyView(d.id);})
+.on('mouseout',function(){if(!pin)applyView(null);})
+.on('focus',function(ev,d){if(!pin)applyView(d.id);})
+.on('blur',function(){if(!pin)applyView(null);})
+.on('keydown',function(ev,d){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();togglePin(d.id);}else if(ev.key==='Escape'){pin=null;legendFilter=null;applyView(null);}});
 var sim=d3.forceSimulation(N)
 .force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
 .force('charge',d3.forceManyBody().strength(-350))
@@ -534,7 +582,7 @@ link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.s
 });
 node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;d._mv=false;d._sx=ev.x;d._sy=ev.y;})
 .on('drag',function(ev,d){d.fx=ev.x;d.fy=ev.y;if(Math.hypot(ev.x-d._sx,ev.y-d._sy)>5)d._mv=true;})
-.on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}if(!d._mv){pin=(pin===d.id)?null:d.id;spot(pin);}}));
+.on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}if(!d._mv){togglePin(d.id);}}));
 function zoomFilter(ev){
 if(ev.type==='wheel')return ev.ctrlKey||ev.metaKey;
 if(ev.type&&ev.type.indexOf('touch')===0)return ev.touches&&ev.touches.length>1;
@@ -542,12 +590,17 @@ return true;
 }
 var zoom=d3.zoom().filter(zoomFilter).scaleExtent([0.25,8]).on('zoom',function(ev){d3.select('#view').attr('transform',ev.transform);});svg.call(zoom);
 var lg=d3.select('#lg');
-Object.keys(tier).forEach(function(k){lg.append('span').html('<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>'+titleCaseLabel(tier[k].l));});
-lg.append('span').html('<q></q>'+titleCaseLabel('institution'));
-lg.append('span').html('<i style="width:18px;height:18px;background:#C8AFDE;border-color:#693795;border-width:2px"></i>'+titleCaseLabel('victim anchor'));
-edgeOrder.forEach(function(k){var e=ec[k];lg.append('span').html('<b style="border-color:'+e.c+';border-top-width:'+e.w+'px;'+(e.d?'border-top-style:dashed':'')+'"></b>'+titleCaseLabel(e.l));});
-lg.append('span').html('<i style="background:none;border-color:#B8860B;border-width:2px"></i>'+titleCaseLabel('exonerated'));
+function addLegendButton(kind,key,html,label){
+lg.append('button').attr('type','button').attr('data-kind',kind).attr('data-key',key).attr('aria-pressed','false').attr('aria-label','Highlight '+titleCaseLabel(label)).html(html+titleCaseLabel(label)).on('click',function(){setLegendFilter({kind:kind,key:key});});
+}
+Object.keys(tier).forEach(function(k){addLegendButton('tier',k,'<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>',tier[k].l);});
+addLegendButton('kind','inst','<q></q>','institution');
+addLegendButton('kind','victimAnchor','<i style="width:18px;height:18px;background:#C8AFDE;border-color:#693795;border-width:2px"></i>','victim anchor');
+edgeOrder.forEach(function(k){var e=ec[k];addLegendButton('edge',k,'<b style="border-color:'+e.c+';border-top-width:'+e.w+'px;'+(e.d?'border-top-style:dashed':'')+'"></b>',e.l);});
+addLegendButton('exon','exonerated','<i style="background:none;border-color:#B8860B;border-width:2px"></i>','exonerated');
 lg.append('span').html('<i style="background:none;border-color:#16150f;border-width:2px;border-style:dashed"></i>'+titleCaseLabel('selected node'));
+legendButtons=lg.selectAll('button');
+syncLegendButtons();
 }
 build();
 </script>
