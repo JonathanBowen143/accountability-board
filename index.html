@@ -93,7 +93,7 @@ var N=[
 {id:'ICHS',k:'inst',l:"Canton High School",fx:862,fy:141},
 {id:'IQHS',k:'inst',l:"Quincy High School",fx:1077,fy:71},
 {id:'INHS',k:'inst',l:"Norwood High School",fx:1246,fy:186},
-{id:'ISJC',k:'inst',l:"MA Supreme Judicial Court",fx:692,fy:19},
+{id:'ISJC',k:'inst',l:"Massachusetts Supreme Judicial Court",fx:692,fy:19},
 {id:'IBSH',k:'inst',l:"Bridgewater State Hospital",fx:905,fy:499},
 {id:'mccabe',t:'wit',l:"Matthew McCabe"},
 {id:'mkennedy',t:'wit',l:"Councilor Meg Kennedy"},
@@ -402,7 +402,7 @@ E('crawford','INORFOLK','emp'),E('stpeter','CROOT','case'),E('stpeter','IBPD','e
 var ec={spine:['#D02530',2.4,''],case:['#4079C9',1.2,''],juris:['#5A49AB',1.0,'2 3'],emp:['#38A88C',0.9,''],show:['#29A352',1.6,''],fam:['#CE7527',1.6,'5 4'],pers:['#CE3B80',1.5,''],oversee:['#7C45C4',1.4,'6 4'],comm:['#BA55C3',1.1,'3 3'],alum:['#62A136',1.2,'3 2'],removed:['#D02530',1.6,'7 3'],business:['#2B92AB',1.4,'']};
 var adj={},inc={};N.forEach(function(n){adj[n.id]=new Set();inc[n.id]=new Set();});
 L.forEach(function(k,i){adj[k.source].add(k.target);adj[k.target].add(k.source);inc[k.source].add(i);inc[k.target].add(i);});
-N.forEach(function(n,i){if(!n.k){n.x=450+Math.cos(i)*90;n.y=300+Math.sin(i)*90;}});
+N.forEach(function(n,i){if(!n.k){n.x=800+Math.cos(i)*90;n.y=450+Math.sin(i)*90;}});
 var svg=d3.select('#cab');
 var link=svg.select('#lk').selectAll('line').data(L).join('line')
 .attr('stroke',function(d){return ec[d.ty][0];}).attr('stroke-width',function(d){return ec[d.ty][1];})
@@ -430,9 +430,9 @@ var sim=d3.forceSimulation(N)
 .force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
 .force('charge',d3.forceManyBody().strength(-350))
 .force('collide',d3.forceCollide().radius(function(d){return d.k?38:22;}))
-.force('x',d3.forceX(762).strength(0.035)).force('y',d3.forceY(437).strength(0.035));
+.force('x',d3.forceX(800).strength(0.035)).force('y',d3.forceY(450).strength(0.035));
 sim.on('tick',function(){
-node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(820,d.x));d.y=Math.max(80,Math.min(520,d.y));}return 'translate('+d.x+','+d.y+')';});
+node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(1520,d.x));d.y=Math.max(80,Math.min(820,d.y));}return 'translate('+d.x+','+d.y+')';});
 link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;}).attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
 });
 node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
