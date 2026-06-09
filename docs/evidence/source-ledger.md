@@ -4,6 +4,34 @@ Last updated: June 9, 2026.
 
 This ledger records source surfaces reviewed or identified for the board. It is intentionally separate from `index.html`; evidence belongs here first, graph edges second.
 
+## WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06
+
+Status: `ingested`, `graph-ready for jurisdiction backbone`.
+
+Source titles:
+
+Suffolk County District Attorney's Office, `Bureaus of the Suffolk DA's Office`: `https://www.suffolkdistrictattorney.com/about-the-office/bureaus-of-the-suffolk-das-office`.
+
+Mass.gov, `Norfolk District Attorney's Office`: `https://www.mass.gov/orgs/norfolk-district-attorneys-office`.
+
+Norfolk County, `Communities`: `https://www.norfolkcounty.org/county_commission/communities.php`.
+
+Town of Brookline, `Norfolk County`: `https://www.brooklinema.gov/878/Norfolk-County`.
+
+Office of Essex County District Attorney Paul F. Tucker, `Home` and `Locations`: `https://www.essexcountyda.com/`; `https://www.essexcountyda.com/locations`.
+
+Middlesex District Attorney's Office, `District Court Locations`: `https://www.middlesexda.com/about-us/pages/district-court-locations`.
+
+U.S. Census Bureau QuickFacts, `Ayer town, Middlesex County, Massachusetts`; `Canton town, Norfolk County, Massachusetts`; `Stoughton town, Norfolk County, Massachusetts`: `https://www.census.gov/quickfacts/fact/table/ayertownmiddlesexcountymassachusetts/PST040224`; `https://www.census.gov/quickfacts/fact/table/cantontownnorfolkcountymassachusetts/PST040224`; `https://www.census.gov/quickfacts/fact/table/stoughtontownnorfolkcountymassachusetts/PST040224`.
+
+Extracted facts:
+
+The Suffolk DA page states that the Suffolk County DA's Office serves Boston, Chelsea, Revere, and Winthrop and that Boston is served by municipal courts in Suffolk County. The Norfolk materials place Brookline, Canton, and Stoughton in Norfolk County and identify the Norfolk DA as the relevant county prosecutorial office. Essex DA materials state that the office serves Essex County's cities and towns and maintains Lynn offices, including the Lynn District Court Office. The Middlesex DA page states that the Ayer District Court region serves Ayer and related Middlesex County communities.
+
+Board implications:
+
+Add local police-to-DA-office jurisdiction connectors using the existing `juris` edge type: `IBPD` to `ISUFFOLK`; `ICANTON`, `ISTOUGHTON`, and `IBROOKLINE` to `INORFOLK`; `ILYNN` to `IESSEX`; and `IAYER` to `IMIDDLESEX`. These edges are structural jurisdiction context only. They do not assert case-specific action or misconduct by a DA office.
+
 ## WEB-READ-CIVIL-SUIT-2026-06
 
 Status: `indexed`, `lead`.

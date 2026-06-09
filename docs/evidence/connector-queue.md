@@ -88,6 +88,16 @@ Decision: Keep the Walshe lane focused on county-level and state-level actors. C
 
 ## Ready or Mostly Ready
 
+### Local Police / DA Jurisdiction Backbone
+
+Status: `graph-ready`.
+
+Evidence: `WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06`.
+
+Current board state: Boston Police now connects to Suffolk County DA; Canton, Stoughton, and Brookline Police connect to Norfolk County DA; Lynn Police connects to Essex County DA; and Ayer Police connects to Middlesex County DA.
+
+Decision: Keep these as `juris` edges only. They are structural prosecutorial-district connectors, not case-specific claims about conduct, discipline, or charging decisions.
+
 ### Norfolk County DA / Juston Root
 
 Status: `graph-ready`.
