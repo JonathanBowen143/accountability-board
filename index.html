@@ -25,12 +25,12 @@ g.nd{cursor:grab}
 <body>
 <div class="wrap">
 <h1>Commonwealth Accountability Board</h1>
-<p class="lede">The Commonwealth of Massachusetts Justice System Accountability Board began as a historical investigation and outgrew its scope. The past and present share the same nodes — a map of the injustice of justice that has wracked victims across this Commonwealth since 1854. Juston Root, Sandra Birchmore, and John O'Keefe: each case traces back through the same institutions, the same people, the same decisions protected by the same power. The accountability board rewards exploration — any node pulls loose; any cluster isolates on hover. Jonathan Bowen built this map; suggestions can be sent to @BostonByBirth on X.</p>
+<p class="lede">The Commonwealth of Massachusetts Justice System Accountability Board began as a historical investigation and outgrew its scope. The past and present share the same nodes — a map of the injustice of justice that has wracked victims across this Commonwealth since 1854. Juston Root, Sandra Birchmore, and John O'Keefe: each case traces back through the same institutions, the same people, the same decisions protected by the same power. The accountability board rewards exploration — any node pulls loose; any cluster isolates on hover or tap. Jonathan Bowen built this map; suggestions can be sent to @BostonByBirth on X.</p>
 <svg id="cab" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Commonwealth Accountability Board" style="overflow:hidden">
 <desc>The statewide accountability map: Norfolk County investigations, the drug-lab scandal, the institutions, and the people.</desc>
 <g id="view"><g id="lk"></g><g id="nd"></g></g>
 </svg>
-<p class="hint">Scroll or pinch to zoom &middot; drag to pan &middot; drag a node to move it &middot; hover a node to spotlight its ties.</p>
+<p class="hint">Scroll or pinch to zoom &middot; drag to pan &middot; drag a node to move it &middot; hover or tap a node to spotlight its ties; tap it again to clear.</p>
 <div class="lgd" id="lg"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
@@ -427,8 +427,8 @@ var c=tier[d.t];
 g.append('circle').attr('r',7).attr('fill',c.f).attr('stroke',c.s).attr('stroke-width',0.8);
 g.append('text').attr('class','lbl').attr('x',10).attr('dy','0.32em').text(d.l);
 }});
-node.on('mouseover',function(ev,d){var f=adj[d.id];node.classed('dim',function(n){return n.id!==d.id&&!f.has(n.id);});link.classed('dim',function(k,i){return !inc[d.id].has(i);});})
-.on('mouseout',function(){node.classed('dim',false);link.classed('dim',false);});
+var pin=null;function spot(id){if(id){var f=adj[id];node.classed('dim',function(n){return n.id!==id&&!f.has(n.id);});link.classed('dim',function(k,i){return !inc[id].has(i);});}else{node.classed('dim',false);link.classed('dim',false);}}node.on('mouseover',function(ev,d){if(!pin)spot(d.id);})
+.on('mouseout',function(){if(!pin)spot(null);});
 var sim=d3.forceSimulation(N)
 .force('link',d3.forceLink(L).id(function(d){return d.id;}).distance(function(d){var y=d.ty;return y==='fam'?40:y==='pers'?44:y==='emp'?44:y==='comm'?60:y==='show'?56:y==='juris'?58:y==='oversee'?84:72;}).strength(0.5))
 .force('charge',d3.forceManyBody().strength(-350))
@@ -438,9 +438,9 @@ sim.on('tick',function(){
 node.attr('transform',function(d){if(!d.k){d.x=Math.max(80,Math.min(1520,d.x));d.y=Math.max(80,Math.min(820,d.y));}return 'translate('+d.x+','+d.y+')';});
 link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;}).attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
 });
-node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
-.on('drag',function(ev,d){d.fx=ev.x;d.fy=ev.y;})
-.on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}}));
+node.call(d3.drag().on('start',function(ev,d){if(!ev.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;d._mv=false;d._sx=ev.x;d._sy=ev.y;})
+.on('drag',function(ev,d){d.fx=ev.x;d.fy=ev.y;if(Math.hypot(ev.x-d._sx,ev.y-d._sy)>5)d._mv=true;})
+.on('end',function(ev,d){if(!ev.active)sim.alphaTarget(0);if(!d.k){d.fx=null;d.fy=null;}if(!d._mv){pin=(pin===d.id)?null:d.id;spot(pin);}}));
 var zoom=d3.zoom().scaleExtent([0.25,8]).on('zoom',function(ev){d3.select('#view').attr('transform',ev.transform);});svg.call(zoom);
 var lg=d3.select('#lg');
 Object.keys(tier).forEach(function(k){lg.append('span').html('<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>'+tier[k].l);});
