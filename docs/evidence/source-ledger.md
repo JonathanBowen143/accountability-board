@@ -52,6 +52,62 @@ Board implications:
 
 Add `dicicco` to `INORFOLK` as an employment/assignment connector and use these sources to support the existing cross-case `spine` connectors from `dicicco` to `CREAD` and `CWALSHE`. Do not add parallel `case` edges for the same relationship unless a later graph grammar change separates investigative participation from recurring-cross-case status. These are investigator/assignment links. They should not be framed as misconduct findings without separate adjudicated or official disciplinary evidence.
 
+## WEB-READ-RETRIAL-NORFOLK-STAFF-2025
+
+Status: `ingested`, `graph-ready for role and case-lane connectors`.
+
+Source titles:
+
+Boston 25 News, `Karen Read retrial: List of 150 witnesses prosecution, defense could call`, published March 31, 2025: `https://www.boston25news.com/news/local/karen-read-retrial-list-150-witnesses-prosecution-defense-could-call/BF7FJ4AJARAXZBNURW6INFCZ54/`.
+
+WHDH 7News, `Here's who could testify in Karen Read's retrial`, published March 31, 2025: `https://whdh.com/news/heres-who-could-testify-in-karen-reads-retrial/`.
+
+CBS Boston, `What's next in the Karen Read murder trial?`, published June 2024: `https://www.cbsnews.com/boston/news/karen-read-murder-trial-whats-next-schedule/`.
+
+Boston 25 News, `Karen Read murder trial: List of more than 160 witnesses prosecution, defense could call`, published May 2024: `https://www.boston25news.com/news/local/karen-read-murder-trial-list-more-than-160-witnesses-prosecution-defense-plan-call/U3JOQXF7KJAFDC4TFNZVLWZJGY/`.
+
+Extracted facts:
+
+The 2025 retrial witness-list reporting identifies Coleen Crawford as affiliated with the Norfolk District Attorney's Office, Steve Nelson as affiliated with the Norfolk County District Attorney's Office, Norfolk County District Attorney Michael Morrissey as a listed witness, and Trooper Kathleen Prince as affiliated with the Massachusetts State Police. CBS Boston separately identifies Steve Nelson as a Norfolk County victim witness advocate whose possible testimony was contested in the Read trial. The 2024 witness-list reporting also listed Steve Nelson with the Norfolk County DA's Office, Trooper Kathleen Prince with Massachusetts State Police, and Morrissey with the Norfolk County DA's Office.
+
+Board implications:
+
+Add Steve Nelson as a Norfolk DA office actor connected to the Read/O'Keefe lane and the Norfolk DA office. Use this source to support the existing Prince `CREAD`/`IMSP` and Crawford `CREAD`/`INORFOLK` connectors. Do not use witness-list presence alone to imply wrongdoing, investigation control, or testimony content.
+
+## WEB-PRINCE-OCONNELL-SJC-2012
+
+Status: `ingested`, `graph-ready for existing court-record access connectors`.
+
+Source title:
+
+Boston.com, `SJC unseals affidavit in William O'Connell rape case in Norfolk County sought by newspaper`, published August 23, 2012: `https://www.boston.com/uncategorized/noprimarytagmatch/2012/08/23/sjc-unseals-affidavit-in-william-oconnell-rape-case-in-norfolk-county-sought-by-newspaper/`.
+
+Extracted facts:
+
+Boston.com reports that the Supreme Judicial Court ordered a search-warrant affidavit unsealed in the William O'Connell matter and that the affidavit had been filed in Quincy District Court by State Police Trooper Kathleen Prince as prosecutors investigated allegations against O'Connell. The report also says O'Connell was being prosecuted by a special prosecutor at Norfolk DA Michael Morrissey's request because Morrissey had worked with O'Connell on development projects while serving as a legislator.
+
+Board implications:
+
+This supports the existing Prince-to-O'Connell and Prince-to-SJC case connectors as court-record/investigative-affidavit context. It does not add a new Norfolk DA misconduct finding, and it should not be used to expand Prince's graph footprint without additional Read-specific or Root-specific records.
+
+## WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025
+
+Status: `indexed`, `lead / needs docket-copy verification`.
+
+Source titles:
+
+Scribd public court-document mirror, `Defense Motion To Compel Discovery`: `https://www.scribd.com/document/829355736/Defense-Motion-to-Compel-Discovery`.
+
+Newsweek, `Karen Read in Court for Motions Ahead of April Retrial: What We Know`, published 2025: `https://www.newsweek.com/karen-read-court-hearing-mistrial-motion-dismiss-2032814`.
+
+Extracted facts:
+
+The public motion mirror states that Read's defense sought discovery related to the Sandra Birchmore investigation and named law-enforcement or prosecution witnesses including Michael Lank, Daniel Whitley, Trooper Mike Dunne, Trooper Zach Clark, Coleen Crawford, Detective Kevin Albert, Lieutenant John Fanning, Trooper Guarino, Lieutenant Brian Tully, Deputy District Attorney Lynn Beland, and District Attorney Michael Morrissey. Newsweek reports that defense attorney Elizabeth Little argued for discovery from the Norfolk DA's Birchmore investigation and that the Commonwealth disputed relevance, with Judge Beverly Cannone taking the issue under advisement.
+
+Board implications:
+
+Treat this as a cross-case discovery lead, not a visible graph expansion yet. Before adding `filing` edges or a Lynn Beland node, recover an official docket copy or another stable court-record source and separate defense allegations from facts established by the court.
+
 ## WEB-READ-CIVIL-SUIT-2026-06
 
 Status: `indexed`, `lead`.

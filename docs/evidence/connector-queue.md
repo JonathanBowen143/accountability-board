@@ -108,6 +108,16 @@ Current board state: DiCicco now connects to Massachusetts State Police, Norfolk
 
 Decision: Treat these as investigator/assignment connectors only. The visible board should show the overlap, but misconduct or disciplinary conclusions require separate adjudicated or official disciplinary sources.
 
+### Steve Nelson / Norfolk Victim Witness Advocate
+
+Status: `graph-ready`.
+
+Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`.
+
+Current board state: Steve Nelson is represented as a Norfolk DA office actor connected to the Read/O'Keefe lane and the Norfolk County DA office.
+
+Decision: Keep this as a role and case-lane connector only. CBS Boston identifies Nelson as a Norfolk County victim witness advocate, and the witness-list reporting places him in the Read trial context, but those sources do not establish testimony content or misconduct.
+
 ### Norfolk County DA / Juston Root
 
 Status: `graph-ready`.
@@ -224,28 +234,28 @@ Next action: recover the civil-case filings, POST materials, internal-affairs fi
 
 ### Kathleen Prince
 
-Status: `hold`.
+Status: `partial graph-ready; remaining communication edge still needs verification`.
 
-Evidence found this pass: no direct Root-mirror text/OCR hit in the searched OCR, index, or inventory files.
+Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-PRINCE-OCONNELL-SJC-2012`. No direct Root-mirror text/OCR hit was found in the searched OCR, index, or inventory files.
 
-Current board state: Prince is already represented on the Read side of the board.
+Current board state: Prince is represented as MSP, Read/O'Keefe case, O'Connell/SJC court-record context, and a communication connector to Jennifer McCabe.
 
-Next action: search Read trial records, Norfolk DA office materials, and court filings for the precise connector before adding or changing any Prince edges.
+Decision: The MSP, Read/O'Keefe, O'Connell, and SJC connectors are supported enough to keep. Do not add Root connectors for Prince without a direct source. The Prince-to-McCabe communication connector should remain a verification target until a transcript, filing, or stable source for the precise statement/interview relationship is recovered.
 
 ### Coleen Crawford
 
-Status: `hold`.
+Status: `partial graph-ready; Root and Fanning connectors still need source recovery`.
 
-Evidence found this pass: no direct Root-mirror text/OCR hit in the searched OCR, index, or inventory files.
+Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025`. No direct Root-mirror text/OCR hit was found in the searched OCR, index, or inventory files.
 
-Current board state: Crawford is already represented in Root/Norfolk DA employment and Fanning business/community context.
+Current board state: Crawford is represented in the Read/O'Keefe lane, Norfolk DA employment context, Root context, and a Fanning business/community connector.
 
-Next action: recover the prior source for Crawford before expanding her graph footprint. The name should remain in the queue because the user specifically flagged it.
+Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-list reporting. The Read/Birchmore discovery motion is a lead for broader cross-case work, but it needs an official docket copy before public graph expansion. Recover the prior source for Crawford's Root and Fanning connectors before strengthening those labels or adding new Crawford edges.
 
 ### Norfolk County DA Staff Beyond Morrissey
 
-Status: `lead`.
+Status: `active lead`.
 
-Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` supports Steve Nelson as a Read/O'Keefe/Norfolk DA office connector. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` is a lead for Deputy District Attorney Lynn Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
 
-Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors.
+Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
