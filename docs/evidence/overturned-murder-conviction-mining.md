@@ -106,13 +106,13 @@ Board action: add Michael J. Sullivan, Middlesex DA, Middlesex Superior Court, M
 
 ### Robert Pino / State Police Crime Lab
 
-Current board state: added as a narrow exposed State Police crime-lab node connected to Michael J. Sullivan and Massachusetts State Police.
+Current board state: added as a narrow exposed State Police crime-lab node connected to Michael J. Sullivan, Massachusetts State Police, and the existing State Police Crime Laboratory institution node.
 
-Source trail: the Pino / State Police crime-lab lane is now separated through `WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024`. The reviewed sources support Pino as the State Police chemist connected to Michael J. Sullivan's trial evidence and as a former State Police Crime Lab administrator fired after alleged DNA-database mishandling. Boston.com's 2024 Sullivan account strengthens the direct visible connector by identifying Pino as the chemical analyst whose asserted blood-and-hair evidence implicated Sullivan and by quoting the civil complaint's fabrication allegation.
+Source trail: the Pino / State Police crime-lab lane is now separated through `WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024`. The reviewed sources support Pino as the State Police chemist connected to Michael J. Sullivan's trial evidence and as a former State Police Crime Lab administrator fired after alleged DNA-database mishandling. SouthCoastToday's 2007 article page strengthens the lab-level connector by identifying the State Police DNA database role and summarizing allegations involving evidence in about two dozen sexual-assault cases. Boston.com's 2024 Sullivan account strengthens the direct visible connector by identifying Pino as the chemical analyst whose asserted blood-and-hair evidence implicated Sullivan and by quoting the civil complaint's fabrication allegation.
 
 Candidate names: Robert Pino; Massachusetts State Police Crime Lab; Michael J. Sullivan; Aurelio Pinero Jr.; Mark Delaney; Carl Selavka.
 
-Board action: keep Pino narrow. Add only the Pino-to-Sullivan and Pino-to-State-Police connectors now. Do not add a separate crime-lab institution, Pinero connector, Mark Delaney, Carl Selavka, or other case links unless another source-ledger entry opens that broader lane.
+Board action: keep Pino narrow. Add only the Pino-to-Sullivan, Pino-to-State-Police, and Pino-to-existing-State-Police-Crime-Laboratory connectors now. Do not create a duplicate crime-lab institution, Pinero connector, Mark Delaney, Carl Selavka, or other case links unless another source-ledger entry opens that broader lane.
 
 ### Other Recent Massachusetts Leads
 
