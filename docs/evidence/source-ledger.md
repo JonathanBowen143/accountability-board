@@ -372,6 +372,34 @@ Board implications:
 
 Add Raymond Gaines as a small exonerated/wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep the edge narrow and do not conflate this Peter O'Malley lane with the separate Nicholas O'Malley / Stephenson King Jr. internal-only lead.
 
+## WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026
+
+Status: `ingested`, `graph-ready for narrow O'Malley / Suffolk / Boston Police wrongful-conviction cluster expansion`.
+
+Source titles:
+
+The Boston Globe, `Judge overturns Boston murder conviction for man who served 46 years`, published December 7, 2022: `https://www.bostonglobe.com/2022/12/07/metro/judge-overturns-boston-murder-conviction-man-who-served-46-years/`.
+
+WBUR, `Wrongfully convicted man sues Boston after serving 15 years in prison`, published October 22, 2025: `https://www.wbur.org/news/2025/10/22/wrongful-conviction-lawsuit-massachusetts-jones`.
+
+Milton Jones federal civil-rights complaint, filed October 21, 2025, hosted by Universal Hub: `https://www.universalhub.com/files/attachments/2025/mjones-complaint.pdf`.
+
+United States District Court, District of Massachusetts, `Brown v. City of Boston`, Memorandum and Order on City of Boston's partial motion to dismiss, August 21, 2025, hosted by Massachusetts Lawyers Weekly: `https://masslawyersweekly.com/files/2025/08/02-462-25.pdf`.
+
+Justia mirror of Massachusetts Supreme Judicial Court decision, `Commonwealth v. Pope`, SJC-13202, decision dated June 8, 2022: `https://law.justia.com/cases/massachusetts/supreme-court/2022/sjc-13202.html`.
+
+United States District Court, District of Massachusetts, `Pope v. City of Boston`, Memorandum and Order on City of Boston's motion to dismiss, November 7, 2024, hosted by Massachusetts Lawyers Weekly: `https://masslawyersweekly.com/files/2024/11/02-528-24.pdf`.
+
+The Boston Globe, `Suffolk DA won't retry man convicted in 1984 Dorchester killing`, published October 24, 2022: `https://www.bostonglobe.com/2022/10/24/metro/suffolk-da-wont-retry-man-convicted-1984-killing/`.
+
+Extracted facts:
+
+The Globe reported in December 2022 that judges had overturned four old murder convictions involving Boston Police Detective Peter O'Malley in a six-month span, identifying Gaines as one of those cases and reporting that O'Malley was tied to the Milton Jones, Floyd Hamilton, and Joseph Pope lanes. WBUR reports that Milton Jones's federal lawsuit accuses retired Boston police detectives Louis McConkey, Peter O'Malley, and John J. Daley of fabricating false eyewitness identifications and withholding key evidence in Jones's 1975 Roxbury bar-owner murder conviction; Jones's complaint says the Suffolk Superior Court expunged his wrongful convictions after a Chapter 258D innocence settlement. In `Brown v. City of Boston`, the federal court states that Albert Brown, also known as Floyd Hamilton, was incarcerated for over thirty years until his conviction was overturned in 2022 based on withheld exculpatory evidence, and that Hamilton sued the City of Boston, Peter O'Malley, and other BPD actors for their role in his arrest and prosecution. The SJC's Pope decision granted Joseph Jabir Pope a new trial based on prejudicial Brady nondisclosure, identifies Detective Peter O'Malley among responding officers, and notes O'Malley's concerns about the Commonwealth's key witness in the withheld Goodale memorandum. The federal `Pope v. City of Boston` order records Pope's allegations that O'Malley failed to be truthful and execute his duties lawfully before and after Pope's investigation and conviction, and the Globe reports that the Suffolk DA filed a nolle prosequi after Pope's new-trial order.
+
+Board implications:
+
+Add Milton Jones, Floyd Hamilton, and Joseph Jabir Pope as small gold-ring wrongful-conviction nodes tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep McConkey, Daley, Curran, Flynn, Goodale, Benny DeJesus, Efrain DeJesus, Albert Dunn, Louis McConkey, John J. Daley, and case-specific witnesses internal for now. This pass proves the O'Malley repeated-actor cluster, not every actor in each underlying case.
+
 ## WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024
 
 Status: `ingested`, `graph-ready for narrow Lucien / Brazil / Suffolk / Boston Police connector`.
@@ -448,7 +476,7 @@ The review matrix consolidates recent and active Massachusetts murder-conviction
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, and the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`. Future additions still need separate source-ledger entries before visible graph changes.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, and the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`. Future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 

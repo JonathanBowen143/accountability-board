@@ -30,6 +30,14 @@ Source basis: the 2024 SJC Gaines decision, as mirrored by Justia, identifies Ra
 
 Board action: add Gaines; connect him to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep this narrow and separate from the internal-only Nicholas O'Malley / Stephenson King Jr. lane.
 
+### Milton Jones, Floyd Hamilton, Joseph Jabir Pope, and Det. Peter O'Malley
+
+Board role: small exonerated/wrongful-conviction nodes plus repeated detective connector.
+
+Source basis: Boston Globe coverage of the Gaines ruling identifies four recently overturned murder convictions tied to former Boston Police Detective Peter O'Malley. WBUR and Jones's federal complaint document the Milton Jones lane and name O'Malley as a defendant. The federal `Brown v. City of Boston` order documents the Floyd Hamilton lane and names O'Malley as a defendant. The SJC's Pope decision, the federal `Pope v. City of Boston` order, and Globe reporting document the Joseph Jabir Pope lane, the withheld exculpatory evidence, the O'Malley connection, and the Suffolk DA's nolle prosequi.
+
+Board action: add Milton Jones, Floyd Hamilton, and Joseph Jabir Pope; connect each to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Do not add Louis McConkey, John J. Daley, James Curran, Robert Flynn, Robert Goodale, Benny DeJesus, Efrain DeJesus, Albert Dunn, or case-specific witnesses from this pass.
+
 ### James Lucien
 
 Board role: small exonerated/wrongful-conviction node.
@@ -65,12 +73,6 @@ Source trail: the name needs disambiguation. WBUR and Massachusetts Lawyers Week
 Candidate names: Stephen A. Pina; Daniel Pina; Judge Peter B. Krupp; ADA Ian MacLean; Jill Tessier; Lisa Kavanaugh; Suffolk DA Kevin Hayden.
 
 Next action: use `docs/evidence/murder-conviction-review-matrix.md` as the controlling surface for the Pina lanes before any graph work.
-
-### Raymond Gaines / Peter O'Malley Follow-Up
-
-Current board state: narrow Gaines-to-O'Malley connector added.
-
-Open question: identify the other three overturned murder convictions involving Peter O'Malley before deciding whether O'Malley needs a larger wrongful-conviction cluster. The next pass should prefer court opinions, complaints, or conviction-integrity records over commentary.
 
 ### Michael Sullivan and Other Recent Massachusetts Leads
 
