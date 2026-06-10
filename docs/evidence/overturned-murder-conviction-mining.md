@@ -30,6 +30,14 @@ Source basis: the 2024 SJC Gaines decision, as mirrored by Justia, identifies Ra
 
 Board action: add Gaines; connect him to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep this narrow and separate from the internal-only Nicholas O'Malley / Stephenson King Jr. lane.
 
+### James Lucien
+
+Board role: small exonerated/wrongful-conviction node.
+
+Source basis: the Suffolk DA's office reports that Lucien's murder and robbery convictions were addressed through an assented-to new-trial motion in 2021, that the remaining firearm conviction was vacated in 2023, and that a nolle prosequi ended the case. The same release identifies former Boston Police Det. John Brazil's improper actions as prejudicial to Lucien. WBUR/AP reports Lucien's release in 2021 after nearly three decades in prison and documents the later state compensation suit.
+
+Board action: add Lucien; connect him to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. John Brazil node. Do not add Kevin Hayden, Jennifer Zalnasky, Robert Ullman, Mark Loevy-Reyes, or Ryan Edwards yet; keep those names documented in the source ledger unless later review makes one of them a repeated public actor or a separate board lane.
+
 ## Hold for Additional Actor-Level Review
 
 ### Edward Wright
@@ -64,7 +72,7 @@ Current board state: narrow Gaines-to-O'Malley connector added.
 
 Open question: identify the other three overturned murder convictions involving Peter O'Malley before deciding whether O'Malley needs a larger wrongful-conviction cluster. The next pass should prefer court opinions, complaints, or conviction-integrity records over commentary.
 
-### Rickey or FuQuan McGee, James Lucien, Michael Sullivan, and Other Recent Massachusetts Leads
+### Rickey or FuQuan McGee, Michael Sullivan, and Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 

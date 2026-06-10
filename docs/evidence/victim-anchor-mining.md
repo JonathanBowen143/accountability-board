@@ -68,6 +68,6 @@ Next mining actions: localize the indictment or charging documents if available;
 
 The board has other victim-category nodes, including exonerees, wrongful-conviction subjects, collateral injury/death subjects, and historically important people. They should remain smaller unless the project opens an active accountability lane around their death or prosecution and documents that lane in the source ledger.
 
-The June 2026 overturned-conviction pass added Robert Foxworth, Barry Kamara, and Raymond Gaines as small gold-ring nodes for the same reason. Those nodes document wrongful-conviction patterns and repeated public actors, but they are not new large victim anchors.
+The June 2026 overturned-conviction pass added Robert Foxworth, Barry Kamara, Raymond Gaines, and James Lucien as small gold-ring nodes for the same reason. Those nodes document wrongful-conviction patterns and repeated public actors, but they are not new large victim anchors.
 
 This keeps the visual language coherent. Large nodes identify the current murdered-person anchor lanes; small nodes can still be morally and evidentially important without becoming organizing centers for this version of the board.

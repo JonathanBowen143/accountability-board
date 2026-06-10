@@ -372,6 +372,24 @@ Board implications:
 
 Add Raymond Gaines as a small exonerated/wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep the edge narrow and do not conflate this Peter O'Malley lane with the separate Nicholas O'Malley / Stephenson King Jr. internal-only lead.
 
+## WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024
+
+Status: `ingested`, `graph-ready for narrow Lucien / Brazil / Suffolk / Boston Police connector`.
+
+Source titles:
+
+Suffolk County District Attorney's Office, `Firearm conviction in connection to 1994 murder to be vacated`, published August 3, 2023: `https://www.suffolkdistrictattorney.com/press-releases/items/2023/8/4/firearm-conviction-in-connection-to-1994-murder-to-be-vacated`.
+
+WBUR / Associated Press, `Mass. man sues state for $1M after serving 27 years in prison for a case that was later thrown out`, published February 28, 2024: `https://www.wbur.org/news/2024/02/28/james-lucien-lawsuit-boston-police-wrongful-conviction`.
+
+Extracted facts:
+
+The Suffolk DA release states that James Lucien was convicted in 1995 of first-degree murder, armed robbery, and firearm possession in the fatal shooting of Ryan Edwards; that the office's Integrity Review Bureau found significant concerns and errors in the trial record; that the office assented to a new trial on the murder and robbery convictions in 2021; and that Suffolk Superior Court later granted a new trial on the remaining firearm conviction in 2023, after which the Suffolk DA filed a nolle prosequi ending the case. The same release identifies former Boston Police Det. John Brazil's improper actions as prejudicial to Lucien. WBUR/AP reports that Lucien spent nearly three decades in prison, was released in 2021, and later sued the state, with his lawyers alleging corrupt Boston police officials produced false testimony and tainted evidence.
+
+Board implications:
+
+Add James Lucien as a small gold-ring wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. John Brazil node. Do not add Kevin Hayden, Jennifer Zalnasky, Robert Ullman, Mark Loevy-Reyes, or Ryan Edwards to the public board from this pass alone; keep those names documented here unless a future repeated-actor or victim-anchor lane supports them.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
@@ -406,7 +424,7 @@ The review matrix consolidates recent and active Massachusetts murder-conviction
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien is the clearest next candidate, but he still needs a separate source-ledger entry before adding a visible Lucien/Brazil/Suffolk/BPD connector.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`; future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 
