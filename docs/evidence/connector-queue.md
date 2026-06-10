@@ -1,6 +1,6 @@
 # Connector Queue
 
-Last updated: June 9, 2026.
+Last updated: June 10, 2026.
 
 This queue is the holding area between evidence ingestion and graph edits. It prevents the board from becoming either under-connected or over-claimed.
 
@@ -97,6 +97,16 @@ Evidence: `WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06`.
 Current board state: Boston Police now connects to Suffolk County DA; Canton, Stoughton, and Brookline Police connect to Norfolk County DA; Lynn Police connects to Essex County DA; and Ayer Police connects to Middlesex County DA.
 
 Decision: Keep these as `juris` edges only. They are structural prosecutorial-district connectors, not case-specific claims about conduct, discipline, or charging decisions.
+
+### Edward Wright / Hampden / Springfield Wrongful-Conviction Lane
+
+Status: `implemented`.
+
+Evidence: `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`; `docs/evidence/murder-conviction-review-matrix.md`; `docs/evidence/overturned-murder-conviction-mining.md`.
+
+Current board state: Edward Wright remains a small gold-ring wrongful-conviction node. Penny Anderson, Springfield Police Department, Hampden Superior Court, Det. Alfred Ingham, Judge Jeremy Bucci, and DA Anthony Gulluni now appear as narrow public-board connectors tied to Hampden County DA and the existing M.J. Ryan connector.
+
+Decision: Keep this visible lane limited to the court/police/DA structure and the named detective tied to the false-testimony/crime-scene-preservation finding. Mark Grant, Judge Sarah Hamilton, defense counsel, third-party culprit names, witnesses, and additional historical actors remain internal unless a later pass shows a repeated public-actor pattern.
 
 ### David DiCicco / Norfolk Assignment and Cross-Case Investigator Lane
 
@@ -286,8 +296,8 @@ Next action: ingest NDAO public-record files and identify staff names from prima
 
 Status: `partly graph-ready; active lead list`.
 
-Evidence: `WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023`; `WEB-GAINES-OMALLEY-OVERTURNED-MURDER-CONVICTION-2024-2025`; `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`; `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`; `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`; `docs/evidence/overturned-murder-conviction-mining.md`; `docs/evidence/murder-conviction-review-matrix.md`.
+Evidence: `WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023`; `WEB-GAINES-OMALLEY-OVERTURNED-MURDER-CONVICTION-2024-2025`; `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`; `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`; `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`; `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`; `docs/evidence/overturned-murder-conviction-mining.md`; `docs/evidence/murder-conviction-review-matrix.md`.
 
-Current board state: Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, and Rickey McGee are represented as small exonerated/wrongful-conviction nodes, not large victim anchors. Foxworth and Kamara connect to Suffolk DA, Boston Police, Suffolk Superior Court, former Suffolk ADA James Larkin, and former Boston Sgt. Det. Daniel Flynn. Gaines, Jones, Hamilton, and Pope connect narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Lucien connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. John Brazil node. McGee connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and Judge Michael Ricciuti. Ricciuti also connects to Thomas Rosa Jr. and Suffolk Superior Court.
+Current board state: Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, Rickey McGee, and Edward Wright are represented as small exonerated/wrongful-conviction nodes, not large victim anchors. Foxworth and Kamara connect to Suffolk DA, Boston Police, Suffolk Superior Court, former Suffolk ADA James Larkin, and former Boston Sgt. Det. Daniel Flynn. Gaines, Jones, Hamilton, and Pope connect narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Lucien connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. John Brazil node. McGee connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and Judge Michael Ricciuti. Wright connects narrowly to Hampden DA, Springfield Police, Hampden Superior Court, Penny Anderson, Det. Alfred Ingham, Judge Jeremy Bucci, DA Anthony Gulluni, and DA M.J. Ryan Jr. Ricciuti also connects to Thomas Rosa Jr. and Suffolk Superior Court.
 
-Decision: Keep the public board focused on repeated actor patterns and court/prosecution/police institutions. The matrix now separates visible small-node additions from internal holds. The O'Malley cluster is visible, but McConkey, Daley, Curran, Flynn, Goodale, witnesses, victims, and case-specific prosecutors remain internal pending stronger repeated-actor proof. The Ricciuti/Rosa/McGee pattern is visible, but individual detective, prosecutor, witness, investigator, counsel, and victim names remain internal pending stronger repeated-actor proof. Hold Stephen Pina, Daniel Pina, Edward Wright expansion, Michael Sullivan, James Carver, and Dewane Tse for additional actor-level or posture review before adding new visible nodes or edges. Existing Edward Wright can remain, but this pass did not add new public connectors for him. The next research pass should test either the Edward Wright/Hampden lane or the Stephen Pina / Daniel Pina disambiguation using court-level sources.
+Decision: Keep the public board focused on repeated actor patterns and court/prosecution/police institutions. The matrix now separates visible small-node additions from internal holds. The O'Malley cluster is visible, but McConkey, Daley, Curran, Flynn, Goodale, witnesses, victims, and case-specific prosecutors remain internal pending stronger repeated-actor proof. The Ricciuti/Rosa/McGee pattern is visible, but individual detective, prosecutor, witness, investigator, counsel, and victim names remain internal pending stronger repeated-actor proof. The Wright/Hampden pattern is visible only as a narrow court/police/DA lane. Hold Stephen Pina, Daniel Pina, Michael Sullivan, James Carver, and Dewane Tse for additional actor-level or posture review before adding new visible nodes or edges. The next research pass should test the Stephen Pina / Daniel Pina disambiguation or another recent Massachusetts overturned-murder-conviction lane using court-level sources.

@@ -1,6 +1,6 @@
 # Victim Anchor Mining
 
-Last updated: June 9, 2026.
+Last updated: June 10, 2026.
 
 This file documents the logic behind larger victim-anchor nodes and the current connector-mining status for those people. It should be read with `source-ledger.md` and `connector-queue.md`.
 
@@ -68,6 +68,6 @@ Next mining actions: localize the indictment or charging documents if available;
 
 The board has other victim-category nodes, including exonerees, wrongful-conviction subjects, collateral injury/death subjects, and historically important people. They should remain smaller unless the project opens an active accountability lane around their death or prosecution and documents that lane in the source ledger.
 
-The June 2026 overturned-conviction pass added Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, and Rickey McGee as small gold-ring nodes for the same reason. Those nodes document wrongful-conviction patterns and repeated public actors, but they are not new large victim anchors.
+The June 2026 overturned-conviction pass added Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, Rickey McGee, and Edward Wright as small gold-ring nodes for the same reason. Penny Anderson was added as the underlying homicide-victim node in the Wright lane, but not as a large victim anchor. Those nodes document wrongful-conviction patterns and repeated public actors, but they are not new large victim anchors.
 
 This keeps the visual language coherent. Large nodes identify the current murdered-person anchor lanes; small nodes can still be morally and evidentially important without becoming organizing centers for this version of the board.

@@ -442,6 +442,32 @@ Board implications:
 
 Add Judge Michael Ricciuti as a Suffolk Superior Court public-actor node and connect him narrowly to Thomas Rosa Jr. and Rickey McGee. Add Rickey McGee as a small gold-ring wrongful-conviction node connected to Boston Police, Suffolk DA, and Suffolk Superior Court. Do not add Kevin Hayden, Zachary Host, Jennifer Zalnasky, Jeffrey Harris, Jill Tessier, John Nardizzi, Natasha Hamilton, Geta Yalew, or individual Boston Police detectives from this pass; those names remain source-ledger/internal-document material until repeated-actor or official-misconduct proof supports a visible graph edge.
 
+## WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025
+
+Status: `ingested`, `graph-ready for narrow Wright / Anderson / Hampden / Springfield connector`.
+
+Source titles:
+
+Hampden Superior Court, `Commonwealth v. Edward G. Wright, Memorandum of Decision and Order on Defendant's Sixth Motion for New Trial`, April 2025, text-searchable mirror: `https://www.cybgen.com/information/admissibility/Wright2025.pdf`.
+
+New England Innocence Project, `Court Overturns 1985 Springfield Murder Conviction`, published April 15, 2025: `https://www.newenglandinnocence.org/innocence-blog/2025/edwardwrightconvictionoverturned`.
+
+Hampden District Attorney's Office, `Hampden District Attorney's Office Enters Nolle Prosequi in 1984 Murder Case Following Controversial Ruling`, published August 21, 2025: `https://hampdenda.com/hampden-district-attorneys-office-enters-nolle-prosequi-in-1984-murder-case-following-controversial-ruling/`.
+
+New England Innocence Project, `Edward Wright Exonerated!`, published August 21, 2025: `https://www.newenglandinnocence.org/innocence-blog/edwardwrightexonerated`.
+
+Quinn Emanuel, `Wrongful Conviction Vacated After 40 Years`, published June 3, 2025: `https://www.quinnemanuel.com/the-firm/publications/wrongful-conviction-vacated-after-40-years/`.
+
+Extracted facts:
+
+The Hampden Superior Court decision records Edward Wright's 1985 first-degree-murder conviction for the killing of Penny Anderson in Springfield and orders a new trial on Wright's sixth motion. The decision identifies Springfield Police Department Det. Alfred Ingham, the break-in report, the preservation of the crime scene, the shoe-print evidence, and Mark Grant's forensic-chemist testimony as major evidentiary subjects. The court found the undisclosed break-in report was in the control of police and the prosecution team, that it was exculpatory, and that the nondisclosure justified post-conviction relief. The decision also addresses Ingham's trial testimony about who had accessed the apartment after the murder and before key evidence was collected.
+
+NEIP's April 2025 and August 2025 posts identify Hampden County Superior Court Judge Jeremy Bucci as the judge who vacated Wright's conviction, describe the misconduct findings, and report that the Commonwealth ended the prosecution. The Hampden DA's own August 2025 statement identifies DA Anthony D. Gulluni and records the office's decision to file a nolle prosequi in `Commonwealth v. Edward Wright`. Quinn Emanuel's June 2025 account provides corroborating defense-team context for the withheld evidence, false testimony, new DNA testing, and unreliable forensic-evidence claims.
+
+Board implications:
+
+Add Penny Anderson as the underlying murder victim, keep Edward Wright as the small gold-ring exonerated/wrongful-conviction node, add Springfield Police Department and Hampden Superior Court as institution nodes, and connect Det. Alfred Ingham, Judge Jeremy Bucci, and DA Anthony Gulluni narrowly to the Wright/Anderson/Hampden lane. Keep Mark Grant, Judge Sarah Hamilton, defense counsel, possible third-party suspects, witnesses, and additional historical actors in internal notes unless a later pass shows a repeated public-actor pattern or a stronger reason for visible-board use.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
@@ -476,7 +502,7 @@ The review matrix consolidates recent and active Massachusetts murder-conviction
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, and the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`. Future additions still need separate source-ledger entries before visible graph changes.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`, and the Edward Wright lane has moved to visible narrow Hampden/Springfield treatment through `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`. Future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 

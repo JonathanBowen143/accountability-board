@@ -54,15 +54,15 @@ Source basis: New England Innocence Project records Judge Michael Ricciuti's 202
 
 Board action: add Rickey McGee and Judge Michael Ricciuti; connect McGee to Boston Police, Suffolk DA, Suffolk Superior Court, and Ricciuti; connect Ricciuti to Thomas Rosa Jr. and Suffolk Superior Court. Do not add the McGee detectives, witnesses, defense investigators, prosecutors, counsel, or Geta Yalew until a cleaner repeated-actor source supports visible graph use.
 
+### Edward Wright, Penny Anderson, and the Hampden / Springfield Lane
+
+Board role: small exonerated/wrongful-conviction node, underlying murder-victim node, and narrow Hampden/Springfield public-actor connector.
+
+Source basis: the Hampden Superior Court decision on Wright's sixth motion for new trial identifies the 1985 conviction, Penny Anderson's murder, Springfield Police Department Det. Alfred Ingham, the undisclosed break-in report, the crime-scene-preservation issue, and the resulting new-trial order. NEIP records Judge Jeremy Bucci's vacatur and Wright's exoneration posture. The Hampden DA's August 2025 statement records DA Anthony Gulluni's office filing a nolle prosequi in `Commonwealth v. Edward Wright`.
+
+Board action: add Penny Anderson, Springfield Police Department, Hampden Superior Court, Det. Alfred Ingham, Judge Jeremy Bucci, and DA Anthony Gulluni; connect them narrowly to the existing Edward Wright and Hampden DA lane. Keep Mark Grant, Judge Sarah Hamilton, defense counsel, third-party culprit names, witnesses, and further historical case actors internal until a later repeated-actor review supports visible graph use.
+
 ## Hold for Additional Actor-Level Review
-
-### Edward Wright
-
-Current board state: Edward Wright and Hampden County DA already appear on the board.
-
-Source trail: New England Innocence Project reports that Hampden Superior Court Judge Jeremy Bucci overturned Wright's 1985 Springfield murder conviction in April 2025 based on official misconduct, withheld evidence, false testimony, and new DNA testing. The source supports Wright as a major overturned-conviction lead, but the next graph expansion should review the decision or underlying motion for named detectives/prosecutors before adding more actor edges.
-
-Candidate names: Judge Jeremy Bucci; Hampden DA Anthony D. Gulluni; trial-era prosecutor/detective names require decision-level review before public graph use.
 
 ### Stephen Pina and Daniel Pina
 
