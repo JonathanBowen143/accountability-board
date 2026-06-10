@@ -34,6 +34,32 @@ Board implications:
 
 Add existing-node historical tightening edges only: Katzmann to Thayer as a Sacco/Vanzetti trial role connector; Tufts and Pelletier to the SJC as district-attorney removal proceeding connectors; and Harshbarger to Coakley as a professional Middlesex DA lineage connector. Coakley's Middlesex DA office edge already exists and should remain. Do not use this pass to add Fred Moore, SJC justices, Boston book-war actors, Watch and Ward officers, or additional Fells Acres actors without a separate source-ledger entry.
 
+## WEB-WATCH-WARD-PELLETIER-ALLEN-SJC-1913-1975
+
+Status: `ingested`, `graph-ready for narrow existing-node connectors`.
+
+Source titles:
+
+Massachusetts Historical Society, `Discovering the New England Watch and Ward Society`, published February 2011: `https://www.masshist.org/beehiveblog/2011/02/discovering-the-new-england-watch-and-ward-society/`.
+
+Massachusetts Historical Society, `Godfrey Lowell Cabot papers II, 1909-1969: Guide to the Collection`: `https://www.masshist.org/collection-guides/view/fa0197`.
+
+Northeastern University Archives and Special Collections, `New England Watch and Ward Society records`: `https://archivesspace.library.northeastern.edu/repositories/2/archival_objects/305812`.
+
+American Heritage, `The Knave of Boston`: `https://www.americanheritage.com/knave-boston`.
+
+Massachusetts Supreme Judicial Court, `Attorney General v. Joseph C. Pelletier`, 240 Mass. 264, decided January 3, 1922, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/240/240mass264.html`.
+
+Extracted facts:
+
+The Massachusetts Historical Society describes the New England Watch and Ward Society as a private organization with considerable political influence in the Boston area and region from 1878 to 1967. MHS records also place Godfrey Lowell Cabot inside the organization, including Watch and Ward material in the Cabot papers and society records from 1913 to 1921. Northeastern's archive record documents the organization's institutional continuity: founded in 1878, renamed the New England Watch and Ward Society in 1891, renamed again in 1957 and 1967, and merged into the Crime and Justice Foundation in 1975.
+
+American Heritage's historical account links Cabot's Watch and Ward context to the Pelletier accountability lane: Cabot petitioned the SJC for Pelletier's impeachment and later brought documents to the Boston Bar Association, which examined Pelletier, Daniel H. Coakley, William J. Corcoran, and Nathan A. Tufts. The SJC's Pelletier decision confirms the official public-accountability mechanism: Attorney General J. Weston Allen brought an information under G.L. c. 211, section 4, seeking removal of Suffolk County District Attorney Joseph C. Pelletier.
+
+Board implications:
+
+Add narrow visible connectors from Watch and Ward Society to District Attorney Joseph Pelletier and to the Massachusetts Supreme Judicial Court as court-removal/accountability context. Keep Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, J. Frank Chase, H.L. Mencken, booksellers, and Boston Booksellers Committee actors documented internally unless a later pass intentionally opens the private-influence and censorship subnetwork. Do not treat Watch and Ward as a public agency; it is a private political-influence and accountability-pressure connector in this lane.
+
 ## WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06
 
 Status: `ingested`, `graph-ready for jurisdiction backbone`.

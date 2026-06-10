@@ -98,6 +98,16 @@ Current board state: The historical layer now has four additional existing-node 
 
 Decision: Continue using historical connectors when they explain a recurring Massachusetts institution, office, court, or public-accountability mechanism. Do not widen the historical layer into extra biographical names unless the source creates a clear board-relevant relationship between existing institutions, public officials, or accountability cases.
 
+### Watch and Ward / Pelletier Historical Lane
+
+Status: `implemented`.
+
+Evidence: `WEB-WATCH-WARD-PELLETIER-ALLEN-SJC-1913-1975`.
+
+Current board state: Watch and Ward Society now connects to DA Joseph Pelletier and to the Massachusetts Supreme Judicial Court, in addition to its existing Suffolk, Essex, Bristol, and court-context connectors.
+
+Decision: Keep this visible lane narrow for now. The source trail supports Watch and Ward as private political-influence/accountability-pressure context around the Pelletier removal lane, but Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, booksellers, and censorship-specific actors should remain internal until the board intentionally opens a private-influence and censorship subnetwork.
+
 ### Local Police / DA Jurisdiction Backbone
 
 Status: `graph-ready`.
