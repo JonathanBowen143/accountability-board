@@ -256,9 +256,9 @@ Status: `graph-ready for Root/Brookline correspondence; separate Fanning public-
 
 Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags the separate Fanning PDF as a priority retrieval item.
 
-Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, and Crawford.
+Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, and Crawford. The Root/Brookline correspondence now includes a direct Fanning-to-Broderick communication connector in addition to their professional connector.
 
-Next action: locate or download the separate Fanning PDF, OCR it, and determine whether it supports a stronger Fanning-specific public-record connector, a Norfolk DA communication connector, or only a source note.
+Next action: locate or download the separate Fanning PDF, OCR it, and determine whether it supports a stronger Fanning-specific public-record connector, a Norfolk DA communication connector, or only a source note. Do not infer that stronger connector from the Drive filename alone.
 
 ### Yuriy Bukhenik / Root Public-Records Correspondence
 
@@ -266,9 +266,9 @@ Status: `graph-ready`.
 
 Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`.
 
-Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, Stoughton High context, Fanning, and Crawford.
+Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, Stoughton High context, Fanning, Crawford, Elcock, and Wagner.
 
-Decision: The correspondence supports Bukhenik as a Root/Brookline communication and report/transcript-coordination connector. Do not use it as a misconduct source without a separate adjudicated or investigative record.
+Decision: The correspondence supports Bukhenik as a Root/Brookline communication, interview-handling, and report/transcript-coordination connector. The Elcock and Wagner connectors are case-handling links, not blame connectors. Do not use the Guarino/Brookline interview reference as a public board edge until a reviewed transcript or named-subject record supports a narrower connector. Do not use any of this correspondence as a misconduct source without a separate adjudicated or investigative record.
 
 ### David DiCicco
 

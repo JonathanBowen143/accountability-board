@@ -936,7 +936,7 @@ The OCR reads as a message from Sergeant John Fanning of the Massachusetts State
 
 Board implications:
 
-This supports existing Root graph connectors for Fanning, Bukhenik, Guarino, Broderick, Elcock, and Wagner. It is not a misconduct source by itself. The `Tpr. Bukhenik Email Correspondence_redacted.pdf` file has since been ingested as `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; the `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf` item remains a retrieval target for any stronger Fanning-specific public-record claim.
+This supports Root graph connectors for Fanning, Bukhenik, Guarino, Broderick, Elcock, and Wagner. It supports a Fanning-to-Broderick communication connector and Bukhenik-to-Elcock / Bukhenik-to-Wagner case-handling connectors because the message names Broderick as the recipient and identifies Bukhenik as having done the Brookline PD interviews for Elcock and Wagner. It is not a misconduct source by itself. The Guarino/Brookline interview reference remains a source note until a reviewed transcript or named-subject record supports a narrower public connector. The `Tpr. Bukhenik Email Correspondence_redacted.pdf` file has since been ingested as `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; the `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf` item remains a retrieval target for any stronger Fanning-specific public-record claim.
 
 ## ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020
 
@@ -948,13 +948,15 @@ Google Drive URL: `https://drive.google.com/file/d/12eWjzGVhlkpLgr2Y03QlQo4J7hmv
 
 Drive ID from connector fetch: `12eWjzGVhlkpLgr2Y03QlQo4J7hmva5K5`.
 
+Reviewed local copy: `/Users/jonathanbowen/Downloads/Tpr. Bukhenik Email Correspondence_redacted.pdf`.
+
 Extracted facts:
 
 The correspondence includes a February 12, 2020 email from Norfolk DA Multimedia Director and Certified Forensic Video Technician Coleen Crawford to Trooper Yuriy Bukhenik, with Sergeant John Fanning copied. The subject identifies the Gill video interview and the Brookline shooting date. Crawford states that she converted and archived the Gill video-interview file and made it available from a digital case folder named for Fanning and the Brookline shooting. The same correspondence packet also shows Fanning and Bukhenik coordinating audio, transcripts, reports, and Brookline Police Department interviews in the Juston Root investigation, and it includes a February 18, 2020 Brookline Lethal Force message asking recipients to prioritize outstanding reports because the DA was preparing a media report.
 
 Board implications:
 
-This directly supports the existing Crawford-to-Root case connector, the existing Fanning-to-Crawford professional connector, and a new Crawford-to-Bukhenik communication connector. It also strengthens the Fanning-to-Bukhenik Root correspondence lane already represented on the board. Use this source only for digital-evidence handling, correspondence, report/transcript coordination, and case-role overlap; it does not establish misconduct by itself.
+This directly supports the existing Crawford-to-Root case connector, the existing Fanning-to-Crawford professional connector, and the Crawford-to-Bukhenik communication connector. It also strengthens the Fanning-to-Bukhenik Root correspondence lane and supports the Fanning-to-Broderick communication connector plus the Bukhenik-to-Elcock and Bukhenik-to-Wagner interview-handling connectors represented on the board. Use this source only for digital-evidence handling, correspondence, report/transcript coordination, and case-role overlap; it does not establish misconduct by itself.
 
 ## ROOT-DRIVE-FULL-INDEX
 
