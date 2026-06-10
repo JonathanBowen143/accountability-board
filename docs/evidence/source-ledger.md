@@ -60,6 +60,34 @@ Board implications:
 
 Add narrow visible connectors from Watch and Ward Society to District Attorney Joseph Pelletier and to the Massachusetts Supreme Judicial Court as court-removal/accountability context. Keep Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, J. Frank Chase, H.L. Mencken, booksellers, and Boston Booksellers Committee actors documented internally unless a later pass intentionally opens the private-influence and censorship subnetwork. Do not treat Watch and Ward as a public agency; it is a private political-influence and accountability-pressure connector in this lane.
 
+## WEB-TITICUT-FOLLIES-BRIDGEWATER-SJC-1966-1993
+
+Status: `ingested`, `graph-ready for narrow documentary / Bridgewater / SJC lane`.
+
+Source titles:
+
+Zipporah Films, `Titicut Follies`: `https://zipporahfilms.com/titicut-follies`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Wiseman`, 356 Mass. 251, decided June 24, 1969, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/1969/356-mass-251-2.html`.
+
+U.S. District Court for the Southern District of New York, `Cullen v. Grove Press, Inc.`, 276 F. Supp. 727, decided November 30, 1967, Justia mirror: `https://law.justia.com/cases/federal/district-courts/FSupp/276/727/1461254/`.
+
+Boston TV News Digital Library, `Titicut Follies, 1967`: `https://bostonlocaltv.org/blog/2012/02/titicut-follies-1967`.
+
+WBUR, `Documentarian Discusses Legacy Of Troubles At Bridgewater Hospital`, published August 18, 2014: `https://www.wbur.org/news/2014/08/18/fred-wiseman-bridgewater-state-hospital`.
+
+Massachusetts Association for Mental Health, `The History of Bridgewater State Hospital, Bridgewater, Massachusetts`, October 2023: `https://mamh-web.files.svdcdn.com/production/files/BSH-History-10-2-23.pdf?dm=1696270673`.
+
+Extracted facts:
+
+Zipporah Films identifies `Titicut Follies` as a 1967 documentary about conditions at the State Prison for the Criminally Insane at Bridgewater, Massachusetts. `Cullen v. Grove Press` states that Wiseman and assistants were permitted to enter Bridgewater in 1966 to film a real-life documentary about care and treatment of inmates, that the final 84-minute film was titled `Titicut Follies`, and that conditions in public institutions such as Bridgewater were matters of legitimate public interest. `Commonwealth v. Wiseman` confirms the Massachusetts SJC litigation: the Commonwealth and others sought to enjoin all showings of the film, the Superior Court decree enjoined showing the film to any audience and required delivery of film material for destruction, and the SJC treated the film as informative to specialized professional and student audiences while upholding restricted-showing relief.
+
+The Boston TV News Digital Library summarizes the public-history arc: Wiseman filmed at Bridgewater, Massachusetts officials tried to stop public release on privacy grounds, the ban became historically significant because it was not an obscenity ban, later litigation loosened restrictions, and the film was eventually broadcast publicly. WBUR describes the film as making Bridgewater a national symbol of mistreatment of people with mental illness and says the film was banned for more than twenty years. The 2023 Bridgewater history report uses `Commonwealth v. Wiseman` as a key source for the suppression history and places the dispute inside the longer institutional history of Bridgewater State Hospital.
+
+Board implications:
+
+Add a narrow `Titicut Follies (1967)` public-record/media node. Connect it to Bridgewater State Hospital with a `documentary / media` edge and to the Massachusetts Supreme Judicial Court with a `filing` edge. Do not add Frederick Wiseman, Elliot Richardson, Judge Harry Kalus, Judge Andrew Gill Meyer, Grove Press, individual Bridgewater staff, inmates, or later patient-death actors to the public board from this pass alone. This lane supports the broader institutional-suppression theme, not a claim that Watch and Ward directly controlled the film dispute.
+
 ## WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06
 
 Status: `ingested`, `graph-ready for jurisdiction backbone`.
