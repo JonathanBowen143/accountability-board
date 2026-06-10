@@ -78,7 +78,7 @@ Board action: keep both Pina lanes internal for now. Do not create a generic Pin
 
 Current board state: not visible.
 
-Source trail: the Essex / Beverly fire lane is now separated through `WEB-CARVER-ESSEX-BEVERLY-FIRE-2024-2026`. The source trail documents the 1984 Elliott Chambers fire, the 1989 convictions, the 1992 Appeals Court affirmance, Judge Jeffrey Karp's December 2024 new-trial order, Carver's February 2025 release, Essex DA Paul Tucker's appeal posture, and the May 13, 2026 Appeals Court oral argument identified as `2025-P-0596`.
+Source trail: the Essex / Beverly fire lane is now separated through `WEB-CARVER-ESSEX-BEVERLY-FIRE-2024-2026`. The source trail documents the 1984 Elliott Chambers fire, the 1989 convictions, the 1992 Appeals Court affirmance, Judge Jeffrey Karp's December 2024 new-trial order, Carver's February 2025 release, Essex DA Paul Tucker's appeal posture, and the May 13, 2026 Appeals Court oral argument identified as `2025-P-0596`. A June 10, 2026 post-argument refresh did not locate a published Appeals Court decision, Rule 23.0 disposition, retrial decision, or prosecution-ending filing.
 
 Candidate names: James Carver; DA Paul Tucker; Judge Jeffrey Karp; Essex DA; Essex Superior Court; Massachusetts Appeals Court; Craig Beyler; Michael Mazza; Nancy Franklin; trial fire/arson investigators.
 
@@ -110,4 +110,4 @@ Current board state: not visible unless already represented elsewhere.
 
 Source trail: recent reporting and innocence-community sources surface additional Massachusetts murder-conviction reversals, releases, and compensation claims. These need source separation because some are overturned, some exonerated, some compensated, and some still contested.
 
-Candidate next action: refresh James Carver's Essex appeal/retrial posture, then keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.
+Candidate next action: revisit James Carver after more time has passed for an Appeals Court decision, then keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.

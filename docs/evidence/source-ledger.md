@@ -518,11 +518,19 @@ The Mass Dump, `Essex County DA Fights to Send James Carver Back to Prison in El
 
 Massachusetts Appeals Court Oral Arguments, `Oral Arguments, May 13, 2026, Desmond, Hand, Hodgens, JJ.`, YouTube stream listing `2025-P-0596 COMMONWEALTH vs. JAMES BENJAMIN CARVER`: `https://www.youtube.com/watch?v=XZlVJaCQ9mc`.
 
+Mass.gov, `New opinions`, current opinions and unpublished-decision links: `https://www.mass.gov/info-details/new-opinions`.
+
+Massachusetts Appeals Court Summary Dispositions, 128archive docket search for `25-P-0596`: `https://128archive.com/?Action=search&DocketNumber=25-P-0596`.
+
+Massachusetts Appeals Court Summary Dispositions, 128archive party search for `Carver`: `https://128archive.com/?Action=search&PartyName=Carver`.
+
 Extracted facts:
 
 The 1984 Elliott Chambers rooming-house fire in Beverly killed 15 people. The 1992 Appeals Court opinion records that Carver was charged with 15 counts of second-degree murder and one count of burning a dwelling house, that the first trial ended in a mistrial because of prosecutorial misconduct, and that the second-trial convictions were affirmed. The 2024 Karp ruling mirror identifies the case as Essex Superior Court No. 8877CR13527, records Carver's fifth motion for new trial, and states that Judge Jeffrey Karp heard testimony from fire-science experts Craig Beyler and Michael Mazza and eyewitness-identification expert Nancy Franklin.
 
 GBH, Boston.com, Boston College Law Magazine, The Appeal, and The Mass Dump all support the current posture: Judge Karp vacated the convictions and ordered a new trial in December 2024; Carver was released in February 2025; Essex DA Paul Tucker's office objected to release and appealed; and the Appeals Court argument was scheduled for May 13, 2026. The Appeal's longform account supports describing Carver as wrongfully convicted, while the Mass Dump reports the prosecution position that Karp abused his discretion and the defense position that the new fire-science evidence shows no proof that a crime occurred. The reviewed sources did not show a final Appeals Court decision, retrial decision, or nolle prosequi as of the June 10, 2026 refresh pass.
+
+June 10, 2026 post-argument refresh: Mass.gov's new-opinions page points current unpublished Appeals Court dispositions to 128archive and listed recent published/unpublished materials through June 10. Justia's Massachusetts Appeals Court 2026 page showed recent published decisions through June 8, 2026 without a Carver entry. A 128archive docket search for `25-P-0596` returned zero dispositions. A 128archive party search for `Carver` returned three party-name hits, none of which was the 2026 Carver appeal; the relevant criminal hit was the older `Commonwealth v. Carver`, 08-P-2097, released October 16, 2009. Broad web search did not locate a final Appeals Court decision, retrial decision, or prosecution-ending filing.
 
 Board implications:
 
