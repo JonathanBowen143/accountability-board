@@ -274,8 +274,20 @@ Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-li
 
 ### Norfolk County DA Staff Beyond Morrissey
 
-Status: `active lead`.
+Status: `partly graph-ready; active lead for additional office staff`.
 
-Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` is a lead for Deputy District Attorney Lynn Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024` supports Beland's visible Norfolk DA, Walshe, and Read/O'Keefe correspondence connectors. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` remains only a lead for Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+
+Current board state: Beland is represented as a Norfolk DA prosecutor connected to the Walshe lane and to the Read/O'Keefe correspondence/filing lane. She is not connected to Birchmore on the public board.
 
 Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. The Drive file `34 Digital Evidence Report.pdf` is present but image-only through the connector, so it should be OCR'd before any claims are drawn from it. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
+
+### Recent Overturned Murder Conviction Mining
+
+Status: `partly graph-ready; active lead list`.
+
+Evidence: `WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023`; `WEB-GAINES-OMALLEY-OVERTURNED-MURDER-CONVICTION-2024-2025`; `docs/evidence/overturned-murder-conviction-mining.md`.
+
+Current board state: Robert Foxworth, Barry Kamara, and Raymond Gaines are represented as small exonerated/wrongful-conviction nodes, not large victim anchors. Foxworth and Kamara connect to Suffolk DA, Boston Police, Suffolk Superior Court, former Suffolk ADA James Larkin, and former Boston Sgt. Det. Daniel Flynn. Gaines connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. Peter O'Malley node.
+
+Decision: Keep the public board focused on repeated actor patterns and court/prosecution/police institutions. Hold Stephen Pina, Edward Wright expansion, Thomas Rosa expansion, Rickey/FuQuan McGee, James Lucien, and Michael Sullivan for additional actor-level source review before adding new visible nodes or edges. Existing Thomas Rosa and Edward Wright nodes can remain, but this pass did not add new public connectors for them.

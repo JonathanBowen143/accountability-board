@@ -158,7 +158,29 @@ The public motion mirror states that Read's defense sought discovery related to 
 
 Board implications:
 
-Treat this as a cross-case discovery lead, not a visible graph expansion yet. Before adding `filing` edges or a Lynn Beland node, recover an official docket copy or another stable court-record source and separate defense allegations from facts established by the court.
+Treat the Birchmore discovery-motion allegations as a cross-case discovery lead, not a visible Birchmore graph expansion yet. Lynn Beland is now visible from separate Walshe and Read/O'Keefe correspondence sources, but this mirror alone still should not support a Beland-to-Birchmore edge without an official docket copy or another stable court-record source.
+
+## WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024
+
+Status: `ingested`, `graph-ready for Beland / Norfolk DA / Walshe / Read-O'Keefe correspondence connectors`.
+
+Source titles:
+
+Cohasset Anchor, `Husband indicted for murder of Ana Walshe`, submitted by the Norfolk District Attorney's Office and published March 31, 2023: `https://cohassetanchor.com/husband-indicted-for-murder-of-ana-walshe/`.
+
+AP News, `Prosecutor: Husband of missing wife bought cleaning supplies`, published January 9, 2023: `https://apnews.com/article/b7af3c2d56d0c5a4ce76af9a3b3e7340`.
+
+Boston 25 News, `25 Investigates: Letters between feds, Norfolk DA released in Karen Read case`, published February 23, 2024: `https://www.boston25news.com/news/local/25-investigates-letters-between-feds-norfolk-da-released-karen-read-case/PCBH3ZECNJEEFNNNX4RFYX6PPE/`.
+
+Court TV, `Prosecutors release letters to federal authorities in Karen Read case`, published January 2024: `https://www.courttv.com/news/prosecutors-release-letters-with-federal-authorities-in-karen-read-case/`.
+
+Extracted facts:
+
+The Norfolk DA-submitted Cohasset Anchor report says First Assistant District Attorney Lynn Beland represented the Commonwealth at Brian Walshe's Quincy District Court arraignment and had overseen the Ana Walshe disappearance investigation by State Police detectives assigned to the Norfolk DA's office and Cohasset Police. AP separately reported Beland's presentation at Brian Walshe's arraignment. Boston 25 and Court TV report that released correspondence between Norfolk prosecutors and federal authorities in the Read/O'Keefe matter identified Beland as a Norfolk prosecutor involved in communications with Acting U.S. Attorney Joshua Levy about federal-investigation material that could implicate state discovery obligations.
+
+Board implications:
+
+Add a restrained public node for Beland. Connect Beland to the Norfolk DA office, the Walshe case lane, Brian Walshe, and the Read/O'Keefe filing/correspondence lane. Do not add federal actors to the public graph, and do not use these sources to make a Beland-to-Birchmore edge.
 
 ## WEB-NDAO-CRAWFORD-TULLY-DIGITAL-EVIDENCE-2019
 
@@ -305,6 +327,50 @@ Cohasset Anchor reports that Cohasset Police worked with the Norfolk DA's office
 Board implications:
 
 This documents local investigative chronology and identifies local Cohasset police participants, but the visible board should not include Cohasset Police Department or its members in the Walshe lane because Brian Walshe's conviction is not the contested public-accountability issue. Use this source internally while keeping the public graph focused on county-level and state-level actors: Norfolk DA, Norfolk Superior Court, MSP/investigators, OCME, ADA Gregory Connor, Judge Diane Freniere, Brian Walshe, and Ana Walshe.
+
+## WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023
+
+Status: `ingested`, `graph-ready for Suffolk / Boston wrongful-murder-conviction connector`.
+
+Source titles:
+
+Suffolk County District Attorney's Office, `Suffolk District Attorney Files Nolle Prosequi After Judge Allows Assented-to Motion for New Trial in Wrongful Murder Conviction`, published January 13, 2021: `https://www.suffolkdistrictattorney.com/press-releases/items/foxworth-wrongful-conviction`.
+
+The Boston Globe, `Suffolk judge overturns 1992 murder conviction, clearing Barry Kamara's name at last`, published March 21, 2023: `https://www.bostonglobe.com/2023/03/21/metro/suffolk-judge-overturns-1991-murder-conviction-clearing-barry-kamaras-name-last/`.
+
+The Boston Globe, `Two bad apples? Let's look at the whole barrel`, published March 22, 2023: `https://www.bostonglobe.com/2023/03/22/metro/two-bad-apples-lets-look-whole-barrel/`.
+
+Extracted facts:
+
+The Suffolk DA release states that Robert Foxworth's wrongful murder conviction was vacated and that the office filed a nolle prosequi after concluding he did not receive a fair trial and there was no credible evidence to support a new conviction. The Globe reports that Barry Kamara's 1992 murder conviction was thrown out after prosecutors acknowledged withheld evidence, and identifies the former Suffolk ADA James Larkin and former Boston police Sgt. Det. Daniel Flynn as the prosecutor and detective implicated in both the Kamara and Foxworth wrongful-conviction cases.
+
+Board implications:
+
+Add small exonerated-person nodes for Robert Foxworth and Barry Kamara, plus restrained actor nodes for Larkin and Flynn. Connect Foxworth and Kamara to Suffolk DA, Boston Police, and Suffolk Superior Court; connect Larkin and Flynn to their agencies and to both wrongful-conviction subjects. Do not promote these nodes to victim anchors.
+
+## WEB-GAINES-OMALLEY-OVERTURNED-MURDER-CONVICTION-2024-2025
+
+Status: `ingested`, `graph-ready for narrow Gaines / Peter O'Malley connector and exonerated-node treatment`.
+
+Source titles:
+
+Justia mirror of Massachusetts Supreme Judicial Court decision, `Commonwealth v. Gaines`, SJC-13446, decision dated August 29, 2024: `https://law.justia.com/cases/massachusetts/supreme-court/2024/sjc-13446.html`.
+
+The Boston Globe, `Judge overturns Boston murder conviction for man who served 46 years`, published December 7, 2022: `https://www.bostonglobe.com/2022/12/07/metro/judge-overturns-boston-murder-conviction-man-who-served-46-years/`.
+
+Massachusetts Lawyers Weekly, `Criminal - Murder - New trial`, published September 4, 2024: `https://masslawyersweekly.com/2024/09/04/criminal-murder-new-trial-6/`.
+
+WCVB, `DA declines to re-try man in 1974 Roxbury shoe shop murder`, updated October 16, 2025: `https://www.wcvb.com/article/da-declines-to-re-try-man-in-1974-roxbury-shoe-shop-murder/69063772`.
+
+National Registry of Exonerations, `2025 Annual Report`, published 2026: `https://exonerationregistry.org/sites/exonerationregistry.org/files/documents/2025Exonerations.pdf`.
+
+Extracted facts:
+
+The SJC decision affirms the order granting Raymond Gaines a new trial and identifies the trial evidence as including eyewitness identification, witness testimony, and an alleged confession to Boston police Detective Peter O'Malley. The court says the new-trial order was supported by modern eyewitness-identification science and by prejudice from undisclosed exculpatory material, including material related to key witness David Bass and O'Malley. Globe and Lawyers Weekly coverage describe the Gaines ruling as part of a broader Boston wrongful-conviction pattern involving O'Malley. WCVB reports that the Suffolk DA declined to retry Gaines in October 2025, while noting the DA's office still disputed his innocence. The National Registry of Exonerations lists Raymond Gaines as a 2025 Massachusetts murder/robbery exoneration.
+
+Board implications:
+
+Add Raymond Gaines as a small exonerated/wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep the edge narrow and do not conflate this Peter O'Malley lane with the separate Nicholas O'Malley / Stephenson King Jr. internal-only lead.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 
