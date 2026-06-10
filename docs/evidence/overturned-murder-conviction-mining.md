@@ -104,10 +104,20 @@ Candidate names: Michael J. Sullivan; Middlesex DA; Middlesex Superior Court; Ma
 
 Board action: add only Michael J. Sullivan, Middlesex DA, Middlesex Superior Court, and Massachusetts State Police connectors. Keep Robert Pino, Grace, Petrla, Angier, counsel, judges, prosecutors, and Wilfred McGrath internal unless a later pass opens a repeated crime-lab, witness-deal, or Middlesex prosecution lane.
 
+### Robert Pino / State Police Crime Lab
+
+Current board state: internal lead only; no visible node.
+
+Source trail: the Pino / State Police crime-lab lane is now separated through `WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024`. The reviewed sources support Pino as the State Police chemist connected to Michael J. Sullivan's trial evidence and as a former State Police Crime Lab administrator fired after alleged DNA-database mishandling. The same sources also preserve the disputed nature of the firing and do not yet identify a second resolved wrongful-conviction lane for graph use.
+
+Candidate names: Robert Pino; Massachusetts State Police Crime Lab; Michael J. Sullivan; Aurelio Pinero Jr.; Mark Delaney; Carl Selavka.
+
+Board action: keep Pino internal until another source-backed overturned conviction, exoneration, official audit, or official case list turns the lead into a repeated public-actor connector.
+
 ### Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 
 Source trail: recent reporting and innocence-community sources surface additional Massachusetts murder-conviction reversals, releases, and compensation claims. These need source separation because some are overturned, some exonerated, some compensated, and some still contested.
 
-Candidate next action: revisit James Carver after more time has passed for an Appeals Court decision, then keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.
+Candidate next action: search for another resolved Massachusetts overturned murder conviction with a repeated public actor, or find an official State Police crime-lab audit/case list that turns the Pino lead into graph-ready structure.

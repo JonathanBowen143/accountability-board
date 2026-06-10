@@ -578,6 +578,30 @@ Board implications:
 
 Add Michael J. Sullivan as a small gold-ring wrongful-conviction victim node using the distinct graph ID `mjsullivan`. Connect him narrowly to Middlesex DA, Middlesex Superior Court, and Massachusetts State Police. Do not merge him with the existing Laura Sullivan, Sgt. Michael Sullivan, Brian Sullivan, Marc Sullivan, or Karen O'Sullivan nodes. Keep Robert Pino, Gary Grace, Emil Petrla, Steven Angier, Dana Curhan, trial prosecutors, trial judges, compensation-case counsel, and Wilfred McGrath internal unless a later pass isolates a repeated public actor, official docket record, or broader crime-lab accountability lane.
 
+## WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024
+
+Status: `ingested`, `internal hold; crime-lab structural lead`.
+
+Source titles:
+
+Innocence Project, `Massachusetts DNA database chief is fired`, published April 16, 2007: `https://innocenceproject.org/news/massachusetts-dna-database-chief-is-fired/`.
+
+Boston.com / Boston Globe, `Man gets new trial in 1986 Somerville murder after DNA testing backs claim of innocence`, published November 21, 2012: `https://www.boston.com/uncategorized/noprimarytagmatch/2012/11/21/man-gets-new-trial-in-1986-somerville-murder-after-dna-testing-backs-claim-of-innocence/`.
+
+WCVB, `Former State Police Crime Lab Administrator Tells Troubling Story`, published 2007: `https://www.wcvb.com/article/former-state-police-crime-lab-administrator-tells-troubling-story-1/8144054`.
+
+United States District Court for the District of Massachusetts, `Pinero v. Pino et al`, Civil Action No. 11-40080-FDS, memorandum and order on motion to reconsider, April 17, 2012, Justia mirror: `https://cases.justia.com/federal/district-courts/massachusetts/madce/4%3A2011cv40080/135933/24/0.pdf`.
+
+Extracted facts:
+
+The Innocence Project reported in April 2007 that Robert Pino, DNA database administrator for the Massachusetts State Police crime lab, was fired three months after suspension for allegedly mishandling DNA evidence. The report says officials accused Pino of allowing collection of samples not permitted by law, reporting incomplete results to police, and reporting database matches to prosecutors after statutes of limitation had expired. It also records that Pino's union disputed the firing. WCVB's 2007 account similarly described Pino as a fired former State Police Crime Lab administrator while reporting Pino's position that he had not been negligent and was being made a fall guy for broader lab problems.
+
+The Boston.com / Globe Sullivan account ties Pino directly to Michael J. Sullivan's wrongful-conviction lane: Sullivan's attorney identified Pino as the State Police chemist who testified at the 1987 trial, and the article reported that Pino had been fired in 2007 after alleged mishandling of DNA samples. The federal `Pinero v. Pino` order shows Pino also appeared in litigation involving a DNA-match prosecution that ended in nolle prosequi, but the federal court dismissed the civil-rights action for failure to state a claim and the dismissal source does not create a wrongful-conviction connector.
+
+Board implications:
+
+Keep Pino internal for now. The sources support a serious State Police crime-lab lead and a direct internal link to Michael J. Sullivan, but they do not yet isolate a second overturned murder conviction, official case list, or repeated actor pattern strong enough for a visible `Robert Pino` node. If a later pass finds another exoneration, court decision, or official audit tying Pino's lab work to a resolved wrongful-conviction lane, consider adding `Robert Pino` as an exposed State Police crime-lab node connected to Massachusetts State Police, Michael J. Sullivan, and the additional source-backed case.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
