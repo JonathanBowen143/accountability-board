@@ -94,10 +94,20 @@ Candidate names: Dewane Tse; Suffolk DA; Suffolk Superior Court; Massachusetts S
 
 Board action: add only Dewane Tse, Suffolk DA, Suffolk Superior Court, and SJC connectors. Keep the homicide victim, shooting survivors, trial judge, counsel, and case-specific prosecutors internal unless a later pass opens a dedicated Mattapan shooting or legal-insufficiency lane.
 
-### Michael Sullivan and Other Recent Massachusetts Leads
+### Michael J. Sullivan
+
+Current board state: added as a small gold-ring wrongful-conviction victim node, not as a large victim anchor.
+
+Source trail: the Middlesex / State Police forensic-evidence lane is now separated through `WEB-MICHAEL-J-SULLIVAN-MIDDLESEX-WRONGFUL-CONVICTION-2014-2024`. The 2014 SJC decision affirmed a new trial after retesting undermined the purple-jacket evidence that had tied Sullivan to the scene. AP later reported that a civil jury found Sullivan innocent of the McGrath murder and robbery, awarded damages subject to the Massachusetts statutory cap, and found a State Police chemist falsely testified at trial.
+
+Candidate names: Michael J. Sullivan; Middlesex DA; Middlesex Superior Court; Massachusetts State Police; Robert Pino; Gary Grace; Emil Petrla; Steven Angier; Dana Curhan; Wilfred McGrath.
+
+Board action: add only Michael J. Sullivan, Middlesex DA, Middlesex Superior Court, and Massachusetts State Police connectors. Keep Robert Pino, Grace, Petrla, Angier, counsel, judges, prosecutors, and Wilfred McGrath internal unless a later pass opens a repeated crime-lab, witness-deal, or Middlesex prosecution lane.
+
+### Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 
 Source trail: recent reporting and innocence-community sources surface additional Massachusetts murder-conviction reversals, releases, and compensation claims. These need source separation because some are overturned, some exonerated, some compensated, and some still contested.
 
-Candidate next action: keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.
+Candidate next action: refresh James Carver's Essex appeal/retrial posture, then keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.

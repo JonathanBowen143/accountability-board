@@ -546,6 +546,30 @@ Board implications:
 
 Add Dewane Tse as a small gold-ring victim/system-harm node tied to Suffolk DA, Suffolk Superior Court, and the Massachusetts Supreme Judicial Court. Do not make Tse a large victim anchor because the board's larger anchors remain reserved for murdered or killed people who organize a current accountability lane. Do not add Yashua Amado, Darrell Smith, Jerome Smith, the unidentified shooter, trial counsel, appellate counsel, or case-specific prosecutors without a separate source-ledger entry and a clearer board purpose.
 
+## WEB-MICHAEL-J-SULLIVAN-MIDDLESEX-WRONGFUL-CONVICTION-2014-2024
+
+Status: `ingested`, `graph-ready; wrongful-conviction victim`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Michael J. Sullivan`, 410 Mass. 521, decided July 1, 1991, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/410/410mass521.html`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Michael J. Sullivan`, 469 Mass. 340, decided August 15, 2014, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/469/469mass340.html`.
+
+AP News, `A Massachusetts man wrongfully convicted of murder was awarded $13 million. He won't get all of it`, published November 2024: `https://apnews.com/article/wrongful-conviction-massachusetts-michael-sullivan-settlement-4456026b55892abb35120a8f1a7b9943`.
+
+Heinlein Beeler Mingace & Heineman, P.C., `Law With Impact - HBMH Law Secures $13 Million Verdict and Jury Finding of Innocence in Wrongful Conviction Case`, published November 20, 2024: `https://www.bostoninjuryattorney-blog.com/law-with-impact-hbmh-law-secures-13-million-verdict-and-jury-finding-of-innocence-in-wrongful-conviction-case/`.
+
+Extracted facts:
+
+The 1991 SJC decision records Michael J. Sullivan's Middlesex County convictions for armed robbery and first-degree murder in the killing of Wilfred McGrath. The 2014 SJC decision affirmed a new-trial order after reexamination of the purple jacket: the State Police crime laboratory and a private laboratory found no blood on the cuffs, DNA on the cuffs did not come from McGrath, and the hair evidence could no longer identify McGrath as the source. The SJC held that the physical evidence from the jacket had been a real factor in the jury's deliberations because it was the only physical evidence tying Sullivan directly to the scene.
+
+AP reported in November 2024 that a jury found Sullivan innocent of the 1986 murder and robbery and awarded $13 million, subject to the Massachusetts statutory compensation cap. AP also reported that the jury found a State Police chemist falsely testified at trial, that a new trial was ordered in 2012, that Sullivan was released in 2013, that the SJC upheld the new-trial order in 2014, and that the state decided against retrying the case in 2019. The HBMH account identifies the civil case as `Michael Sullivan v. Commonwealth of Massachusetts and Robert Pino`, Suffolk Superior Court No. 1984CV01892, and states that the Middlesex DA dropped the case in 2019.
+
+Board implications:
+
+Add Michael J. Sullivan as a small gold-ring wrongful-conviction victim node using the distinct graph ID `mjsullivan`. Connect him narrowly to Middlesex DA, Middlesex Superior Court, and Massachusetts State Police. Do not merge him with the existing Laura Sullivan, Sgt. Michael Sullivan, Brian Sullivan, Marc Sullivan, or Karen O'Sullivan nodes. Keep Robert Pino, Gary Grace, Emil Petrla, Steven Angier, Dana Curhan, trial prosecutors, trial judges, compensation-case counsel, and Wilfred McGrath internal unless a later pass isolates a repeated public actor, official docket record, or broader crime-lab accountability lane.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
@@ -576,11 +600,11 @@ AP News, `Massachusetts court overturns murder conviction of alleged getaway dri
 
 Extracted facts:
 
-The review matrix consolidates recent and active Massachusetts murder-conviction review lanes into one control surface. It distinguishes final exonerations from vacated convictions, nolle prosequi filings, pending/contested retrial posture, compensation findings, and legal-insufficiency reversals. It also flags actor-level connectors when available, including John Brazil in Lucien, Judge Michael Ricciuti in Rosa/McGee, Peter O'Malley in Gaines, Judge Jeffrey Karp in Carver, and the SJC's required-not-guilty disposition in Tse.
+The review matrix consolidates recent and active Massachusetts murder-conviction review lanes into one control surface. It distinguishes final exonerations from vacated convictions, nolle prosequi filings, pending/contested retrial posture, compensation findings, and legal-insufficiency reversals. It also flags actor-level connectors when available, including John Brazil in Lucien, Judge Michael Ricciuti in Rosa/McGee, Peter O'Malley in Gaines, Judge Jeffrey Karp in Carver, the SJC's required-not-guilty disposition in Tse, and the Middlesex/State Police forensic-evidence posture in Michael J. Sullivan.
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`, and the Edward Wright lane has moved to visible narrow Hampden/Springfield treatment through `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`. The Stephen Pina and Daniel Pina lanes have been disambiguated through `WEB-PINA-DISAMBIGUATION-SUFFOLK-1999-2026`, but both remain internal holds. Future additions still need separate source-ledger entries before visible graph changes.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`, the Edward Wright lane has moved to visible narrow Hampden/Springfield treatment through `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`, and the Michael J. Sullivan lane has moved to visible narrow Middlesex/State Police treatment through `WEB-MICHAEL-J-SULLIVAN-MIDDLESEX-WRONGFUL-CONVICTION-2014-2024`. The Stephen Pina and Daniel Pina lanes have been disambiguated through `WEB-PINA-DISAMBIGUATION-SUFFOLK-1999-2026`, but both remain internal holds. Future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 
