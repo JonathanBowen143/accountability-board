@@ -496,6 +496,38 @@ Board implications:
 
 Do not create a generic `Pina` node. Keep Stephen Pina and Daniel Pina separate in the matrix. Stephen Pina remains internal because the reviewed sources show a vacated conviction and active appellate/retrial uncertainty rather than final exoneration or prosecution closure. Daniel Pina remains internal because the National Registry gives a strong exoneration posture, but the reviewed sources do not yet isolate the police, prosecutor, court, or repeated public actor needed for a visible graph edge. Next useful work is to refresh SJC-13783 and locate Daniel Pina's full exoneration case record or dismissal/nolle source.
 
+## WEB-CARVER-ESSEX-BEVERLY-FIRE-2024-2026
+
+Status: `ingested`, `internal hold; Essex appeal posture refreshed`.
+
+Source titles:
+
+Massachusetts Appeals Court, `Commonwealth v. James B. Carver`, 33 Mass. App. Ct. 378 (1992), Justia mirror: `https://law.justia.com/cases/massachusetts/court-of-appeals/volumes/33/33massappct378.html`.
+
+Essex Superior Court, `Commonwealth vs. James B. Carver, Memorandum of Decision and Order on Defendant's Fifth Motion for New Trial`, No. 8877CR13527, December 23, 2024, Scribd mirror: `https://www.scribd.com/document/810273734/Karp-Ruling-James-Carver`.
+
+GBH News, `Man who was convicted for 1984 Beverly fire gets chance for new trial`, published December 30, 2024: `https://www.wgbh.org/news/local/2024-12-30/man-who-was-convicted-for-1984-beverly-fire-gets-chance-for-new-trial`.
+
+Boston.com, `Man convicted for 1984 Beverly fire that killed 15 granted new trial`, published December 31, 2024: `https://www.boston.com/news/local-news/2024/12/31/man-convicted-for-1984-beverly-fire-that-killed-15-granted-new-trial-da-to-appeal/`.
+
+Boston College Law Magazine, `Thirty-five Years a Prisoner`, published February 14, 2025: `https://lawmagazine.bc.edu/2025/02/thirty-five-years-a-prisoner/`.
+
+The Appeal / Boston Institute for Nonprofit Journalism, `James Carver Released After Wrongful Arson Conviction`, published May 14, 2025: `https://theappeal.org/james-carver-released-longform/`.
+
+The Mass Dump, `Essex County DA Fights to Send James Carver Back to Prison in Elliott Chambers Fire Case`, published April 2, 2026: `https://massdump.ghost.io/james-carver-appeals-court-briefs/`.
+
+Massachusetts Appeals Court Oral Arguments, `Oral Arguments, May 13, 2026, Desmond, Hand, Hodgens, JJ.`, YouTube stream listing `2025-P-0596 COMMONWEALTH vs. JAMES BENJAMIN CARVER`: `https://www.youtube.com/watch?v=XZlVJaCQ9mc`.
+
+Extracted facts:
+
+The 1984 Elliott Chambers rooming-house fire in Beverly killed 15 people. The 1992 Appeals Court opinion records that Carver was charged with 15 counts of second-degree murder and one count of burning a dwelling house, that the first trial ended in a mistrial because of prosecutorial misconduct, and that the second-trial convictions were affirmed. The 2024 Karp ruling mirror identifies the case as Essex Superior Court No. 8877CR13527, records Carver's fifth motion for new trial, and states that Judge Jeffrey Karp heard testimony from fire-science experts Craig Beyler and Michael Mazza and eyewitness-identification expert Nancy Franklin.
+
+GBH, Boston.com, Boston College Law Magazine, The Appeal, and The Mass Dump all support the current posture: Judge Karp vacated the convictions and ordered a new trial in December 2024; Carver was released in February 2025; Essex DA Paul Tucker's office objected to release and appealed; and the Appeals Court argument was scheduled for May 13, 2026. The Mass Dump reports the prosecution position that Karp abused his discretion and the defense position that the new fire-science evidence shows no proof that a crime occurred. The reviewed sources did not show a final Appeals Court decision, retrial decision, or nolle prosequi as of the June 10, 2026 refresh pass.
+
+Board implications:
+
+Keep James Carver internal for now. The lane is strong enough for documentation because it touches Essex DA, Essex Superior Court, Judge Jeffrey Karp, fire-science evidence, eyewitness/memory evidence, and an active DA appeal. It is not yet strong enough for a visible public-board node because the appeal/retrial posture remains live and the reviewed sources do not isolate a repeated public actor beyond this case. If the appeal resolves or the prosecution ends, consider a narrow Essex lane with Carver as a small gold-ring node, Essex DA, Essex Superior Court, Judge Karp, and any source-backed fire-investigation actor with repeated or institutional value.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.

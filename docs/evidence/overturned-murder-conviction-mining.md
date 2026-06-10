@@ -74,7 +74,17 @@ Candidate names: Stephen A. Pina; Keith Robinson; Judge Peter B. Krupp; ADA Ian 
 
 Board action: keep both Pina lanes internal for now. Do not create a generic Pina node. Do not add Stephen Pina unless SJC-13783 and the Suffolk trial-court docket clarify final posture or a repeated public actor emerges. Do not add Daniel Pina until the full exoneration case record, court dismissal/nolle source, or pleadings identify the police/prosecution/court actors cleanly enough for graph use.
 
-### Michael Sullivan and Other Recent Massachusetts Leads
+### James Carver
+
+Current board state: not visible.
+
+Source trail: the Essex / Beverly fire lane is now separated through `WEB-CARVER-ESSEX-BEVERLY-FIRE-2024-2026`. The source trail documents the 1984 Elliott Chambers fire, the 1989 convictions, the 1992 Appeals Court affirmance, Judge Jeffrey Karp's December 2024 new-trial order, Carver's February 2025 release, Essex DA Paul Tucker's appeal posture, and the May 13, 2026 Appeals Court oral argument identified as `2025-P-0596`.
+
+Candidate names: James Carver; DA Paul Tucker; Judge Jeffrey Karp; Essex DA; Essex Superior Court; Massachusetts Appeals Court; Craig Beyler; Michael Mazza; Nancy Franklin; trial fire/arson investigators.
+
+Board action: keep the Carver lane internal until the Appeals Court decision, retrial posture, or prosecution-ending posture is clear. Do not add Carver, Tucker, Karp, fire-science experts, eyewitness experts, Beverly agencies, or individual fire victims from this pass. If the appeal resolves or prosecution ends, consider only a narrow Essex court/DA/fire-science lane unless a repeated public actor emerges.
+
+### Michael Sullivan, Dewane Tse, and Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 
