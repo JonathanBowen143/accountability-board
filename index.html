@@ -180,6 +180,8 @@ var N=[
 {id:'gamirault',t:'victim',l:"Gerald Amirault"},
 {id:'scowans',t:'victim',l:"Stephan Cowans"},
 {id:'trosa',t:'victim',l:"Thomas Rosa Jr."},
+{id:'rickeymcgee',t:'victim',l:"Rickey 'FuQuan' McGee"},
+{id:'ricciuti',t:'other',l:"Judge Michael Ricciuti"},
 {id:'kwaters',t:'victim',l:"Kenneth Waters"},
 {id:'vrosario',t:'victim',l:"Victor Rosario"},
 {id:'djones',t:'victim',l:"Darrell Jones"},
@@ -194,7 +196,7 @@ var N=[
 {id:'camirault',t:'victim',l:"Cheryl Amirault LeFave"},
 {id:'penate',t:'victim',l:"Rolando Penate"}];
 var spine={proctor:1,bukhenik:1,fanning:1,tully:1,dicicco:1};
-var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,kwaters:1,vrosario:1,djones:1,ewright:1,penate:1,nmiller:1,dmaher:1,gperrot:1,echavarria:1,fclay:1,fchoy:1,rfoxworth:1,bkamara:1,rgaines:1,jlucien:1};
+var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,rickeymcgee:1,kwaters:1,vrosario:1,djones:1,ewright:1,penate:1,nmiller:1,dmaher:1,gperrot:1,echavarria:1,fclay:1,fchoy:1,rfoxworth:1,bkamara:1,rgaines:1,jlucien:1};
 function E(s,t,y){return {source:s,target:t,ty:y};}
 var L=[
 E('IMSP','CROOT','juris'),E('IMSP','CREAD','juris'),E('IMSP','CWALSHE','juris'),E('IMSP','CBIRCH','juris'),E('IMSP','CACAD','juris'),E('IMSP','CDRUG','juris'),
@@ -300,7 +302,7 @@ E('harshbarger','IMIDDLESEX','emp'),E('harshbarger','IAG','emp'),
 E('harshbarger','gamirault','case'),E('gamirault','IMIDDLESEX','case'),
 E('katzmann','sacco','case'),E('katzmann','vanzetti','case'),
 E('scowans','IBPD','case'),E('scowans','ISUFFOLK','case'),E('rmartin','scowans','case'),
-E('trosa','ISUFFOLK','case'),
+E('trosa','ISUFFOLK','case'),E('rickeymcgee','ISUFFOLK','case'),E('rickeymcgee','IBPD','case'),E('rickeymcgee','ISUFFOLKCOURT','case'),
 E('rfoxworth','IBPD','case'),E('rfoxworth','ISUFFOLK','case'),E('rfoxworth','ISUFFOLKCOURT','case'),
 E('bkamara','IBPD','case'),E('bkamara','ISUFFOLK','case'),E('bkamara','ISUFFOLKCOURT','case'),
 E('rgaines','IBPD','case'),E('rgaines','ISUFFOLK','case'),E('rgaines','ISUFFOLKCOURT','case'),
@@ -313,7 +315,7 @@ E('vrosario','IMIDDLESEX','case'),
 E('djones','IPLYMOUTH','case'),
 E('morrissey','karenread','case'),
 E('tucker','fitz','case'),
-E('flanagan','trosa','case'),E('rmartin','trosa','case'),
+E('flanagan','trosa','case'),E('rmartin','trosa','case'),E('ricciuti','trosa','case'),E('ricciuti','rickeymcgee','case'),
 E('harshbarger','kwaters','case'),
 E('droney','IMIDDLESEX','emp'),E('droney','vrosario','case'),
 E('omalley_wc','IPLYMOUTH','emp'),E('omalley_wc','djones','case'),
@@ -399,6 +401,7 @@ E('IWATCHWARD','ISUFFOLKCOURT','juris'),
 E('ellissean','ISUFFOLKCOURT','case'),
 E('scowans','ISUFFOLKCOURT','case'),
 E('trosa','ISUFFOLKCOURT','case'),
+E('ricciuti','ISUFFOLKCOURT','emp'),
 E('dever','ICANTON','emp'),
 E('ICSB','ICFD','oversee'),
 E('sacco','vanzetti','pers'),

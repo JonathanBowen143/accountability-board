@@ -390,6 +390,30 @@ Board implications:
 
 Add James Lucien as a small gold-ring wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. John Brazil node. Do not add Kevin Hayden, Jennifer Zalnasky, Robert Ullman, Mark Loevy-Reyes, or Ryan Edwards to the public board from this pass alone; keep those names documented here unless a future repeated-actor or victim-anchor lane supports them.
 
+## WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026
+
+Status: `ingested`, `graph-ready for narrow Ricciuti / Rosa / McGee Suffolk court connector`.
+
+Source titles:
+
+New England Innocence Project, `Thomas Rosa, Jr. Faces Possible Fourth Trial`, updated February 13, 2025, with September 7, 2023 conviction-overturning entry: `https://www.newenglandinnocence.org/innocence-blog/2023/rosaconvictionoverturned`.
+
+New England Innocence Project, `Thomas Rosa, Jr. Exonerated After 34 Years Wrongfully Incarcerated`, published March 18, 2026: `https://www.newenglandinnocence.org/innocence-blog/3/2026/tommyrosaexonerated`.
+
+GBH News, `Man released from prison after 28 years while judge considers innocence plea`, published October 14, 2025: `https://www.wgbh.org/news/local/2025-10-14/man-released-from-prison-after-28-years-while-judge-considers-innocence-plea`.
+
+Commonwealth's response to Ricky McGee's motion for new trial, dated October 2, 2025, as hosted by DocumentCloud: `https://s3.documentcloud.org/documents/26186494/mcgee-r-response-mtn-for-new-trial-final-10225-003.pdf`.
+
+Boston.com, `Prosecutors won't retry man who had murder conviction overturned after 27 years in prison`, published November 20, 2025: `https://www.boston.com/news/crime/2025/11/20/commonwealth-drops-charges-against-man-convicted-of-murder-nearly-30-years-ago/`.
+
+Extracted facts:
+
+NEIP states that Suffolk Superior Court Judge Michael Ricciuti vacated Thomas Rosa Jr.'s convictions on September 6, 2023 because new DNA evidence and advances in eyewitness science undermined the trial evidence, and later states that the Suffolk DA filed a nolle prosequi in March 2026, ending Rosa's prosecution. GBH reports that Suffolk Superior Court Judge Michael Ricciuti released Rickey "FuQuan" McGee in October 2025 after prosecutors filed a motion saying errors created a substantial risk of a miscarriage of justice. The Commonwealth's October 2, 2025 response requested that the court vacate McGee's convictions and grant a new trial, citing a comprehensive reinvestigation, newly discovered evidence, witness-impeachment issues, and the absence of physical evidence tying McGee to the crime scene. Boston.com reports from court filings that Judge Ricciuti granted McGee a new trial on October 27, 2025 and that the Suffolk DA filed a nolle prosequi on November 3, 2025.
+
+Board implications:
+
+Add Judge Michael Ricciuti as a Suffolk Superior Court public-actor node and connect him narrowly to Thomas Rosa Jr. and Rickey McGee. Add Rickey McGee as a small gold-ring wrongful-conviction node connected to Boston Police, Suffolk DA, and Suffolk Superior Court. Do not add Kevin Hayden, Zachary Host, Jennifer Zalnasky, Jeffrey Harris, Jill Tessier, John Nardizzi, Natasha Hamilton, Geta Yalew, or individual Boston Police detectives from this pass; those names remain source-ledger/internal-document material until repeated-actor or official-misconduct proof supports a visible graph edge.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
@@ -424,7 +448,7 @@ The review matrix consolidates recent and active Massachusetts murder-conviction
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`; future additions still need separate source-ledger entries before visible graph changes.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, and the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`. Future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 

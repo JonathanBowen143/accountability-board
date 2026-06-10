@@ -38,6 +38,14 @@ Source basis: the Suffolk DA's office reports that Lucien's murder and robbery c
 
 Board action: add Lucien; connect him to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. John Brazil node. Do not add Kevin Hayden, Jennifer Zalnasky, Robert Ullman, Mark Loevy-Reyes, or Ryan Edwards yet; keep those names documented in the source ledger unless later review makes one of them a repeated public actor or a separate board lane.
 
+### Thomas Rosa Jr., Rickey McGee, and Judge Michael Ricciuti
+
+Board role: small exonerated/wrongful-conviction nodes plus repeated court-actor connector.
+
+Source basis: New England Innocence Project records Judge Michael Ricciuti's 2023 order vacating Thomas Rosa Jr.'s convictions and the Suffolk DA's 2026 nolle prosequi ending Rosa's prosecution. GBH, the Commonwealth's October 2025 McGee filing, and Boston.com court-filing coverage document McGee's release, the Commonwealth's request for a new trial, Ricciuti's October 2025 new-trial order, and the Suffolk DA's nolle prosequi.
+
+Board action: add Rickey McGee and Judge Michael Ricciuti; connect McGee to Boston Police, Suffolk DA, Suffolk Superior Court, and Ricciuti; connect Ricciuti to Thomas Rosa Jr. and Suffolk Superior Court. Do not add the McGee detectives, witnesses, defense investigators, prosecutors, counsel, or Geta Yalew until a cleaner repeated-actor source supports visible graph use.
+
 ## Hold for Additional Actor-Level Review
 
 ### Edward Wright
@@ -47,14 +55,6 @@ Current board state: Edward Wright and Hampden County DA already appear on the b
 Source trail: New England Innocence Project reports that Hampden Superior Court Judge Jeremy Bucci overturned Wright's 1985 Springfield murder conviction in April 2025 based on official misconduct, withheld evidence, false testimony, and new DNA testing. The source supports Wright as a major overturned-conviction lead, but the next graph expansion should review the decision or underlying motion for named detectives/prosecutors before adding more actor edges.
 
 Candidate names: Judge Jeremy Bucci; Hampden DA Anthony D. Gulluni; trial-era prosecutor/detective names require decision-level review before public graph use.
-
-### Thomas Rosa Jr.
-
-Current board state: Thomas Rosa Jr. already appears as a small exonerated node connected to Suffolk.
-
-Source trail: New England Innocence Project reports that the Suffolk DA ended Rosa's prosecution in March 2026 after a 2023 order by Judge Michael Ricciuti vacating his convictions based on new DNA evidence and advances in eyewitness science. Rosa is a strong internal chronology update, but this pass did not identify a repeated public actor who should be added beyond the existing Suffolk lane.
-
-Candidate names: Judge Michael Ricciuti; Radha Natarajan; Mark Loevy-Reyes; Meg Gould; Suffolk DA Kevin Hayden.
 
 ### Stephen Pina and Daniel Pina
 
@@ -72,7 +72,7 @@ Current board state: narrow Gaines-to-O'Malley connector added.
 
 Open question: identify the other three overturned murder convictions involving Peter O'Malley before deciding whether O'Malley needs a larger wrongful-conviction cluster. The next pass should prefer court opinions, complaints, or conviction-integrity records over commentary.
 
-### Rickey or FuQuan McGee, Michael Sullivan, and Other Recent Massachusetts Leads
+### Michael Sullivan and Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 
