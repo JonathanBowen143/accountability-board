@@ -1,8 +1,38 @@
 # Source Ledger
 
-Last updated: June 9, 2026.
+Last updated: June 10, 2026.
 
 This ledger records source surfaces reviewed or identified for the board. It is intentionally separate from `index.html`; evidence belongs here first, graph edges second.
+
+## WEB-HISTORICAL-CONNECTOR-TIGHTENING-1921-2022
+
+Status: `ingested`, `graph-ready for existing historical nodes only`.
+
+Source titles:
+
+Mass.gov, `Sacco & Vanzetti: The trial`: `https://www.mass.gov/info-details/sacco-vanzetti-the-trial`.
+
+Mass.gov, `Sacco & Vanzetti: Justice on Trial`: `https://www.mass.gov/info-details/sacco-vanzetti-justice-on-trial`.
+
+Massachusetts Supreme Judicial Court, `Attorney General v. Nathan A. Tufts`, 239 Mass. 458, decided June 21, 1921, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/239/239mass458.html`.
+
+Massachusetts Supreme Judicial Court, `Attorney General v. Joseph C. Pelletier`, 240 Mass. 264, decided January 3, 1922, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/240/240mass264.html`.
+
+WBUR, `In High-Profile Prosecutions, Martha Coakley Made Her Name`, published September 9, 2009: `https://www.wbur.org/news/2009/09/09/martha-coakley-background`.
+
+GBH, `Gov. Baker seeks pardons in infamous Fells Acres child abuse case`, published November 18, 2022: `https://www.wgbh.org/news/local/2022-11-18/gov-baker-seeks-pardons-in-infamous-fells-acres-child-abuse-case`.
+
+Extracted facts:
+
+Mass.gov's Sacco/Vanzetti trial account states that the Norfolk County grand jury indicted Sacco and Vanzetti, the trial began in the Dedham courthouse on May 31, 1921, Superior Court Judge Webster Thayer presided, and District Attorney Frederick Katzmann prosecuted the case. Mass.gov's Justice on Trial account adds that the trial judge had sole authority over repeated new-trial motions, denied them all, and that then-existing appellate rules denied the SJC authority to review the strength of the trial evidence.
+
+The Tufts decision states that the Supreme Judicial Court had jurisdiction under G.L. c. 211, section 4, to hear and determine an Attorney General information seeking removal of a district attorney when public-good charges of malfeasance, misfeasance, or nonfeasance were made. The Pelletier decision likewise treats district-attorney removal as a Supreme Judicial Court proceeding under the Attorney General's information and describes the statutory mechanism as designed to protect the public from corrupt, dishonest, dishonorable, inefficient, or incapacitated public officers.
+
+WBUR reports that Martha Coakley joined the Middlesex DA's office in 1986 and that Scott Harshbarger, then a former Middlesex DA, had first hired Coakley into that office. WBUR and GBH both connect Coakley to the Fells Acres aftermath: WBUR says Coakley used her power as Middlesex DA to oppose Gerald Amirault's parole, while GBH reports that Coakley lobbied against Amirault's commutation.
+
+Board implications:
+
+Add existing-node historical tightening edges only: Katzmann to Thayer as a Sacco/Vanzetti trial role connector; Tufts and Pelletier to the SJC as district-attorney removal proceeding connectors; and Harshbarger to Coakley as a professional Middlesex DA lineage connector. Coakley's Middlesex DA office edge already exists and should remain. Do not use this pass to add Fred Moore, SJC justices, Boston book-war actors, Watch and Ward officers, or additional Fells Acres actors without a separate source-ledger entry.
 
 ## WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06
 

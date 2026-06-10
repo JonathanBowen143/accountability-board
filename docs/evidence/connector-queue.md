@@ -88,6 +88,16 @@ Decision: Keep the Walshe lane focused on county-level and state-level actors. C
 
 ## Ready or Mostly Ready
 
+### Historical Connector Tightening
+
+Status: `implemented`.
+
+Evidence: `WEB-HISTORICAL-CONNECTOR-TIGHTENING-1921-2022`.
+
+Current board state: The historical layer now has four additional existing-node edges: Katzmann to Thayer in the Sacco/Vanzetti trial lane, Tufts to the SJC, Pelletier to the SJC, and Harshbarger to Coakley as a Middlesex DA professional-lineage connector. Coakley's Middlesex DA office edge was already present.
+
+Decision: Continue using historical connectors when they explain a recurring Massachusetts institution, office, court, or public-accountability mechanism. Do not widen the historical layer into extra biographical names unless the source creates a clear board-relevant relationship between existing institutions, public officials, or accountability cases.
+
 ### Local Police / DA Jurisdiction Backbone
 
 Status: `graph-ready`.
