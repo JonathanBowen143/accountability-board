@@ -120,13 +120,13 @@ Decision: Keep these as investigation-assignment connectors. The source describe
 
 ### Commissioner Michael Cox / BPD Accountability Lanes
 
-Status: `graph-ready; continue mining`.
+Status: `partly graph-ready; O'Malley / King lane internal-only pending video review`.
 
 Evidence: `WEB-COX-BPD-ACCOUNTABILITY-LANES-1995-2026`.
 
-Current board state: Cox now has his original BPD employment connector, existing Cox/Conley/Williams 1995 beating connectors, existing oversight connectors to BPD actors already in the Read/O'Keefe lane, a direct Read/O'Keefe public-accountability connector through the Dever dispute, and a new Stephenson King Jr. / Nicholas O'Malley fatal-police-shooting lane.
+Current board state: Cox has his original BPD employment connector, existing Cox/Conley/Williams 1995 beating connectors, existing oversight connectors to BPD actors already in the Read/O'Keefe lane, and a direct Read/O'Keefe public-accountability connector through the Dever dispute. The Stephenson King Jr. / Nicholas O'Malley fatal-police-shooting lane has been removed from the public board and retained only as an internal lead pending direct video and court-record review.
 
-Decision: Cox is board-relevant as both a past BPD victim of blue-wall conduct and a current commissioner tied to accountability disputes. Continue mining Cox through official BPD role records, court opinions, POST/OPAT records, and reliable reporting. Do not add generic biography edges merely because Cox held many commands, and do not connect him to John Mulligan unless a source directly ties Cox to the Mulligan / Sean Ellis lane.
+Decision: Cox remains board-relevant as both a past BPD victim of blue-wall conduct and a current commissioner tied to accountability disputes, but the next visible-board pass should not depend on the O'Malley arrest lane. Continue mining Cox only if official BPD, OPAT, court, POST, or City Council records create a direct accountability connector. Do not add generic biography edges merely because Cox held many commands, and do not connect him to John Mulligan unless a source directly ties Cox to the Mulligan / Sean Ellis lane.
 
 ### Steve Nelson / Norfolk Victim Witness Advocate
 
@@ -266,11 +266,11 @@ Decision: The MSP, Read/O'Keefe, O'Connell, and SJC connectors are supported eno
 
 Status: `partial graph-ready; Root and Fanning connectors still need source recovery`.
 
-Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025`. No direct Root-mirror text/OCR hit was found in the searched OCR, index, or inventory files.
+Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025`; `WEB-NDAO-CRAWFORD-TULLY-DIGITAL-EVIDENCE-2019`. No direct Root-mirror text/OCR hit was found in the searched OCR, index, or inventory files.
 
-Current board state: Crawford is represented in the Read/O'Keefe lane, Norfolk DA employment context, Root context, and a Fanning business/community connector.
+Current board state: Crawford is represented in the Read/O'Keefe lane, Norfolk DA employment context, Root context, a Fanning business/community connector, and a narrow Tully professional-training connector.
 
-Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-list reporting. The Read/Birchmore discovery motion is a lead for broader cross-case work, but it needs an official docket copy before public graph expansion. Recover the prior source for Crawford's Root and Fanning connectors before strengthening those labels or adding new Crawford edges.
+Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-list reporting. The Tully connector is supported only as a professional/training overlap from the Norfolk DA homicide-conference release. The Read/Birchmore discovery motion is a lead for broader cross-case work, but it needs an official docket copy before public graph expansion. Recover the prior source for Crawford's Root and Fanning connectors before strengthening those labels or adding new Crawford edges.
 
 ### Norfolk County DA Staff Beyond Morrissey
 

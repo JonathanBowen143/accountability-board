@@ -72,7 +72,7 @@ Add direct oversight/investigative-support connectors from Velis and Merrigan to
 
 ## WEB-COX-BPD-ACCOUNTABILITY-LANES-1995-2026
 
-Status: `ingested`, `graph-ready for Cox / BPD public-accountability connectors`.
+Status: `ingested`, `partly graph-ready; O'Malley / King lane internal-only pending video review`.
 
 Source titles:
 
@@ -98,11 +98,11 @@ Extracted facts:
 
 Boston.gov identifies Michael Cox as Boston Police Commissioner and says he was a 30-year veteran of BPD before leaving for Ann Arbor in 2019, then returning as commissioner. It lists command roles including Professional Development, Operations, Internal Affairs, Forensic Division, Bureau of Investigative Services, and earlier Anti-Gang Violence Unit service. The Conley opinions describe Cox as a plainclothes Boston police officer beaten by police officers after being mistaken for a fleeing suspect, and identify Kenneth Conley as a Boston police officer at the scene whose testimony became the subject of perjury and obstruction proceedings. Boston.com and WCVB identify David Williams as present or implicated in the Cox beating and describe the later discipline/reinstatement history.
 
-CBS Boston and Boston 25 report that Cox was referenced during Kelly Dever's Karen Read trial testimony and in post-trial allegations from Read's defense about Cox's knowledge of Dever's connection to the case. The reporting identifies this as an allegation and a public response, not an adjudicated finding. WCVB and CBS report that Boston Police Officer Nicholas O'Malley was charged or indicted for voluntary manslaughter in the fatal shooting of Stephenson King Jr.; WCVB reports that Cox agreed to testify before the Boston City Council about body-camera release policies after public pressure over the King shooting and that Cox said the district attorney controls release decisions in the pending prosecution.
+CBS Boston and Boston 25 report that Cox was referenced during Kelly Dever's Karen Read trial testimony and in post-trial allegations from Read's defense about Cox's knowledge of Dever's connection to the case. The reporting identifies this as an allegation and a public response, not an adjudicated finding. WCVB and CBS report that Boston Police Officer Nicholas O'Malley was charged or indicted for voluntary manslaughter in the fatal shooting of Stephenson King Jr.; WCVB reports that Cox agreed to testify before the Boston City Council about body-camera release policies after public pressure over the King shooting and that Cox said the district attorney controls release decisions in the pending prosecution. Keep the O'Malley / King material internal until the underlying video and court record can be reviewed directly.
 
 Board implications:
 
-Keep the existing Cox-to-BPD, Cox-to-Conley, Cox-to-Williams, and Cox-to-Dever connectors. Add a restrained Cox-to-Read/O'Keefe case connector because Cox became part of the public Dever/Read accountability dispute. Add the King/O'Malley lane as a current Boston Police fatal-shooting accountability cluster: Stephenson King Jr., Officer Nicholas O'Malley, Boston Police, Suffolk DA, Suffolk Superior Court, DA Kevin Hayden, and Cox's oversight/transparency role. Do not connect Cox to John Mulligan from these sources; the 1995 Cox beating arose from a separate Grove Hall shooting chase, not the Mulligan murder / Sean Ellis lane.
+Keep the existing Cox-to-BPD, Cox-to-Conley, Cox-to-Williams, and Cox-to-Dever connectors. Add a restrained Cox-to-Read/O'Keefe case connector because Cox became part of the public Dever/Read accountability dispute. Do not display the King/O'Malley lane on the public board until the relevant video and court record are reviewed directly. Do not connect Cox to John Mulligan from these sources; the 1995 Cox beating arose from a separate Grove Hall shooting chase, not the Mulligan murder / Sean Ellis lane.
 
 ## WEB-READ-RETRIAL-NORFOLK-STAFF-2025
 
@@ -159,6 +159,22 @@ The public motion mirror states that Read's defense sought discovery related to 
 Board implications:
 
 Treat this as a cross-case discovery lead, not a visible graph expansion yet. Before adding `filing` edges or a Lynn Beland node, recover an official docket copy or another stable court-record source and separate defense allegations from facts established by the court.
+
+## WEB-NDAO-CRAWFORD-TULLY-DIGITAL-EVIDENCE-2019
+
+Status: `ingested`, `graph-ready for narrow professional-training connector`.
+
+Source titles:
+
+Norfolk District Attorney's Office, `DA Morrissey hosts area Detectives at homicide conference`, October 2019: `https://www.nfkda.com/Press_Releases/10-01-19%20DA%20Morrissey%20Hosts%20Detectives%20at%20Homicide%20Conference.pdf`.
+
+Extracted facts:
+
+The Norfolk DA press release says more than 115 State Police and municipal police detectives attended a three-day homicide-investigation seminar hosted by Norfolk District Attorney Michael Morrissey, Massachusetts State Police, and MassBay Community College. It identifies Norfolk DA Multimedia Director Coleen Crawford as instructing on proper digital-evidence collection. It also says DA General Counsel Marguerite Grant presented and sat on an Emerging Legal Trends panel moderated by conference organizer Trooper Brian Tully, with Superior Court Judge Rosalind Miller and Christopher Kelly, Digital Evidence Laboratory Director for Attorney General Maura Healey.
+
+Board implications:
+
+Add a narrow `business` connector between Tully and Crawford as a professional/training overlap in the Norfolk DA / MSP digital-evidence lane. This source supports Crawford's Norfolk DA digital-evidence role and a Tully/Crawford professional overlap; it does not establish a case-specific action in Root, Birchmore, or O'Keefe, and it should not be used to infer misconduct.
 
 ## WEB-READ-CIVIL-SUIT-2026-06
 
