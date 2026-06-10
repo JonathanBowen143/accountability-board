@@ -212,23 +212,23 @@ Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a bl
 
 ### John Fanning / Root Public-Records Email
 
-Status: `graph-supporting lead; public-records PDF still hold`.
+Status: `graph-ready for Root/Brookline correspondence; separate Fanning public-records PDF still hold`.
 
-Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags it as a priority retrieval item.
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags the separate Fanning PDF as a priority retrieval item.
 
 Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, and Crawford.
 
-Next action: locate or download the Fanning PDF, OCR it, and determine whether it supports a stronger direct Root connector, a Norfolk DA communication connector, or only a source note.
+Next action: locate or download the separate Fanning PDF, OCR it, and determine whether it supports a stronger Fanning-specific public-record connector, a Norfolk DA communication connector, or only a source note.
 
 ### Yuriy Bukhenik / Root Public-Records Correspondence
 
-Status: `graph-supporting lead; correspondence PDF still hold`.
+Status: `graph-ready`.
 
-Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags the correspondence as not yet OCR'd.
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`.
 
-Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, and Stoughton High context.
+Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, Stoughton High context, Fanning, and Crawford.
 
-Next action: OCR the correspondence if the PDF is recovered locally; otherwise keep the Drive IDs as retrieval handles.
+Decision: The correspondence supports Bukhenik as a Root/Brookline communication and report/transcript-coordination connector. Do not use it as a misconduct source without a separate adjudicated or investigative record.
 
 ### David DiCicco
 
@@ -264,13 +264,13 @@ Decision: The MSP, Read/O'Keefe, O'Connell, and SJC connectors are supported eno
 
 ### Coleen Crawford
 
-Status: `partial graph-ready; Root and Fanning connectors still need source recovery`.
+Status: `graph-ready for Root/Fanning/Bukhenik digital-evidence connectors; discovery-motion expansion still needs docket-copy verification`.
 
-Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025`; `WEB-NDAO-CRAWFORD-TULLY-DIGITAL-EVIDENCE-2019`. No direct Root-mirror text/OCR hit was found in the searched OCR, index, or inventory files.
+Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`; `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025`; `WEB-NDAO-CRAWFORD-TULLY-DIGITAL-EVIDENCE-2019`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`.
 
-Current board state: Crawford is represented in the Read/O'Keefe lane, Norfolk DA employment context, Root context, a Fanning business/community connector, and a narrow Tully professional-training connector.
+Current board state: Crawford is represented in the Read/O'Keefe lane, Norfolk DA employment context, Root context, a Fanning business/community connector, a Bukhenik communication connector, and a narrow Tully professional-training connector.
 
-Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-list reporting. The Tully connector is supported only as a professional/training overlap from the Norfolk DA homicide-conference release. The Read/Birchmore discovery motion is a lead for broader cross-case work, but it needs an official docket copy before public graph expansion. Recover the prior source for Crawford's Root and Fanning connectors before strengthening those labels or adding new Crawford edges.
+Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-list reporting. The Root, Fanning, and Bukhenik connectors are supported by the Root/Brookline correspondence packet as digital-evidence handling and communication connectors. The Tully connector is supported only as a professional/training overlap from the Norfolk DA homicide-conference release. The Read/Birchmore discovery motion is a lead for broader cross-case work, but it needs an official docket copy before public graph expansion.
 
 ### Norfolk County DA Staff Beyond Morrissey
 
@@ -278,4 +278,4 @@ Status: `active lead`.
 
 Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` is a lead for Deputy District Attorney Lynn Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
 
-Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
+Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. The Drive file `34 Digital Evidence Report.pdf` is present but image-only through the connector, so it should be OCR'd before any claims are drawn from it. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
