@@ -102,17 +102,17 @@ Source trail: the Middlesex / State Police forensic-evidence lane is now separat
 
 Candidate names: Michael J. Sullivan; Middlesex DA; Middlesex Superior Court; Massachusetts State Police; Robert Pino; Gary Grace; Emil Petrla; Steven Angier; Dana Curhan; Wilfred McGrath.
 
-Board action: add only Michael J. Sullivan, Middlesex DA, Middlesex Superior Court, and Massachusetts State Police connectors. Keep Robert Pino, Grace, Petrla, Angier, counsel, judges, prosecutors, and Wilfred McGrath internal unless a later pass opens a repeated crime-lab, witness-deal, or Middlesex prosecution lane.
+Board action: add Michael J. Sullivan, Middlesex DA, Middlesex Superior Court, Massachusetts State Police, and a narrow Robert Pino connector. Keep Grace, Petrla, Angier, counsel, judges, prosecutors, and Wilfred McGrath internal unless a later pass opens a repeated crime-lab, witness-deal, or Middlesex prosecution lane.
 
 ### Robert Pino / State Police Crime Lab
 
-Current board state: internal lead only; no visible node.
+Current board state: added as a narrow exposed State Police crime-lab node connected to Michael J. Sullivan and Massachusetts State Police.
 
-Source trail: the Pino / State Police crime-lab lane is now separated through `WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024`. The reviewed sources support Pino as the State Police chemist connected to Michael J. Sullivan's trial evidence and as a former State Police Crime Lab administrator fired after alleged DNA-database mishandling. The same sources also preserve the disputed nature of the firing and do not yet identify a second resolved wrongful-conviction lane for graph use.
+Source trail: the Pino / State Police crime-lab lane is now separated through `WEB-PINO-STATE-POLICE-CRIME-LAB-2007-2024`. The reviewed sources support Pino as the State Police chemist connected to Michael J. Sullivan's trial evidence and as a former State Police Crime Lab administrator fired after alleged DNA-database mishandling. Boston.com's 2024 Sullivan account strengthens the direct visible connector by identifying Pino as the chemical analyst whose asserted blood-and-hair evidence implicated Sullivan and by quoting the civil complaint's fabrication allegation.
 
 Candidate names: Robert Pino; Massachusetts State Police Crime Lab; Michael J. Sullivan; Aurelio Pinero Jr.; Mark Delaney; Carl Selavka.
 
-Board action: keep Pino internal until another source-backed overturned conviction, exoneration, official audit, or official case list turns the lead into a repeated public-actor connector.
+Board action: keep Pino narrow. Add only the Pino-to-Sullivan and Pino-to-State-Police connectors now. Do not add a separate crime-lab institution, Pinero connector, Mark Delaney, Carl Selavka, or other case links unless another source-ledger entry opens that broader lane.
 
 ### Other Recent Massachusetts Leads
 
