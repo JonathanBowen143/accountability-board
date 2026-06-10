@@ -68,11 +68,11 @@ Board action: add Penny Anderson, Springfield Police Department, Hampden Superio
 
 Current board state: not visible.
 
-Source trail: the name needs disambiguation. WBUR and Massachusetts Lawyers Weekly describe Stephen Pina as the Mission Hill fatal-shooting defendant released while seeking postconviction relief, with Judge Peter B. Krupp and a contested prosecution posture in the reviewed sources. Separately, New England Innocence Project and National Registry material identify Daniel Pina as a 2025 Massachusetts murder exoneration involving a 1997 Boston cab-driver murder and a guilty plea. These are separate lanes and should not be collapsed into one Pina node.
+Source trail: the name has now been disambiguated through `WEB-PINA-DISAMBIGUATION-SUFFOLK-1999-2026`. Stephen A. Pina is the 1993 Mission Hill / Keith Robinson lane: Judge Peter B. Krupp vacated the conviction on February 3, 2025, but Massachusetts Lawyers Weekly reports a Commonwealth appeal posture and lists SJC-13783 for March 2026 argument. Daniel Pina is a separate 1997 Boston cab-driver murder lane: the National Registry newsletter lists a 2025 exoneration after a guilty plea, and the Mass. parole decision identifies the victim as Domingo Mejia.
 
-Candidate names: Stephen A. Pina; Daniel Pina; Judge Peter B. Krupp; ADA Ian MacLean; Jill Tessier; Lisa Kavanaugh; Suffolk DA Kevin Hayden.
+Candidate names: Stephen A. Pina; Keith Robinson; Judge Peter B. Krupp; ADA Ian MacLean; trial ADAs Rosemary Daly and Robert Tochka; Jill Tessier; Lisa Kavanaugh; Suffolk DA Kevin Hayden; Daniel Pina; Domingo Mejia.
 
-Next action: use `docs/evidence/murder-conviction-review-matrix.md` as the controlling surface for the Pina lanes before any graph work.
+Board action: keep both Pina lanes internal for now. Do not create a generic Pina node. Do not add Stephen Pina unless SJC-13783 and the Suffolk trial-court docket clarify final posture or a repeated public actor emerges. Do not add Daniel Pina until the full exoneration case record, court dismissal/nolle source, or pleadings identify the police/prosecution/court actors cleanly enough for graph use.
 
 ### Michael Sullivan and Other Recent Massachusetts Leads
 

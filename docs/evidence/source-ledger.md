@@ -468,6 +468,34 @@ Board implications:
 
 Add Penny Anderson as the underlying murder victim, keep Edward Wright as the small gold-ring exonerated/wrongful-conviction node, add Springfield Police Department and Hampden Superior Court as institution nodes, and connect Det. Alfred Ingham, Judge Jeremy Bucci, and DA Anthony Gulluni narrowly to the Wright/Anderson/Hampden lane. Keep Mark Grant, Judge Sarah Hamilton, defense counsel, possible third-party suspects, witnesses, and additional historical actors in internal notes unless a later pass shows a repeated public-actor pattern or a stronger reason for visible-board use.
 
+## WEB-PINA-DISAMBIGUATION-SUFFOLK-1999-2026
+
+Status: `ingested`, `internal hold; disambiguates Stephen Pina and Daniel Pina`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Stephen Pina`, 430 Mass. 266, decided December 29, 1999, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/430/430mass266.html`.
+
+Suffolk Superior Court, `Commonwealth vs. Stephen A. Pina, Memorandum and Order on Motion for New Trial`, dated February 3, 2025, hosted by Massachusetts Lawyers Weekly: `https://masslawyersweekly.com/files/2025/03/12-011-25.pdf`.
+
+Massachusetts Lawyers Weekly, `Man granted new trial awaits justice as DA challenges murder conviction reversal`, published February 28, 2025: `https://masslawyersweekly.com/2025/02/28/exoneree-awaits-justice-as-da-challenges-murder-conviction-reversal/`.
+
+Massachusetts Lawyers Weekly, `Cases scheduled to be heard in March`, published February 20, 2026: `https://masslawyersweekly.com/2026/02/20/cases-scheduled-to-be-heard-in-march-12/`.
+
+National Registry of Exonerations, October 2025 newsletter, `An Exoneration without Freedom`: `https://exonerationregistry.org/sites/exonerationregistry.org/files/documents/October_2025_Newsletter_0.pdf`.
+
+Massachusetts Parole Board, `Daniel Pina Life Sentence Decision`, Mass.gov PDF: `https://www.mass.gov/doc/daniel-pina-life-sentence-decision-2/download`.
+
+Extracted facts:
+
+Stephen A. Pina is the Suffolk / Mission Hill case. The 1999 SJC opinion identifies the February 26, 1993 shooting death of Keith Robinson in Mission Hill, the first-degree murder conviction, the trial judge, and trial appellate participants including ADA Rosemary Daly and ADA Robert Tochka. The 2025 Suffolk Superior Court order by Judge Peter B. Krupp allowed Pina's third motion for new trial and vacated his conviction, citing the combined force of newly available DNA evidence, undisclosed information about the Commonwealth's key eyewitness, undisclosed or newly discovered third-party-culprit evidence, and newer eyewitness-identification science. Massachusetts Lawyers Weekly reports that the Suffolk DA's office planned to pursue a gatekeeper appeal, identifies ADA Ian MacLean for the Commonwealth, and reports that Pina could still face retrial. Its 2026 SJC schedule lists `Commonwealth v. Pina`, SJC-13783, as the Commonwealth's appeal from the allowance of Pina's third new-trial motion.
+
+Daniel Pina is a separate Suffolk / Boston cab-driver murder case. The National Registry newsletter states that Daniel Pina was sentenced to life in 2000 after pleading guilty to the 1997 murder of a Boston cab driver, and that he was exonerated in 2025 based on evidence that he had falsely confessed and that a co-defendant had falsely implicated him. The Massachusetts Parole Board decision identifies the victim as 27-year-old Domingo Mejia and records Daniel Pina's guilty plea to second-degree murder. The reviewed public sources did not yet identify a named detective, prosecutor, court ruling, nolle prosequi filing, or repeat public actor suitable for public-board treatment.
+
+Board implications:
+
+Do not create a generic `Pina` node. Keep Stephen Pina and Daniel Pina separate in the matrix. Stephen Pina remains internal because the reviewed sources show a vacated conviction and active appellate/retrial uncertainty rather than final exoneration or prosecution closure. Daniel Pina remains internal because the National Registry gives a strong exoneration posture, but the reviewed sources do not yet isolate the police, prosecutor, court, or repeated public actor needed for a visible graph edge. Next useful work is to refresh SJC-13783 and locate Daniel Pina's full exoneration case record or dismissal/nolle source.
+
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
 Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
@@ -502,7 +530,7 @@ The review matrix consolidates recent and active Massachusetts murder-conviction
 
 Board implications:
 
-Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`, and the Edward Wright lane has moved to visible narrow Hampden/Springfield treatment through `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`. Future additions still need separate source-ledger entries before visible graph changes.
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien has moved from candidate to visible small-node treatment through `WEB-LUCIEN-BRAZIL-SUFFOLK-BPD-2021-2024`, the Ricciuti/Rosa/McGee lane has moved from candidate review to visible narrow court-actor treatment through `WEB-RICCIUTI-ROSA-MCGEE-SUFFOLK-WRONGFUL-CONVICTION-2023-2026`, the Milton Jones / Floyd Hamilton / Joseph Pope lanes have moved to visible small-node treatment through `WEB-OMALLEY-SUFFOLK-WRONGFUL-CONVICTION-CLUSTER-2022-2026`, and the Edward Wright lane has moved to visible narrow Hampden/Springfield treatment through `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`. The Stephen Pina and Daniel Pina lanes have been disambiguated through `WEB-PINA-DISAMBIGUATION-SUFFOLK-1999-2026`, but both remain internal holds. Future additions still need separate source-ledger entries before visible graph changes.
 
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 
