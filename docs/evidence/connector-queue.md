@@ -108,15 +108,35 @@ Current board state: DiCicco now connects to Massachusetts State Police, Norfolk
 
 Decision: Treat these as investigator/assignment connectors only. The visible board should show the overlap, but misconduct or disciplinary conclusions require separate adjudicated or official disciplinary sources.
 
-### Steve Nelson / Norfolk Victim Witness Advocate
+### Velis / Merrigan / L'Italien / Coughlin Farak Inquiry
 
 Status: `graph-ready`.
 
+Evidence: `WEB-FARAK-VELIS-MERRIGAN-LITALIEN-COUGHLIN-2016`.
+
+Current board state: Judge Peter Velis and Judge Thomas Merrigan now connect directly to Det. Capt. Paul L'Italien and Capt. James Coughlin using `oversee` connectors.
+
+Decision: Keep these as investigation-assignment connectors. The source describes the two State Police officers as assigned to provide investigative support and prepare a report for Velis and Merrigan; it does not make the officers case defendants or misconduct subjects.
+
+### Commissioner Michael Cox / BPD Accountability Lanes
+
+Status: `graph-ready; continue mining`.
+
+Evidence: `WEB-COX-BPD-ACCOUNTABILITY-LANES-1995-2026`.
+
+Current board state: Cox now has his original BPD employment connector, existing Cox/Conley/Williams 1995 beating connectors, existing oversight connectors to BPD actors already in the Read/O'Keefe lane, a direct Read/O'Keefe public-accountability connector through the Dever dispute, and a new Stephenson King Jr. / Nicholas O'Malley fatal-police-shooting lane.
+
+Decision: Cox is board-relevant as both a past BPD victim of blue-wall conduct and a current commissioner tied to accountability disputes. Continue mining Cox through official BPD role records, court opinions, POST/OPAT records, and reliable reporting. Do not add generic biography edges merely because Cox held many commands, and do not connect him to John Mulligan unless a source directly ties Cox to the Mulligan / Sean Ellis lane.
+
+### Steve Nelson / Norfolk Victim Witness Advocate
+
+Status: `internal-only after scope review`.
+
 Evidence: `WEB-READ-RETRIAL-NORFOLK-STAFF-2025`.
 
-Current board state: Steve Nelson is represented as a Norfolk DA office actor connected to the Read/O'Keefe lane and the Norfolk County DA office.
+Current board state: Steve Nelson has been removed from the public graph but remains documented in the witness/evidence files.
 
-Decision: Keep this as a role and case-lane connector only. CBS Boston identifies Nelson as a Norfolk County victim witness advocate, and the witness-list reporting places him in the Read trial context, but those sources do not establish testimony content or misconduct.
+Decision: A possible witness-list role is not strong enough for the visible public board unless a later source shows a more direct accountability function. Keep Nelson internal for completeness.
 
 ### Norfolk County DA / Juston Root
 
@@ -256,6 +276,6 @@ Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-li
 
 Status: `active lead`.
 
-Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` supports Steve Nelson as a Read/O'Keefe/Norfolk DA office connector. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` is a lead for Deputy District Attorney Lynn Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` is a lead for Deputy District Attorney Lynn Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
 
 Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.

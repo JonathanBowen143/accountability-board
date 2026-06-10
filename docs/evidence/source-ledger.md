@@ -52,9 +52,61 @@ Board implications:
 
 Add `dicicco` to `INORFOLK` as an employment/assignment connector and use these sources to support the existing cross-case `spine` connectors from `dicicco` to `CREAD` and `CWALSHE`. Do not add parallel `case` edges for the same relationship unless a later graph grammar change separates investigative participation from recurring-cross-case status. These are investigator/assignment links. They should not be framed as misconduct findings without separate adjudicated or official disciplinary evidence.
 
+## WEB-FARAK-VELIS-MERRIGAN-LITALIEN-COUGHLIN-2016
+
+Status: `ingested`, `graph-ready`.
+
+Source titles:
+
+Velis / Merrigan report mirror hosted by ACLU of Massachusetts, `Investigation of the Attorney Luke Ryan affidavit`: `https://www.aclum.org/app/uploads/drupal/sites/default/files/wp-content/uploads/2016/05/VelisMerriganReporttoAGHealey-reduced-file-size.pdf`.
+
+Hampden Superior Court, Judge Richard J. Carey order mirror hosted by ACLU of Massachusetts, May 3, 2016: `https://www.aclum.org/app/uploads/drupal/sites/default/files/wp-content/uploads/2016/05/Carey-Order-2016_5_3.pdf`.
+
+Extracted facts:
+
+The Velis / Merrigan report states that Attorney General Healey's office requested investigators and that Massachusetts State Police assigned Detective Captain Paul J. L'Italien and Captain James F. Coughlin to assist the investigation being conducted by Judge Peter Velis and Judge Thomas Merrigan. The statement of facts says L'Italien and Coughlin were assigned to provide investigative support to the Attorney General and Northwestern District Attorney offices, and specifically to assist Velis and Merrigan in an investigation involving allegations of misconduct by sworn members and prosecutors assigned to the Attorney General's Office in the Sonja Farak matter. Judge Carey's order likewise states that L'Italien and Coughlin were assigned to conduct the investigation for SAAG Velis and SADA Merrigan and to prepare a report.
+
+Board implications:
+
+Add direct oversight/investigative-support connectors from Velis and Merrigan to L'Italien and Coughlin. Use `oversee` rather than a generic case edge because the source describes assignment, assistance, and report preparation for the Velis/Merrigan inquiry.
+
+## WEB-COX-BPD-ACCOUNTABILITY-LANES-1995-2026
+
+Status: `ingested`, `graph-ready for Cox / BPD public-accountability connectors`.
+
+Source titles:
+
+Boston.gov, `Michael Cox`: `https://www.boston.gov/departments/police/michael-cox`.
+
+Justia, `United States v. Kenneth M. Conley`, 186 F.3d 7 (1st Cir. 1999): `https://law.justia.com/cases/federal/appellate-courts/F3/186/7/569286/`.
+
+Justia, `United States v. Kenneth M. Conley`, 249 F.3d 38 (1st Cir. 2001): `https://law.justia.com/cases/federal/appellate-courts/F3/249/38/603323/`.
+
+Boston.com, `Reddit rediscovers 'Boston's Rodney King' - here's what he's doing now`, published September 2, 2015: `https://www.boston.com/news/local-news/2015/09/02/reddit-rediscovers-bostons-rodney-king-heres-what-hes-doing-now/`.
+
+WCVB, `SJC backs Boston officer fired twice`, updated July 12, 2017: `https://www.wcvb.com/article/states-highest-court-backs-boston-police-officer-fired-twice/10298461`.
+
+CBS Boston, `Boston police commissioner responds to Karen Read trial testimony from Officer Kelly Dever`, updated July 10, 2025: `https://www.cbsnews.com/boston/news/boston-police-commissioner-michael-cox-kelly-dever-karen-read/`.
+
+Boston 25 News, `Karen Read's legal team demands Boston Police Commissioner Cox be placed on 'Brady List'`, published October 27, 2025: `https://www.boston25news.com/news/local/karen-reads-legal-team-demands-bpd-commissioner-cox-officer-be-placed-brady-list/B3FPSEWTVFHKHPQXHZBO24JDFA/`.
+
+WCVB, `Police Commissioner Michael Cox agrees to testify before Boston City Council on body camera policy`, updated April 15, 2026: `https://www.wcvb.com/article/boston-council-police-commissioner-may-testify-fatal-shooting/71028637`.
+
+CBS Boston, `Boston Police Officer Nicholas O'Malley pleads not guilty to manslaughter after indictment in carjacking shooting`, updated June 4, 2026: `https://www.cbsnews.com/boston/news/boston-police-officer-nicholas-omalley-superior-court/`.
+
+Extracted facts:
+
+Boston.gov identifies Michael Cox as Boston Police Commissioner and says he was a 30-year veteran of BPD before leaving for Ann Arbor in 2019, then returning as commissioner. It lists command roles including Professional Development, Operations, Internal Affairs, Forensic Division, Bureau of Investigative Services, and earlier Anti-Gang Violence Unit service. The Conley opinions describe Cox as a plainclothes Boston police officer beaten by police officers after being mistaken for a fleeing suspect, and identify Kenneth Conley as a Boston police officer at the scene whose testimony became the subject of perjury and obstruction proceedings. Boston.com and WCVB identify David Williams as present or implicated in the Cox beating and describe the later discipline/reinstatement history.
+
+CBS Boston and Boston 25 report that Cox was referenced during Kelly Dever's Karen Read trial testimony and in post-trial allegations from Read's defense about Cox's knowledge of Dever's connection to the case. The reporting identifies this as an allegation and a public response, not an adjudicated finding. WCVB and CBS report that Boston Police Officer Nicholas O'Malley was charged or indicted for voluntary manslaughter in the fatal shooting of Stephenson King Jr.; WCVB reports that Cox agreed to testify before the Boston City Council about body-camera release policies after public pressure over the King shooting and that Cox said the district attorney controls release decisions in the pending prosecution.
+
+Board implications:
+
+Keep the existing Cox-to-BPD, Cox-to-Conley, Cox-to-Williams, and Cox-to-Dever connectors. Add a restrained Cox-to-Read/O'Keefe case connector because Cox became part of the public Dever/Read accountability dispute. Add the King/O'Malley lane as a current Boston Police fatal-shooting accountability cluster: Stephenson King Jr., Officer Nicholas O'Malley, Boston Police, Suffolk DA, Suffolk Superior Court, DA Kevin Hayden, and Cox's oversight/transparency role. Do not connect Cox to John Mulligan from these sources; the 1995 Cox beating arose from a separate Grove Hall shooting chase, not the Mulligan murder / Sean Ellis lane.
+
 ## WEB-READ-RETRIAL-NORFOLK-STAFF-2025
 
-Status: `ingested`, `graph-ready for role and case-lane connectors`.
+Status: `ingested`, `internal-only unless stronger public-accountability role surfaces`.
 
 Source titles:
 
@@ -72,7 +124,7 @@ The 2025 retrial witness-list reporting identifies Coleen Crawford as affiliated
 
 Board implications:
 
-Add Steve Nelson as a Norfolk DA office actor connected to the Read/O'Keefe lane and the Norfolk DA office. Use this source to support the existing Prince `CREAD`/`IMSP` and Crawford `CREAD`/`INORFOLK` connectors. Do not use witness-list presence alone to imply wrongdoing, investigation control, or testimony content.
+Keep Steve Nelson documented as a Norfolk DA office witness-list actor, but do not keep him on the visible public board based on witness-list presence alone. Use this source to support the existing Prince `CREAD`/`IMSP` and Crawford `CREAD`/`INORFOLK` connectors. Do not use witness-list presence alone to imply wrongdoing, investigation control, or testimony content.
 
 ## WEB-PRINCE-OCONNELL-SJC-2012
 
