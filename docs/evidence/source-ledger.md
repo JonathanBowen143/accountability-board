@@ -326,6 +326,42 @@ Board implications:
 
 This source strengthens the Read/O'Keefe evidence lane around MSP, Canton Police, Proctor, Goode, and institutional oversight. It should be used carefully: verdict facts are treated as adjudicated; complaint allegations remain allegations unless independently proven.
 
+## WEB-READ-MCLAUGHLIN-ALBERT-2025
+
+Status: `ingested`, `graph-ready for narrow personal and family connectors`.
+
+Source titles:
+
+ABC News, `Paramedic testifies she heard Karen Read say, 'I hit him,' in murder retrial`, published May 5, 2025: `https://abcnews.com/US/karen-read-murder-retrial-paramedic-testimony/story?id=121479249`.
+
+Court TV, `Key players in the Karen Read murder case`: `https://www.courttv.com/news/key-players-in-the-karen-read-murder-case/`.
+
+Extracted facts:
+
+ABC reports that defense attorney Alan Jackson questioned Canton firefighter/paramedic Katie McLaughlin about her relationship with Caitlin Albert, including shared social functions. McLaughlin described Caitlin as someone she went to high school with, shares mutual friends with, and socializes with, while saying they were not close friends and did not have a one-on-one relationship. Court TV identifies Caitlin Albert as the daughter of Brian and Nicole Albert and notes that Caitlin attended high school with McLaughlin.
+
+Board implications:
+
+Add a narrow McLaughlin-to-Caitlin Albert personal/acquaintance connector and a Caitlin-to-Nicole Albert family connector. The McLaughlin connector should not be treated as a close-friendship claim or a misconduct finding; it documents a litigated acquaintance/social-overlap issue in the Read/O'Keefe retrial.
+
+## WEB-READ-HIGGINS-CANTON-PD-2024
+
+Status: `ingested`, `graph-ready for narrow professional/institutional connector`.
+
+Source titles:
+
+Boston.com, `Karen Read trial: Defense grills Brian Higgins on the fate of his cellphone, SIM card`, updated May 24, 2024: `https://www.boston.com/news/crime/2024/05/24/karen-read-murder-trial-livestream-video-friday-may-24-brian-higgins/`.
+
+NBC10 Boston, `ATF agent testifies about flirtatious text exchanges with Karen Read as trial continues`, published May 24, 2024: `https://www.nbcboston.com/news/local/karen-read-trial-day-17/3379021/`.
+
+Extracted facts:
+
+Boston.com reports that Higgins had a satellite office at the Canton police station and accessed the station's sally port on January 29, 2022, before Read's SUV was brought in. NBC10 Boston reports that Higgins testified he went to the Canton Police Department after leaving the Albert home, where he had an office and stored ATF vehicles, and that he went there to move work vehicles so the lot could be plowed.
+
+Board implications:
+
+Add a narrow Higgins-to-Canton Police `business/professional tie` connector. This explains why a federal ATF agent already in the Read/O'Keefe witness cluster also belongs near the Canton Police institution. It does not add a new federal-prosecution lane and should not be used as an employment connector or misconduct finding.
+
 ## WEB-BIRCHMORE-FARWELL-SUPERSEDING-2025
 
 Status: `ingested`, `graph-ready`.

@@ -26,6 +26,16 @@ Current board state: The Read/O'Keefe lane already has direct links to Karen Rea
 
 Decision: Do not add new claim-heavy connectors from the complaint alone. First localize the complaint PDF, then split adjudicated facts from allegations and decide whether the suit creates filing edges, oversight edges, or source notes.
 
+### Read / O'Keefe Relationship and Institutional Context
+
+Status: `graph-ready`.
+
+Evidence: `WEB-READ-MCLAUGHLIN-ALBERT-2025`; `WEB-READ-HIGGINS-CANTON-PD-2024`.
+
+Current board state: Added a McLaughlin-to-Caitlin Albert personal/acquaintance connector, a Caitlin-to-Nicole Albert family connector, and a Higgins-to-Canton Police professional connector. These are all existing nodes in the Read/O'Keefe lane.
+
+Decision: Keep these as context connectors only. The McLaughlin/Caitlin edge documents a litigated acquaintance and social-overlap issue, not a close-friendship or misconduct finding. The Higgins/Canton Police edge documents a satellite-office and vehicle-storage/work-vehicle connection, not Canton Police employment and not a federal-lane expansion.
+
 ### Sandra Birchmore Federal Superseding Indictment
 
 Status: `graph-ready`.
