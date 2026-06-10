@@ -48,13 +48,15 @@ Source trail: New England Innocence Project reports that the Suffolk DA ended Ro
 
 Candidate names: Judge Michael Ricciuti; Radha Natarajan; Mark Loevy-Reyes; Meg Gould; Suffolk DA Kevin Hayden.
 
-### Stephen Pina
+### Stephen Pina and Daniel Pina
 
 Current board state: not visible.
 
-Source trail: Massachusetts Lawyers Weekly reports that Judge Peter B. Krupp vacated Pina's murder conviction in February 2025 and that the Suffolk DA's office planned a gatekeeper appeal. The case was not final in the reviewed source, so it should remain internal until current posture and actor-level records are refreshed.
+Source trail: the name needs disambiguation. WBUR and Massachusetts Lawyers Weekly describe Stephen Pina as the Mission Hill fatal-shooting defendant released while seeking postconviction relief, with Judge Peter B. Krupp and a contested prosecution posture in the reviewed sources. Separately, New England Innocence Project and National Registry material identify Daniel Pina as a 2025 Massachusetts murder exoneration involving a 1997 Boston cab-driver murder and a guilty plea. These are separate lanes and should not be collapsed into one Pina node.
 
-Candidate names: Stephen A. Pina; Judge Peter B. Krupp; ADA Ian MacLean; Jill Tessier; Lisa Kavanaugh; Suffolk DA Kevin Hayden.
+Candidate names: Stephen A. Pina; Daniel Pina; Judge Peter B. Krupp; ADA Ian MacLean; Jill Tessier; Lisa Kavanaugh; Suffolk DA Kevin Hayden.
+
+Next action: use `docs/evidence/murder-conviction-review-matrix.md` as the controlling surface for the Pina lanes before any graph work.
 
 ### Raymond Gaines / Peter O'Malley Follow-Up
 
@@ -68,4 +70,4 @@ Current board state: not visible unless already represented elsewhere.
 
 Source trail: recent reporting and innocence-community sources surface additional Massachusetts murder-conviction reversals, releases, and compensation claims. These need source separation because some are overturned, some exonerated, some compensated, and some still contested.
 
-Candidate next action: build a table with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.
+Candidate next action: keep expanding `docs/evidence/murder-conviction-review-matrix.md` with current posture, county, court, DA office, police department, named prosecutor, named detective, judge, and whether the case has a repeated actor connector.

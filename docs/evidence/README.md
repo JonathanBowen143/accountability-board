@@ -1,6 +1,6 @@
 # Evidence Ingestion Surface
 
-Last updated: June 9, 2026.
+Last updated: June 10, 2026.
 
 This folder is the project-owned evidence layer for the Commonwealth Accountability Board. The board itself can stay compact and visual; this folder is where source records, extracted claims, and connector decisions should hold up over time.
 
@@ -11,6 +11,10 @@ This folder is the project-owned evidence layer for the Commonwealth Accountabil
 `connector-queue.md` records graph decisions, holds, and next actions.
 
 `victim-anchor-mining.md` records why larger victim-anchor nodes exist and how connector mining is progressing for those people.
+
+`overturned-murder-conviction-mining.md` records the narrative lead list for recent Massachusetts overturned or contested murder-conviction lanes.
+
+`murder-conviction-review-matrix.md` records the structured review table used to decide whether a wrongful-conviction lane is public-graph-ready, internal-only, or still needs actor-level proof.
 
 ## Durability Rules
 

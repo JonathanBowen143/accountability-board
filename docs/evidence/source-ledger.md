@@ -372,6 +372,42 @@ Board implications:
 
 Add Raymond Gaines as a small exonerated/wrongful-conviction node tied to Boston Police, Suffolk DA, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Keep the edge narrow and do not conflate this Peter O'Malley lane with the separate Nicholas O'Malley / Stephenson King Jr. internal-only lead.
 
+## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
+
+Status: `indexed`, `control surface for future wrongful-conviction graph additions`.
+
+Source titles:
+
+Suffolk County District Attorney's Office, `Firearm conviction in connection to 1994 murder to be vacated`, published August 3, 2023: `https://www.suffolkdistrictattorney.com/press-releases/items/2023/8/4/firearm-conviction-in-connection-to-1994-murder-to-be-vacated`.
+
+WBUR, `Mass. man sues state for $1M after serving 27 years in prison for a murder conviction that was later overturned`, published February 28, 2024: `https://www.wbur.org/news/2024/02/28/james-lucien-lawsuit-boston-police-wrongful-conviction`.
+
+GBH News, `Prosecutors drop 1997 Boston murder case against Rickey 'FuQuan' McGee`, published November 6, 2025: `https://www.wgbh.org/news/local/2025-11-06/prosecutors-drop-1997-boston-murder-case-against-rickey-fuquan-mcgee`.
+
+New England Innocence Project, `Edward Wright Exonerated!`, published August 21, 2025: `https://www.newenglandinnocence.org/innocence-blog/edwardwrightexonerated`.
+
+New England Innocence Project, `Thomas Rosa, Jr. Exonerated After 34 Years Wrongfully Incarcerated`, published March 2026: `https://www.newenglandinnocence.org/innocence-blog/3/2026/tommyrosaexonerated`.
+
+WBUR, `Boston man who says he was wrongfully convicted freed from prison`, published March 10, 2022: `https://www.wbur.org/news/2022/03/10/stephen-pina-withheld-evidence-fatal-shooting-suspect-release`.
+
+New England Innocence Project, `Freedom to Celebrate`, published November 2025: `https://www.newenglandinnocence.org/innocence-blog/2025/11/14/freedom-to-celebrate`.
+
+National Registry of Exonerations, October 2025 newsletter, `An Exoneration without Freedom`: `https://exonerationregistry.org/sites/exonerationregistry.org/files/documents/October_2025_Newsletter_0.pdf`.
+
+AP News, `A Massachusetts man wrongfully convicted of murder was awarded $13 million. He won't get all of it`, published November 2024: `https://apnews.com/article/wrongful-conviction-massachusetts-michael-sullivan-settlement-4456026b55892abb35120a8f1a7b9943`.
+
+GBH News, `Man who was convicted for 1984 Beverly fire gets chance for new trial`, published December 30, 2024: `https://www.wgbh.org/news/local/2024-12-30/man-who-was-convicted-for-1984-beverly-fire-gets-chance-for-new-trial`.
+
+AP News, `Massachusetts court overturns murder conviction of alleged getaway driver`, published November 2024: `https://apnews.com/article/700db5556a1ab3d7805dbeeb3a51da23`.
+
+Extracted facts:
+
+The review matrix consolidates recent and active Massachusetts murder-conviction review lanes into one control surface. It distinguishes final exonerations from vacated convictions, nolle prosequi filings, pending/contested retrial posture, compensation findings, and pure legal-insufficiency reversals. It also flags actor-level connectors when available, including John Brazil in Lucien, Judge Michael Ricciuti in Rosa/McGee, Peter O'Malley in Gaines, and Judge Jeffrey Karp in Carver.
+
+Board implications:
+
+Do not add every matrix row to the public board. Use the matrix to decide whether a future graph change has a repeated public actor, a source-backed institution, and a stable legal posture. James Lucien is the clearest next candidate, but he still needs a separate source-ledger entry before adding a visible Lucien/Brazil/Suffolk/BPD connector.
+
 ## WEB-DELGADO-GARCIA-INDICTMENTS-2026
 
 Status: `indexed`, `graph-ready`.
