@@ -522,11 +522,29 @@ Extracted facts:
 
 The 1984 Elliott Chambers rooming-house fire in Beverly killed 15 people. The 1992 Appeals Court opinion records that Carver was charged with 15 counts of second-degree murder and one count of burning a dwelling house, that the first trial ended in a mistrial because of prosecutorial misconduct, and that the second-trial convictions were affirmed. The 2024 Karp ruling mirror identifies the case as Essex Superior Court No. 8877CR13527, records Carver's fifth motion for new trial, and states that Judge Jeffrey Karp heard testimony from fire-science experts Craig Beyler and Michael Mazza and eyewitness-identification expert Nancy Franklin.
 
-GBH, Boston.com, Boston College Law Magazine, The Appeal, and The Mass Dump all support the current posture: Judge Karp vacated the convictions and ordered a new trial in December 2024; Carver was released in February 2025; Essex DA Paul Tucker's office objected to release and appealed; and the Appeals Court argument was scheduled for May 13, 2026. The Mass Dump reports the prosecution position that Karp abused his discretion and the defense position that the new fire-science evidence shows no proof that a crime occurred. The reviewed sources did not show a final Appeals Court decision, retrial decision, or nolle prosequi as of the June 10, 2026 refresh pass.
+GBH, Boston.com, Boston College Law Magazine, The Appeal, and The Mass Dump all support the current posture: Judge Karp vacated the convictions and ordered a new trial in December 2024; Carver was released in February 2025; Essex DA Paul Tucker's office objected to release and appealed; and the Appeals Court argument was scheduled for May 13, 2026. The Appeal's longform account supports describing Carver as wrongfully convicted, while the Mass Dump reports the prosecution position that Karp abused his discretion and the defense position that the new fire-science evidence shows no proof that a crime occurred. The reviewed sources did not show a final Appeals Court decision, retrial decision, or nolle prosequi as of the June 10, 2026 refresh pass.
 
 Board implications:
 
-Keep James Carver internal for now. The lane is strong enough for documentation because it touches Essex DA, Essex Superior Court, Judge Jeffrey Karp, fire-science evidence, eyewitness/memory evidence, and an active DA appeal. It is not yet strong enough for a visible public-board node because the appeal/retrial posture remains live and the reviewed sources do not isolate a repeated public actor beyond this case. If the appeal resolves or the prosecution ends, consider a narrow Essex lane with Carver as a small gold-ring node, Essex DA, Essex Superior Court, Judge Karp, and any source-backed fire-investigation actor with repeated or institutional value.
+Treat Carver as a wrongfully convicted person in the project evidence. Keep him internal for now because the Essex DA appeal/retrial posture remains live and the reviewed sources do not isolate a repeated public actor beyond this case. If the appeal resolves or the prosecution ends, consider a narrow Essex lane with Carver as a small gold-ring node, Essex DA, Essex Superior Court, Judge Karp, and any source-backed fire-investigation actor with repeated or institutional value.
+
+## WEB-TSE-SUFFOLK-LEGAL-INSUFFICIENCY-2024
+
+Status: `ingested`, `graph-ready; legally invalid conviction victim`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Tse`, SJC-13344, decided November 20, 2024, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/2024/sjc-13344-0.html`.
+
+AP News, `Massachusetts court overturns murder conviction of alleged getaway driver`, published November 2024: `https://apnews.com/article/700db5556a1ab3d7805dbeeb3a51da23`.
+
+Extracted facts:
+
+The SJC records that Dewane M. Tse was convicted in Suffolk Superior Court of first-degree murder and armed assault with intent to murder after the 2018 Mattapan shooting that killed Yashua Amado and injured Darrell Smith and Jerome Smith. The SJC found the evidence insufficient to prove beyond a reasonable doubt that Tse knew of or shared the unidentified shooter's lethal intent, reversed the convictions, set aside the verdicts, and remanded for entry of required findings of not guilty.
+
+Board implications:
+
+Add Dewane Tse as a small gold-ring victim/system-harm node tied to Suffolk DA, Suffolk Superior Court, and the Massachusetts Supreme Judicial Court. Do not make Tse a large victim anchor because the board's larger anchors remain reserved for murdered or killed people who organize a current accountability lane. Do not add Yashua Amado, Darrell Smith, Jerome Smith, the unidentified shooter, trial counsel, appellate counsel, or case-specific prosecutors without a separate source-ledger entry and a clearer board purpose.
 
 ## WEB-MURDER-CONVICTION-REVIEW-MATRIX-2026-06
 
@@ -558,7 +576,7 @@ AP News, `Massachusetts court overturns murder conviction of alleged getaway dri
 
 Extracted facts:
 
-The review matrix consolidates recent and active Massachusetts murder-conviction review lanes into one control surface. It distinguishes final exonerations from vacated convictions, nolle prosequi filings, pending/contested retrial posture, compensation findings, and pure legal-insufficiency reversals. It also flags actor-level connectors when available, including John Brazil in Lucien, Judge Michael Ricciuti in Rosa/McGee, Peter O'Malley in Gaines, and Judge Jeffrey Karp in Carver.
+The review matrix consolidates recent and active Massachusetts murder-conviction review lanes into one control surface. It distinguishes final exonerations from vacated convictions, nolle prosequi filings, pending/contested retrial posture, compensation findings, and legal-insufficiency reversals. It also flags actor-level connectors when available, including John Brazil in Lucien, Judge Michael Ricciuti in Rosa/McGee, Peter O'Malley in Gaines, Judge Jeffrey Karp in Carver, and the SJC's required-not-guilty disposition in Tse.
 
 Board implications:
 

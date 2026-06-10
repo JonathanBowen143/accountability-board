@@ -82,9 +82,19 @@ Source trail: the Essex / Beverly fire lane is now separated through `WEB-CARVER
 
 Candidate names: James Carver; DA Paul Tucker; Judge Jeffrey Karp; Essex DA; Essex Superior Court; Massachusetts Appeals Court; Craig Beyler; Michael Mazza; Nancy Franklin; trial fire/arson investigators.
 
-Board action: keep the Carver lane internal until the Appeals Court decision, retrial posture, or prosecution-ending posture is clear. Do not add Carver, Tucker, Karp, fire-science experts, eyewitness experts, Beverly agencies, or individual fire victims from this pass. If the appeal resolves or prosecution ends, consider only a narrow Essex court/DA/fire-science lane unless a repeated public actor emerges.
+Board action: treat Carver as wrongfully convicted in the project evidence while keeping the public graph on hold until the Appeals Court decision, retrial posture, or prosecution-ending posture is clear. Do not add Carver, Tucker, Karp, fire-science experts, eyewitness experts, Beverly agencies, or individual fire victims from this pass. If the appeal resolves or prosecution ends, consider only a narrow Essex court/DA/fire-science lane unless a repeated public actor emerges.
 
-### Michael Sullivan, Dewane Tse, and Other Recent Massachusetts Leads
+### Dewane Tse
+
+Current board state: added as a small gold-ring victim/system-harm node, not as a large victim anchor.
+
+Source trail: the Suffolk / SJC legal-insufficiency lane is now separated through `WEB-TSE-SUFFOLK-LEGAL-INSUFFICIENCY-2024`. The SJC reversed Tse's first-degree murder and armed-assault convictions and remanded for required findings of not guilty because the Commonwealth's evidence was legally insufficient to prove that Tse knew of or shared the unidentified shooter's lethal intent.
+
+Candidate names: Dewane Tse; Suffolk DA; Suffolk Superior Court; Massachusetts Supreme Judicial Court; Yashua Amado; Darrell Smith; Jerome Smith.
+
+Board action: add only Dewane Tse, Suffolk DA, Suffolk Superior Court, and SJC connectors. Keep the homicide victim, shooting survivors, trial judge, counsel, and case-specific prosecutors internal unless a later pass opens a dedicated Mattapan shooting or legal-insufficiency lane.
+
+### Michael Sullivan and Other Recent Massachusetts Leads
 
 Current board state: not visible unless already represented elsewhere.
 
