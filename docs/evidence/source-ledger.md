@@ -62,7 +62,7 @@ Add narrow visible connectors from Watch and Ward Society to District Attorney J
 
 ## WEB-TITICUT-FOLLIES-BRIDGEWATER-SJC-1966-1993
 
-Status: `ingested`, `graph-ready for narrow documentary / Bridgewater / SJC lane`.
+Status: `ingested`, `graph-ready for narrow Bridgewater / SJC institution connector; film stays internal`.
 
 Source titles:
 
@@ -86,7 +86,7 @@ The Boston TV News Digital Library summarizes the public-history arc: Wiseman fi
 
 Board implications:
 
-Add a narrow `Titicut Follies (1967)` public-record/media node. Connect it to Bridgewater State Hospital with a `documentary / media` edge and to the Massachusetts Supreme Judicial Court with a `filing` edge. Do not add Frederick Wiseman, Elliot Richardson, Judge Harry Kalus, Judge Andrew Gill Meyer, Grove Press, individual Bridgewater staff, inmates, or later patient-death actors to the public board from this pass alone. This lane supports the broader institutional-suppression theme, not a claim that Watch and Ward directly controlled the film dispute.
+Do not add `Titicut Follies (1967)` as a public-board node. Use the film and litigation as internal evidence for a narrow institution-level connector from Bridgewater State Hospital to the Massachusetts Supreme Judicial Court with a `filing` edge. Do not add Frederick Wiseman, Elliot Richardson, Judge Harry Kalus, Judge Andrew Gill Meyer, Grove Press, individual Bridgewater staff, inmates, or later patient-death actors to the public board from this pass alone. This lane supports the broader institutional-suppression theme, not a claim that Watch and Ward directly controlled the film dispute.
 
 ## WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06
 

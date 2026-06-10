@@ -108,15 +108,15 @@ Current board state: Watch and Ward Society now connects to DA Joseph Pelletier 
 
 Decision: Keep this visible lane narrow for now. The source trail supports Watch and Ward as private political-influence/accountability-pressure context around the Pelletier removal lane, but Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, booksellers, and censorship-specific actors should remain internal until the board intentionally opens a private-influence and censorship subnetwork.
 
-### Titicut Follies / Bridgewater Suppression Lane
+### Bridgewater / SJC Suppression Lane
 
 Status: `implemented`.
 
 Evidence: `WEB-TITICUT-FOLLIES-BRIDGEWATER-SJC-1966-1993`.
 
-Current board state: `Titicut Follies (1967)` now appears as a documentary/media node connected to Bridgewater State Hospital and to the Massachusetts Supreme Judicial Court. The `show` legend key has been generalized to `Documentary / Media` so both `Boston's Finest (2013)` and `Titicut Follies (1967)` sit under the same media/public-record relationship type.
+Current board state: `Titicut Follies (1967)` has been kept out of the public board. Bridgewater State Hospital now connects directly to the Massachusetts Supreme Judicial Court through a `filing` edge supported by the `Commonwealth v. Wiseman` litigation record and the related source trail. The `show` legend key remains generalized to `Documentary / Media` for existing media/public-record connectors such as `Boston's Finest (2013)`.
 
-Decision: Keep this as an institutional-suppression lane, not a filmography lane. Do not add Frederick Wiseman, Elliot Richardson, Judge Harry Kalus, Judge Andrew Gill Meyer, Grove Press, individual Bridgewater staff, inmates, or later patient-death actors unless a later pass identifies a repeated public actor, court mechanism, or institution-level accountability connector.
+Decision: Keep this as an institutional-suppression lane, not a filmography lane. Do not add `Titicut Follies (1967)`, Frederick Wiseman, Elliot Richardson, Judge Harry Kalus, Judge Andrew Gill Meyer, Grove Press, individual Bridgewater staff, inmates, or later patient-death actors unless a later pass identifies a repeated public actor, court mechanism, or institution-level accountability connector.
 
 ### Local Police / DA Jurisdiction Backbone
 
