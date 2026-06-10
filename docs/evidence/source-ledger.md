@@ -160,6 +160,32 @@ Board implications:
 
 Keep the existing Cox-to-BPD, Cox-to-Conley, Cox-to-Williams, and Cox-to-Dever connectors. Add a restrained Cox-to-Read/O'Keefe case connector because Cox became part of the public Dever/Read accountability dispute. Do not display the King/O'Malley lane on the public board until the relevant video and court record are reviewed directly. Do not connect Cox to John Mulligan from these sources; the 1995 Cox beating arose from a separate Grove Hall shooting chase, not the Mulligan murder / Sean Ellis lane.
 
+## WEB-COX-OPAT-CRB-OVERSIGHT-2025-2026
+
+Status: `ingested`, `graph-ready for narrow OPAT / BPD / Cox connector`.
+
+Source titles:
+
+Boston.gov, `Police Accountability and Transparency`: `https://www.boston.gov/departments/police-accountability-and-transparency`.
+
+City of Boston Office of Police Accountability and Transparency Civilian Review Board, `Letter to Commissioner Cox Re: Authority of OPAT Investigations and Civilian Review Board Findings Under Massachusetts Law`, dated May 1, 2026: `https://www.boston.gov/sites/default/files/file/2026/05/Letter%20to%20Comr%20Cox%20from%20CRB%205-1-2026.pdf`.
+
+WBUR, `Boston police chief routinely rejects disciplinary recommendations by oversight board`, published August 28, 2025: `https://www.wbur.org/news/2025/08/28/boston-police-commissioner-officers-discipline`.
+
+GBH, `Councilors push for clarity on Boston police bodycam policies after Roxbury shooting`, published April 8, 2026: `https://www.wgbh.org/news/politics/2026-04-08/councilors-push-for-clarity-on-boston-police-bodycam-policies-after-roxbury-shooting`.
+
+NBC10 Boston, `Karen Read's attorney demands disciplinary review of Boston police commissioner`, published October 28, 2025: `https://www.nbcboston.com/news/canton-karen-read-case/karen-read-michael-cox-kelly-dever-police/3835137/`.
+
+Extracted facts:
+
+Boston.gov describes the Office of Police Accountability and Transparency as a civilian body that investigates Boston Police Department misconduct and supports the OPAT Commission, Civilian Review Board, and Internal Affairs Oversight Panel. Boston.gov's OPAT page lists CRB meeting records and correspondence, including the May 1, 2026 CRB letter to Commissioner Cox. In that letter, the CRB disputes BPD's position that OPAT or CRB findings require a separate IAD investigation before sustained findings or discipline; the letter says Massachusetts law does not require police misconduct investigations to be conducted exclusively by internal affairs units and says OPAT investigations may provide a lawful factual record, subject to the commissioner's independent judgment and civil-service protections.
+
+WBUR reports that Cox has often rejected or not responded to OPAT disciplinary recommendations, including a reported OPAT recommendation involving Officer Matthew Conley. GBH reports that the Boston City Council pushed for clearer body-camera-release protocols after Boston Police Officer Nicholas O'Malley was charged in the fatal shooting of Stephenson King Jr., and that OPAT's executive director said OPAT had been denied access to the King footage. NBC10 Boston reports that Karen Read's attorney demanded a disciplinary review of Cox and alleged that Cox publicly denied involvement in the Read/Dever matter despite alleged earlier notice; this remains an allegation and public response posture, not an adjudicated finding.
+
+Board implications:
+
+Add a narrow `Boston OPAT` institution node. Connect OPAT to Boston Police with an `oversee` edge because OPAT is a civilian misconduct-review body for BPD. Connect OPAT to Commissioner Cox with a `comm` edge because the current evidence is formal correspondence and public oversight dispute, not a court case or adjudicated misconduct finding. Keep the Stephenson King Jr. / Nicholas O'Malley lane internal until the underlying video, court record, and charging record are reviewed directly.
+
 ## WEB-READ-RETRIAL-NORFOLK-STAFF-2025
 
 Status: `ingested`, `internal-only unless stronger public-accountability role surfaces`.
