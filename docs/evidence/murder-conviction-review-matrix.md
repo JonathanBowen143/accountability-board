@@ -30,6 +30,10 @@ James Lucien has moved from graph-ready candidate to public-board small-node tre
 
 The next useful pass should either revisit Carver after more time has passed for an Appeals Court decision or test another Massachusetts overturned-murder-conviction lane with a repeated public actor worth surfacing. A later Pina refresh should focus on SJC-13783 final disposition and Daniel Pina's full exoneration record.
 
+## Historical Candidate Review
+
+The Edward "Teddy" Deegan murder-conviction lane is now the strongest documented mid-20th-century gap. Peter Limone, Louis Greco, Henry Tameleo, and Joseph Salvati were convicted in the 1968 Suffolk County Deegan murder proceedings; later FBI disclosures, state vacatur/nolle posture, National Registry treatment, and federal damages litigation make the lane source-strong. Keep it internal until the project decides whether to create a historical federal-lane exception for FBI Boston. If approved, use small wrongful-conviction victim nodes for Limone, Greco, Tameleo, and Salvati rather than large victim anchors, and treat Deegan as the underlying murdered person, not as a standalone case label.
+
 ## Immediate Holds
 
 Stephen Pina and Daniel Pina must remain separate. Stephen Pina is a contested/released/new-trial lane from the 1993 Mission Hill fatal shooting of Keith Robinson, with a vacated conviction and Commonwealth appeal posture in the reviewed sources. Daniel Pina is a separate 1997 cab-driver murder exoneration involving Domingo Mejia, identified by the National Registry and supported by a Mass. parole decision for victim/case identity. Do not merge them under a generic Pina node.

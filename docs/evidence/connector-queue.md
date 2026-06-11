@@ -1,6 +1,6 @@
 # Connector Queue
 
-Last updated: June 10, 2026.
+Last updated: June 11, 2026.
 
 This queue is the holding area between evidence ingestion and graph edits. It prevents the board from becoming either under-connected or over-claimed.
 
@@ -127,6 +127,16 @@ Evidence: `WEB-HISTORICAL-CONNECTOR-TIGHTENING-1921-2022`.
 Current board state: The historical layer now has four additional existing-node edges: Katzmann to Thayer in the Sacco/Vanzetti trial lane, Tufts to the SJC, Pelletier to the SJC, and Harshbarger to Coakley as a Middlesex DA professional-lineage connector. Coakley's Middlesex DA office edge was already present.
 
 Decision: Continue using historical connectors when they explain a recurring Massachusetts institution, office, court, or public-accountability mechanism. Do not widen the historical layer into extra biographical names unless the source creates a clear board-relevant relationship between existing institutions, public officials, or accountability cases.
+
+### Deegan / FBI Informant Murder-Conviction Lane
+
+Status: `high-priority historical candidate; internal until federal-lane rule is decided`.
+
+Evidence: `WEB-DEEGAN-FBI-INFORMANT-MURDER-CONVICTIONS-1965-2009`.
+
+Current board state: The public board has Sacco/Vanzetti, Boston Strangler / DeSalvo, Bridgewater/SJC, Watch and Ward/Pelletier, and several recent wrongful-conviction lanes, but it does not yet represent the 1965 Edward "Teddy" Deegan murder convictions or the later Limone / Greco / Tameleo / Salvati exoneration and FBI-informant misconduct findings.
+
+Decision: Treat Deegan as the obvious mid-20th-century murder-corruption coverage gap. Hold visible graph changes for one scope decision: whether the board allows a historical federal-lane exception for FBI Boston because the misconduct center is federal, even though the prosecution and conviction posture are Massachusetts/Suffolk County. If approved later, add only a small minimal structure first: Deegan as the underlying murdered person; Limone, Greco, Tameleo, and Salvati as small wrongful-conviction victims; Suffolk DA and Suffolk Superior Court as state institutions; and a restrained FBI Boston / federal-informant institution connector. Keep named FBI agents, Barboza, Flemmi, Patriarca, Durham, Hinkle, prosecutors, detectives, and civil-litigation family actors internal until the public graph can carry that complexity without over-expanding.
 
 ### Watch and Ward / Pelletier Historical Lane
 

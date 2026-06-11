@@ -1,6 +1,6 @@
 # Source Ledger
 
-Last updated: June 10, 2026.
+Last updated: June 11, 2026.
 
 This ledger records source surfaces reviewed or identified for the board. It is intentionally separate from `index.html`; evidence belongs here first, graph edges second.
 
@@ -33,6 +33,38 @@ WBUR reports that Martha Coakley joined the Middlesex DA's office in 1986 and th
 Board implications:
 
 Add existing-node historical tightening edges only: Katzmann to Thayer as a Sacco/Vanzetti trial role connector; Tufts and Pelletier to the SJC as district-attorney removal proceeding connectors; and Harshbarger to Coakley as a professional Middlesex DA lineage connector. Coakley's Middlesex DA office edge already exists and should remain. Do not use this pass to add Fred Moore, SJC justices, Boston book-war actors, Watch and Ward officers, or additional Fells Acres actors without a separate source-ledger entry.
+
+## WEB-DEEGAN-FBI-INFORMANT-MURDER-CONVICTIONS-1965-2009
+
+Status: `ingested`, `high-priority historical graph candidate; federal-lane scope decision needed`.
+
+Source titles:
+
+U.S. House Committee on Government Reform, `Everything Secret Degenerates: The FBI's Use of Murderers as Informants`, House Report 108-414, February 3, 2004, GovInfo: `https://www.govinfo.gov/content/pkg/CRPT-108hrpt414/html/CRPT-108hrpt414-vol1.htm`.
+
+U.S. Court of Appeals for the First Circuit, `Limone, et al v. United States`, No. 08-1327, decided August 27, 2009, Justia mirror: `https://law.justia.com/cases/federal/appellate-courts/ca1/08-1327/08-1327p-01a-2011-02-25.html`.
+
+U.S. Court of Appeals for the First Circuit, `Peter J. Limone et al. v. Dennis Condon et al.`, 372 F.3d 39, decided June 10, 2004, Justia mirror: `https://law.justia.com/cases/federal/appellate-courts/F3/372/39/593452/`.
+
+U.S. District Court for the District of Massachusetts, `Limone v. United States`, 497 F. Supp. 2d 143, decided July 26, 2007, CaseMine mirror: `https://www.casemine.com/judgement/us/5914b3eaadd7b04934769118`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth vs. Joseph L. Salvati`, 420 Mass. 499, decided June 12, 1995, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/420/420mass499.html`.
+
+National Registry of Exonerations, `Government Misconduct and Convicting the Innocent`, September 1, 2020: `https://exonerationregistry.org/sites/exonerationregistry.org/files/documents/Updated%20CP_Government_Misconduct_and_Convicting_the_Innocent%20%281%29.pdf`.
+
+Extracted facts:
+
+Edward "Teddy" Deegan was murdered in Chelsea on March 12, 1965. In 1968, Peter Limone, Louis Greco, Henry Tameleo, and Joseph Salvati were convicted in Suffolk County proceedings tied to Deegan's murder, with Limone, Greco, and Tameleo receiving death sentences later reduced to life imprisonment and Salvati receiving a life sentence. The SJC's 1995 Salvati decision records the original 1968 convictions and the Suffolk County posture of the case.
+
+The First Circuit's 2009 opinion states that FBI agents cultivated Joseph Barboza as a cooperating witness, that the Commonwealth's convictions were based principally on Barboza's testimony, and that in December 2000 the FBI disclosed reliable intelligence it had possessed all along that undercut Barboza's account. By the time of disclosure, Tameleo and Greco had died in prison, Salvati had been paroled, and Limone remained incarcerated; the convictions of all four men were later vacated. The First Circuit affirmed federal liability and the damages awards on intentional-infliction-of-emotional-distress grounds.
+
+The House report states that federal officials had information from surveillance and informants indicating that Joseph Barboza, Vincent "Jimmy" Flemmi, and other organized-crime actors were involved in the Deegan murder, and that the FBI had information contradicting Barboza's trial account. The report also records Judge Margaret Hinkle's January 5, 2001 new-trial order for Limone and the Suffolk County DA's January 30, 2001 non-prosecution posture for Salvati after newly disclosed FBI documents undermined Barboza's credibility and the Commonwealth's theory.
+
+The National Registry of Exonerations treats the Limone, Greco, Tameleo, and Salvati convictions as a murder-exoneration example involving official misconduct. The Registry's 2020 report states that Barboza's testimony was used to convict the four men, that documents revealed FBI knowledge contradicting the convictions, and that all four were exonerated in 2001.
+
+Board implications:
+
+This is the strongest identified mid-20th-century Massachusetts murder-corruption gap in the current project. It has a local Massachusetts murder prosecution, Suffolk County court/DA posture, federal FBI informant misconduct, exoneration treatment, and later federal damages litigation. Do not add it to the visible public graph until the board decides whether a historical federal-lane exception is allowed. If opened later, the likely minimal public-board scope is: Edward "Teddy" Deegan as the underlying murdered person; Peter Limone, Louis Greco, Henry Tameleo, and Joseph Salvati as small wrongful-conviction victims; Suffolk DA / Suffolk Superior Court as local prosecution and court institutions; and a carefully labeled FBI Boston / federal-informant institution connector. Keep Joseph Barboza, Vincent Flemmi, H. Paul Rico, Dennis Condon, Raymond Patriarca, John Durham, Judge Margaret Hinkle, state detectives, prosecutors, and family/civil-litigation actors internal until a separate pass decides whether the public board is ready for named federal and organized-crime actors.
 
 ## WEB-WATCH-WARD-PELLETIER-ALLEN-SJC-1913-1975
 

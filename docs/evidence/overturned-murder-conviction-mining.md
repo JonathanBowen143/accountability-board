@@ -121,3 +121,13 @@ Current board state: not visible unless already represented elsewhere.
 Source trail: recent reporting and innocence-community sources surface additional Massachusetts murder-conviction reversals, releases, and compensation claims. These need source separation because some are overturned, some exonerated, some compensated, and some still contested.
 
 Candidate next action: search for another resolved Massachusetts overturned murder conviction with a repeated public actor, or find an official State Police crime-lab audit/case list that turns the Pino lead into graph-ready structure.
+
+### Historical Gap: Deegan / FBI Informant Murder Convictions
+
+Current board state: internal-only high-priority candidate.
+
+Source trail: the Deegan lane is separated through `WEB-DEEGAN-FBI-INFORMANT-MURDER-CONVICTIONS-1965-2009`. Court, congressional, and National Registry sources support the core posture: Edward "Teddy" Deegan was murdered in Chelsea in 1965; Peter Limone, Louis Greco, Henry Tameleo, and Joseph Salvati were convicted in Suffolk County proceedings; later disclosures showed the FBI had withheld intelligence undercutting Joseph Barboza's account; and the four convictions were vacated or abandoned, with exoneration treatment in the National Registry and federal damages litigation.
+
+Candidate names: Edward "Teddy" Deegan; Peter Limone; Louis Greco; Henry Tameleo; Joseph Salvati; Suffolk DA; Suffolk Superior Court; FBI Boston.
+
+Board action: hold pending the federal-lane scope decision. If the board opens this lane, add Deegan as the underlying murdered person, add Limone, Greco, Tameleo, and Salvati as small wrongful-conviction victim nodes, and add restrained Suffolk / court / FBI institution connectors before considering named FBI agents, informants, organized-crime actors, prosecutors, detectives, judges, or civil-litigation family actors.
