@@ -190,7 +190,7 @@ Keep the existing Cox-to-BPD, Cox-to-Conley, Cox-to-Williams, and Cox-to-Dever c
 
 ## WEB-COX-OPAT-CRB-OVERSIGHT-2025-2026
 
-Status: `ingested`, `graph-ready for narrow OPAT / BPD / Cox connector`.
+Status: `ingested`, `internal context; public OPAT node removed after scope review`.
 
 Source titles:
 
@@ -212,7 +212,7 @@ WBUR reports that Cox has often rejected or not responded to OPAT disciplinary r
 
 Board implications:
 
-Add a narrow `Boston OPAT` institution node. Connect OPAT to Boston Police with an `oversee` edge because OPAT is a civilian misconduct-review body for BPD. Connect OPAT to Commissioner Cox with a `comm` edge because the current evidence is formal correspondence and public oversight dispute, not a court case or adjudicated misconduct finding. Keep the Stephenson King Jr. / Nicholas O'Malley lane internal until the underlying video, court record, and charging record are reviewed directly.
+Do not keep a standalone `Boston OPAT` node on the public board for the current layer. OPAT is officially separate from the Boston Police Department and should not be treated as a BPD subunit, but the present board is focused on victims, public officials, and recurring case actors. Roll the OPAT/CRB material into the Cox/BPD accountability evidence notes unless later OPAT records create a repeated visible actor, adjudicated finding, or direct public-board connector. Keep the Stephenson King Jr. / Nicholas O'Malley lane internal until the underlying video, court record, and charging record are reviewed directly.
 
 ## WEB-READ-RETRIAL-NORFOLK-STAFF-2025
 

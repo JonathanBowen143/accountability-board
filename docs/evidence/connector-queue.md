@@ -14,6 +14,14 @@ Evidence: `index.html` draws nodes with `k:'victimAnchor'` as larger centered mu
 
 Decision: Keep the larger Root, Birchmore, O'Keefe, Walshe, and Delgado-Garcia victim anchors as a style choice for navigation and moral focus. Do not let size imply blame, certainty, or evidence strength. The legend now names this as `Victim Anchor`.
 
+### Public-Role Label Normalization
+
+Status: `active audit`.
+
+Evidence: Current graph labels; `WEB-SUFFOLK-FOXWORTH-KAMARA-2021-2023`; Root local records using `Sergeant Detective` / `Sgt. Det.` phrasing.
+
+Decision: Keep source status words like `former`, `retired`, and `now` out of visible node labels unless the status is the accountability fact itself. Use the public role or rank that identifies the person in the source. For Boston Police detective titles, preserve the rank/detective distinction when the source provides it: `Sgt. Det.` and `Det. Lt.` are different from plain `Det.`. Daniel Flynn is now displayed as `Sgt. Det. Daniel Flynn`, while his former status remains in the evidence notes.
+
 ## Current Norfolk Hot-Button Issues
 
 ### Read / O'Keefe Civil Suit
@@ -180,11 +188,11 @@ Decision: Keep these as investigation-assignment connectors. The source describe
 
 ### Commissioner Michael Cox / BPD Accountability Lanes
 
-Status: `implemented for OPAT connector; O'Malley / King lane internal-only pending video review`.
+Status: `implemented for Cox/BPD context; OPAT and O'Malley / King lanes internal-only pending stronger review`.
 
 Evidence: `WEB-COX-BPD-ACCOUNTABILITY-LANES-1995-2026`; `WEB-COX-OPAT-CRB-OVERSIGHT-2025-2026`.
 
-Current board state: Cox has his original BPD employment connector, existing Cox/Conley/Williams 1995 beating connectors, existing oversight connectors to BPD actors already in the Read/O'Keefe lane, and a direct Read/O'Keefe public-accountability connector through the Dever dispute. Boston OPAT now appears as a public oversight institution connected to Boston Police and to Cox through formal CRB/OPAT correspondence and oversight-dispute evidence. The Stephenson King Jr. / Nicholas O'Malley fatal-police-shooting lane has been removed from the public board and retained only as an internal lead pending direct video and court-record review.
+Current board state: Cox has his original BPD employment connector, existing Cox/Conley/Williams 1995 beating connectors, existing oversight connectors to BPD actors already in the Read/O'Keefe lane, and a direct Read/O'Keefe public-accountability connector through the Dever dispute. Boston OPAT has been removed from the public graph after scope review; OPAT/CRB material remains documented as Cox/BPD accountability context because OPAT is officially separate from BPD but does not need its own visible node in the current victim/public-official layer. The Stephenson King Jr. / Nicholas O'Malley fatal-police-shooting lane has been removed from the public board and retained only as an internal lead pending direct video and court-record review.
 
 Decision: Cox remains board-relevant as both a past BPD victim of blue-wall conduct and a current commissioner tied to accountability disputes, but further visible-board expansion should not depend on the O'Malley arrest lane unless direct video and court records are reviewed. Continue mining Cox only if official BPD, OPAT, court, POST, or City Council records create a direct accountability connector. Do not add generic biography edges merely because Cox held many commands, and do not connect him to John Mulligan unless a source directly ties Cox to the Mulligan / Sean Ellis lane.
 
