@@ -187,6 +187,10 @@ var N=[
 {id:'djones',t:'victim',l:"Darrell Jones"},
 {id:'ewright',t:'victim',l:"Edward Wright",fx:704,fy:810},
 {id:'panderson',t:'victim',l:"Penny Anderson",fx:548,fy:802},
+{id:'mschand',t:'victim',l:"Mark Schand",fx:620,fy:820},
+{id:'vseymour',t:'victim',l:"Victoria Seymour",fx:438,fy:820},
+{id:'cwilhite',t:'victim',l:"Charles Wilhite",fx:1045,fy:820},
+{id:'albertorodriguez',t:'victim',l:"Alberto Rodriguez",fx:1200,fy:800},
 {id:'ingham',t:'exposed',l:"Det. Alfred Ingham",fx:458,fy:690},
 {id:'bucci',t:'other',l:"Judge Jeremy Bucci",fx:910,fy:810},
 {id:'gulluni',t:'other',l:"DA Anthony Gulluni",fx:768,fy:612},
@@ -200,7 +204,7 @@ var N=[
 {id:'camirault',t:'victim',l:"Cheryl Amirault LeFave"},
 {id:'penate',t:'victim',l:"Rolando Penate"}];
 var spine={proctor:1,bukhenik:1,fanning:1,tully:1,dicicco:1};
-var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,rickeymcgee:1,kwaters:1,vrosario:1,djones:1,ewright:1,penate:1,nmiller:1,dmaher:1,gperrot:1,echavarria:1,fclay:1,fchoy:1,rfoxworth:1,bkamara:1,rgaines:1,miltonjones:1,fhamilton:1,jpope:1,jlucien:1,dtse:1,mjsullivan:1};
+var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,rickeymcgee:1,kwaters:1,vrosario:1,djones:1,ewright:1,mschand:1,cwilhite:1,penate:1,nmiller:1,dmaher:1,gperrot:1,echavarria:1,fclay:1,fchoy:1,rfoxworth:1,bkamara:1,rgaines:1,miltonjones:1,fhamilton:1,jpope:1,jlucien:1,dtse:1,mjsullivan:1};
 function E(s,t,y){return {source:s,target:t,ty:y};}
 var L=[
 E('IMSP','CROOT','juris'),E('IMSP','CREAD','juris'),E('IMSP','CWALSHE','juris'),E('IMSP','CBIRCH','juris'),E('IMSP','CACAD','juris'),E('IMSP','CDRUG','juris'),
@@ -338,6 +342,10 @@ E('ewright','IHAMPDEN','case'),
 E('ISPRINGFIELD','IHAMPDEN','juris'),E('IHAMPDEN','IHAMPDENCOURT','juris'),
 E('ewright','IHAMPDENCOURT','case'),E('ewright','ISPRINGFIELD','case'),E('ewright','panderson','case'),
 E('panderson','ISPRINGFIELD','case'),E('panderson','IHAMPDEN','case'),
+E('mschand','IHAMPDEN','case'),E('mschand','IHAMPDENCOURT','case'),E('mschand','ISPRINGFIELD','case'),E('mschand','vseymour','case'),
+E('vseymour','ISPRINGFIELD','case'),E('vseymour','IHAMPDEN','case'),
+E('cwilhite','IHAMPDEN','case'),E('cwilhite','IHAMPDENCOURT','case'),E('cwilhite','ISPRINGFIELD','case'),E('cwilhite','albertorodriguez','case'),E('cwilhite','velis','case'),
+E('albertorodriguez','ISPRINGFIELD','case'),E('albertorodriguez','IHAMPDEN','case'),
 E('ingham','ISPRINGFIELD','emp'),E('ingham','ewright','case'),E('ingham','panderson','case'),
 E('bucci','IHAMPDENCOURT','emp'),E('bucci','ewright','case'),
 E('gulluni','IHAMPDEN','emp'),E('gulluni','ewright','case'),

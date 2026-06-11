@@ -614,7 +614,37 @@ The New Bedford/Bristol lane is significant but not exoneration-ready. NEIP repo
 
 Board implications:
 
-Next regional priorities should be sequenced rather than dumped into the public board. First, harden Lowell / Rosario because Rosario is already visible and under-connected. Second, extend Springfield / Hampden through Schand and Wilhite only after a separate pass decides whether to add them as small wrongful-conviction nodes tied to Springfield Police, Hampden Superior Court, and Hampden DA. Third, document Cifizzari as a Worcester County candidate, but do not treat it as a Worcester city police lane. Fourth, keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
+Next regional priorities should be sequenced rather than dumped into the public board. Lowell / Rosario has been hardened through a separate pass, and Springfield / Hampden has been extended through the later `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` entry. Next, document Cifizzari as a Worcester County candidate, but do not treat it as a Worcester city police lane. Keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
+
+## WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020
+
+Status: `ingested`, `implemented as narrow Springfield / Hampden small-node expansion`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Mark Schand`, 420 Mass. 783, decided June 14, 1995, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/420/420mass783.html`.
+
+Centurion, `Mark Schand`: `https://centurion.org/cases/mark-schand/`.
+
+NEPM, `Springfield To Pay $6.5 Million To Man Wrongfully Imprisoned For 27 Years`, published December 8, 2020: `https://www.nepm.org/regional-news/2020-12-08/springfield-to-pay-6-5-million-to-man-wrongfully-imprisoned-for-27-years`.
+
+U.S. District Court for the District of Massachusetts, `Schand v. City of Springfield`, civil action No. 3:15-cv-30148-WGY, memorandum and order dated May 6, 2019, GovInfo: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-3_15-cv-30148/pdf/USCOURTS-mad-3_15-cv-30148-1.pdf`.
+
+WAMC, `Man Sues Police For Wrongful Murder Conviction`, published January 29, 2014: `https://www.wamc.org/new-england-news/2014-01-29/man-sues-police-for-wrongful-murder-conviction`.
+
+GBH, `2 Unjust Perjury Prosecutions: Are They Revenge For Charles Wilhite Being Found Innocent Of Murder?`, published March 23, 2015: `https://www.wgbh.org/news/commentary/2015-03-23/2-unjust-perjury-prosecutions-are-they-revenge-for-charles-wilhite-being-found-innocent-of-murder`.
+
+U.S. District Court for the District of Massachusetts, `Wilhite v. Pioggia et al.`, civil action No. 14-30023, complaint filed January 29, 2014, public PDF mirror: `https://static1.1.sqspcdn.com/static/f/634737/24293838/1391114235713/1%2B-`.
+
+Extracted facts:
+
+The SJC's Schand opinion records Mark Schand's first-degree-murder conviction in Hampden County and identifies the Springfield After Five Lounge shooting in which Victoria Seymour was fatally shot. Centurion reports that Hampden DA Mark Mastroianni did not oppose a new trial, that Judge C. Jeffrey Kinder granted a new trial and immediate release in October 2013, and that prosecutors dismissed the charges later that month. NEPM reports that Springfield approved a $6.5 million settlement after Schand was wrongfully incarcerated for almost three decades, and the federal civil-rights order identifies the City of Springfield and former Springfield officers as remaining defendants in the civil lane.
+
+WAMC reports that Charles Wilhite spent three years in prison after a Springfield murder conviction, that witnesses later recanted, that a judge vacated the conviction, and that Wilhite was found not guilty at a second trial in January 2013. GBH and the Wilhite complaint identify the underlying murder victim as Alberto Rodriguez, the Pine Street Market shooting location, the Springfield Police Department detective allegations, and Judge Peter A. Velis's new-trial role. The Wilhite complaint also identifies the Hampden prosecution and court posture, but the named detective allegations remain internal until repeated-actor review supports public-board use.
+
+Board implications:
+
+Add Mark Schand and Charles Wilhite as small gold-ring wrongful-conviction nodes, not large victim anchors. Add Victoria Seymour and Alberto Rodriguez as underlying homicide-victim nodes, also not large anchors. Connect Schand and Wilhite narrowly to Springfield Police Department, Hampden County DA, and Hampden Superior Court. Add a narrow Wilhite-to-Judge-Peter-Velis connector because Velis is already on the board and the reviewed Wilhite sources document his new-trial role. Keep Mark Mastroianni, Judge C. Jeffrey Kinder, City of Springfield, Anthony Pioggia, Steven Tatro, the named Schand civil defendants, witnesses, counsel, and settlement actors internal for now.
 
 ## WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023
 
