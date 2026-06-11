@@ -32,9 +32,19 @@ Status: `graph-ready`.
 
 Evidence: `WEB-READ-MCLAUGHLIN-ALBERT-2025`; `WEB-READ-HIGGINS-CANTON-PD-2024`.
 
-Current board state: Added a McLaughlin-to-Caitlin Albert personal/acquaintance connector, a Caitlin-to-Nicole Albert family connector, and a Higgins-to-Canton Police professional connector. These are all existing nodes in the Read/O'Keefe lane.
+Current board state: Added a McLaughlin-to-Caitlin Albert personal/acquaintance connector, a Caitlin-to-Nicole Albert family connector, a Higgins-to-Canton Police professional connector, and a Higgins-to-Berkowitz communication/contact connector. These are all existing nodes in the Read/O'Keefe lane.
 
-Decision: Keep these as context connectors only. The McLaughlin/Caitlin edge documents a litigated acquaintance and social-overlap issue, not a close-friendship or misconduct finding. The Higgins/Canton Police edge documents a satellite-office and vehicle-storage/work-vehicle connection, not Canton Police employment and not a federal-lane expansion.
+Decision: Keep these as context connectors only. The McLaughlin/Caitlin edge documents a litigated acquaintance and social-overlap issue, not a close-friendship or misconduct finding. The Higgins/Canton Police edge documents a satellite-office and vehicle-storage/work-vehicle connection, not Canton Police employment and not a federal-lane expansion. The Higgins/Berkowitz edge documents reported call/contact testimony and cross-examination context only.
+
+### Read / O'Keefe Phone, Text, and Digital-Evidence Context
+
+Status: `graph-ready`.
+
+Evidence: `WEB-READ-GUARINO-PHONE-DATA-2024-2025`; `WEB-READ-HIGGINS-CANTON-PD-2024`.
+
+Current board state: Added Guarino-to-O'Keefe, Guarino-to-Jennifer McCabe, and Guarino-to-Kerry Roberts case/evidence-handling connectors. Guarino-to-Karen Read already exists through the case lane.
+
+Decision: Keep these as phone-data extraction, review, and testimony connectors only. Do not treat them as findings about the accuracy of the digital evidence or as misconduct findings. Do not add a separate Higgins-to-Brian Albert communication edge until a cleaner source supports something more durable than the existing personal/friendship edge.
 
 ### Sandra Birchmore Federal Superseding Indictment
 

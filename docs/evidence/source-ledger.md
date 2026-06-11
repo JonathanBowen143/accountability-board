@@ -346,7 +346,7 @@ Add a narrow McLaughlin-to-Caitlin Albert personal/acquaintance connector and a 
 
 ## WEB-READ-HIGGINS-CANTON-PD-2024
 
-Status: `ingested`, `graph-ready for narrow professional/institutional connector`.
+Status: `ingested`, `graph-ready for narrow professional/institutional and call/contact connectors`.
 
 Source titles:
 
@@ -356,11 +356,31 @@ NBC10 Boston, `ATF agent testifies about flirtatious text exchanges with Karen R
 
 Extracted facts:
 
-Boston.com reports that Higgins had a satellite office at the Canton police station and accessed the station's sally port on January 29, 2022, before Read's SUV was brought in. NBC10 Boston reports that Higgins testified he went to the Canton Police Department after leaving the Albert home, where he had an office and stored ATF vehicles, and that he went there to move work vehicles so the lot could be plowed.
+Boston.com reports that Higgins had a satellite office at the Canton police station and accessed the station's sally port on January 29, 2022, before Read's SUV was brought in. NBC10 Boston reports that Higgins testified he went to the Canton Police Department after leaving the Albert home, where he had an office and stored ATF vehicles, and that he went there to move work vehicles so the lot could be plowed. NBC10 Boston also reports that Higgins testified Canton Police Chief Kenneth Berkowitz and Brian Albert were calling him around 6:30 a.m. Boston.com reports that Alan Jackson questioned Higgins about phone conversations with Brian Albert and then-Canton Police Chief Kenneth Berkowitz; Higgins denied collusion and denied discussing the matter with Albert.
 
 Board implications:
 
-Add a narrow Higgins-to-Canton Police `business/professional tie` connector. This explains why a federal ATF agent already in the Read/O'Keefe witness cluster also belongs near the Canton Police institution. It does not add a new federal-prosecution lane and should not be used as an employment connector or misconduct finding.
+Add a narrow Higgins-to-Canton Police `business/professional tie` connector. This explains why a federal ATF agent already in the Read/O'Keefe witness cluster also belongs near the Canton Police institution. Also add a narrow Higgins-to-Berkowitz `communication/community tie` connector for the reported call/contact trail. Do not treat either connector as Canton Police employment, a federal-prosecution lane, or a misconduct finding. Do not add a separate Higgins-to-Brian Albert call connector unless a later source supports a cleaner public-facing communication edge beyond their existing personal/friendship connector.
+
+## WEB-READ-GUARINO-PHONE-DATA-2024-2025
+
+Status: `ingested`, `graph-ready for narrow phone-data/evidence-handling connectors`.
+
+Source titles:
+
+WBZ NewsRadio, `Karen Read Retrial: Day 2 Of Testimony Ends`, published April 23, 2025: `https://wbznewsradio.iheart.com/content/karen-read-retrial-day-2-of-testimony/`.
+
+Boston.com, `Karen Read murder trial: O'Keefe's mother takes the stand`, updated April 23, 2025: `https://www.boston.com/news/crime/2025/04/23/karen-read-murder-trial-livestream-video-wednesday-april-23/`.
+
+CBS Boston, `Karen Read's angry voicemails to John O'Keefe played at murder trial`, updated June 20, 2024: `https://www.cbsnews.com/boston/news/karen-read-trial-live-stream-today-day-27/`.
+
+Extracted facts:
+
+WBZ NewsRadio reports that MSP Trooper Nicholas Guarino testified as a forensic expert involved in extracting and reviewing phone data from John O'Keefe, Karen Read, Jennifer McCabe, and Kerry Roberts. Boston.com reports that Guarino testified about accessing cellphone data from several individuals in Read's case, including Read and O'Keefe, and that he does phone and computer forensic investigative work for the Norfolk County District Attorney's Office. CBS Boston reports that Guarino examined O'Keefe's cellphone, investigated multiple phones and computers connected to the case, and walked jurors through Waze and phone location data tied to O'Keefe's path of travel.
+
+Board implications:
+
+Add narrow Guarino-to-John O'Keefe, Guarino-to-Jennifer McCabe, and Guarino-to-Kerry Roberts `case/evidence-handling` connectors. Guarino-to-Karen Read already exists through the Read/O'Keefe case lane. These connectors document phone-data extraction, review, and testimony context only; they do not adjudicate the accuracy of the digital evidence, the prosecution theory, the defense theory, or any misconduct allegation.
 
 ## WEB-BIRCHMORE-FARWELL-SUPERSEDING-2025
 
