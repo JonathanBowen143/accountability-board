@@ -168,6 +168,16 @@ Current board state: Boston Police now connects to Suffolk County DA; Canton, St
 
 Decision: Keep these as `juris` edges only. They are structural prosecutorial-district connectors, not case-specific claims about conduct, discipline, or charging decisions.
 
+### Victor Rosario / Lowell Regional Connector
+
+Status: `graph-ready`.
+
+Evidence: `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023`.
+
+Current board state: Victor Rosario is already visible as a small wrongful-conviction victim node, but his lane is under-connected. Before this pass, he connected to Middlesex DA and DA John J. Droney, without a Lowell city institution or Middlesex Superior Court context.
+
+Decision: Add Lowell Police Department as a visible institution. Connect Lowell Police to Middlesex DA with a `juris` edge, connect Rosario to Lowell Police with a narrow case connector, and connect Rosario to Middlesex Superior Court. This makes Lowell visible as the next non-Boston regional lane without adding every officer, fire investigator, civil-rights defendant, settlement actor, or fire victim from the Rosario case.
+
 ### Edward Wright / Hampden / Springfield Wrongful-Conviction Lane
 
 Status: `implemented`.
@@ -371,6 +381,16 @@ Evidence: `WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023`; `WEB-GAINES-OMAL
 Current board state: Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, Rickey McGee, Edward Wright, Dewane Tse, and Michael J. Sullivan are represented as small exonerated/wrongful-conviction or legal-invalid-conviction nodes, not large victim anchors. Foxworth and Kamara connect to Suffolk DA, Boston Police, Suffolk Superior Court, former Suffolk ADA James Larkin, and former Boston Sgt. Det. Daniel Flynn. Gaines, Jones, Hamilton, and Pope connect narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. Peter O'Malley node. Lucien connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and the existing Det. John Brazil node. McGee connects narrowly to Suffolk DA, Boston Police, Suffolk Superior Court, and Judge Michael Ricciuti. Wright connects narrowly to Hampden DA, Springfield Police, Hampden Superior Court, Penny Anderson, Det. Alfred Ingham, Judge Jeremy Bucci, DA Anthony Gulluni, and DA M.J. Ryan Jr. Ricciuti also connects to Thomas Rosa Jr. and Suffolk Superior Court. Tse connects narrowly to Suffolk DA, Suffolk Superior Court, and the SJC. Michael J. Sullivan connects narrowly to Middlesex DA, Middlesex Superior Court, Massachusetts State Police, and Chemist Robert Pino. Pino connects to Massachusetts State Police and the existing State Police Crime Laboratory node.
 
 Decision: Keep the public board focused on repeated actor patterns and court/prosecution/police institutions. The matrix now separates visible small-node additions from internal holds. The O'Malley cluster is visible, but McConkey, Daley, Curran, Flynn, Goodale, witnesses, victims, and case-specific prosecutors remain internal pending stronger repeated-actor proof. The Ricciuti/Rosa/McGee pattern is visible, but individual detective, prosecutor, witness, investigator, counsel, and victim names remain internal pending stronger repeated-actor proof. The Wright/Hampden pattern is visible only as a narrow court/police/DA lane. Stephen Pina and Daniel Pina are now disambiguated but remain internal: Stephen because the reviewed sources show active Commonwealth appeal/retrial uncertainty, Daniel because the reviewed sources confirm exoneration posture but not actor-level public graph details. James Carver has now been refreshed through the Essex / Beverly fire lane and should be treated as wrongfully convicted in the project evidence, but remains internal because the Essex DA appeal and possible retrial posture remains live after the June 10 post-argument check. Dewane Tse is visible as a legal-invalid-conviction victim after the SJC ordered required findings of not guilty for insufficient evidence. Michael J. Sullivan is visible as a wrongful-conviction victim after the SJC new-trial decision, 2019 no-retrial posture, and 2024 civil innocence verdict; use `mjsullivan` only, not any existing Sullivan node. Robert Pino is visible as a narrow exposed State Police crime-lab connector because Boston.com's 2024 Sullivan account ties him directly to the physical evidence that implicated Sullivan and the SouthCoastToday / Standard-Times 2007 article page supports the lab-level DNA database role. The next research pass should either revisit Carver after more time has passed for an Appeals Court decision or test another recent Massachusetts overturned-murder-conviction lane using court-level sources.
+
+### Non-Boston Regional City Expansion
+
+Status: `active regional queue`.
+
+Evidence: `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026`; `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023`; `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`.
+
+Current board state: Lowell / Middlesex, Springfield / Hampden, Worcester County, Essex / Beverly, Plymouth, Bristol, and Ayer/Middlesex now exist in different strengths. Boston remains the densest cluster, but it should no longer be the default mining path.
+
+Decision: Shift the next research lane away from Boston. Priority order: Lowell first because Rosario is already visible but under-connected; Springfield second because Wright, Schand, and Wilhite suggest a real Hampden/Springfield pattern; Worcester County third because Cifizzari is strong but not Worcester-city-specific; Bristol / New Bedford-Dartmouth fourth because Tanner is DNA-testing/posthumous-relief posture, not yet exoneration-ready; Essex / Beverly remains a refresh lane while Carver's appeal posture remains live. Do not add Dana Gaul as a public node from this pass because the reviewed posture is wrongful arrest / dismissed charge rather than overturned murder conviction or final exoneration.
 
 ### Robert Pino / State Police Crime-Lab Lead
 

@@ -122,6 +122,14 @@ Source trail: recent reporting and innocence-community sources surface additiona
 
 Candidate next action: search for another resolved Massachusetts overturned murder conviction with a repeated public actor, or find an official State Police crime-lab audit/case list that turns the Pino lead into graph-ready structure.
 
+### Regional City Expansion
+
+Current board state: Lowell / Middlesex has been tightened through Victor Rosario; Springfield / Hampden is active through Edward Wright; Worcester County, Bristol / New Bedford-Dartmouth, Essex / Beverly, Plymouth, and Ayer/Middlesex remain unevenly represented.
+
+Source trail: `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023` supports adding Lowell Police and Middlesex Superior Court connectors to the existing Victor Rosario node. `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026` identifies Gary Cifizzari as a strong Worcester County / Milford candidate, Mark Schand and Charles Wilhite as Springfield / Hampden candidates, and Shawn Tanner as a Bristol / Dartmouth-New Bedford DNA-testing lead that is not yet exoneration-ready.
+
+Candidate next action: after the Lowell/Rosario hardening pass, prioritize Springfield/Hampden because Wright, Schand, and Wilhite suggest the strongest non-Boston city pattern. Treat Worcester carefully: Cifizzari belongs to Worcester County accountability, but it is not a Worcester city police lane. Keep Tanner internal until DNA testing or posthumous-exoneration posture changes.
+
 ### Historical Gap: Deegan / FBI Informant Murder Convictions
 
 Current board state: internal-only high-priority candidate.

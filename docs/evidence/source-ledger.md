@@ -550,6 +550,72 @@ Board implications:
 
 This documents local investigative chronology and identifies local Cohasset police participants, but the visible board should not include Cohasset Police Department or its members in the Walshe lane because Brian Walshe's conviction is not the contested public-accountability issue. Use this source internally while keeping the public graph focused on county-level and state-level actors: Norfolk DA, Norfolk Superior Court, MSP/investigators, OCME, ADA Gregory Connor, Judge Diane Freniere, Brian Walshe, and Ana Walshe.
 
+## WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023
+
+Status: `ingested`, `graph-ready for Lowell Police / Middlesex court connectors`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Victor Rosario`, 477 Mass. 69, decided May 11, 2017, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/477/477mass69.html`.
+
+New England Innocence Project, `The Story Behind the Exoneration of Victor Rosario`: `https://www.newenglandinnocence.org/eleven-year-journey`.
+
+New England Innocence Project, `A Step Closer to Justice for Victor Rosario!`, published May 11, 2017: `https://www.newenglandinnocence.org/innocence-blog/2017/5/11/a-step-closer-to-justice-for-victor-rosario`.
+
+U.S. District Court for the District of Massachusetts, `Rosario v. City of Lowell`, civil action No. 1:19-cv-10532-LTS, order dated September 27, 2019, GovInfo: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_19-cv-10532/pdf/USCOURTS-mad-1_19-cv-10532-0.pdf`.
+
+Loevy & Loevy, `Victor Rosario wins one of the largest wrongful conviction settlements in New England history`: `https://www.loevy.com/big-wins/victor-rosario-historic-settlement/`.
+
+Middlesex District Attorney's Office, `District Court Locations`: `https://www.middlesexda.com/about-us/pages/district-court-locations`.
+
+Extracted facts:
+
+The SJC records that Victor Rosario was convicted in 1983 of arson in a dwelling house and eight counts of second-degree murder after a 1982 Lowell fire, and affirmed the order allowing his new-trial motion. The SJC framed the new-trial posture around newly discovered evidence, including fire-science evidence and the circumstances of Rosario's confession. NEIP identifies the Decatur Street fire as a Lowell fire that killed eight people, including five children, describes Rosario as a bystander who tried to help, and reports the SJC decision as a landmark ruling that left Middlesex DA Marian Ryan's office to decide whether to retry him.
+
+The federal Rosario civil-rights order records that the underlying investigation involved a fire on Decatur Street in Lowell, that Rosario was incarcerated for thirty-two years, that the SJC affirmed his new-trial order in 2017, and that the Middlesex DA declined to proceed with a new trial after the SJC ruling. Loevy & Loevy reports that the Lowell City Council approved a $13 million settlement and attributes the wrongful-conviction claim to Lowell police evidence fabrication, coercive confession practices, and junk fire science. Middlesex DA's district-court page identifies Lowell as part of the Lowell District Court region and places that region within the Middlesex DA's office structure.
+
+Board implications:
+
+Victor Rosario already appears as a small wrongful-conviction victim node. Add a Lowell Police Department institution node and narrow connectors from Rosario to Lowell Police and Middlesex Superior Court, plus a structural Lowell Police to Middlesex DA jurisdiction connector. Keep the City of Lowell, Lowell fire investigators, individual Lowell police officers, Massachusetts State Police Officer David Coonan, Lowell Fire Department, William Gilligan, unknown officers, Garcia brothers, civil-rights counsel, settlement actors, and individual fire victims internal unless a later source pass identifies repeated public actors or a reason to open a fire-science / false-confession subnetwork.
+
+## WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026
+
+Status: `indexed`, `regional expansion queue; not all graph-ready`.
+
+Source titles:
+
+Worcester County District Attorney's Office, `Charges Dropped Against Gary Cifizzari in 1979 Murder`, published December 10, 2019: `https://worcesterda.com/charges-dropped-against-gary-cifizzari-in-1979-murder/`.
+
+New England Innocence Project, `Commonwealth Drops Case Against Gary Cifizzari`, published December 10, 2019: `https://www.newenglandinnocence.org/innocence-blog/2019/12/10/commonwealth-drops-case-against-gary-cifizzari`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Gary J. Cifizzari`, 397 Mass. 560, decided June 12, 1986, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/397/397mass560.html`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Mark Schand`, 420 Mass. 783, decided June 14, 1995, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/420/420mass783.html`.
+
+NEPM, `Springfield To Pay $6.5 Million To Man Wrongfully Imprisoned For 27 Years`, published December 8, 2020: `https://www.nepm.org/regional-news/2020-12-08/springfield-to-pay-6-5-million-to-man-wrongfully-imprisoned-for-27-years`.
+
+U.S. District Court for the District of Massachusetts, `Schand v. City of Springfield`, civil action No. 3:15-cv-30148-WGY, memorandum and order dated May 6, 2019, GovInfo: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-3_15-cv-30148/pdf/USCOURTS-mad-3_15-cv-30148-1.pdf`.
+
+WAMC, `Man Sues Police For Wrongful Murder Conviction`, published January 29, 2014: `https://www.wamc.org/new-england-news/2014-01-29/man-sues-police-for-wrongful-murder-conviction`.
+
+New England Innocence Project, `Court Overturns 1985 Springfield Murder Conviction`, published April 15, 2025: `https://www.newenglandinnocence.org/innocence-blog/2025/edwardwrightconvictionoverturned`.
+
+New England Innocence Project, `DNA Testing Will Proceed in Shawn Tanner's Case`, published October 31, 2025: `https://www.newenglandinnocence.org/innocence-blog/2025/10/31/shawntannerdnatesting`.
+
+Social Law Library, `Commonwealth vs. Shawn L. Tanner`, February 2026 slip opinion: `https://www.socialaw.com/services/slip-opinions/february-2026/commonwealth-vs-shawn-l-tanner/`.
+
+Extracted facts:
+
+The Worcester County DA and NEIP both report that the Worcester DA dropped the case against Gary Cifizzari in December 2019 after DNA evidence undermined his 1984 Worcester County murder conviction in the 1979 killing of Concetta Schiappa. The SJC's 1986 Cifizzari opinion records the original first-degree murder conviction, bite-mark evidence, and Worcester County Superior Court posture. This is a strong Worcester County lane, but it is Milford/Worcester County, not a clean Worcester city police lane.
+
+The Springfield/Hampden cluster is deeper than the current board shows. The SJC's Schand opinion records Mark Schand's first-degree murder conviction. NEPM reports that Springfield agreed to pay Schand $6.5 million after he was wrongfully imprisoned for twenty-seven years, after a judge found he was wrongfully convicted and the DA dropped charges. The federal Schand civil-rights order identifies remaining claims against City of Springfield and former Springfield police officers. WAMC reports that Charles Wilhite sued Springfield police after a murder conviction, vacatur, and acquittal at retrial. NEIP's Edward Wright materials already support the visible Springfield/Hampden lane, with withheld evidence and false testimony findings.
+
+The New Bedford/Bristol lane is significant but not exoneration-ready. NEIP reports that Shawn Tanner was convicted of a 1988 Dartmouth murder and sought DNA testing before his death, while the Bristol County DA opposed completion of testing after his death. The 2026 SJC slip opinion concerns the continuing validity of post-conviction DNA testing after death. This is an important Bristol / Dartmouth / New Bedford-region lead, but it should remain internal until DNA results or a posthumous exoneration posture changes the case.
+
+Board implications:
+
+Next regional priorities should be sequenced rather than dumped into the public board. First, harden Lowell / Rosario because Rosario is already visible and under-connected. Second, extend Springfield / Hampden through Schand and Wilhite only after a separate pass decides whether to add them as small wrongful-conviction nodes tied to Springfield Police, Hampden Superior Court, and Hampden DA. Third, document Cifizzari as a Worcester County candidate, but do not treat it as a Worcester city police lane. Fourth, keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
+
 ## WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023
 
 Status: `ingested`, `graph-ready for Suffolk / Boston wrongful-murder-conviction connector`.
