@@ -22,6 +22,8 @@ Evidence: Current graph labels; `WEB-SUFFOLK-FOXWORTH-KAMARA-2021-2023`; Root lo
 
 Decision: Keep source status words like `former`, `retired`, and `now` out of visible node labels unless the status is the accountability fact itself. Use the public role or rank that identifies the person in the source. For Boston Police detective titles, preserve the rank/detective distinction when the source provides it: `Sgt. Det.` and `Det. Lt.` are different from plain `Det.`. Daniel Flynn is now displayed as `Sgt. Det. Daniel Flynn`, while his former status remains in the evidence notes.
 
+For prosecutor labels, use compact board forms: `DA`, `ADA`, `First ADA`, `Sp. ADA`, `AAG`, `SAAG`, and `SADA`. Do not use visible labels such as `Assistant DA`, `Assistant District Attorney`, or `Assistant Attorney General` when the role is attached to a proper name. Preserve the expanded wording in evidence prose when quoting or closely paraphrasing a source.
+
 ## Current Norfolk Hot-Button Issues
 
 ### Read / O'Keefe Civil Suit
@@ -130,11 +132,11 @@ Decision: Continue using historical connectors when they explain a recurring Mas
 
 Status: `implemented`.
 
-Evidence: `WEB-WATCH-WARD-PELLETIER-ALLEN-SJC-1913-1975`.
+Evidence: `WEB-WATCH-WARD-PELLETIER-ALLEN-SJC-1913-1975`; `WEB-CURLEY-COMMUTATION-AND-COAKLEY-1903-1950`.
 
 Current board state: Watch and Ward Society now connects to DA Joseph Pelletier and to the Massachusetts Supreme Judicial Court, in addition to its existing Suffolk, Essex, Bristol, and court-context connectors.
 
-Decision: Keep this visible lane narrow for now. The source trail supports Watch and Ward as private political-influence/accountability-pressure context around the Pelletier removal lane, but Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, booksellers, and censorship-specific actors should remain internal until the board intentionally opens a private-influence and censorship subnetwork.
+Decision: Keep this visible lane narrow for now. The source trail supports Watch and Ward as private political-influence/accountability-pressure context around the Pelletier removal lane, but Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, booksellers, censorship-specific actors, and James Michael Curley should remain internal until the board intentionally opens a private-influence, Boston municipal-corruption, and censorship subnetwork. Curley's Truman commutation is documented, but it should not become a visible node unless a later pass adds the Coakley/Pelletier/Corcoran/Tufts bridge or another clear existing-node connector.
 
 ### Bridgewater / SJC Suppression Lane
 

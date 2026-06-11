@@ -60,6 +60,30 @@ Board implications:
 
 Add narrow visible connectors from Watch and Ward Society to District Attorney Joseph Pelletier and to the Massachusetts Supreme Judicial Court as court-removal/accountability context. Keep Godfrey Lowell Cabot, Daniel H. Coakley, William J. Corcoran, Boston Bar Association actors, J. Frank Chase, H.L. Mencken, booksellers, and Boston Booksellers Committee actors documented internally unless a later pass intentionally opens the private-influence and censorship subnetwork. Do not treat Watch and Ward as a public agency; it is a private political-influence and accountability-pressure connector in this lane.
 
+## WEB-CURLEY-COMMUTATION-AND-COAKLEY-1903-1950
+
+Status: `ingested`, `internal-only historical lead; not public-board-ready without a Coakley/Pelletier subnetwork`.
+
+Source titles:
+
+U.S. House of Representatives History, Art & Archives, `CURLEY, James Michael`: `https://history.house.gov/People/Listing/C/CURLEY%2C-James-Michael-%28C000996%29/`.
+
+National Governors Association, `Gov. James Michael Curley`: `https://www.nga.org/governor/james-michael-curley/`.
+
+Mass Moments, `Mayor Curley Jeopardizes Election`: `https://www.massmoments.org/moment-details/mayor-curley-jeopardizes-election.html`.
+
+Massachusetts Historical Society, `Good Government Association Records, 1900-1936`: `https://www.masshist.org/collection-guides/view/fa0403`.
+
+American Heritage, `The Knave of Boston`: `https://www.americanheritage.com/knave-boston`.
+
+Extracted facts:
+
+The U.S. House biographical directory records that James Michael Curley was convicted in 1903 of conspiracy, sentenced to county jail, later convicted on January 18, 1946 of conspiracy and mail fraud, and had his sentence commuted by President Harry S. Truman on November 26, 1947. NGA records Curley as Massachusetts governor from 1935 to 1937, later reelected Boston mayor, and says he served five months in prison after the 1947 mail-fraud conviction. Mass Moments frames the 1946 mail-fraud charge as `somewhat spurious`, says anti-Curley forces played a large role in bringing corruption charges against him, and describes Truman's commutation before Curley returned to finish his mayoral term. MHS records place Curley in the Good Government Association candidate-file universe, a reform/civic-accountability context around Boston municipal politics. American Heritage ties Curley to Daniel H. Coakley in the Mishawum Manor / moving-picture executive extortion story and ties Coakley, Pelletier, Corcoran, Tufts, Godfrey Lowell Cabot, Watch and Ward, the Boston Bar Association, and the SJC into the existing Pelletier accountability lane.
+
+Board implications:
+
+Do not add Curley to the visible board from the commutation alone. The commutation is historically important and politically contested, but it currently points into a federal clemency / Boston machine-politics lane rather than a clean existing-node connector. The strongest local board bridge is Curley's documented relationship to Daniel H. Coakley, who is already internal to the Watch and Ward / Pelletier lane. Revisit Curley only if the public graph intentionally opens the Coakley/Pelletier/Corcoran/Tufts subnetwork or adds a historical Boston municipal-corruption layer. If added later, label him `Mayor James Michael Curley` or `Gov. James Michael Curley` based on the specific connector, not as a generic commutation node.
+
 ## WEB-TITICUT-FOLLIES-BRIDGEWATER-SJC-1966-1993
 
 Status: `ingested`, `graph-ready for narrow Bridgewater / SJC institution connector; film stays internal`.
