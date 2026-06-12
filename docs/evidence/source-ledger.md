@@ -668,6 +668,40 @@ Board implications:
 
 Echavarria already appears as a small gold-ring wrongful-conviction node. Strengthen the visible lane by adding direct connectors from Echavarria to Lynn Police Department, Essex Superior Court, Massachusetts State Police, and Daniel Rodriguez as the underlying homicide victim. Connect Daniel Rodriguez narrowly to Lynn Police Department and Essex County DA. Connect Judge David Lowy to Essex Superior Court for the 2015 new-trial/vacatur role. Keep John Garvin, Raymond Guillermo, John Hollow, the City of Lynn, Mariano Bonifacio, Gary Sevinor, Isidoro Rodriguez, Juan Rodriguez / Raul Miranda, trial counsel, civil-litigation counsel, and settlement/trial posture internal unless a later repeated-actor or civil-rights pattern pass supports visible use.
 
+## WEB-CHOY-PLYMOUTH-BROCKTON-WRONGFUL-CONVICTION-2003-2026
+
+Status: `ingested`, `implemented as narrow Plymouth / Brockton / State Police lab small-node expansion`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Frances Choy vs. Commonwealth`, 456 Mass. 146, decided February 23, 2010, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/456/456mass146.html`.
+
+Plymouth County District Attorney / Plymouth Superior Court, `Memorandum of Decision and Order on Defendant Frances Choy's Motion for Postconviction Relief`, Judge Linda Giles, dated September 17, 2020: `https://plymouthda.com/wp-content/uploads/2020/10/Findings_Order_JudgeGiles.pdf`.
+
+Boston College Law School Magazine, `Choy Exonerated in Parents' Death`, published September 29, 2020: `https://lawmagazine.bc.edu/2020/09/choy-cleared-in-parents-death/`.
+
+WBUR, `After Discovery Of Prosecutors' Racist Emails, Plymouth DA Will Not Seek New Trial For Woman Over Parents Death`, published September 29, 2020: `https://www.wbur.org/news/2020/09/29/prosecutors-racist-emails-plymouth-da-frances-choy`.
+
+United States District Court, District of Massachusetts, `Choy v. City of Brockton`, memorandum and order on motion to dismiss, Civil Action No. 23-10340-RGS, May 24, 2023, GovInfo: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_23-cv-10340/pdf/USCOURTS-mad-1_23-cv-10340-0.pdf`.
+
+WBUR / Office of Bar Counsel, `Petition for Discipline with attached exhibits`, BBO File Nos. C1-20-266380 and C1-20-266381, filed June 6, 2023, WBUR mirror: `https://media.wbur.org/wp/2023/06/Bradley-OSullivan-PD-with-attached-exhibits.pdf`.
+
+Massachusetts Lawyers Weekly, `BBO weighs sanctions for ex-Plymouth County prosecutors`, published May 22, 2026: `https://masslawyersweekly.com/2026/05/22/massachusetts-bbo-sanctions-frances-choy-prosecutors/`.
+
+Extracted facts:
+
+The SJC's 2010 decision records that the fire occurred in Brockton, that Jimmy and Anne Choy died from smoke inhalation and burns, that State Police fire-investigation testimony and sweatpants-gasoline evidence were part of the prosecution theory, that a Brockton police officer testified about alleged admissions, and that Kenneth Choy was separately indicted after handwritten notes about setting the fire were found in his bedroom.
+
+Judge Giles vacated Frances Choy's convictions in September 2020. Boston College Law School Magazine reports that Judge Giles identified new evidence of innocence, scientific evidence contradicting trial testimony by a State Police chemist, and prosecutorial and police misconduct. WBUR reports that Plymouth Superior Court Judge Linda Giles granted the motion to vacate and that Plymouth DA Timothy Cruz's office did not seek another trial.
+
+The 2023 federal civil-rights order describes Choy's claims against the City of Brockton, a Brockton detective, and several Massachusetts State Police officers after the vacatur and end of prosecution. The order states that the case arose from the vacated arson and murder conviction and that Choy alleged fabricated inculpatory evidence and destruction or suppression of exculpatory evidence. It allowed the motion to dismiss in part and denied it in part at the pleading stage.
+
+The 2023 bar-counsel petition records that John E. Bradley Jr. and Karen H. O'Sullivan were the trial prosecutors, that Judge Giles vacated the convictions after concluding justice may not have been done, and that the Plymouth County DA entered a nolle prosequi on September 29, 2020. Massachusetts Lawyers Weekly's May 2026 report states that the BBO reviewed recommended suspensions for Bradley and O'Sullivan, that the hearing committee found they withheld exculpatory evidence and cited racist emails, and that O'Sullivan was then first assistant in the Bristol County DA's office.
+
+Board implications:
+
+Frances Choy already appears as a small gold-ring wrongful-conviction node. Strengthen the visible lane with narrow institutional connectors to Brockton Police Department, Plymouth Superior Court, Massachusetts State Police, and the existing State Police Crime Laboratory node. Add Jimmy and Anne Choy as a compact underlying homicide-victim node, connected to Brockton Police and Plymouth County DA. Add Judge Linda Giles for the vacatur/new-trial role and connect her to Plymouth Superior Court. Add DA Timothy Cruz's Choy case connector for the 2020 no-retrial/nolle posture. Add Karen O'Sullivan's Bristol County DA employment connector because the 2026 sanctions reporting makes that current public-office bridge relevant. Keep Kenneth Choy, John Drugan, Richard Scott Warmington, Eric Clark, John Duggan, Michael Crisp, Frank Middleton Jr., Scott Berna, City of Brockton, Boston College Innocence Program counsel, bar counsel, BBO members, Bristol DA Thomas Quinn, and civil-settlement actors internal unless later repeated-actor review supports visible use.
+
 ## WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019
 
 Status: `ingested`, `implemented as narrow Worcester County / Milford small-node expansion`.
