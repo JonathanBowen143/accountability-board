@@ -1494,7 +1494,27 @@ The PowerPoint contains 52 slides, 35 of which had extractable text. It is a BWH
 
 Board implications:
 
-Use this as BWH/Fenwood chronology support for the existing Root/Godin/St. Peter/BPD lane. The file strengthens the internal timeline and camera-view context, but it does not justify adding a security-guard, camera, Shapiro Building, or slide-deck node to the public board. Preserve the William Thomsen/Thomson spelling conflict as a source note until a primary report or witness record resolves it.
+Use this as BWH/Fenwood chronology support for the existing Root/Godin/St. Peter/BPD lane. The file strengthens the internal timeline and camera-view context, but it does not justify adding a security-guard, camera, Shapiro Building, or slide-deck node to the public board. The William Thomsen/Thomson spelling conflict is resolved for project purposes by `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`; use William Thompson in internal notes unless a later official source says otherwise.
+
+## ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020
+
+Status: `ingested`, `source-note support only; internal witness context`.
+
+Source titles: `William Thompson Intervew.pdf`; `William Thompson BWH SECURITY Audio Interview - Shook hands with Root..MP3`.
+
+Google Drive URLs: `https://drive.google.com/file/d/19YPtMXLKKxHNC4HkYnysmxffb-jANCOM/view`; `https://drive.google.com/file/d/1_WiGYJN4Gu5R2PFgPwXKzC3l458-RWbB/view`.
+
+Drive IDs from `_DRIVE_FULL_INDEX.tsv`: `19YPtMXLKKxHNC4HkYnysmxffb-jANCOM`; `1_WiGYJN4Gu5R2PFgPwXKzC3l458-RWbB`.
+
+Reviewed local text extract from recovered Drive PDF on June 12, 2026. Recovered audio metadata shows an MP3 file of about 38 minutes and 55 seconds; the audio itself has not been manually reviewed for quotation.
+
+Extracted facts:
+
+The 33-page interview transcript identifies the witness as William Thompson, a Brigham and Women's Hospital security officer. The interview was conducted by Boston Police Detective Timothy Evans with a Massachusetts State Police / Norfolk County DA State Police Detective Unit sergeant present. Thompson said he was posted on Fenwood Road by 60 Fenwood Road as a mobile security officer. He described Root approaching him, showing a firearm in his waistband, and then, after the encounter de-escalated, shaking Thompson's hand and returning to a silver Chevy Volt. Thompson said he radioed Brigham operations with the description and license plate information, later followed the vehicle path around the BWH/Fenwood area, spoke with a Boston Police officer, heard Brigham radio traffic that the individual was showing a weapon, and then observed parts of the later Vining Street confrontation. Thompson said he saw the suspect draw and aim the weapon at the officer, heard shots, took cover, and could not say who fired first.
+
+Board implications:
+
+Use this source to resolve the internal spelling to William Thompson and to strengthen the BWH/Fenwood chronology behind the existing Root, Godin, St. Peter, Boston Police, and scene-control lanes. Do not add Thompson as a public-board node in the current victim/public-official view because he is a private security witness in a single-case chronology, not a repeated public actor or institution. Do not use the audio for direct quotes until manual audio review is done.
 
 ## ROOT-BPD-BAPERN-AUDIO-2020
 
@@ -1704,11 +1724,11 @@ Relevant local lines: `1-55`, `67-70`, `95-106`, `609`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, FDIT report copies, BAPERN audio, mapping images, and a DIT PowerPoint. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, BPD CAD/hospital-history file, Godin interrogatories, Godin BWC sanctions filing, lab/evidence-control item 86 and 87 files, firearm-analysis report, video-recovery/timeline files, BAPERN audio, Brookline mapping images, and DIT PowerPoint have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`, `ROOT-BPD-GODIN-INTERROGATORIES-2021`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`, `ROOT-BPD-FIREARM-ANALYSIS-2020`, `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`, `ROOT-BPD-BAPERN-AUDIO-2020`, `ROOT-BROOKLINE-MAPPING-IMAGES-2020`, and `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, FDIT report copies, BAPERN audio, BWH security audio and witness-statement materials, mapping images, and a DIT PowerPoint. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, BPD CAD/hospital-history file, Godin interrogatories, Godin BWC sanctions filing, lab/evidence-control item 86 and 87 files, firearm-analysis report, video-recovery/timeline files, BAPERN audio, BWH security interview materials, Brookline mapping images, and DIT PowerPoint have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`, `ROOT-BPD-GODIN-INTERROGATORIES-2021`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`, `ROOT-BPD-FIREARM-ANALYSIS-2020`, `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`, `ROOT-BPD-BAPERN-AUDIO-2020`, `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`, `ROOT-BROOKLINE-MAPPING-IMAGES-2020`, and `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, CAD/hospital-history, Godin interrogatory, BWC sanctions, lab/evidence-control, firearm-analysis, video-recovery, BAPERN, mapping-image, and DIT PowerPoint entries have now produced source notes. The remaining Root index work should move case by case rather than treating every recovered public-record item as graph material.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, CAD/hospital-history, Godin interrogatory, BWC sanctions, lab/evidence-control, firearm-analysis, video-recovery, BAPERN, BWH security interview, mapping-image, and DIT PowerPoint entries have now produced source notes. The remaining Root index work should move case by case rather than treating every recovered public-record item as graph material.
 
 ## ROOT-CAREER-INVENTORY
 
