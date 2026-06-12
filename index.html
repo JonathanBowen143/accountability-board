@@ -28,12 +28,15 @@ g.nd.pinned .pin-ring{opacity:1}
 .hit{fill:transparent;stroke:none!important;pointer-events:all}
 .load-fail{font-size:13px;color:#7f1d1d;background:#fff0f0;border:1px solid #ddb8b8;border-radius:6px;padding:10px 12px;margin:10px 0 0}
 .load-fail[hidden]{display:none}
-.legend-title{font-size:13px;font-weight:600;color:#34302a;margin:16px 2px 4px}
-.lgd{display:flex;flex-wrap:wrap;gap:7px 16px;font-size:12.5px;color:#4a4843;margin:0 2px 0;line-height:1.5}
+.legend-title{font-size:13px;font-weight:600;color:#34302a;margin:18px 2px 8px}
+.lgd{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px 20px;font-size:12.5px;color:#4a4843;margin:0 2px 0;line-height:1.5}
+.legend-group{display:flex;flex-wrap:wrap;align-items:center;align-content:flex-start;gap:7px 14px}
+.legend-group-title{flex:0 0 100%;font-weight:600;color:#34302a;font-size:12px;line-height:1.2;margin-bottom:1px}
 .lgd span,.lgd button{display:inline-flex;align-items:center;gap:6px}
-.lgd button{font:inherit;color:inherit;line-height:inherit;border:1px solid transparent;background:transparent;border-radius:6px;padding:2px 5px;margin:-2px -5px;cursor:pointer}
+.lgd button{font:inherit;color:inherit;line-height:inherit;border:1px solid transparent;background:transparent;border-radius:6px;padding:2px 5px;margin:0;cursor:pointer}
 .lgd button:hover,.lgd button:focus-visible,.lgd button.active{background:#fffdfa;border-color:#c8c3b8;color:#26241f;outline:none}
 .lgd button.active{box-shadow:0 0 0 1px #8f887b inset}
+.legend-state{color:#4a4843}
 .lgd i{width:12px;height:12px;border-radius:50%;display:inline-block;border:0.5px solid rgba(90,90,90,.55)}
 .lgd q{width:11px;height:11px;display:inline-block;border:1px solid #6F6A61;background:#D7D4CC;border-radius:2px}
 .lgd q:before,.lgd q:after{content:""}
@@ -41,7 +44,7 @@ g.nd.pinned .pin-ring{opacity:1}
 .legend-hit{filter:drop-shadow(0 0 3px rgba(22,21,15,.35))}
 .backtop{margin:14px 2px 0}
 @media (max-width:900px){.wrap{padding:22px 18px 50px}p.lede{max-width:none}.board-stage{width:100vw;overflow-x:auto;border-radius:0}.board-stage svg#cab{width:1100px;max-width:none}}
-@media (max-width:640px){.wrap{padding:18px 14px 44px}h1{font-size:20px}p.lede{font-size:14px}.board-stage svg#cab{width:940px}.hint{text-align:left}}
+@media (max-width:640px){.wrap{padding:18px 14px 44px}h1{font-size:20px}p.lede{font-size:14px}.board-stage svg#cab{width:940px}.hint{text-align:left}.lgd{grid-template-columns:1fr;gap:13px}.legend-group{gap:7px 12px}}
 </style>
 </head>
 <body>
@@ -210,6 +213,20 @@ var N=[
 {id:'vamirault',t:'victim',l:"Violet Amirault"},
 {id:'camirault',t:'victim',l:"Cheryl Amirault LeFave"},
 {id:'penate',t:'victim',l:"Rolando Penate"}];
+var layoutPins={
+IMSP:[285,410],IBPD:[1040,500],ICANTON:[955,365],ISTOUGHTON:[455,135],IAG:[1030,145],INORFOLK:[865,245],
+IBROOKLINE:[560,235],ISHS:[685,58],ICHS:[865,135],IQHS:[1080,72],INHS:[1260,185],ISJC:[700,24],
+INCOURT:[1010,310],ICFD:[1060,430],ICSB:[1130,395],IPOST:[410,500],OCME:[1135,235],
+CROOT:[410,315],CBIRCH:[635,195],CREAD:[755,380],CWALSHE:[655,535],CACAD:[330,585],
+jackson:[580,255],little:[645,260],yannetti:[575,455],alessi:[720,455],lally:[795,255],brennan:[860,295],
+cannone:[960,255],morrissey:[850,185],karenread:[665,382],johnokeefe:[835,385],balbert:[765,245],
+jmccabe:[890,350],higgins:[910,430],proctor:[690,520],bukhenik:[600,500],fanning:[515,430],tully:[790,520],
+guarino:[545,360],kroberts:[455,345],scordi_bello:[1045,360],stonebridge:[1015,405],mclaughlin:[1125,455],
+lank:[980,430],goode:[930,465],dever:[900,505],gallagher:[1045,520],saraf:[1090,470],mullaney:[1020,560],
+CDRUG:[1245,260],CSHOW:[1210,615],IWATCHWARD:[715,735],IHAMPDEN:[735,670],IBRISTOL:[1100,715],
+IPLYMOUTH:[1385,590],IESSEX:[955,680]
+};
+N.forEach(function(n){var p=layoutPins[n.id];if(p){n.fx=p[0];n.fy=p[1];}});
 var spine={proctor:1,bukhenik:1,fanning:1,tully:1,dicicco:1};
 var exon={karenread:1,fitz:1,ellissean:1,wbennett:1,sacco:1,vanzetti:1,swanson:1,scowans:1,trosa:1,rickeymcgee:1,kwaters:1,vrosario:1,djones:1,gcifizzari:1,ewright:1,mschand:1,cwilhite:1,penate:1,nmiller:1,dmaher:1,gperrot:1,echavarria:1,fclay:1,fchoy:1,rfoxworth:1,bkamara:1,rgaines:1,miltonjones:1,fhamilton:1,jpope:1,jlucien:1,dtse:1,mjsullivan:1};
 function E(s,t,y){return {source:s,target:t,ty:y};}
@@ -597,7 +614,7 @@ t.attr('x',x).attr('text-anchor',anchor);
 function linkId(v){return typeof v==='object'?v.id:v;}
 function nodeMatchesFilter(n,f){
 if(!f)return false;
-if(f.kind==='tier')return n.t===f.key||(f.key==='victim'&&n.k==='victimAnchor');
+if(f.kind==='tier')return n.t===f.key;
 if(f.kind==='kind')return n.k===f.key;
 if(f.kind==='exon')return !!exon[n.id];
 return false;
@@ -663,15 +680,29 @@ return true;
 }
 var zoom=d3.zoom().filter(zoomFilter).scaleExtent([0.25,8]).on('zoom',function(ev){d3.select('#view').attr('transform',ev.transform);});svg.call(zoom);
 var lg=d3.select('#lg');
-function addLegendButton(kind,key,html,label){
-lg.append('button').attr('type','button').attr('data-kind',kind).attr('data-key',key).attr('aria-pressed','false').attr('aria-label','Highlight '+titleCaseLabel(label)).html(html+titleCaseLabel(label)).on('click',function(){setLegendFilter({kind:kind,key:key});});
+function legendGroup(title){
+var group=lg.append('div').attr('class','legend-group').attr('aria-label',title);
+group.append('span').attr('class','legend-group-title').text(title);
+return group;
 }
-Object.keys(tier).forEach(function(k){addLegendButton('tier',k,'<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>',tier[k].l);});
-addLegendButton('kind','inst','<q></q>','institution');
-addLegendButton('kind','victimAnchor','<i style="width:18px;height:18px;background:'+palette.victimFill+';border-color:'+palette.victimStroke+';border-width:2px"></i>','victim anchor');
-edgeOrder.forEach(function(k){var e=ec[k];addLegendButton('edge',k,'<b style="border-color:'+e.c+';border-top-width:'+e.w+'px;'+(e.d?'border-top-style:dashed':'')+'"></b>',e.l);});
-addLegendButton('exon','exonerated','<i style="background:none;border-color:'+palette.exonerated+';border-width:2px"></i>','exonerated');
-lg.append('span').html('<i style="background:none;border-color:'+palette.selected+';border-width:2px;border-style:dashed"></i>'+titleCaseLabel('selected node'));
+function addLegendButton(group,kind,key,html,label){
+group.append('button').attr('type','button').attr('data-kind',kind).attr('data-key',key).attr('aria-pressed','false').attr('aria-label','Highlight '+titleCaseLabel(label)).html(html+titleCaseLabel(label)).on('click',function(){setLegendFilter({kind:kind,key:key});});
+}
+var nodeLegend=legendGroup('Node Types');
+Object.keys(tier).forEach(function(k){addLegendButton(nodeLegend,'tier',k,'<i style="background:'+tier[k].f+';border-color:'+tier[k].s+'"></i>',tier[k].l);});
+addLegendButton(nodeLegend,'kind','inst','<q></q>','institution');
+addLegendButton(nodeLegend,'kind','victimAnchor','<i style="width:18px;height:18px;background:'+palette.victimFill+';border-color:'+palette.victimStroke+';border-width:2px"></i>','victim anchor');
+var edgeLegend=legendGroup('Connector Types');
+var edgeTypesPresent=Array.from(new Set(L.map(function(k){return k.ty;})));
+var orderedEdges=edgeOrder.filter(function(k){return edgeTypesPresent.indexOf(k)>=0;});
+edgeTypesPresent.sort().forEach(function(k){if(orderedEdges.indexOf(k)<0)orderedEdges.push(k);});
+orderedEdges.forEach(function(k){
+var e=ec[k]||{c:palette.neutralStroke,w:1.2,d:'',l:k};
+addLegendButton(edgeLegend,'edge',k,'<b style="border-color:'+e.c+';border-top-width:'+e.w+'px;'+(e.d?'border-top-style:dashed':'')+'"></b>',e.l);
+});
+var stateLegend=legendGroup('States');
+addLegendButton(stateLegend,'exon','exonerated','<i style="background:none;border-color:'+palette.exonerated+';border-width:2px"></i>','exonerated');
+stateLegend.append('span').attr('class','legend-state').html('<i style="background:none;border-color:'+palette.selected+';border-width:2px;border-style:dashed"></i>'+titleCaseLabel('selected node'));
 legendButtons=lg.selectAll('button');
 syncLegendButtons();
 }
