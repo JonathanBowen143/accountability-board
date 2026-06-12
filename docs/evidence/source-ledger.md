@@ -1308,6 +1308,86 @@ Board implications:
 
 This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants.
 
+## ROOT-BPD-FDIT-FINAL-2020
+
+Status: `ingested`, `graph-ready for existing-node FDIT/BPD/MSP interview connectors`.
+
+Source title: `BROOKLINE__Final Report_FDIT_ by BOSTON POLICE_Redacted.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1ojRNo3kLRQ7MOai4WDNOFa0LHCZDJujL/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1ojRNo3kLRQ7MOai4WDNOFa0LHCZDJujL`.
+
+Corroborating federal exhibit: `Exhibit 24 - Sgt. Det. Sullivan FDIT Report (COB 5402-5430).pdf`, Google Drive URL `https://drive.google.com/file/d/1y3T95kq8d_toWQX4D62_Bc-Vlgr972Ty/view`, Drive ID `1y3T95kq8d_toWQX4D62_Bc-Vlgr972Ty`.
+
+Reviewed OCR from recovered Drive files on June 12, 2026.
+
+Extracted facts:
+
+The June 29, 2020 Boston Police final FDIT report is from Sergeant Detective Marc Sullivan, ID `11958`, to Lieutenant Detective Brian Larkin. It covers intentional firearm discharges on February 7, 2020 in Brookline by Boston Police Officers David Godin, Joseph McMenamy, Leroy Fernandes, Corey Thomas, and Brenda Figueroa. Sullivan states that he requested Sergeant Detective John Broderick respond to the Fenwood/Vining Boston scene and take investigative command there, while Sullivan was designated the Boston Police investigating officer in charge of the Brookline scene. The report states that Sergeant John Fanning, assigned to the Norfolk DA's Office, was assigned by Norfolk DA Michael Morrissey as designee for the criminal investigation into the officers' actions, while Sullivan was tasked with the BPD policy investigation. It records that the MSP Detective Unit assigned to the Norfolk DA would process the Brookline scene and lead the criminal investigation, and that the Brookline scene was processed under Detective Lieutenant Gerard Mattaliano. It also records body-worn-camera and phone collection/restriction steps involving FDIT personnel.
+
+The report summarizes audio-recorded witness interviews conducted by paired Boston Police FDIT and Massachusetts State Police/Norfolk SPDU personnel. Existing board actors named in those pairings include David DiCicco, Yuriy Bukhenik, Matthew Dunne, William Doogan, Keith Pantazelos, Michael Proctor, and David DiCicco again in a later interview. It specifically records William Doogan, assigned to FDIT, and Yuriy Bukhenik, assigned to the Norfolk SPDU, conducting an interview together.
+
+Board implications:
+
+Use this source to confirm that `marcsullivan` is Sergeant Detective Marc Sullivan, not Sergeant Michael Sullivan, and to support the existing Marc Sullivan, Broderick, Fanning, Mattaliano, Bukhenik, DiCicco, Dunne, Pantazelos, Proctor, Doogan, BPD, MSP, and Norfolk DA Root lanes. Add a narrow Doogan-to-Bukhenik professional connector because both are already public-board nodes and the report documents a joint interview role. Do not add every FDIT detective, FBI task-force actor, witness, supervisor, or redacted interview subject from this report.
+
+## ROOT-BPD-FIREARM-DISCHARGE-IAD-2020
+
+Status: `ingested`, `source-ledger support; limited graph-ready reinforcement for existing Godin/St. Peter/Desmarais connectors`.
+
+Source title: `BPD Firearm Discharge 02-07-20 FR2020-001_scan_Redacted.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1Y_6SefHdpt1nA0LZg9FOdkJ1WZOM23K5/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1Y_6SefHdpt1nA0LZg9FOdkJ1WZOM23K5`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The February 7, 2020 BPD firearm-discharge/internal-investigation report is from Sergeant Detective Charles R. Moore to Deputy Superintendent Eddy Chrispin. It lists the involved employees as Officers Michael St. Peter, Brenda Figueroa, David Godin, Joseph McMenamy, Corey Thomas, and Leroy Fernandes. The report summarizes a first Boston officer-involved shooting, a pursuit into Brookline, and a second officer-involved shooting in Brookline. It states that another male sustained a gunshot wound at the Boston scene and was transported to a hospital, and that both the Suffolk and Norfolk DA offices were involved in the broader incident investigation. Its administrative findings say Broderick determined Godin and St. Peter complied with BPD Rule 303 at the Boston scene, that no other Boston officers or civilians discharged a firearm in the immediate Fenwood Road area, that Godin's firearm discharge resulted in the nonfatal gunshot wound to the redacted male, and that Godin and St. Peter's discharges led to significant injuries to Root.
+
+Board implications:
+
+Use this to reinforce the existing Desmarais-to-Godin and Desmarais-to-St. Peter Boston-scene connectors, while keeping Desmarais disconnected from Root. The report's administrative finding attributes the nonfatal injury to Godin, but St. Peter remains a Boston-scene discharge actor; do not overstate this beyond the BPD administrative finding. Do not add Charles Moore, Eddy Chrispin, Sharon Dottin, BPD legal-review signatories, or every listed attachment from this packet.
+
+## ROOT-BPD-MICHAEL-SULLIVAN-FORM26-2020
+
+Status: `ingested`, `graph-ready for existing-node Boston-scene connector`.
+
+Source titles: `_bk_Sullivan_Report.pdf`; `_bk_Sullivan_Form26.pdf`.
+
+Reviewed local OCR from the Juston Root Drive mirror on June 12, 2026.
+
+Extracted facts:
+
+The two-page Boston Police Form 26/report is from Sergeant Michael Sullivan, ID `75000`, to Captain James Fitzpatrick, Commander Area B-3. Sullivan states that he was assigned as the District 3 patrol supervisor and responded to a `Code 303` at Fenwood Road and Vining Street on February 7, 2020. He describes establishing inner and outer scene perimeters with Brigham and Women's security assistance, assigning officers to canvas the area, assigning a scribe, participating in line searches, and remaining on scene until Sergeant Detective Broderick released the scene at 3:58 p.m.
+
+Board implications:
+
+Use this to support the existing `msullivan` Root/BPD connectors and add a narrow Michael Sullivan-to-Broderick professional scene-control connector. Keep Sergeant Michael Sullivan, ID `75000`, separate from Sergeant Detective Marc Sullivan, ID `11958`, who authored the FDIT final report.
+
+## ROOT-BPD-CAD-HOSPITAL-HISTORY-2020
+
+Status: `ingested`, `source-note support only`.
+
+Source title: `After Root was shot officers learned of person shot at the hospital  history_Redacted.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1Fm01D0H6kQymELAi2K8dttriEn-efOkC/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1Fm01D0H6kQymELAi2K8dttriEn-efOkC`.
+
+Reviewed local OCR and fresh OCR from recovered Drive mirror file on June 12, 2026.
+
+Extracted facts:
+
+The CAD/event-history record is for event `P200067197`, `CD303 - Officer Discharge Firearm`, at `60 Fenwood Rd`. It records the February 7, 2020 BPD event as added at 9:20:25 a.m., dispatched at 9:21:36 a.m., arrived at 9:25:10 a.m., and closed at 21:09:30. OCR-readable remarks include calls about a male with a firearm, possible shots fired, someone hit, a victim in trauma, the suspect vehicle and Brookline scene, Root's transport to Beth Israel, state police in the ambulance, and later confirmation of only one suspect.
+
+Board implications:
+
+Use this as timing and dispatch/context support only. It does not add a new public node or connector by itself, and it should be paired with the BPD FDIT and firearm-discharge reports for any graph-facing claim.
+
 ## ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020
 
 Status: `ingested`, `graph-supporting for Root evidence-search roles; source-note only for stronger Fanning-specific expansion`.
@@ -1454,15 +1534,15 @@ Source title: `_DRIVE_FULL_INDEX.tsv`.
 
 Local path: `/Users/jonathanbowen/Library/Mobile Documents/com~apple~CloudDocs/Juston Root - Drive Mirror/_DRIVE_FULL_INDEX.tsv`.
 
-Relevant local lines: `1-55`, `808-816`.
+Relevant local lines: `1-55`, `67-70`, `95-106`, `609`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files and Boston Police interview records. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, and Norfolk DA Cellebrite invoice packet have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, and `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, and FDIT report copies. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, and BPD CAD/hospital-history file have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, and `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, and Cellebrite entries have now produced source notes; remaining separate public-record files still require separate review before graph use.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, and CAD/hospital-history entries have now produced source notes; remaining separate public-record files still require separate review before graph use.
 
 ## ROOT-CAREER-INVENTORY
 

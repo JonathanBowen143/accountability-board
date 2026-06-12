@@ -262,11 +262,11 @@ Decision: Keep the current graph connectors. The evidence supports institutional
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-FIRST-CIRCUIT-2024`.
+Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`.
 
 Current board state: Godin is connected to Root and Boston Police. William Doogan and Marc Sullivan have been added as separate Root/BPD handling connectors.
 
-Decision: Keep the connectors role-based. These sources support the BWC-handling lane, but they do not turn every BWC assertion into adjudicated misconduct language.
+Decision: Keep the connectors role-based. These sources support the BWC-handling lane and the Boston-scene discharge/injury lane, but they do not turn every BWC assertion into adjudicated misconduct language. The BPD firearm-discharge report attributes the nonfatal valet injury to Godin as an administrative finding; preserve that as source language, not as a free-floating graph accusation.
 
 ### Root Federal Civil Action / Shooting Officer Cluster
 
@@ -282,11 +282,11 @@ Decision: Preserve the existing officer-cluster connectors. Use the First Circui
 
 Status: `corrected`.
 
-Evidence: `ROOT-BANNON-COMPLAINT-2020`.
+Evidence: `ROOT-BANNON-COMPLAINT-2020`; `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`; `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`.
 
 Current board state: Justin Desmarais remains connected to David Godin and Michael St. Peter, but the direct Desmarais-to-Juston Root edge has been removed. His node category has also been changed from `Victim` to `Connected` so the board does not imply that he was a victim of Juston Root.
 
-Decision: Do not connect Desmarais directly to Root. Godin and St. Peter are tied directly to Root because they shot at Root. Desmarais is tied to Godin and St. Peter because of the separate valet encounter involving those officers. The current evidence note does not resolve which officer shot Desmarais, so the graph should keep Desmarais connected to both officers without drawing a Root edge or assigning a shooter.
+Decision: Do not connect Desmarais directly to Root. Godin and St. Peter are tied directly to Root because they shot at Root. Desmarais is tied to Godin and St. Peter because of the separate Boston-scene valet encounter involving those officers. The BPD firearm-discharge report says Godin's discharge resulted in the redacted nonfatal gunshot wound, but St. Peter remains one of the two Boston-scene discharge officers in the same administrative report. Keep Desmarais connected to both officers without drawing a Root edge.
 
 ### Brian Walshe / Ana Walshe Direct Connector
 
@@ -302,21 +302,31 @@ Decision: Keep the direct relationship visually distinct from the investigative/
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-FIRST-CIRCUIT-2024`; `ROOT-GODIN-IAD-2022-0053`.
+Evidence: `ROOT-FIRST-CIRCUIT-2024`; `ROOT-GODIN-IAD-2022-0053`; `ROOT-BPD-FDIT-FINAL-2020`.
 
-Current board state: Added `Sgt. Det. Marc Sullivan` as a separate node connected to Root, Boston Police, and Godin.
+Current board state: Added `Sgt. Det. Marc Sullivan` as a separate node connected to Root, Boston Police, and Godin, with a communication connector to Broderick and Fanning from the NDAO interview-assignment lane.
 
-Decision: Keep this separate from the existing `Sgt. Michael Sullivan` node. The Root archive contains a Michael Sullivan Form 26 trail and a Marc/Mark Sullivan FDIT trail; merging them would create a name error.
+Decision: Keep this separate from the existing `Sgt. Michael Sullivan` node. The recovered FDIT report confirms the FDIT author as Sergeant Detective Marc Sullivan, ID `11958`, while the separate Form 26 trail identifies Sergeant Michael Sullivan, ID `75000`. Merging them would create a name error.
+
+### Michael Sullivan / Root Boston Scene
+
+Status: `graph-ready for existing-node scene-control connector`.
+
+Evidence: `ROOT-BPD-MICHAEL-SULLIVAN-FORM26-2020`.
+
+Current board state: `Sgt. Michael Sullivan` is connected to Root and Boston Police, and now has a narrow professional scene-control connector to Broderick.
+
+Decision: Treat Michael Sullivan as a Boston-scene patrol-supervisor/Form 26 actor. His source role is scene perimeter, canvas, line search, and remaining until Broderick released the scene. Keep him separate from Marc Sullivan's FDIT author role and from all other Sullivan nodes.
 
 ### William Doogan / Godin BWC Handling
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-GODIN-BWC-MOTION-2021`.
+Evidence: `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-BPD-FDIT-FINAL-2020`.
 
-Current board state: Added `Sgt. Det. William Doogan` as a Root/BPD connector tied to Godin.
+Current board state: Added `Sgt. Det. William Doogan` as a Root/BPD connector tied to Godin and Bukhenik.
 
-Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector.
+Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector. The FDIT final report supports Doogan-to-Bukhenik as a narrow professional interview connector because it documents them conducting an audio-recorded Root witness interview together.
 
 ## Priority Holds
 
