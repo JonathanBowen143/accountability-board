@@ -292,6 +292,26 @@ Board implications:
 
 Keep Steve Nelson documented as a Norfolk DA office witness-list actor, but do not keep him on the visible public board based on witness-list presence alone. Use this source to support the existing Prince `CREAD`/`IMSP` and Crawford `CREAD`/`INORFOLK` connectors. Do not use witness-list presence alone to imply wrongdoing, investigation control, or testimony content.
 
+## WEB-READ-DEFENSE-TEAM-JACKSON-YANNETTI-2024-2025
+
+Status: `ingested`, `implemented as narrow existing-node professional connector`.
+
+Source titles:
+
+CBS Boston, `What to expect from Alan Jackson in Karen Read's second trial`, updated May 30, 2025: `https://www.cbsnews.com/boston/news/alan-jackson-karen-read-trial/`.
+
+Vanity Fair, `Karen Read's Defense Attorney Talks: "We Brought to Light Some Very Uncomfortable Realities"`, published July 7, 2025: `https://www.vanityfair.com/culture/story/karen-read-trial-alan-jackson`.
+
+Project witness ledger, `docs/karen-read-witness-ledger.md`.
+
+Extracted facts:
+
+CBS Boston reports that David Yannetti was Read's only attorney when she was first arrested, that Yannetti, Read, and Alan Jackson later discussed how the defense team expanded, and that Jackson was added to Read's defense team. Vanity Fair reports that Jackson represented Read alongside David Yannetti, Elizabeth Little, Robert Alessi, and Victoria George during the second trial. The project witness ledger separately records Alan Jackson and David Yannetti as defense attorneys listed by the Commonwealth as possible authentication witnesses for the retrial.
+
+Board implications:
+
+Add a narrow Jackson-to-Yannetti `business/professional tie` connector. This is a joint-defense-team connector between existing attorney nodes, not a new allegation connector and not a reason to add every cross-examination target or private legal-team member to the public board. Their existing case connectors to Karen Read remain the client/case-role edges.
+
 ## WEB-PRINCE-OCONNELL-SJC-2012
 
 Status: `ingested`, `graph-ready for existing court-record access connectors`.

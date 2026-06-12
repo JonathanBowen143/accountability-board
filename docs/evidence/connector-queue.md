@@ -46,6 +46,16 @@ Current board state: Added a McLaughlin-to-Caitlin Albert personal/acquaintance 
 
 Decision: Keep these as context connectors only. The McLaughlin/Caitlin edge documents a litigated acquaintance and social-overlap issue, not a close-friendship or misconduct finding. The Higgins/Canton Police edge documents a satellite-office and vehicle-storage/work-vehicle connection, not Canton Police employment and not a federal-lane expansion. The Higgins/Berkowitz edge documents reported call/contact testimony and cross-examination context only.
 
+### Read Defense Counsel Connector
+
+Status: `implemented`.
+
+Evidence: `WEB-READ-DEFENSE-TEAM-JACKSON-YANNETTI-2024-2025`; `docs/karen-read-witness-ledger.md`.
+
+Current board state: Alan Jackson and David Yannetti each already connected to Karen Read as defense attorneys in the Read/O'Keefe criminal case, but each had only one visible connector before this cleanup pass.
+
+Decision: Add a Jackson-to-Yannetti `business/professional tie` connector because the public sources and project witness ledger support their shared defense-team role. Keep this as a narrow professional-team connector. Do not expand attorney-to-witness, attorney-to-judge, or attorney-to-every-trial-actor edges unless a source supports a specific relationship that is independently useful to the board.
+
 ### Read / O'Keefe Phone, Text, and Digital-Evidence Context
 
 Status: `graph-ready`.
