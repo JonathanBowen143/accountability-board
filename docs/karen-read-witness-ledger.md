@@ -112,7 +112,7 @@ Do not add every witness. The graph should prioritize people whose testimony or 
 
 Attorney connector rule: Jackson, Yannetti, and Little may connect to existing public-board nodes that appear as called witnesses in either Read criminal trial. Alessi may connect to existing public-board nodes that appear as called witnesses in the second trial, where he joined the defense team. This rule does not require adding every called witness to the visible board.
 
-Prosecutor connector rule: defense attorneys may connect to opposing prosecutors when source material identifies the prosecutor's trial role, a shared courtroom phase, or a documented courtroom dispute. Use `case` for those courtroom-role links.
+Prosecutor connector rule: defense attorneys may connect to opposing prosecutors when source material identifies the prosecutor's trial role, a shared courtroom phase, or a documented courtroom dispute. Adam Lally may connect to existing public-board nodes that appear as called witnesses in the first Read criminal trial. Hank Brennan may connect to existing public-board nodes that appear as called witnesses in the second Read criminal trial. Use `case` for those courtroom-role links.
 
 High-priority connector review: Jennifer McCabe; Matthew McCabe; Brian Albert; Nicole Albert; Chris Albert; Julie Albert; Colin Albert; Caitlin Albert; Brian Albert Jr.; Brian Higgins; Michael Proctor; Yuri or Yuriy Bukhenik; Brian Tully; Michael Lank; Sean Goode; Paul Gallagher; Nicholas Guarino; Joseph Paul; Ian Whiffin; Jessica Hyde; Judson Welcher; Daniel Wolfe; Andrew Rentschler; Marie Russell; Brian Loughran; Nicholas Barros; Kelly Dever; Jonathan Diamandis; Matthew DiSogra; Elizabeth Laposata; John Tedman.
 
