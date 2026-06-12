@@ -316,6 +316,14 @@ CBS Boston, `Karen Read investigator Yuri Bukhenik reads texts from Michael Proc
 
 Boston.com, `6 witnesses took the stand in the Karen Read trial Monday. Here's what happened.`, updated May 5, 2025: `https://www.boston.com/news/crime/2025/05/05/karen-read-murder-trial-livestream-video-monday-may-5/`.
 
+WCVB, `Who to know in the Karen Read retrial`, updated April 3, 2025: `https://www.wcvb.com/article/who-to-know-in-the-karen-read-retrial/64367855`.
+
+CBS Boston, `Whitey Bulger's former attorney named special prosecutor to lead Karen Read's second trial`, updated September 19, 2024: `https://www.cbsnews.com/boston/news/karen-read-retrial-hank-brennan/`.
+
+NBC10 Boston, `How is the second Karen Read trial different from the first? Let us count the ways`, published April 23, 2025: `https://www.nbcboston.com/news/local/how-is-the-second-karen-read-trial-different-from-the-first/3693461/`.
+
+Boston 25 News, `'Irremediable': Karen Read's defense team demands mistrial over prosecutor's questioning`, published June 3, 2025: `https://www.boston25news.com/news/local/irremediable-karen-reads-defense-team-demands-mistrial-over-prosecutors-questioning/U52J5F5FQ5GD5OXQ6SWDY7R5VM/`.
+
 Project witness ledger, `docs/karen-read-witness-ledger.md`.
 
 Commonwealth v. Read trial archive, `Trial 1`, covering April 29 through July 1, 2024, before Judge Beverly J. Cannone: `https://www.commonwealthvread.com/trial-1/`.
@@ -334,9 +342,11 @@ CBS Boston reports that Jackson cross-examined Yuri Bukhenik during the second t
 
 The Commonwealth v. Read trial archive identifies both trials as Cannone courtroom proceedings. Its Trial 1 page summarizes the first criminal trial as running April 29 through July 1, 2024, before Judge Beverly J. Cannone. Its Trial 2 page summarizes the retrial as running April 22 through June 18, 2025, also before Cannone. The project witness ledger uses those trial-archive day summaries, with caveats, to preserve called-witness names separately from prospective witness lists.
 
+WCVB identifies Brennan as the Special Assistant District Attorney appointed to lead the state's team for the retrial, identifies Lally as the prosecutor who led the Commonwealth's presentation during the first trial, identifies Yannetti as leading Read's defense team, identifies Jackson as a key part of the first trial, and identifies Alessi as joining the defense team after the mistrial. CBS Boston reports that Brennan was appointed to lead the prosecution for the second trial and would work with Lally, Laura McLaughlin, and Caleb Schillinger. NBC10 Boston reports that Brennan gave the second-trial opening statement instead of Lally, while Jackson gave the defense opening instead of Yannetti. Boston 25 reports that Alessi objected to Brennan's questioning of Marie Russell, moved for a mistrial, and argued the issue outside the jury's presence after Judge Cannone sent the jury out.
+
 Board implications:
 
-Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson and Yannetti to visible board nodes that appear in the project ledger as called witnesses in either the first or second Read criminal trial. Add Alessi-to-called-witness `case` connectors only for visible board nodes that appear in the project ledger as second-trial called witnesses. Connect Jackson, Yannetti, and Alessi to Judge Beverly Cannone because both trials occurred before Cannone and Alessi was part of the second-trial defense team. These edges document public courtroom/trial-role structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
+Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson and Yannetti to visible board nodes that appear in the project ledger as called witnesses in either the first or second Read criminal trial. Add Alessi-to-called-witness `case` connectors only for visible board nodes that appear in the project ledger as second-trial called witnesses. Connect Jackson, Yannetti, and Alessi to Judge Beverly Cannone because both trials occurred before Cannone and Alessi was part of the second-trial defense team. Add defense-to-prosecution courtroom-role connectors from Jackson, Yannetti, and Alessi to Brennan, and from Jackson and Yannetti to Lally. These edges document public courtroom/trial-role structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
 
 ## WEB-PRINCE-OCONNELL-SJC-2012
 
