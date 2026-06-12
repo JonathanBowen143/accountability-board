@@ -1,6 +1,6 @@
 # Karen Read Witness Ledger
 
-Last updated: June 9, 2026.
+Last updated: June 12, 2026.
 
 This ledger documents witness names for the Commonwealth Accountability Board project. It is not a directive to add every person to the graph. The graph should stay selective; this file is where the larger witness universe can live without overcrowding the board.
 
@@ -10,7 +10,7 @@ This ledger documents witness names for the Commonwealth Accountability Board pr
 
 "Prospective" means a filed or reported witness list of people who could be called. Prospective lists are not proof that a person testified. Many people listed before trial were not called.
 
-Count caveat: public sources differ slightly in how they count witness appearances. CBS Boston reported Trial 1 had 74 witnesses, 68 called by the prosecution and 6 by the defense. The trial archive day summaries expose 72 distinct non-attorney names. CBS Boston reported the retrial prosecution rested after 38 witnesses; the trial archive exposes 37 Commonwealth-called names plus 11 defense-called names, while CNN/KTVZ reported 49 combined retrial witnesses. Treat the count mismatch as a verification item for official transcripts, not as a reason to discard the names below.
+Count caveat: public sources differ in how they count witness appearances. CBS Boston reported Trial 1 had 74 witnesses, 68 called by the prosecution and 6 by the defense; the current trial archive landing page summarizes Trial 1 as 57 witnesses. CBS Boston reported the retrial prosecution rested after 38 witnesses; the current trial archive landing page summarizes Trial 2 as 41 witnesses, while CNN/KTVZ reported 49 combined retrial witnesses. Treat the count mismatch as a verification item for official transcripts, not as a reason to discard the names below.
 
 Spelling caveat: names are normalized for project searchability, but a few source spellings vary. Examples include Yuri/Yuriy Bukhenik, Bridget Mihan/Brigid Meehan, Katie/Katherine Camerano, and Gary/Garrey Faller. Keep both variants in mind when researching connectors.
 
@@ -26,7 +26,7 @@ Spelling caveat: names are normalized for project searchability, but a few sourc
 
 ## Trial 1 Called Witnesses
 
-Trial 1 ran from April 29 to July 1, 2024. CBS reported 74 total witnesses, with 68 called by the prosecution and 6 by the defense. The trial archive day summaries identify 66 Commonwealth-called names plus 6 defense-called names.
+Trial 1 ran from April 29 to July 1, 2024. CBS reported 74 total witnesses, with 68 called by the prosecution and 6 by the defense. The current trial archive landing page summarizes 57 witnesses. The names below preserve the project extraction from trial-archive day summaries and related called-witness reporting for connector research pending official transcript reconciliation.
 
 ### Commonwealth Called
 
@@ -46,7 +46,7 @@ Note: Russell, Wolfe, and Rentschler also appeared in a Trial 1 expert voir dire
 
 ## Trial 2 Called Witnesses
 
-Trial 2 ran from April 22 to June 18, 2025. CBS reported that the prosecution rested after 38 witnesses. The trial archive day summaries identify 37 Commonwealth-called names and 11 defense-called names; CNN/KTVZ reported 49 combined retrial witnesses.
+Trial 2 ran from April 22 to June 18, 2025. CBS reported that the prosecution rested after 38 witnesses. The current trial archive landing page summarizes 41 witnesses; CNN/KTVZ reported 49 combined retrial witnesses. The names below preserve the project extraction from trial-archive day summaries and related called-witness reporting for connector research pending official transcript reconciliation.
 
 ### Commonwealth Called
 
@@ -110,8 +110,10 @@ Boston.com also reported that Read reserved the right to call Commonwealth witne
 
 Do not add every witness. The graph should prioritize people whose testimony or public record creates a meaningful accountability connector beyond routine appearance at trial.
 
+Attorney connector rule: Jackson and Yannetti may connect to existing public-board nodes that appear as called witnesses in either Read criminal trial. Alessi may connect to existing public-board nodes that appear as called witnesses in the second trial, where he joined the defense team. This rule does not require adding every called witness to the visible board.
+
 High-priority connector review: Jennifer McCabe; Matthew McCabe; Brian Albert; Nicole Albert; Chris Albert; Julie Albert; Colin Albert; Caitlin Albert; Brian Albert Jr.; Brian Higgins; Michael Proctor; Yuri or Yuriy Bukhenik; Brian Tully; Michael Lank; Sean Goode; Paul Gallagher; Nicholas Guarino; Joseph Paul; Ian Whiffin; Jessica Hyde; Judson Welcher; Daniel Wolfe; Andrew Rentschler; Marie Russell; Brian Loughran; Nicholas Barros; Kelly Dever; Jonathan Diamandis; Matthew DiSogra; Elizabeth Laposata; John Tedman.
 
 Likely document-only unless a separate connector emerges: routine hospital witnesses, custodial records witnesses, lab witnesses whose role is limited to technical foundation, and one-off civilian timeline witnesses with no institutional or relationship connector.
 
-Open verification items: reconcile the Trial 1 74-witness public count against the 72 distinct non-attorney names exposed in the archive day summaries; reconcile the Trial 2 49-combined public count against the 48 distinct non-attorney names exposed in the archive day summaries; locate official court copies of the Trial 1 prospective witness lists to clean up OCR uncertainty.
+Open verification items: reconcile the Trial 1 74-witness public count against the current trial-archive 57-witness summary and the project extraction below; reconcile the Trial 2 38/41/49 witness-count sources; locate official court copies of the Trial 1 prospective witness lists to clean up OCR uncertainty.

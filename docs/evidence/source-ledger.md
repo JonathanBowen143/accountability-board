@@ -318,6 +318,10 @@ Boston.com, `6 witnesses took the stand in the Karen Read trial Monday. Here's w
 
 Project witness ledger, `docs/karen-read-witness-ledger.md`.
 
+Commonwealth v. Read trial archive, `Trial 1`, covering April 29 through July 1, 2024, before Judge Beverly J. Cannone: `https://www.commonwealthvread.com/trial-1/`.
+
+Commonwealth v. Read trial archive, `Trial 2`, covering April 22 through June 18, 2025, before Judge Beverly J. Cannone: `https://www.commonwealthvread.com/trial-2/`.
+
 Extracted facts:
 
 CBS Boston reports that David Yannetti was Read's only attorney when she was first arrested, that Yannetti, Read, and Alan Jackson later discussed how the defense team expanded, and that Jackson was added to Read's defense team. Vanity Fair reports that Jackson represented Read alongside David Yannetti, Elizabeth Little, Robert Alessi, and Victoria George during the second trial. The project witness ledger separately records Alan Jackson and David Yannetti as defense attorneys listed by the Commonwealth as possible authentication witnesses for the retrial.
@@ -328,9 +332,11 @@ Boston.com reports that Alan Jackson cross-examined Brian Albert, including ques
 
 CBS Boston reports that Jackson cross-examined Yuri Bukhenik during the second trial and immediately questioned him about Michael Proctor's role. That same article reports that a Proctor text read during Bukhenik's testimony referred to David Yannetti and that the male target of the message was Yannetti. Boston.com reports that Jackson cross-examined Katie McLaughlin about her relationship with Caitlin Albert and that Yannetti questioned Caitlin Albert about McLaughlin, while Judge Cannone limited related photo evidence. CBS Boston reports that Jackson clashed with Judge Beverly Cannone during the case and that Cannone considered but did not revoke Jackson's Massachusetts credential. CBS Boston also reports that Cannone struck a comment Yannetti made while concluding cross-examination of O'Keefe's nephew.
 
+The Commonwealth v. Read trial archive identifies both trials as Cannone courtroom proceedings. Its Trial 1 page summarizes the first criminal trial as running April 29 through July 1, 2024, before Judge Beverly J. Cannone. Its Trial 2 page summarizes the retrial as running April 22 through June 18, 2025, also before Cannone. The project witness ledger uses those trial-archive day summaries, with caveats, to preserve called-witness names separately from prospective witness lists.
+
 Board implications:
 
-Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson to Brian Albert, Brian Higgins, Colin Albert, Jennifer McCabe, Michael Proctor, Yuri Bukhenik, Katie McLaughlin, and Judge Beverly Cannone. Add source-backed attorney-to-actor `case` connectors from Yannetti to Brian Higgins, Caitlin Albert, Judge Beverly Cannone, and Michael Proctor. These edges document public courtroom/hearing roles and trial-team structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
+Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson and Yannetti to visible board nodes that appear in the project ledger as called witnesses in either the first or second Read criminal trial. Add Alessi-to-called-witness `case` connectors only for visible board nodes that appear in the project ledger as second-trial called witnesses. Connect Jackson, Yannetti, and Alessi to Judge Beverly Cannone because both trials occurred before Cannone and Alessi was part of the second-trial defense team. These edges document public courtroom/trial-role structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
 
 ## WEB-PRINCE-OCONNELL-SJC-2012
 
