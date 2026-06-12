@@ -1590,11 +1590,29 @@ Reviewed local text extract from recovered Drive file on June 12, 2026.
 
 Extracted facts:
 
-The February 13, 2020 email chain shows John Broderick emailing Marc Sullivan, with John Fanning copied, after Fanning sent Sullivan a rundown of interviews and report-writing assignments. Fanning wrote that DiCicco would write reports for Austin Baker, Victor Gerbaudo, and Shelly McCarthy; Proctor for Patrick Cochran; Pantazelos for Hussey, Rainis, and Ashworth-King; Dunne for Lachlin Hawkins; Bukhenik for Brookline Police Department interviews of Cooper, Elcock, Manzon, Hall, Incharica, Morgan, Amendola, Wagner, and Boland; Guarino for Brookline Police Department interviews of Riordan and Lacy; and Mattaliano, Romere Antoine, and Fanning would write up the prior-day interviews. Fanning also sought BPD use-of-force policy, pursuit policy, BWC material, turret tapes, and 911 calls, and said the DA offered to pay for audio transcription.
+The February 13, 2020 email chain shows John Broderick emailing Marc Sullivan, with John Fanning copied, after Fanning sent Sullivan a rundown of interviews and report-writing assignments. Fanning wrote that DiCicco would write reports for Austin Baker, Victor Gerbaudo, and Shelly McCarthy; Tpr. Kotkowski had no reports but sat in for all BW-related interviews; Proctor would write a report for Patrick Cochran; Pantazelos for Hussey, Rainis, and Ashworth-King; Tpr. Nichol had no reports but sat in for all BW-related interviews; Dunne for Lachlin Hawkins; Bukhenik for Brookline Police Department interviews of Cooper, Elcock, Manzon, Hall, Incharica, Morgan, Amendola, Wagner, and Boland; Guarino for Brookline Police Department interviews of Riordan and Lacy; and Mattaliano, Romere Antoine, and Fanning would write up the prior-day interviews. Fanning also sought BPD use-of-force policy, pursuit policy, BWC material, turret tapes, and 911 calls, and said the DA offered to pay for audio transcription.
 
 Board implications:
 
-Add communication connectors from Fanning to Marc Sullivan and Broderick to Marc Sullivan. Add narrow professional/report-assignment connectors from Fanning to DiCicco, Dunne, Pantazelos, Nichol, Guarino, and Antoine. Do not add a Kotkowski connector until the `Tpr Kotkowski` named here is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node. Do not duplicate Proctor, Bukhenik, or Mattaliano connectors because those relationships are already represented.
+Add communication connectors from Fanning to Marc Sullivan and Broderick to Marc Sullivan. Add narrow professional/report-assignment connectors from Fanning to DiCicco, Dunne, Pantazelos, Nichol, Guarino, Antoine, and Kotkowski. Add a narrow Root case connector for Kotkowski because he is listed as sitting in for all BW-related interviews, while preserving the `No Reports` limitation. Do not imply from this file alone that Kotkowski wrote a report, led an interview, engaged in misconduct, or had Canton Police employment. Do not duplicate Proctor, Bukhenik, or Mattaliano connectors because those relationships are already represented.
+
+## WEB-KOTKOWSKI-MSP-IDENTITY-2012-2025
+
+Status: `ingested`, `identity support; graph-ready for MSP employment label and Root identity resolution`.
+
+Source titles: `CTHRU Statewide Payroll`; `Patrick-Murray Administration Honors First Massachusetts State Police Class Since 2006`; `Mississippi men admit to 2017 Braintree hotel killing`.
+
+Source URLs: `https://cthrupayroll.mass.gov/api/checkbook_data.csv?employee_types=full_time_employees%2Cothers&org1=DEPARTMENT+OF+STATE+POLICE+%28POL%29&pay_types=pay1%2Cpay2%2Cpay3%2Cpay4&search_hash=%7B%7D&year=2020`; `https://cthrupayroll.mass.gov/api/checkbook_data.csv?employee_types=full_time_employees%2Cothers&org1=DEPARTMENT+OF+STATE+POLICE+%28POL%29&pay_types=pay1%2Cpay2%2Cpay3%2Cpay4&search_hash=%7B%7D&year=2024`; `https://cthrupayroll.mass.gov/api/checkbook_data.csv?employee_types=full_time_employees%2Cothers&org3=SPAM+-+MA+State+Police&pay_types=pay1%2Cpay2%2Cpay3%2Cpay4&search_hash=%7B%7D&year=2025`; `https://archives.lib.state.ma.us/server/api/core/bitstreams/2dee8ea3-63cd-4e37-914c-7b14fd0affa5/content`; `https://www.nfkda.com/Press_Releases/01-27-23%20Mississippi%20men%20admit%20to%20Braintree%20hotel%20killing.pdf`.
+
+Reviewed official/state source extracts on June 12, 2026.
+
+Extracted facts:
+
+CTHRU lists Jeffrey Kotkowski in the Department of State Police as State Police Trooper, 1st Class in 2020, with later payroll rows showing a State Police Sergeant role by 2024-2025. The 2012 state archive release lists Jeffrey D. Kotkowski of Dedham in the 80th Recruit Training Troop appointed to MSP. The Norfolk DA press release names State Police Trooper Jeffrey Kotkowski as one of the investigators praised for years of work on a Braintree homicide prosecution.
+
+Board implications:
+
+Use these sources to identify the `Tpr Kotkowski` in `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020` as Jeffrey Kotkowski for board purposes, update the public node label to `Tpr. Jeffrey Kotkowski`, keep the MSP employment edge, and remove unsupported Canton Police employment / Chief Rafferty oversight edges. Do not use these identity sources by themselves as misconduct evidence.
 
 ## ROOT-NDAO-AXON-AUDITS-2025
 

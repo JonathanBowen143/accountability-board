@@ -1,6 +1,6 @@
 # Connector Queue
 
-Last updated: June 11, 2026.
+Last updated: June 12, 2026.
 
 This queue is the holding area between evidence ingestion and graph edits. It prevents the board from becoming either under-connected or over-claimed.
 
@@ -346,19 +346,19 @@ Status: `graph-ready for narrow Root interview-assignment expansion`.
 
 Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`; `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flagged the separate Fanning PDF as a priority retrieval item.
 
-Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, Crawford, Marc Sullivan, DiCicco, Dunne, Pantazelos, Nichol, Guarino, and Antoine. The Root/Brookline correspondence includes a direct Fanning-to-Broderick communication connector in addition to their professional connector, and the NDAO interview-assignment email now supports Fanning's coordination connectors to existing Root actors.
+Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, Crawford, Marc Sullivan, DiCicco, Dunne, Pantazelos, Nichol, Guarino, Antoine, and Kotkowski. The Root/Brookline correspondence includes a direct Fanning-to-Broderick communication connector in addition to their professional connector, and the NDAO interview-assignment email now supports Fanning's coordination connectors to existing Root actors.
 
-Decision: The recovered Fanning PDF is primarily a SERT evidence-search email copied to Fanning. The fuller NDAO interview-assignment file, however, supports Fanning as a report/interview coordinator across existing Root actors and supports the added Fanning-to-Marc Sullivan, Fanning-to-DiCicco, Fanning-to-Dunne, Fanning-to-Pantazelos, Fanning-to-Nichol, Fanning-to-Guarino, and Fanning-to-Antoine connectors. Do not add a Kotkowski connector until `Tpr Kotkowski` in the assignment email is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node.
+Decision: The recovered Fanning PDF is primarily a SERT evidence-search email copied to Fanning. The fuller NDAO interview-assignment file, however, supports Fanning as a report/interview coordinator across existing Root actors and supports the added Fanning-to-Marc Sullivan, Fanning-to-DiCicco, Fanning-to-Dunne, Fanning-to-Pantazelos, Fanning-to-Nichol, Fanning-to-Guarino, Fanning-to-Antoine, and Fanning-to-Kotkowski connectors.
 
-### Kotkowski / Root Assignment Identity Hold
+### Kotkowski / Root Assignment Identity Resolution
 
-Status: `corrected`, `hold`.
+Status: `corrected`, `graph-ready`.
 
-Evidence: `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`.
+Evidence: `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`; `WEB-KOTKOWSKI-MSP-IDENTITY-2012-2025`.
 
-Current board state: The Root edge to the visible `Det. Jeff Kotkowski` node has been removed. Kotkowski remains visible only through the existing Read/Canton/MSP lane.
+Current board state: `Det. Jeff Kotkowski` has been corrected to `Tpr. Jeffrey Kotkowski`. The unsupported Canton Police employment and Rafferty oversight edges have been removed. Kotkowski remains connected to Read/O'Keefe and MSP, and now has a narrow Root case connector plus a Fanning professional/assignment connector.
 
-Decision: Keep Root/Kotkowski out of the public graph until the `Tpr Kotkowski` named in the Root interview-assignment email is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node. The assignment email is a lead, not enough by itself to merge the identities or create a Root connector.
+Decision: The assignment email's `Tpr Kotkowski` can be treated as Jeffrey Kotkowski for board purposes because official payroll, state archive, and Norfolk DA sources support Jeffrey Kotkowski as an MSP trooper in the relevant period. The Root edge is limited to sitting in for BW-related interviews with no reports; do not imply report authorship, lead investigator status, misconduct, or Canton employment from this source.
 
 ### Yuriy Bukhenik / Root Public-Records Correspondence
 
@@ -416,7 +416,7 @@ Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-li
 
 Status: `partly graph-ready; active lead for additional office staff`.
 
-Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `ROOT-GUARINO-DIGITAL-EVIDENCE-2020` supports Guarino, Keefe, Mattaliano, and Brookline Officer Scott Wilder as Root digital-evidence actors. `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020` supports Fanning/Broderick/Marc Sullivan communication and Root interview-assignment connectors among existing nodes. `ROOT-NDAO-AXON-AUDITS-2025` supports the existing BPD/Godin/Axon evidence-access lane. `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024` supports Norfolk DA/MSP digital-forensics infrastructure as internal context. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024` supports Beland's visible Norfolk DA, Walshe, and Read/O'Keefe correspondence connectors. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` remains only a lead for Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `ROOT-GUARINO-DIGITAL-EVIDENCE-2020` supports Guarino, Keefe, Mattaliano, and Brookline Officer Scott Wilder as Root digital-evidence actors. `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020` supports Fanning/Broderick/Marc Sullivan communication and Root interview-assignment connectors among existing nodes. `WEB-KOTKOWSKI-MSP-IDENTITY-2012-2025` resolves the Kotkowski identity enough for the narrow Root assignment connector while removing unsupported Canton/Rafferty edges. `ROOT-NDAO-AXON-AUDITS-2025` supports the existing BPD/Godin/Axon evidence-access lane. `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024` supports Norfolk DA/MSP digital-forensics infrastructure as internal context. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024` supports Beland's visible Norfolk DA, Walshe, and Read/O'Keefe correspondence connectors. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` remains only a lead for Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
 
 Current board state: Beland is represented as a Norfolk DA prosecutor connected to the Walshe lane and to the Read/O'Keefe correspondence/filing lane. She is not connected to Birchmore on the public board.
 
