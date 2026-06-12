@@ -1250,7 +1250,7 @@ The OCR records a BPD IAD report by Lt. Thomas W. Lema Jr. for complaint number 
 
 Board implications:
 
-This strengthens the Root evidence lane around Godin, BPD, Norfolk DA investigative handling, and body-worn-camera issues. It supports a graph connector for the Godin/BWC lane and a separate Marc/Mark Sullivan FDIT lead. Do not merge that FDIT trail into the existing Michael Sullivan Form 26 trail.
+This strengthens the Root evidence lane around Godin, BPD, Norfolk DA investigative handling, and body-worn-camera issues. Treat it as an administrative BPD body-worn-camera source: it can support Godin/BPD/BWC handling and review connectors, but it should not be blended with family or litigation allegations unless the same fact is independently supported. It supports a graph connector for the Godin/BWC lane and a separate Marc/Mark Sullivan FDIT lead. Do not merge that FDIT trail into the existing Michael Sullivan Form 26 trail.
 
 ## ROOT-BANNON-COMPLAINT-2020
 
@@ -1268,7 +1268,7 @@ The complaint names Jennifer Root Bannon as Juston Root's sister and estate repr
 
 Board implications:
 
-This source supports the existing Root links to the six officer defendants, the City/Boston Police lane, the Massachusetts State Police lane through Conneely, and Jennifer Root Bannon's litigation role if she is added later. Allegations from the complaint should remain allegation-status unless confirmed by an adjudicated source or independent record. Because the complaint spans BWH/Fenwood, the civilian valet collision, the pursuit, and the Brookline fatal shooting, use it as a phase-spanning claim source only. Do not let it collapse those phases into a single graph claim or prove phase-specific facts without corroborating records.
+This source supports the existing Root links to the six officer defendants, the City/Boston Police lane, the Massachusetts State Police lane through Conneely, and Jennifer Root Bannon's litigation role if she is added later. Use it as a family/estate party and claim source, not as body-worn-camera proof by itself. Allegations from the complaint should remain allegation-status unless confirmed by an adjudicated source or independent record. Because the complaint spans BWH/Fenwood, the civilian valet collision, the pursuit, and the Brookline fatal shooting, use it as a phase-spanning claim source only. Do not let it collapse those phases into a single graph claim or prove phase-specific facts without corroborating records.
 
 ## ROOT-GODIN-BWC-MOTION-2021
 
@@ -1294,7 +1294,7 @@ The filing says Godin repeatedly claimed he was not wearing a body-worn camera, 
 
 Board implications:
 
-This source supports graph connectors for Godin, William Doogan, BPD, and the Root BWC-handling lane. It should not be used to overstate adjudicated misconduct; it is a litigation filing and should be paired with IAD, FDIT, court-opinion, and production-record sources.
+This source supports graph connectors for Godin, William Doogan, BPD, and the Root BWC-handling lane. Treat the filing as a litigation and discovery-dispute source: it can preserve allegations, claimed contradictions, and handling issues, but it should not be used to overstate adjudicated misconduct. Pair it with IAD, FDIT, court-opinion, Axon audit, and production-record sources before strengthening any public-board claim.
 
 ## ROOT-BPD-GODIN-INTERROGATORIES-2021
 
@@ -1314,7 +1314,7 @@ Godin's March 2021 interrogatory answers in `Bannon v. Godin`, Civil Action No. 
 
 Board implications:
 
-Add a narrow Godin-to-Norfolk DA case/investigation connector because Godin's own interrogatory answer records a direct Norfolk DA interview and findings meeting. Keep the edge role-based and source-limited. The BWC and firearm statements are important source context, but this interrogatory file should not be used by itself as an adjudicated misconduct finding.
+Add a narrow Godin-to-Norfolk DA case/investigation connector because Godin's own interrogatory answer records a direct Norfolk DA interview and findings meeting. Keep the edge role-based and source-limited. The BWC and firearm statements are important source context, but this interrogatory file should not be used by itself as an adjudicated misconduct finding or as proof of family/lawsuit allegations beyond what Godin personally answered.
 
 ## ROOT-FIRST-CIRCUIT-2024
 
@@ -1334,7 +1334,7 @@ The First Circuit opinion identifies Jennifer Root Bannon as plaintiff-appellant
 
 Board implications:
 
-This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants. Because the opinion bridges the BWH response, later pursuit, Brookline shooting, BWC evidence, and FDIT materials, use it to connect phases as adjudicated appellate context while still preserving phase-specific source boundaries.
+This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants. Because the opinion bridges the BWH response, later pursuit, Brookline shooting, BWC evidence, and FDIT materials, use it to connect phases as adjudicated appellate context while still preserving phase-specific source boundaries. Use this opinion as the outcome check before public-board wording turns complaint, sanctions, or family/estate allegations into stronger conclusions.
 
 ## ROOT-BPD-FDIT-FINAL-2020
 
@@ -1652,7 +1652,7 @@ The February 18, 2025 Norfolk DA public-records response to Annemarie Grant list
 
 Board implications:
 
-Use this as support for the existing Root/BPD body-camera and evidence-handling lane involving Godin, McMenamy, Figueroa, Broderick, Marc Sullivan, Mattaliano, and BPD. It strengthens why Marc Sullivan and Broderick are Root evidence actors and why Godin BWC/Axon records remain source-relevant. Do not add Tracey Kelly or Louis Madeira solely from public-record response or audit-generation roles, and do not add Cullen, Donovan, Miller, Whitman, Larkin, Long, Lemire, Wyman, Coakley, or Watson from this packet alone.
+Use this as support for the existing Root/BPD body-camera and evidence-handling lane involving Godin, McMenamy, Figueroa, Broderick, Marc Sullivan, Mattaliano, and BPD. Treat it as an audit and access-log source: it supports the existence, timing, upload, audit, and role-based access trail for Axon materials, but it does not by itself prove the truth of every litigation allegation about the body-worn-camera dispute. It strengthens why Marc Sullivan and Broderick are Root evidence actors and why Godin BWC/Axon records remain source-relevant. Do not add Tracey Kelly or Louis Madeira solely from public-record response or audit-generation roles, and do not add Cullen, Donovan, Miller, Whitman, Larkin, Long, Lemire, Wyman, Coakley, or Watson from this packet alone.
 
 ## ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024
 

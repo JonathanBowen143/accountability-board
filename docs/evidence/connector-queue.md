@@ -268,6 +268,16 @@ Current board state: Godin is connected to Root, Boston Police, and Norfolk DA. 
 
 Decision: Keep the connectors role-based. Godin's own interrogatory answers support the narrow Godin-to-Norfolk DA case/investigation connector because he says he was interviewed by the Norfolk DA's Office and later returned there for findings. The BWC, lab, firearm-analysis, and video-recovery records support the evidence-handling lane, but they do not turn every BWC assertion into adjudicated misconduct language. The BPD firearm-discharge report attributes the nonfatal valet injury to Godin as an administrative finding; preserve that as source language, not as a free-floating graph accusation.
 
+### Root BWC Facts and Litigation Allegations
+
+Status: `decided`, `evidence-boundary rule`.
+
+Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-BPD-GODIN-INTERROGATORIES-2021`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-BANNON-COMPLAINT-2020`; `ROOT-NDAO-AXON-AUDITS-2025`; `ROOT-BPD-FDIT-FINAL-2020`.
+
+Current board state: The public board keeps the Godin/BPD/BWC lane visible through role-based connectors to Godin, Boston Police, Norfolk DA, William Doogan, Marc Sullivan, Broderick, and related evidence-handling actors. It does not add a separate family, advocacy, sanctions-motion, or discovery-dispute node.
+
+Decision: Separate source classes before creating or strengthening connectors. Administrative and audit sources can support evidence-handling, access, review, and institutional-role connectors, but only for the log, review, or handling facts they directly record. Litigation filings by the Root family or estate can preserve party status, claims, discovery disputes, and alleged BWC conduct, but they are not adjudicated proof by themselves. Godin's interrogatory answers can support self-stated facts and the narrow Norfolk DA interview connector, but not a broader misconduct finding. The First Circuit opinion controls adjudicated federal outcome language and should be used as the check against turning complaint or sanctions language into graph conclusions. Do not use filing titles, family statements, or advocacy framing as public-board labels unless a matching official, adjudicated, or independently reviewed record supports the same claim.
+
 ### Root Federal Civil Action / Shooting Officer Cluster
 
 Status: `graph-ready`.
