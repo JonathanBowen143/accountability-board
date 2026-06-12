@@ -262,11 +262,11 @@ Decision: Keep the current graph connectors. The evidence supports institutional
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`.
+Evidence: `ROOT-GODIN-IAD-2022-0053`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-BPD-GODIN-INTERROGATORIES-2021`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`; `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`; `ROOT-BPD-FIREARM-ANALYSIS-2020`; `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`.
 
-Current board state: Godin is connected to Root and Boston Police. William Doogan and Marc Sullivan have been added as separate Root/BPD handling connectors.
+Current board state: Godin is connected to Root, Boston Police, and Norfolk DA. William Doogan and Marc Sullivan have been added as separate Root/BPD handling connectors.
 
-Decision: Keep the connectors role-based. These sources support the BWC-handling lane and the Boston-scene discharge/injury lane, but they do not turn every BWC assertion into adjudicated misconduct language. The BPD firearm-discharge report attributes the nonfatal valet injury to Godin as an administrative finding; preserve that as source language, not as a free-floating graph accusation.
+Decision: Keep the connectors role-based. Godin's own interrogatory answers support the narrow Godin-to-Norfolk DA case/investigation connector because he says he was interviewed by the Norfolk DA's Office and later returned there for findings. The BWC, lab, firearm-analysis, and video-recovery records support the evidence-handling lane, but they do not turn every BWC assertion into adjudicated misconduct language. The BPD firearm-discharge report attributes the nonfatal valet injury to Godin as an administrative finding; preserve that as source language, not as a free-floating graph accusation.
 
 ### Root Federal Civil Action / Shooting Officer Cluster
 
@@ -322,11 +322,11 @@ Decision: Treat Michael Sullivan as a Boston-scene patrol-supervisor/Form 26 act
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-BPD-FDIT-FINAL-2020`.
+Evidence: `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-BPD-GODIN-INTERROGATORIES-2021`.
 
 Current board state: Added `Sgt. Det. William Doogan` as a Root/BPD connector tied to Godin and Bukhenik.
 
-Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector. The FDIT final report supports Doogan-to-Bukhenik as a narrow professional interview connector because it documents them conducting an audio-recorded Root witness interview together.
+Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector. The BWC sanctions filing identifies Doogan as the BPD FDIT sergeant detective who transported Godin to BPD headquarters and received Godin's BWC/phone surrender statement. The FDIT final report separately supports Doogan-to-Bukhenik as a narrow professional interview connector because it documents them conducting an audio-recorded Root witness interview together.
 
 ## Priority Holds
 

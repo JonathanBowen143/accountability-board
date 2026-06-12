@@ -1278,15 +1278,43 @@ Source title: `05-04-21 District Court filing - Boston Police Officer lied about
 
 Reviewed local source: `/Users/jonathanbowen/Library/Mobile Documents/com~apple~CloudDocs/Juston Root - Drive Mirror/05-04-21 District Court filing - Boston Police Officer lied about his body worn camera.pdf`.
 
+Related recovered Drive file: `Filing for Sanctions - David Godin BWC.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1dztwernMmudMm63Yeqq6rUx2ekYlCMMf/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1dztwernMmudMm63Yeqq6rUx2ekYlCMMf`.
+
 Related public listing: `https://justonroot.com/court-filings`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
 
 Extracted facts:
 
-The filing says Godin repeatedly claimed he was not wearing a body-worn camera, while video from another BPD officer's camera allegedly showed him wearing one and removing it in the cruiser. It describes discovery disputes about BPD body-worn-camera footage, audit logs, preservation, production, and supervisory collection. It also identifies Sgt. Det. William Doogan as transporting Godin and another BPD officer to headquarters, where Godin surrendered his body-worn camera and phone.
+The filing says Godin repeatedly claimed he was not wearing a body-worn camera, while video from another BPD officer's camera allegedly showed him wearing one and removing it in the cruiser. It describes discovery disputes about BPD body-worn-camera footage, audit logs, preservation, production, supervisory collection, and BPD Rule 405. It also identifies Sgt. Det. William Doogan as transporting Godin and another BPD officer to headquarters, where Godin surrendered his body-worn camera and phone and said he had not reviewed any footage on it.
 
 Board implications:
 
 This source supports graph connectors for Godin, William Doogan, BPD, and the Root BWC-handling lane. It should not be used to overstate adjudicated misconduct; it is a litigation filing and should be paired with IAD, FDIT, court-opinion, and production-record sources.
+
+## ROOT-BPD-GODIN-INTERROGATORIES-2021
+
+Status: `ingested`, `graph-ready for narrow Godin/Norfolk DA connector`.
+
+Source title: `BOD David Godin answers to intergatories.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1GiugT6Mxb5NKs5f25tyydOskpgExnNxD/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1GiugT6Mxb5NKs5f25tyydOskpgExnNxD`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+Godin's March 2021 interrogatory answers in `Bannon v. Godin`, Civil Action No. `1:20-cv-11501-RGS`, identify him as a Boston Police defendant and state that he was interviewed by the Norfolk County District Attorney's Office on February 12, 2020. He also states that someone from Boston Police was present, that he later returned to the Norfolk DA's Office for presentation of findings, and that the issue with his firearm was raised in the February 12 interview. His answers separately say he was not wearing or activating a body-worn camera during the vehicle pursuit or Chestnut Hill shooting and did not know the serial number of the firearm he carried on February 7, 2020.
+
+Board implications:
+
+Add a narrow Godin-to-Norfolk DA case/investigation connector because Godin's own interrogatory answer records a direct Norfolk DA interview and findings meeting. Keep the edge role-based and source-limited. The BWC and firearm statements are important source context, but this interrogatory file should not be used by itself as an adjudicated misconduct finding.
 
 ## ROOT-FIRST-CIRCUIT-2024
 
@@ -1387,6 +1415,66 @@ The CAD/event-history record is for event `P200067197`, `CD303 - Officer Dischar
 Board implications:
 
 Use this as timing and dispatch/context support only. It does not add a new public node or connector by itself, and it should be paired with the BPD FDIT and firearm-discharge reports for any graph-facing claim.
+
+## ROOT-BPD-LAB-ITEMS-86-87-2020-2021
+
+Status: `ingested`, `source-note support only`.
+
+Source titles: `02.26.2020_Processing_Table_ (1).pdf`; `Chain_of_Custody_items_86__87__11.12.2024_ (1).pdf`.
+
+Google Drive URLs: `https://drive.google.com/file/d/1_O9o_GKDDIFAvYhRzpBmAcvVxLdVOE9U/view`; `https://drive.google.com/file/d/1nxYuj9-YQI1ZGWRbRQLv1Z_uwlnZtCcR/view`.
+
+Drive IDs from `_DRIVE_FULL_INDEX.tsv`: `1_O9o_GKDDIFAvYhRzpBmAcvVxLdVOE9U`; `1nxYuj9-YQI1ZGWRbRQLv1Z_uwlnZtCcR`.
+
+Reviewed recovered Drive text on June 12, 2026.
+
+Extracted facts:
+
+The February 26, 2020 Boston Police latent-print processing report for incident `202010292`, lab number `20-0238`, identifies the incident type as homicide and the district/unit as `B2/HOMICIDE`. It lists item 86 as a piece of plastic and item 87 as a baton flashlight, with no latent impressions recovered and the items forwarded to the Evidence Control Unit. The chain-of-custody printout identifies item 86 as cone 17 clear plastic and item 87 as cone 50 black expendable baton, with hand-delivered evidence submission on February 10, 2020, latent-print processing activity on February 25-26, 2020, release to Officer Barden, later transfer to the Crime Lab Unit on July 16, 2021, and return to storage through Evidence Control Unit personnel in September 2021.
+
+Board implications:
+
+Use this as internal evidence-control support for the Root/BPD lane. It does not justify adding lab staff, custody clerks, or every officer listed in the custody log to the public graph. The durable point is that item 86 and item 87 have documented BPD lab and evidence-control handling that can support later source audits if these physical items become important.
+
+## ROOT-BPD-FIREARM-ANALYSIS-2020
+
+Status: `ingested`, `source-ledger support for Root/BPD firearm-evidence lane`.
+
+Source title: `Firearm Analysis Report 02-07-20 shooting__I202010292_R (1).pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1qG7QmVYnoozTA3UBPDLCp72ulKRFs_a7/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1qG7QmVYnoozTA3UBPDLCp72ulKRFs_a7`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The Boston Police firearms-analysis report for incident `202010292`, lab number `20-0238`, district `B-2`, date of incident February 7, 2020, and report date June 1, 2020, covers firearms and ammunition examination. It lists a Glock 43 9mm pistol, multiple Glock 22Gen4 .40 S&W pistols, cartridges, magazines, discharged cartridge cases, discharged bullets, and bullet fragments. The report concludes that items 66-70 were fired from item 8, items 71-78 and 100-101 were fired from item 36, several discharged bullets and fragments were consistent with .40 S&W/polygonal-rifling characteristics, and several projectile comparisons were inconclusive as to a specific listed Glock .40 S&W pistol. The report is signed by Criminalist Chris Finn and reviewed by Officer Nina Jefferson.
+
+Board implications:
+
+Use this as firearm-evidence context for the existing Root/BPD/Godin/St. Peter/Desmarais lane and as a cross-check against the BPD firearm-discharge report. Do not add Chris Finn, Nina Jefferson, or every redacted firearm owner as public graph nodes from this lab report alone.
+
+## ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020
+
+Status: `ingested`, `source-note support only`.
+
+Source titles: `Video Evidence Recovery Worksheet I202010292.pdf`; `Key Video Time Line.pdf`.
+
+Google Drive URLs: `https://drive.google.com/file/d/1c9Dd4gdBWi3XMu9nFugX7AIN3mg7Fqtw/view`; `https://drive.google.com/file/d/1DEJH3qtfOlj_55M6OMXRsBTfh2rFczVY/view`.
+
+Drive IDs from `_DRIVE_FULL_INDEX.tsv`: `1c9Dd4gdBWi3XMu9nFugX7AIN3mg7Fqtw`; `1DEJH3qtfOlj_55M6OMXRsBTfh2rFczVY`.
+
+Reviewed OCR from recovered Drive files on June 12, 2026. OCR is noisy because both files appear to be scanned handwritten or low-contrast working records.
+
+Extracted facts:
+
+The video-recovery worksheet appears to document recovery of video evidence for Root incident `202010292`, including multiple cameras or channels, a requested time window on February 7, 2020, and recovered/added camera files. The key-video timeline is marked draft on February 8, 2020 and attributed to Det. Housman, ID `L805`. It lists camera viewpoints around Fenwood Road, Saint Albans Road, Huntington Avenue, Mission Park Drive, Levinson/Skycam views, and 20/20 Lot views, with several timestamped sightings of a silver sedan and BPD marked SUV cruisers with blue lights.
+
+Board implications:
+
+Use these as video-source and chronology support only. They strengthen why the Root evidence lane should track video collection separately from BWC/Axon records, but the OCR does not justify adding Det. Housman or camera-location nodes to the public board. If video timing becomes important, return to the image PDFs manually rather than relying on OCR alone.
 
 ## ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020
 
@@ -1538,11 +1626,11 @@ Relevant local lines: `1-55`, `67-70`, `95-106`, `609`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, and FDIT report copies. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, and BPD CAD/hospital-history file have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, and `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, and FDIT report copies. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, BPD CAD/hospital-history file, Godin interrogatories, Godin BWC sanctions filing, lab/evidence-control item 86 and 87 files, firearm-analysis report, and video-recovery/timeline files have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`, `ROOT-BPD-GODIN-INTERROGATORIES-2021`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`, `ROOT-BPD-FIREARM-ANALYSIS-2020`, and `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, and CAD/hospital-history entries have now produced source notes; remaining separate public-record files still require separate review before graph use.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, CAD/hospital-history, Godin interrogatory, BWC sanctions, lab/evidence-control, firearm-analysis, and video-recovery entries have now produced source notes. Remaining non-PDF or media-heavy public-record files, including BAPERN audio, mapping images, and the DIT PowerPoint, still require separate review before graph use.
 
 ## ROOT-CAREER-INVENTORY
 
