@@ -1358,7 +1358,7 @@ The report summarizes audio-recorded witness interviews conducted by paired Bost
 
 Board implications:
 
-Use this source to confirm that `marcsullivan` is Sergeant Detective Marc Sullivan, not Sergeant Michael Sullivan, and to support the existing Marc Sullivan, Broderick, Fanning, Mattaliano, Bukhenik, DiCicco, Dunne, Pantazelos, Proctor, Doogan, BPD, MSP, and Norfolk DA Root lanes. Add a narrow Doogan-to-Bukhenik professional connector because both are already public-board nodes and the report documents a joint interview role. Do not add every FDIT detective, FBI task-force actor, witness, supervisor, or redacted interview subject from this report.
+Use this source to confirm that `marcsullivan` is Sergeant Detective Marc Sullivan, not Sergeant Michael Sullivan, and to support the existing Marc Sullivan, Broderick, Fanning, Mattaliano, Bukhenik, DiCicco, Dunne, Pantazelos, Proctor, Doogan, BPD, MSP, and Norfolk DA Root lanes. Add a narrow Doogan-to-Bukhenik professional connector because both are already public-board nodes and the report documents a joint interview role. Keep FDIT represented through named BPD/FDIT actors and the Boston Police Department institution rather than adding a standalone public `BPD FDIT` unit node. Do not add every FDIT detective, FBI task-force actor, witness, supervisor, or redacted interview subject from this report.
 
 ## ROOT-BPD-FIREARM-DISCHARGE-IAD-2020
 

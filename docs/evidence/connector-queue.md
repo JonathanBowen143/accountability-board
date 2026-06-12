@@ -308,6 +308,16 @@ Current board state: Added `Sgt. Det. Marc Sullivan` as a separate node connecte
 
 Decision: Keep this separate from the existing `Sgt. Michael Sullivan` node. The recovered FDIT report confirms the FDIT author as Sergeant Detective Marc Sullivan, ID `11958`, while the separate Form 26 trail identifies Sergeant Michael Sullivan, ID `75000`. Merging them would create a name error.
 
+### BPD FDIT Unit Visibility
+
+Status: `decided`, `internal context only`.
+
+Evidence: `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-GODIN-BWC-MOTION-2021`; `ROOT-FIRST-CIRCUIT-2024`.
+
+Current board state: FDIT is represented through named public-board actors and the Boston Police Department institution: Marc Sullivan, William Doogan, John Broderick, Michael Sullivan, David Godin, Bukhenik, and the Root/BPD handling lane. There is no standalone `BPD FDIT` public node.
+
+Decision: Do not add a visible FDIT unit node in the current victim/public-official view. FDIT is an internal Boston Police investigative unit, and a standalone node would turn this lane toward an org-chart layer. Keep FDIT in evidence notes unless a later board version deliberately opens a police-unit accountability layer or a source creates a repeated FDIT-unit pattern across cases.
+
 ### Michael Sullivan / Root Boston Scene
 
 Status: `graph-ready for existing-node scene-control connector`.
