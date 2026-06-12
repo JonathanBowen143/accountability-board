@@ -1348,6 +1348,66 @@ Board implications:
 
 Add Scott Wilder as a narrow Brookline/Root evidence-source node, connect Wilder to Brookline Police and Root, and connect Guarino to Wilder as a communication/evidence-transfer connector. Add Guarino-to-Keefe as a professional evidence-collection connector and Guarino-to-Mattaliano as a report/communication connector. These are evidence-handling connectors only; they do not adjudicate the accuracy of the media, the shooting analysis, or any misconduct allegation.
 
+## ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020
+
+Status: `ingested`, `graph-ready for existing-node Root interview-assignment connectors`.
+
+Source title: `NDAO-2595.1.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1kCzNOTY3nEKJXFWfmm52caJ29P7vfw57/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1kCzNOTY3nEKJXFWfmm52caJ29P7vfw57`.
+
+Reviewed local text extract from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The February 13, 2020 email chain shows John Broderick emailing Marc Sullivan, with John Fanning copied, after Fanning sent Sullivan a rundown of interviews and report-writing assignments. Fanning wrote that DiCicco would write reports for Austin Baker, Victor Gerbaudo, and Shelly McCarthy; Proctor for Patrick Cochran; Pantazelos for Hussey, Rainis, and Ashworth-King; Dunne for Lachlin Hawkins; Bukhenik for Brookline Police Department interviews of Cooper, Elcock, Manzon, Hall, Incharica, Morgan, Amendola, Wagner, and Boland; Guarino for Brookline Police Department interviews of Riordan and Lacy; and Mattaliano, Romere Antoine, and Fanning would write up the prior-day interviews. Fanning also sought BPD use-of-force policy, pursuit policy, BWC material, turret tapes, and 911 calls, and said the DA offered to pay for audio transcription.
+
+Board implications:
+
+Add communication connectors from Fanning to Marc Sullivan and Broderick to Marc Sullivan. Add narrow professional/report-assignment connectors from Fanning to DiCicco, Dunne, Pantazelos, Nichol, Guarino, and Antoine. Do not add a Kotkowski connector until the `Tpr Kotkowski` named here is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node. Do not duplicate Proctor, Bukhenik, or Mattaliano connectors because those relationships are already represented.
+
+## ROOT-NDAO-AXON-AUDITS-2025
+
+Status: `ingested`, `source-ledger support; limited graph-ready reinforcement for existing BPD/Root evidence-access lane`.
+
+Source titles: `01-27-25 NDAO Axon user and device audits.pdf`; `01-27-25 NDAO Axon user and device audits_redacted.pdf`.
+
+Google Drive URLs: `https://drive.google.com/file/d/1o1bDPjUdRwUo7qhgWyGN5hNu8vzokYq-/view`; `https://drive.google.com/file/d/1kYiT8fewuC8GIg9L4QWXLoGyc_NGzuV2/view`.
+
+Drive IDs from `_DRIVE_FULL_INDEX.tsv`: `1o1bDPjUdRwUo7qhgWyGN5hNu8vzokYq-`; `1kYiT8fewuC8GIg9L4QWXLoGyc_NGzuV2`.
+
+Reviewed text extracts from recovered Drive files on June 12, 2026.
+
+Extracted facts:
+
+The February 18, 2025 Norfolk DA public-records response to Annemarie Grant lists responsive Axon materials including eighteen device audit trails, six evidence audit trails for February 7, 2020 body-camera records, a May 18, 2021 Axon report, an Axon user audit trail for David Godin, and MSP Report Case No. `2020-112-47` Serial No. `37`. The redacted audit packet shows repeated audit generation by Sergeant Louis Madeira, evidence titles for `AXON Body 2 Video 2020-02-07` at 0829, 0929, 0930, 0933, 0934, and 0936, uploaders including Joseph McMenamy, Brenda Figueroa, Robert Lemire, Matthew Wyman, Kevin Coakley, and Kevin Watson, and role-based access activity involving Boston Police personnel including John Broderick and Marc Sullivan. The Godin user audit section identifies `Godin, David - 103757` and shows Axon account/evidence activity around the same Root time frame.
+
+Board implications:
+
+Use this as support for the existing Root/BPD body-camera and evidence-handling lane involving Godin, McMenamy, Figueroa, Broderick, Marc Sullivan, Mattaliano, and BPD. It strengthens why Marc Sullivan and Broderick are Root evidence actors and why Godin BWC/Axon records remain source-relevant. Do not add Tracey Kelly or Louis Madeira solely from public-record response or audit-generation roles, and do not add Cullen, Donovan, Miller, Whitman, Larkin, Long, Lemire, Wyman, Coakley, or Watson from this packet alone.
+
+## ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024
+
+Status: `ingested`, `source-ledger support; internal for vendor/procurement lane`.
+
+Source title: `Cellebrite/Norfolk DA Invoices for Cellebrite_redacted.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1Z7EUdwAfqJCp_emn1Im6eaBfxAkEaQ3A/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1Z7EUdwAfqJCp_emn1Im6eaBfxAkEaQ3A`.
+
+Reviewed OCR text from recovered Drive file on June 12, 2026. OCR was noisy but stable for names, dates, and vendor/procurement records.
+
+Extracted facts:
+
+The packet includes 2019 Cellebrite order and invoice materials billing or shipping to the Norfolk District Attorney's Office, including material addressed to Trooper Edward Keefe and purchase activity involving Debra Leahy. A 2019 memo to First Assistant District Attorney Margaret Krippendorf from Detective Lieutenant Kevin Shea, copied to Leahy, says Trooper Edward Keefe requested renewal of four Cellebrite Mobile Forensics licenses. Keefe's equipment request describes troopers assigned to the Norfolk DA facing digital-evidence challenges and references the Norfolk County DA Digital Forensics Lab. Other pages describe a homicide-unit request for Cellebrite assistance with unlock/extraction of an iPhone XS Max when the Digital Forensics Lab and other police labs lacked the ability without a passcode. A 2019 training request identifies Proctor and Guarino, while later 2023 and 2024 training records include Zachary Clark, Connor Keefe, Nicholas Guarino, Samantha Vogt, and Brian Tully.
+
+Board implications:
+
+Use this as support for Norfolk DA/MSP digital-forensics infrastructure and existing professional ties among Keefe, Proctor, Guarino, Tully, and Norfolk DA. Do not add Cellebrite as a visible node or add Debra Leahy, Margaret Krippendorf, Kevin Shea, Samantha Vogt, Zachary Clark, or Connor Keefe from this invoice packet alone. Zachary Clark and Connor Keefe can remain internal because they appear in witness-list and training records but have not yet met the public-node threshold.
+
 ## ROOT-BUKHENIK-FANNING-IMAGE-2020
 
 Status: `ingested`, `graph-supporting lead`.
@@ -1364,7 +1424,7 @@ The OCR reads as a message from Sergeant John Fanning of the Massachusetts State
 
 Board implications:
 
-This supports Root graph connectors for Fanning, Bukhenik, Guarino, Broderick, Elcock, and Wagner. It supports a Fanning-to-Broderick communication connector and Bukhenik-to-Elcock / Bukhenik-to-Wagner case-handling connectors because the message names Broderick as the recipient and identifies Bukhenik as having done the Brookline PD interviews for Elcock and Wagner. It is not a misconduct source by itself. The Guarino/Brookline interview reference remains a source note until a reviewed transcript or named-subject record supports a narrower public connector. The `Tpr. Bukhenik Email Correspondence_redacted.pdf` file has since been ingested as `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; the `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf` item remains a retrieval target for any stronger Fanning-specific public-record claim.
+This supports Root graph connectors for Fanning, Bukhenik, Guarino, Broderick, Elcock, and Wagner. It supports a Fanning-to-Broderick communication connector and Bukhenik-to-Elcock / Bukhenik-to-Wagner case-handling connectors because the message names Broderick as the recipient and identifies Bukhenik as having done the Brookline PD interviews for Elcock and Wagner. It is not a misconduct source by itself. The Guarino/Brookline interview reference remains a source note until a reviewed transcript or named-subject record supports a narrower public connector. The `Tpr. Bukhenik Email Correspondence_redacted.pdf` file has since been ingested as `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`, and the fuller interview-assignment file has since been ingested as `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`.
 
 ## ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020
 
@@ -1398,11 +1458,11 @@ Relevant local lines: `1-55`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files and Boston Police interview records. The Fanning email and digital-evidence report have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020` and `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files and Boston Police interview records. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, and Norfolk DA Cellebrite invoice packet have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, and `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, and digital-evidence entries have now produced graph-supporting source notes; remaining NDAO Axon and public-record files still require separate review before graph use.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, and Cellebrite entries have now produced source notes; remaining separate public-record files still require separate review before graph use.
 
 ## ROOT-CAREER-INVENTORY
 

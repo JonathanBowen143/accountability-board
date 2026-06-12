@@ -1,6 +1,6 @@
 # Victim Anchor Mining
 
-Last updated: June 10, 2026.
+Last updated: June 12, 2026.
 
 This file documents the logic behind larger victim-anchor nodes and the current connector-mining status for those people. It should be read with `source-ledger.md` and `connector-queue.md`.
 
@@ -18,11 +18,11 @@ Before adding another victim anchor, the project should have three things: a sou
 
 Mining status: active, strongest local source base.
 
-Current source surfaces: `ROOT-NDAO-2020-REPORT`, `ROOT-GODIN-IAD-2022-0053`, `ROOT-BANNON-COMPLAINT-2020`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-FIRST-CIRCUIT-2024`, `ROOT-BUKHENIK-FANNING-IMAGE-2020`, `ROOT-DRIVE-FULL-INDEX`, `ROOT-CAREER-INVENTORY`, `WEB-NORFOLK-CONFIDENTIAL-2024`, and `WEB-NORFOLK-DA-FALLOUT-2025`.
+Current source surfaces: `ROOT-NDAO-2020-REPORT`, `ROOT-GODIN-IAD-2022-0053`, `ROOT-BANNON-COMPLAINT-2020`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-FIRST-CIRCUIT-2024`, `ROOT-BUKHENIK-FANNING-IMAGE-2020`, `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-DRIVE-FULL-INDEX`, `ROOT-CAREER-INVENTORY`, `WEB-NORFOLK-CONFIDENTIAL-2024`, and `WEB-NORFOLK-DA-FALLOUT-2025`.
 
-Connector work already started: Norfolk DA, Michael Morrissey, OCME, Boston Police, Massachusetts State Police, Brookline jurisdiction, City of Boston, the six fatal-shooting officers, Godin/body-worn-camera chronology, William Doogan, Marc Sullivan, St. Peter/Broderick/Boston-side context, Elcock/Wagner/Brookline interview context, and the Fanning/Bukhenik/Tully/DiCicco/Guarino overlap lane.
+Connector work already started: Norfolk DA, Michael Morrissey, OCME, Boston Police, Massachusetts State Police, Brookline jurisdiction, City of Boston, the six fatal-shooting officers, Godin/body-worn-camera chronology, William Doogan, Marc Sullivan, St. Peter/Broderick/Boston-side context, Elcock/Wagner/Brookline interview context, the Fanning/Bukhenik/Tully/DiCicco/Guarino overlap lane, and the NDAO interview-assignment/digital-evidence lane involving Broderick, Marc Sullivan, Guarino, Keefe, Mattaliano, Wilder, and existing Root actors.
 
-Next mining actions: continue the remaining NDAO public-record and Axon audit review; ingest the Suffolk DA nonfatal-shooting report; review the underlying FDIT reports for Michael Sullivan and Marc/Mark Sullivan; separate body-camera facts from family/lawsuit allegations; and keep direct graph edges distinct from source-note-only claims.
+Next mining actions: continue the remaining separate public-record files; ingest the Suffolk DA nonfatal-shooting report; review the underlying FDIT reports for Michael Sullivan and Marc/Mark Sullivan; resolve the `Tpr Kotkowski` identity before graph use; separate body-camera facts from family/lawsuit allegations; and keep direct graph edges distinct from source-note-only claims.
 
 ### Sandra Birchmore
 
