@@ -702,6 +702,42 @@ Board implications:
 
 Frances Choy already appears as a small gold-ring wrongful-conviction node. Strengthen the visible lane with narrow institutional connectors to Brockton Police Department, Plymouth Superior Court, Massachusetts State Police, and the existing State Police Crime Laboratory node. Add Jimmy and Anne Choy as a compact underlying homicide-victim node, connected to Brockton Police and Plymouth County DA. Add Judge Linda Giles for the vacatur/new-trial role and connect her to Plymouth Superior Court. Add DA Timothy Cruz's Choy case connector for the 2020 no-retrial/nolle posture. Add Karen O'Sullivan's Bristol County DA employment connector because the 2026 sanctions reporting makes that current public-office bridge relevant. Keep Kenneth Choy, John Drugan, Richard Scott Warmington, Eric Clark, John Duggan, Michael Crisp, Frank Middleton Jr., Scott Berna, City of Brockton, Boston College Innocence Program counsel, bar counsel, BBO members, Bristol DA Thomas Quinn, and civil-settlement actors internal unless later repeated-actor review supports visible use.
 
+## WEB-WATERS-MAHER-AYER-MIDDLESEX-DNA-EXONERATION-1980-2025
+
+Status: `ingested`, `implemented as narrow Ayer / Middlesex / State Police lab connector expansion`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Kenneth Waters`, 399 Mass. 708, decided April 23, 1987, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/399/399mass708.html`.
+
+Innocence Project, `Kenneth Waters`: `https://innocenceproject.org/cases/kenneth-waters/`.
+
+Middlesex District Attorney's Office, `District Attorney Announces Forensic Update in 1980 Cold Case Murder of Katharina Reitz Brow`, posted June 12, 2025: `https://www.middlesexda.com/press-releases/news/district-attorney-announces-forensic-update-1980-cold-case-murder-katharina`.
+
+Prison Legal News, `Massachusetts Man's Estate Resolves Wrongful Conviction Suit for $1.41 Million`, published December 15, 2009: `https://www.prisonlegalnews.org/news/2009/dec/15/massachusetts-mans-estate-resolves-wrongful-conviction-suit-for-141-million/`.
+
+New England Innocence Project, `Estate of Kenneth Waters Settles for 3.4 Million`, published May 18, 2016: `https://www.newenglandinnocence.org/innocence-blog/2016/5/18/estate-of-kenneth-waters-settles-for-34-million`.
+
+Innocence Project, `Dennis Maher`: `https://innocenceproject.org/cases/dennis-maher/`.
+
+New England Innocence Project, `Happy 20th Freedomversary, Dennis Maher!`, published April 3, 2023: `https://www.newenglandinnocence.org/innocence-blog/2023/dennismaher20years`.
+
+Nardizzi & Associates, `3.1 million settlement for client in Ayer wrongful conviction`: `https://www.nardizzi.com/the-last-detective_files/ee858a0a57b0a6d07e9e8dacf326cd1d-29.php`.
+
+Extracted facts:
+
+The SJC's 1987 Waters decision records that Waters was convicted of first-degree murder and armed robbery in the killing of Katharina Reitz Brow in Ayer. The Innocence Project reports that Ayer Police obtained contested witness statements and that later DNA testing, pursued with Middlesex DA agreement, excluded Waters and led to his conviction being vacated and his release.
+
+The Middlesex DA's June 12, 2025 official update identifies Joseph Leo Boudreau through forensic investigative genetic genealogy as the person responsible for Brow's murder, states that investigators found no link between Boudreau and Waters, and identifies the current cold-case work as involving the Middlesex DA's Cold Case Unit, State Police detectives assigned to the DA's office, and Ayer Police detectives.
+
+The Waters civil-rights source trail supports the Ayer / Taylor-Harris / Connors context without converting the settlement materials into misconduct findings. Prison Legal News reports that the estate sued the Town of Ayer, Chief Philip Connors, and Sgt. Nancy Taylor-Harris after Waters' exoneration. NEIP summarizes the civil-rights theory as alleging coerced false testimony and withheld exculpatory evidence.
+
+The Maher sources document a separate, non-murder DNA exoneration that still belongs in this connector pocket. The Innocence Project reports that Maher was convicted of Ayer and Lowell sexual-assault charges, that physical evidence later located at the Middlesex courthouse and State Police Crime Lab excluded him, and that the Middlesex DA joined the motion to vacate and dropped the charges. NEIP records Maher's April 3, 2003 exoneration after more than nineteen years. The Nardizzi account supports the Ayer / Taylor-Harris civil-litigation connector as an attorney-side source and should be treated as corroborating context, not as a standalone public-board misconduct finding.
+
+Board implications:
+
+Add Katharina Reitz Brow as the compact underlying homicide-victim node in the Waters lane. Connect Kenneth Waters narrowly to Ayer Police, Middlesex DA, Middlesex Superior Court, and Brow. Connect Brow to Ayer Police and Middlesex DA for the underlying homicide and cold-case posture. Use Maher only as a repeated Ayer / Lowell / Middlesex / State Police Crime Laboratory connector, not as a murder-conviction matrix row. Keep Joseph Leo Boudreau, Robert Osborne, Brenda Marsh, Roseanna Perry, current Ayer officials, private counsel, insurer/settlement actors, family members, Parabon/Bode personnel, and case-specific witnesses internal unless a later pass opens a cold-case, civil-litigation, or forensic genealogy layer.
+
 ## WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019
 
 Status: `ingested`, `implemented as narrow Worcester County / Milford small-node expansion`.
