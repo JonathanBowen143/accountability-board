@@ -328,6 +328,16 @@ Current board state: Added `Sgt. Det. William Doogan` as a Root/BPD connector ti
 
 Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a blame connector. The BWC sanctions filing identifies Doogan as the BPD FDIT sergeant detective who transported Godin to BPD headquarters and received Godin's BWC/phone surrender statement. The FDIT final report separately supports Doogan-to-Bukhenik as a narrow professional interview connector because it documents them conducting an audio-recorded Root witness interview together.
 
+### Root BWH / Fenwood Video and BAPERN Media
+
+Status: `ingested`, `source-note only`.
+
+Evidence: `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`; `ROOT-BPD-BAPERN-AUDIO-2020`; `ROOT-BROOKLINE-MAPPING-IMAGES-2020`; `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`.
+
+Current board state: No new graph nodes or connectors from this media pass. The existing Root, Godin, St. Peter, Boston Police, Brookline, and evidence-handling lanes remain the public representation.
+
+Decision: Treat these sources as chronology, radio-traffic, and orientation support. Do not add William Thomsen/Thomson, camera-location, Shapiro Building, map-image, or audio-file nodes unless a later scope decision makes one structurally necessary and a stronger primary source supports the exact role. The BAPERN transcript is machine-generated and must remain source-note-only until manual review.
+
 ## Priority Holds
 
 ### John Fanning / Root Public-Records Email

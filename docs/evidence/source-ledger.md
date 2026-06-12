@@ -1476,6 +1476,66 @@ Board implications:
 
 Use these as video-source and chronology support only. They strengthen why the Root evidence lane should track video collection separately from BWC/Axon records, but the OCR does not justify adding Det. Housman or camera-location nodes to the public board. If video timing becomes important, return to the image PDFs manually rather than relying on OCR alone.
 
+## ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020
+
+Status: `ingested`, `source-note support only`.
+
+Source title: `PP__DIT.pptx`.
+
+Google Drive URL: `https://drive.google.com/file/d/14ag8r05OJgjoOm9njVNJn1PYMVhT5HNN/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `14ag8r05OJgjoOm9njVNJn1PYMVhT5HNN`.
+
+Reviewed extracted slide text from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The PowerPoint contains 52 slides, 35 of which had extractable text. It is a BWH/Fenwood video chronology, with repeated references to Fenwood Road, Vining Street, 60 Fenwood Road, and Brigham and Women's. The extracted slide text includes a first camera-view reference, a 9:13:07 entry for Root's vehicle entering a 15-minute parking lane, a 9:14:13 entry for Root exiting the vehicle, a 9:14:30 entry for Root engaging BWH security guard William Thomsen, a later security-guard call reference with the spelling `William Thomson`, a sequence showing guards and Root moving on Vining Street, the words `I'm law enforcement`, cruiser-arrival timing around 9:22, and a final slide diagramming the Fenwood/Vining/Shapiro Building area.
+
+Board implications:
+
+Use this as BWH/Fenwood chronology support for the existing Root/Godin/St. Peter/BPD lane. The file strengthens the internal timeline and camera-view context, but it does not justify adding a security-guard, camera, Shapiro Building, or slide-deck node to the public board. Preserve the William Thomsen/Thomson spelling conflict as a source note until a primary report or witness record resolves it.
+
+## ROOT-BPD-BAPERN-AUDIO-2020
+
+Status: `ingested`, `source-note support only; machine transcript requires manual review`.
+
+Source title: `2_7_2020_BAPERN.wav`.
+
+Google Drive URL: `https://drive.google.com/file/d/1d_gldJrVDix6IBAXczEQqrD42Upu4kxO/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1d_gldJrVDix6IBAXczEQqrD42Upu4kxO`.
+
+Reviewed WAV metadata and local machine transcripts from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The recovered audio is a WAV file, PCM stereo, 8000 Hz, with a duration of about 11 minutes and 58 seconds. A first small-model transcription was unreliable, while a later base-model transcript was more useful but still noisy. The usable machine transcript supports broad radio-context notes around the Root incident, including shots-fired traffic, a silver vehicle description, Huntington/Fenwood/Route 9/Reservoir/Hammond Pond Parkway geography, Brookline/Boston coordination, EMS or fire-medical traffic, State Police response context, and Beth Israel transport context with a trooper mentioned in connection with the ambulance.
+
+Board implications:
+
+Use this only as radio-traffic and dispatch-context support until a manual audio review is done. Do not use the machine transcript for exact quotes, license-plate text, identity claims, or new graph connectors. The audio is useful for chronology and agency-coordination context, but it does not add a public node by itself.
+
+## ROOT-BROOKLINE-MAPPING-IMAGES-2020
+
+Status: `ingested`, `source-note support only`.
+
+Source titles: `2020-IMT-5 Brookline lo res mapping_transparent_mosaic_group1.png`; `2020-IMT-5 Brookline pix hi res_transparent_mosaic_group1.png`.
+
+Google Drive URLs: `https://drive.google.com/file/d/1QodD0fWAVbVHjuaKqluCoHX8lfINEZ7M/view`; `https://drive.google.com/file/d/15j8Xj4IX1920cM_JPJOSzMvupGQfG7WL/view`.
+
+Drive IDs from `_DRIVE_FULL_INDEX.tsv`: `1QodD0fWAVbVHjuaKqluCoHX8lfINEZ7M`; `15j8Xj4IX1920cM_JPJOSzMvupGQfG7WL`.
+
+Reviewed image metadata and a reduced preview from recovered Drive files on June 12, 2026.
+
+Extracted facts:
+
+The low-resolution mapping image is a large PNG, 8318 by 5468 pixels, showing a stitched aerial or mosaic view of the Brookline/Route 9 area. The high-resolution mapping image is a much larger PNG, 34056 by 21962 pixels, about 441 MB. The high-resolution file was recovered after Google Drive's large-file confirmation flow and verified by image metadata, but it was too large for ordinary full-image inspection without disabling decompression-bomb protections or creating a tiled derivative.
+
+Board implications:
+
+Use these images as orientation and scene-context sources only. They do not add people, offices, or institutions to the public board. If the project later needs route or scene reconstruction, create a deliberately bounded derivative image and cite this source note rather than loading the high-resolution image into the repo.
+
 ## ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020
 
 Status: `ingested`, `graph-supporting for Root evidence-search roles; source-note only for stronger Fanning-specific expansion`.
@@ -1626,11 +1686,11 @@ Relevant local lines: `1-55`, `67-70`, `95-106`, `609`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, and FDIT report copies. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, BPD CAD/hospital-history file, Godin interrogatories, Godin BWC sanctions filing, lab/evidence-control item 86 and 87 files, firearm-analysis report, and video-recovery/timeline files have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`, `ROOT-BPD-GODIN-INTERROGATORIES-2021`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`, `ROOT-BPD-FIREARM-ANALYSIS-2020`, and `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files, Boston Police interview records, a BPD firearm-discharge packet, FDIT report copies, BAPERN audio, mapping images, and a DIT PowerPoint. The Fanning email, digital-evidence report, NDAO interview-assignment file, Axon audit files, Norfolk DA Cellebrite invoice packet, BPD FDIT final report, BPD firearm-discharge packet, BPD CAD/hospital-history file, Godin interrogatories, Godin BWC sanctions filing, lab/evidence-control item 86 and 87 files, firearm-analysis report, video-recovery/timeline files, BAPERN audio, Brookline mapping images, and DIT PowerPoint have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`, `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`, `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`, `ROOT-NDAO-AXON-AUDITS-2025`, `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`, `ROOT-BPD-FDIT-FINAL-2020`, `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`, `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`, `ROOT-BPD-GODIN-INTERROGATORIES-2021`, `ROOT-GODIN-BWC-MOTION-2021`, `ROOT-BPD-LAB-ITEMS-86-87-2020-2021`, `ROOT-BPD-FIREARM-ANALYSIS-2020`, `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`, `ROOT-BPD-BAPERN-AUDIO-2020`, `ROOT-BROOKLINE-MAPPING-IMAGES-2020`, and `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, CAD/hospital-history, Godin interrogatory, BWC sanctions, lab/evidence-control, firearm-analysis, and video-recovery entries have now produced source notes. Remaining non-PDF or media-heavy public-record files, including BAPERN audio, mapping images, and the DIT PowerPoint, still require separate review before graph use.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, digital-evidence, NDAO interview-assignment, Axon, Cellebrite, BPD FDIT, firearm-discharge, CAD/hospital-history, Godin interrogatory, BWC sanctions, lab/evidence-control, firearm-analysis, video-recovery, BAPERN, mapping-image, and DIT PowerPoint entries have now produced source notes. The remaining Root index work should move case by case rather than treating every recovered public-record item as graph material.
 
 ## ROOT-CAREER-INVENTORY
 
