@@ -790,6 +790,34 @@ Board implications:
 
 Add Mark Schand and Charles Wilhite as small gold-ring wrongful-conviction nodes, not large victim anchors. Add Victoria Seymour and Alberto Rodriguez as underlying homicide-victim nodes, also not large anchors. Connect Schand and Wilhite narrowly to Springfield Police Department, Hampden County DA, and Hampden Superior Court. Add a narrow Wilhite-to-Judge-Peter-Velis connector because Velis is already on the board and the reviewed Wilhite sources document his new-trial role. Keep Mark Mastroianni, Judge C. Jeffrey Kinder, City of Springfield, Anthony Pioggia, Steven Tatro, the named Schand civil defendants, witnesses, counsel, and settlement actors internal for now.
 
+## WEB-PERROT-HAMPDEN-SPRINGFIELD-FBI-HAIR-1985-2017
+
+Status: `ingested`, `implemented as existing-node Hampden / Springfield connector tightening`.
+
+Source titles:
+
+Innocence Project, `George Perrot`: `https://innocenceproject.org/cases/george-perrot/`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. George Perrot`, 407 Mass. 539, decided June 28, 1990, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/407/407mass539.html`.
+
+WBUR, `Man Whose Rape Conviction Was Overturned Is Set Free`, published February 11, 2016: `https://www.wbur.org/morningedition/2016/02/11/george-perrot-set-free`.
+
+BrandeisNOW, `On his second try, wrongfully convicted man goes free`, published February 10, 2016: `https://www.brandeis.edu/now/2016/february/perrot-schuster-freed.html`.
+
+U.S. District Court for the District of Massachusetts, `Perrot v. United States et al.`, civil action No. 1:18-cv-10147, GovInfo docket PDF: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_18-cv-10147/pdf/USCOURTS-mad-1_18-cv-10147-0.pdf`.
+
+Loevy & Loevy / Associated Press, `Man Who Says He Was Wrongfully Convicted Of Rape Sues Police, FBI`, published January 29, 2018: `https://www.loevy.com/news/man-says-wrongfully-convicted-sues-police-fbi/`.
+
+Extracted facts:
+
+The SJC records that the underlying break-ins and assaults occurred in Springfield, that Springfield police investigated, and that the cases were tried in Hampden County Superior Court. The Innocence Project reports that Perrot was exonerated on October 11, 2017 after the prosecution dismissed charges, following the January 2016 order vacating his convictions because the FBI microscopic-hair-comparison evidence no longer met admissibility standards.
+
+WBUR and BrandeisNOW identify Judge Robert Kane's 2016 vacatur/new-trial ruling and describe the conviction as resting on improper scientific evidence. The Innocence Project identifies trial and retrial prosecutor roles for Francis Bloom and Brett Vottero and names FBI hair-analysis agents Wayne Oakes and William Eubanks. The civil sources document Perrot's later claims against Springfield and federal actors, but those claims should remain an internal research lane unless a later repeated-actor review supports visible use.
+
+Board implications:
+
+George Perrot already appears as a small gold-ring wrongful-conviction node connected to Hampden County DA, Francis Bloom, Brett Vottero, and Judge Robert Kane. Tighten the public board by adding only existing-node connectors from Perrot to Springfield Police Department and Hampden Superior Court. Keep Wayne Oakes, William Eubanks, FBI Boston, individual Springfield officers, the City of Springfield, private victim names, civil defendants, counsel, and settlement actors internal for now.
+
 ## WEB-SUFFOLK-FOXWORTH-KAMARA-LARKIN-FLYNN-2021-2023
 
 Status: `ingested`, `graph-ready for Suffolk / Boston wrongful-murder-conviction connector`.

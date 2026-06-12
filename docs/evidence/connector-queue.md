@@ -198,6 +198,16 @@ Current board state: Mark Schand and Charles Wilhite now appear as small gold-ri
 
 Decision: Keep this visible layer institutional and court-anchored. Mark Mastroianni, Judge C. Jeffrey Kinder, City of Springfield, Anthony Pioggia, Steven Tatro, the named Schand civil defendants, witnesses, counsel, and settlement actors remain internal unless a later repeated-actor review supports public-board use.
 
+### Perrot / Hampden / Springfield FBI-Hair Lane
+
+Status: `implemented`.
+
+Evidence: `WEB-PERROT-HAMPDEN-SPRINGFIELD-FBI-HAIR-1985-2017`.
+
+Current board state: George Perrot already appeared as a small gold-ring wrongful-conviction node tied to Hampden County DA, Francis Bloom, Brett Vottero, and Judge Robert Kane. This pass adds existing-node connectors to Springfield Police Department and Hampden Superior Court.
+
+Decision: Keep this as institutional tightening, not a federal public-board expansion. FBI hair-analysis agents, FBI Boston, individual Springfield police/civil defendants, the City of Springfield, private victim names, counsel, and settlement actors remain internal unless a later repeated-actor review supports visible use.
+
 ### David DiCicco / Norfolk Assignment and Cross-Case Investigator Lane
 
 Status: `graph-ready`.
@@ -398,11 +408,11 @@ Decision: Keep the public board focused on repeated actor patterns and court/pro
 
 Status: `active regional queue`.
 
-Evidence: `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026`; `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023`; `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`; `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020`; `WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019`; `WEB-TANNER-BRISTOL-DARTMOUTH-POSTHUMOUS-DNA-TESTING-1988-2026`; `WEB-WATERS-MAHER-AYER-MIDDLESEX-DNA-EXONERATION-1980-2025`.
+Evidence: `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026`; `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023`; `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025`; `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020`; `WEB-PERROT-HAMPDEN-SPRINGFIELD-FBI-HAIR-1985-2017`; `WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019`; `WEB-TANNER-BRISTOL-DARTMOUTH-POSTHUMOUS-DNA-TESTING-1988-2026`; `WEB-WATERS-MAHER-AYER-MIDDLESEX-DNA-EXONERATION-1980-2025`.
 
-Current board state: Lowell / Middlesex, Springfield / Hampden, Worcester County, Essex / Beverly, Plymouth, Bristol, and Ayer/Middlesex now exist in different strengths. The Ayer/Middlesex pocket has now been tightened around Waters, Brow, Maher, Ayer Police, Middlesex DA, Middlesex Superior Court, Lowell Police, and the State Police Crime Laboratory. Boston remains the densest cluster, but it should no longer be the default mining path.
+Current board state: Lowell / Middlesex, Springfield / Hampden, Worcester County, Essex / Beverly, Plymouth, Bristol, and Ayer/Middlesex now exist in different strengths. The Springfield / Hampden pocket now includes the Wright, Schand, Wilhite, and Perrot lanes, with Perrot treated as a non-murder forensic wrongful-conviction connector rather than a murder matrix row. The Ayer/Middlesex pocket has now been tightened around Waters, Brow, Maher, Ayer Police, Middlesex DA, Middlesex Superior Court, Lowell Police, and the State Police Crime Laboratory. Boston remains the densest cluster, but it should no longer be the default mining path.
 
-Decision: Shift the next research lane away from Boston. Lowell / Rosario, Springfield / Hampden, Worcester County / Cifizzari, and Ayer / Middlesex / Waters have been tightened. Bristol / New Bedford-Dartmouth has now been documented as an internal Tanner watch lane, but it is not graph-ready because the reviewed sources support testing access rather than resolved exoneration. Next priority order: Carver refresh after the Essex appeal posture changes, then another resolved regional lane with a repeated actor or court-level source set. Do not add Dana Gaul as a public node from this pass because the reviewed posture is wrongful arrest / dismissed charge rather than overturned murder conviction or final exoneration.
+Decision: Shift the next research lane away from Boston. Lowell / Rosario, Springfield / Hampden, Worcester County / Cifizzari, and Ayer / Middlesex / Waters have been tightened. Perrot should stay documented as a Springfield/Hampden forensic lane outside the murder-conviction matrix. Bristol / New Bedford-Dartmouth has now been documented as an internal Tanner watch lane, but it is not graph-ready because the reviewed sources support testing access rather than resolved exoneration. Next priority order: Carver refresh after the Essex appeal posture changes, then another resolved regional lane with a repeated actor or court-level source set. Do not add Dana Gaul as a public node from this pass because the reviewed posture is wrongful arrest / dismissed charge rather than overturned murder conviction or final exoneration.
 
 ### Tanner / Bristol / Dartmouth Posthumous DNA Testing Lane
 
