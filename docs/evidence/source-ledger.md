@@ -1268,7 +1268,7 @@ The complaint names Jennifer Root Bannon as Juston Root's sister and estate repr
 
 Board implications:
 
-This source supports the existing Root links to the six officer defendants, the City/Boston Police lane, the Massachusetts State Police lane through Conneely, and Jennifer Root Bannon's litigation role if she is added later. Allegations from the complaint should remain allegation-status unless confirmed by an adjudicated source or independent record.
+This source supports the existing Root links to the six officer defendants, the City/Boston Police lane, the Massachusetts State Police lane through Conneely, and Jennifer Root Bannon's litigation role if she is added later. Allegations from the complaint should remain allegation-status unless confirmed by an adjudicated source or independent record. Because the complaint spans BWH/Fenwood, the civilian valet collision, the pursuit, and the Brookline fatal shooting, use it as a phase-spanning claim source only. Do not let it collapse those phases into a single graph claim or prove phase-specific facts without corroborating records.
 
 ## ROOT-GODIN-BWC-MOTION-2021
 
@@ -1334,7 +1334,7 @@ The First Circuit opinion identifies Jennifer Root Bannon as plaintiff-appellant
 
 Board implications:
 
-This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants.
+This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants. Because the opinion bridges the BWH response, later pursuit, Brookline shooting, BWC evidence, and FDIT materials, use it to connect phases as adjudicated appellate context while still preserving phase-specific source boundaries.
 
 ## ROOT-BPD-FDIT-FINAL-2020
 
@@ -1358,7 +1358,7 @@ The report summarizes audio-recorded witness interviews conducted by paired Bost
 
 Board implications:
 
-Use this source to confirm that `marcsullivan` is Sergeant Detective Marc Sullivan, not Sergeant Michael Sullivan, and to support the existing Marc Sullivan, Broderick, Fanning, Mattaliano, Bukhenik, DiCicco, Dunne, Pantazelos, Proctor, Doogan, BPD, MSP, and Norfolk DA Root lanes. Add a narrow Doogan-to-Bukhenik professional connector because both are already public-board nodes and the report documents a joint interview role. Keep FDIT represented through named BPD/FDIT actors and the Boston Police Department institution rather than adding a standalone public `BPD FDIT` unit node. Do not add every FDIT detective, FBI task-force actor, witness, supervisor, or redacted interview subject from this report.
+Use this source to confirm that `marcsullivan` is Sergeant Detective Marc Sullivan, not Sergeant Michael Sullivan, and to support the existing Marc Sullivan, Broderick, Fanning, Mattaliano, Bukhenik, DiCicco, Dunne, Pantazelos, Proctor, Doogan, BPD, MSP, and Norfolk DA Root lanes. Treat it primarily as a Brookline scene, FDIT, paired-interview, and post-shooting-processing source; its Fenwood reference is the Broderick command split, not a full BWH/Fenwood chronology. Add a narrow Doogan-to-Bukhenik professional connector because both are already public-board nodes and the report documents a joint interview role. Keep FDIT represented through named BPD/FDIT actors and the Boston Police Department institution rather than adding a standalone public `BPD FDIT` unit node. Do not add every FDIT detective, FBI task-force actor, witness, supervisor, or redacted interview subject from this report.
 
 ## ROOT-BPD-FIREARM-DISCHARGE-IAD-2020
 
@@ -1378,7 +1378,7 @@ The February 7, 2020 BPD firearm-discharge/internal-investigation report is from
 
 Board implications:
 
-Use this to reinforce the existing Desmarais-to-Godin and Desmarais-to-St. Peter Boston-scene connectors, while keeping Desmarais disconnected from Root. The report's administrative finding attributes the nonfatal injury to Godin, but St. Peter remains a Boston-scene discharge actor; do not overstate this beyond the BPD administrative finding. Do not add Charles Moore, Eddy Chrispin, Sharon Dottin, BPD legal-review signatories, or every listed attachment from this packet.
+Use this to reinforce the existing Desmarais-to-Godin and Desmarais-to-St. Peter Boston-scene connectors, while keeping Desmarais disconnected from Root. The report spans the first Boston discharge and the second Brookline officer-involved shooting, so use its administrative findings by phase rather than treating it as one undifferentiated Root connector. The report's administrative finding attributes the nonfatal injury to Godin, but St. Peter remains a Boston-scene discharge actor; do not overstate this beyond the BPD administrative finding. Do not add Charles Moore, Eddy Chrispin, Sharon Dottin, BPD legal-review signatories, or every listed attachment from this packet.
 
 ## ROOT-BPD-MICHAEL-SULLIVAN-FORM26-2020
 
@@ -1494,7 +1494,7 @@ The PowerPoint contains 52 slides, 35 of which had extractable text. It is a BWH
 
 Board implications:
 
-Use this as BWH/Fenwood chronology support for the existing Root/Godin/St. Peter/BPD lane. The file strengthens the internal timeline and camera-view context, but it does not justify adding a security-guard, camera, Shapiro Building, or slide-deck node to the public board. The William Thomsen/Thomson spelling conflict is resolved for project purposes by `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`; use William Thompson in internal notes unless a later official source says otherwise.
+Use this as BWH/Fenwood chronology support for the existing Root/Godin/St. Peter/BPD lane. Treat it as a pre-shooting/security-contact and Boston-scene chronology source, not as Brookline fatal-shooting analysis. The file strengthens the internal timeline and camera-view context, but it does not justify adding a security-guard, camera, Shapiro Building, or slide-deck node to the public board. The William Thomsen/Thomson spelling conflict is resolved for project purposes by `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`; use William Thompson in internal notes unless a later official source says otherwise.
 
 ## ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020
 
@@ -1514,7 +1514,7 @@ The 33-page interview transcript identifies the witness as William Thompson, a B
 
 Board implications:
 
-Use this source to resolve the internal spelling to William Thompson and to strengthen the BWH/Fenwood chronology behind the existing Root, Godin, St. Peter, Boston Police, and scene-control lanes. Do not add Thompson as a public-board node in the current victim/public-official view because he is a private security witness in a single-case chronology, not a repeated public actor or institution. Do not use the audio for direct quotes until manual audio review is done.
+Use this source to resolve the internal spelling to William Thompson and to strengthen the BWH/Fenwood chronology behind the existing Root, Godin, St. Peter, Boston Police, and scene-control lanes. Treat it as private-witness and BWH/Fenwood phase context, not as a Brookline fatal-shooting or post-shooting-processing source. Do not add Thompson as a public-board node in the current victim/public-official view because he is a private security witness in a single-case chronology, not a repeated public actor or institution. Do not use the audio for direct quotes until manual audio review is done.
 
 ## ROOT-BPD-BAPERN-AUDIO-2020
 
@@ -1534,7 +1534,7 @@ The recovered audio is a WAV file, PCM stereo, 8000 Hz, with a duration of about
 
 Board implications:
 
-Use this only as radio-traffic and dispatch-context support until a manual audio review is done. Do not use the machine transcript for exact quotes, license-plate text, identity claims, or new graph connectors. The audio is useful for chronology and agency-coordination context, but it does not add a public node by itself.
+Use this only as radio-traffic and dispatch-context support until a manual audio review is done. Do not use the machine transcript for exact quotes, license-plate text, identity claims, or new graph connectors. The audio may span BWH/Fenwood, pursuit, Brookline, and medical-response context, but it remains phase-context support rather than graph-facing proof. The audio is useful for chronology and agency-coordination context, but it does not add a public node by itself.
 
 ## ROOT-BROOKLINE-MAPPING-IMAGES-2020
 
@@ -1554,7 +1554,7 @@ The low-resolution mapping image is a large PNG, 8318 by 5468 pixels, showing a 
 
 Board implications:
 
-Use these images as orientation and scene-context sources only. They do not add people, offices, or institutions to the public board. If the project later needs route or scene reconstruction, create a deliberately bounded derivative image and cite this source note rather than loading the high-resolution image into the repo.
+Use these images as Brookline orientation and scene-context sources only. They do not add people, offices, or institutions to the public board, and they should not be used as BWH/Fenwood chronology support. If the project later needs route or scene reconstruction, create a deliberately bounded derivative image and cite this source note rather than loading the high-resolution image into the repo.
 
 ## ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020
 

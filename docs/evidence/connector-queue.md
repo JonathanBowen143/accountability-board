@@ -278,6 +278,16 @@ Current board state: David Godin, Joseph McMenamy, Leroy Fernandes, Brenda Figue
 
 Decision: Preserve the existing officer-cluster connectors. Use the First Circuit opinion as the primary adjudicated source for outcome language and use the complaint as a filing/claim source only.
 
+### Root Event Phase Boundaries
+
+Status: `decided`, `evidence-boundary rule`.
+
+Evidence: `ROOT-BANNON-COMPLAINT-2020`; `ROOT-FIRST-CIRCUIT-2024`; `ROOT-BPD-FDIT-FINAL-2020`; `ROOT-BPD-FIREARM-DISCHARGE-IAD-2020`; `ROOT-BPD-MICHAEL-SULLIVAN-FORM26-2020`; `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`; `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`; `ROOT-BPD-BAPERN-AUDIO-2020`; `ROOT-BROOKLINE-MAPPING-IMAGES-2020`.
+
+Current board state: Root remains one public victim anchor connected to Boston Police, Brookline, Massachusetts State Police, Norfolk DA, the fatal-shooting officer cluster, and handling/investigative actors. The public graph does not split the Root lane into separate event nodes.
+
+Decision: Keep one Root public anchor, but sort evidence claims into three phases. The BWH/Fenwood pre-shooting and security-contact phase covers Thompson, DIT chronology, video recovery, CAD/radio context, and private witness context; it stays internal unless a public-official connector is independently supported. The Boston/Fenwood police-response and valet-injury phase covers Godin, St. Peter, Michael Sullivan, Broderick, BPD firearm-discharge findings, body-worn-camera handling, and Desmarais; it supports Godin/St. Peter/Desmarais/BPD handling connectors only. The Brookline fatal-shooting and post-shooting-processing phase covers the six shooting officers, Brookline, MSP/Norfolk DA, Mattaliano, Fanning, Bukhenik, DiCicco, Guarino, FDIT, mapping, audio, and evidence processing. Do not let a source from one phase prove a stronger claim in another phase unless the source expressly covers that phase.
+
 ### Justin Desmarais / Valet Collision
 
 Status: `corrected`.
