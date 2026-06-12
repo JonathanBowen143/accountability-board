@@ -366,7 +366,7 @@ Add a narrow `business` connector between Tully and Crawford as a professional/t
 
 ## WEB-READ-CIVIL-SUIT-2026-06
 
-Status: `indexed`, `lead`.
+Status: `ingested`, `implemented as narrow existing-node filing and communication connector pass`.
 
 Source titles:
 
@@ -374,13 +374,21 @@ AP News, `Karen Read sues the police agencies that investigated her Boston polic
 
 Complaint mirror, `Read v. Massachusetts State Police and Town of Canton`, filed in Bristol County Superior Court on June 4, 2026: `https://whdh.com/wp-content/uploads/sites/3/2026/06/Read-v-Canton-PD-MSP-COMPLAINT.pdf`.
 
+WBUR / Associated Press, `Karen Read sues the police agencies that investigated her Boston police boyfriend's death`, published June 5, 2026: `https://www.wbur.org/news/2026/06/05/karen-read-sues-state-police-canton-misconduct-texts`.
+
+Boston.com, `Karen Read unleashes tidal wave of explicit texts between Proctor and Goode in new lawsuit`, updated June 4, 2026: `https://www.boston.com/news/local-news/2026/06/04/karen-read-unleashes-tidal-wave-of-explicit-texts-between-proctor-and-goode-in-new-lawsuit/`.
+
+NBC10 Boston, `Karen Read lawsuit sparks push for Proctor and Goode records`, published June 10, 2026: `https://www.nbcboston.com/news/local/karen-read-lawsuit-sparks-push-for-proctor-and-goode-records/3962848/`.
+
 Extracted facts:
 
-Read filed a civil suit against the Massachusetts State Police and Town of Canton after the June 18, 2025 verdict in the John O'Keefe case. AP reports that the jury acquitted Read of second-degree murder, manslaughter, and leaving-the-scene charges, while convicting her of operating under the influence. The complaint is an allegation source, not an adjudicated fact source. It alleges negligent hiring, training, and supervision, and places former MSP Trooper Michael Proctor and former Canton Sgt. Sean Goode at the center of the alleged misconduct culture.
+Read filed a civil suit against the Massachusetts State Police and Town of Canton after the June 18, 2025 verdict in the John O'Keefe case. AP / WBUR reports that the jury acquitted Read of second-degree murder, manslaughter, and leaving-the-scene charges, while convicting her of operating under the influence. The complaint is an allegation source, not an adjudicated fact source. It alleges negligent hiring, training, and supervision, and places former MSP Trooper Michael Proctor and former Canton Sgt. Sean Goode at the center of the alleged misconduct culture.
+
+Boston.com reports that the 87-page Bristol Superior Court filing includes text messages between Proctor and Goode and identifies Goode as a former Canton Police sergeant who worked the early Read investigation. WBUR / AP reports that the complaint reproduces text messages and communications attributed to Proctor and Goode, and records State Police Superintendent Geoffrey Noble's public response to Proctor's messages. NBC10 Boston reports that the released Proctor / Goode texts sparked a Committee for Public Counsel Services request for a review of cases handled by Proctor and that the Norfolk DA's office said it would continue reviewing Proctor-involved cases.
 
 Board implications:
 
-This source strengthens the Read/O'Keefe evidence lane around MSP, Canton Police, Proctor, Goode, and institutional oversight. It should be used carefully: verdict facts are treated as adjudicated; complaint allegations remain allegations unless independently proven.
+This source strengthens the Read/O'Keefe evidence lane around MSP, Canton Police, Proctor, Goode, and institutional oversight. Add narrow existing-node filing connectors from Karen Read to Massachusetts State Police and Canton Police Department, using Canton Police as the visible institutional proxy for the Town of Canton / Canton police-defendant lane already present on the board. Add a Proctor-to-Goode communication connector for the released-message relationship. Treat verdict facts as adjudicated; complaint allegations remain allegations unless independently proven. Keep Geoffrey Noble, the Committee for Public Counsel Services, Myles King, the civil-suit attorneys, and broad case-review implications internal until official review records or docket materials support graph use.
 
 ## WEB-READ-MCLAUGHLIN-ALBERT-2025
 

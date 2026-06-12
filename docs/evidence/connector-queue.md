@@ -28,13 +28,13 @@ For prosecutor labels, use compact board forms: `DA`, `ADA`, `First ADA`, `Sp. A
 
 ### Read / O'Keefe Civil Suit
 
-Status: `lead`.
+Status: `implemented as narrow filing / communication connector pass`.
 
 Evidence: `WEB-READ-CIVIL-SUIT-2026-06`.
 
 Current board state: The Read/O'Keefe lane already has direct links to Karen Read, John O'Keefe, MSP, Canton Police, Proctor, Goode, and Norfolk DA figures.
 
-Decision: Do not add new claim-heavy connectors from the complaint alone. First localize the complaint PDF, then split adjudicated facts from allegations and decide whether the suit creates filing edges, oversight edges, or source notes.
+Decision: The civil suit now supports narrow filing edges from Karen Read to Massachusetts State Police and Canton Police Department, plus a Proctor-to-Goode communication edge for the released-message relationship. Do not add claim-heavy misconduct, oversight, case-review, or new-person connectors from the complaint alone. Complaint allegations remain allegations unless independently proven; Geoffrey Noble, the Committee for Public Counsel Services, Myles King, civil attorneys, and broader review implications stay internal pending official review records or docket materials.
 
 ### Read / O'Keefe Relationship and Institutional Context
 
