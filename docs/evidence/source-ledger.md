@@ -294,7 +294,7 @@ Keep Steve Nelson documented as a Norfolk DA office witness-list actor, but do n
 
 ## WEB-READ-DEFENSE-TEAM-JACKSON-YANNETTI-2024-2025
 
-Status: `ingested`, `implemented as narrow existing-node professional connector`.
+Status: `ingested`, `expanded as narrow existing-node defense-counsel connector pass`.
 
 Source titles:
 
@@ -302,15 +302,35 @@ CBS Boston, `What to expect from Alan Jackson in Karen Read's second trial`, upd
 
 Vanity Fair, `Karen Read's Defense Attorney Talks: "We Brought to Light Some Very Uncomfortable Realities"`, published July 7, 2025: `https://www.vanityfair.com/culture/story/karen-read-trial-alan-jackson`.
 
+CBS Boston, `Karen Read murder trial jury begins deliberations after attorneys present vastly different closing arguments`, published June 25, 2024: `https://www.cbsnews.com/boston/news/watch-karen-read-murder-trial-closing-arguments-live-stream/`.
+
+CBS Boston, `A timeline of the Karen Read case and the story behind the high-profile Massachusetts murder trial`, updated June 2026: `https://www.cbsnews.com/boston/news/karen-read-trial-timeline-john-okeefe/`.
+
+Boston.com, `Karen Read trial: Brian Albert grilled about cellphone, calls with friend Brian Higgins`, updated May 13, 2024: `https://www.boston.com/news/crime/2024/05/13/livestream-brian-alberts-testimony-continues-in-karen-read-murder-trial/`.
+
+NBC10 Boston, `Karen Read trial: Brian Higgins testifies, defense promises 'fireworks'`, published May 24, 2024: `https://www.nbcboston.com/news/local/karen-read-trial-day-17/3379021/`.
+
+CBS Boston, `What was Karen Read's blood alcohol level on the night John O'Keefe died? Experts testify at trial`, updated May 28, 2024: `https://www.cbsnews.com/boston/news/karen-read-live-stream-today-brian-higgins/`.
+
+CBS Boston, `Karen Read investigator Yuri Bukhenik reads texts from Michael Proctor during testimony`, updated May 8, 2025: `https://www.cbsnews.com/boston/news/watch-live-karen-read-trial-day-12/`.
+
+Boston.com, `6 witnesses took the stand in the Karen Read trial Monday. Here's what happened.`, updated May 5, 2025: `https://www.boston.com/news/crime/2025/05/05/karen-read-murder-trial-livestream-video-monday-may-5/`.
+
 Project witness ledger, `docs/karen-read-witness-ledger.md`.
 
 Extracted facts:
 
 CBS Boston reports that David Yannetti was Read's only attorney when she was first arrested, that Yannetti, Read, and Alan Jackson later discussed how the defense team expanded, and that Jackson was added to Read's defense team. Vanity Fair reports that Jackson represented Read alongside David Yannetti, Elizabeth Little, Robert Alessi, and Victoria George during the second trial. The project witness ledger separately records Alan Jackson and David Yannetti as defense attorneys listed by the Commonwealth as possible authentication witnesses for the retrial.
 
+CBS Boston's 2024 closing-arguments article identifies Jackson and Yannetti as Read's lead attorneys, says Elizabeth Little also questioned witnesses, and states that Yannetti handled the defense opening while Jackson handled closing argument. CBS Boston's timeline records that Jackson and Yannetti jointly advanced the May 2023 defense claim that O'Keefe was involved in a fight inside Brian Albert's home and that Jackson's May 2023 statements named Brian Albert and Jennifer McCabe in the alleged cover-up theory. The same timeline records several hours of Alan Jackson cross-examination of Jennifer McCabe, a tense Proctor cross-examination, and a defense cross-examination of Colin Albert.
+
+Boston.com reports that Alan Jackson cross-examined Brian Albert, including questions about the phone trade-in, calls with Brian Higgins and others, whether investigators searched the home, and whether Albert had left Colin Albert out of initial accounts. NBC10 Boston reports that Jackson began cross-examining Brian Higgins after Adam Lally's direct examination and questioned Higgins about his friendship with the Albert family, texts with Read, and the events around January 29, 2022. CBS Boston also reports that Jackson handled part of Higgins's cross-examination and that Yannetti continued that cross-examination in Jackson's absence.
+
+CBS Boston reports that Jackson cross-examined Yuri Bukhenik during the second trial and immediately questioned him about Michael Proctor's role. That same article reports that a Proctor text read during Bukhenik's testimony referred to David Yannetti and that the male target of the message was Yannetti. Boston.com reports that Jackson cross-examined Katie McLaughlin about her relationship with Caitlin Albert and that Yannetti questioned Caitlin Albert about McLaughlin, while Judge Cannone limited related photo evidence. CBS Boston reports that Jackson clashed with Judge Beverly Cannone during the case and that Cannone considered but did not revoke Jackson's Massachusetts credential. CBS Boston also reports that Cannone struck a comment Yannetti made while concluding cross-examination of O'Keefe's nephew.
+
 Board implications:
 
-Add a narrow Jackson-to-Yannetti `business/professional tie` connector. This is a joint-defense-team connector between existing attorney nodes, not a new allegation connector and not a reason to add every cross-examination target or private legal-team member to the public board. Their existing case connectors to Karen Read remain the client/case-role edges.
+Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson to Brian Albert, Brian Higgins, Colin Albert, Jennifer McCabe, Michael Proctor, Yuri Bukhenik, Katie McLaughlin, and Judge Beverly Cannone. Add source-backed attorney-to-actor `case` connectors from Yannetti to Brian Higgins, Caitlin Albert, Judge Beverly Cannone, and Michael Proctor. These edges document public courtroom/hearing roles and trial-team structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
 
 ## WEB-PRINCE-OCONNELL-SJC-2012
 

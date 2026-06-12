@@ -46,15 +46,15 @@ Current board state: Added a McLaughlin-to-Caitlin Albert personal/acquaintance 
 
 Decision: Keep these as context connectors only. The McLaughlin/Caitlin edge documents a litigated acquaintance and social-overlap issue, not a close-friendship or misconduct finding. The Higgins/Canton Police edge documents a satellite-office and vehicle-storage/work-vehicle connection, not Canton Police employment and not a federal-lane expansion. The Higgins/Berkowitz edge documents reported call/contact testimony and cross-examination context only.
 
-### Read Defense Counsel Connector
+### Read Defense Counsel Connectors
 
 Status: `implemented`.
 
 Evidence: `WEB-READ-DEFENSE-TEAM-JACKSON-YANNETTI-2024-2025`; `docs/karen-read-witness-ledger.md`.
 
-Current board state: Alan Jackson and David Yannetti each already connected to Karen Read as defense attorneys in the Read/O'Keefe criminal case, but each had only one visible connector before this cleanup pass.
+Current board state: Alan Jackson and David Yannetti each already connected to Karen Read as defense attorneys in the Read/O'Keefe criminal case. The first cleanup pass added a Jackson-to-Yannetti professional connector. The expanded pass adds existing-node courtroom and co-counsel connectors supported by public reporting: Jackson to Brian Albert, Brian Higgins, Colin Albert, Jennifer McCabe, Michael Proctor, Yuri Bukhenik, Katie McLaughlin, Judge Beverly Cannone, and Robert Alessi; Yannetti to Brian Higgins, Caitlin Albert, Judge Beverly Cannone, Michael Proctor, and Robert Alessi.
 
-Decision: Add a Jackson-to-Yannetti `business/professional tie` connector because the public sources and project witness ledger support their shared defense-team role. Keep this as a narrow professional-team connector. Do not expand attorney-to-witness, attorney-to-judge, or attorney-to-every-trial-actor edges unless a source supports a specific relationship that is independently useful to the board.
+Decision: Keep the attorney-team connectors as `business/professional tie` edges and the courtroom/hearing connectors as `case` edges. These edges document public trial roles, cross-examination, hearing conflict, and defense-team structure; they do not imply private relationships or misconduct findings. Do not expand attorney-to-every-witness, attorney-to-every-judge, attorney-to-every-prosecutor, or attorney-to-every-private-defense-team-member edges unless the source names the interaction and the connector clarifies an existing public-board lane.
 
 ### Read / O'Keefe Phone, Text, and Digital-Evidence Context
 
