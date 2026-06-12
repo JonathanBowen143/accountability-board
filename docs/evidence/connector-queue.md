@@ -350,6 +350,16 @@ Current board state: Fanning already connects to Root, Karen Read, Birchmore, MS
 
 Decision: The recovered Fanning PDF is primarily a SERT evidence-search email copied to Fanning. The fuller NDAO interview-assignment file, however, supports Fanning as a report/interview coordinator across existing Root actors and supports the added Fanning-to-Marc Sullivan, Fanning-to-DiCicco, Fanning-to-Dunne, Fanning-to-Pantazelos, Fanning-to-Nichol, Fanning-to-Guarino, and Fanning-to-Antoine connectors. Do not add a Kotkowski connector until `Tpr Kotkowski` in the assignment email is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node.
 
+### Kotkowski / Root Assignment Identity Hold
+
+Status: `corrected`, `hold`.
+
+Evidence: `ROOT-NDAO-INTERVIEW-ASSIGNMENT-2020`.
+
+Current board state: The Root edge to the visible `Det. Jeff Kotkowski` node has been removed. Kotkowski remains visible only through the existing Read/Canton/MSP lane.
+
+Decision: Keep Root/Kotkowski out of the public graph until the `Tpr Kotkowski` named in the Root interview-assignment email is disambiguated from the current Canton-linked `Det. Jeff Kotkowski` node. The assignment email is a lead, not enough by itself to merge the identities or create a Root connector.
+
 ### Yuriy Bukhenik / Root Public-Records Correspondence
 
 Status: `graph-ready`.
