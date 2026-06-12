@@ -616,6 +616,30 @@ Board implications:
 
 Next regional priorities should be sequenced rather than dumped into the public board. Lowell / Rosario has been hardened through a separate pass, Springfield / Hampden has been extended through the later `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` entry, and Cifizzari has been separated into the later `WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019` entry. Keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
 
+## WEB-TANNER-BRISTOL-DARTMOUTH-POSTHUMOUS-DNA-TESTING-1988-2026
+
+Status: `ingested`, `internal watch; not graph-ready pending DNA results or posthumous-exoneration posture`.
+
+Source titles:
+
+New England Innocence Project, `DNA Testing Will Proceed in Shawn Tanner's Case`, updated February 27, 2026: `https://www.newenglandinnocence.org/innocence-blog/2025/10/31/shawntannerdnatesting`.
+
+Massachusetts Supreme Judicial Court / Social Law Library, `Commonwealth vs. Shawn L. Tanner`, decided February 27, 2026: `https://www.socialaw.com/services/slip-opinions/february-2026/commonwealth-vs-shawn-l-tanner/`.
+
+Minnesota Lawyer / Washington Post, `DNA testing could clear a dead man's name - and point to a serial killer`, published March 16, 2026: `https://minnlawyer.com/2026/03/16/massachusetts-dna-testing-shawn-tanner-posthumous-exoneration/`.
+
+New Bedford Guide, `Breakthrough in New Bedford Highway Murders Hoped For as Court Clears Path for DNA Testing in 1988 Dartmouth Motel Slaying`, published March 3, 2026: `https://www.newbedfordguide.com/breakthrough-new-bedford-highway-murders-hoped-court-clears-path-dna-testing-1988-dartmouth-motel-slaying/2026/03/03`.
+
+Extracted facts:
+
+The SJC held that the post-conviction DNA-testing order did not automatically expire after Tanner's death, and that the judge did not abuse his discretion by denying the Commonwealth's motion to vacate the testing order. The slip opinion records that Tanner was convicted in 1989 of a 1988 murder in Dartmouth and that no DNA evidence was introduced at trial.
+
+NEIP reports that Tanner died in 2022 after seeking DNA testing, that the Bristol County DA opposed continued testing after his death, and that the Commonwealth's handling of CODIS approval and untransmitted fingernail scrapings delayed the testing process. Minnesota Lawyer / Washington Post identifies Mary Harris as the murdered person and describes possible New Bedford Highway Killer context. New Bedford Guide repeats that possible-context lane and identifies the evidence categories reportedly at issue, including a stocking, bedding, towels, hairs, rings, and fingernail scrapings.
+
+Board implications:
+
+Keep Tanner internal for now. Do not add Shawn Tanner, Mary Harris, the New Bedford Highway Killer lane, or New Bedford Highway Killer victims to the public board from this pass. Existing Bristol County DA and Bristol Superior Court nodes are sufficient to hold the institutional watch lane until a DNA result, posthumous exoneration, or official prosecution-position change creates a graph-ready posture. If that posture changes, consider a small gold-ring Tanner node, a Mary Harris underlying homicide-victim node, and narrow connectors to Bristol County DA, Bristol Superior Court, Dartmouth / regional investigation actors, and any officially identified lab or evidence-transfer actor.
+
 ## WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019
 
 Status: `ingested`, `implemented as narrow Worcester County / Milford small-node expansion`.
