@@ -640,6 +640,34 @@ Board implications:
 
 Keep Tanner internal for now. Do not add Shawn Tanner, Mary Harris, the New Bedford Highway Killer lane, or New Bedford Highway Killer victims to the public board from this pass. Existing Bristol County DA and Bristol Superior Court nodes are sufficient to hold the institutional watch lane until a DNA result, posthumous exoneration, or official prosecution-position change creates a graph-ready posture. If that posture changes, consider a small gold-ring Tanner node, a Mary Harris underlying homicide-victim node, and narrow connectors to Bristol County DA, Bristol Superior Court, Dartmouth / regional investigation actors, and any officially identified lab or evidence-transfer actor.
 
+## WEB-ECHAVARRIA-LYNN-ESSEX-WRONGFUL-CONVICTION-1994-2015
+
+Status: `ingested`, `implemented as narrow Essex / Lynn / State Police small-node expansion`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Angel Echavarria`, 428 Mass. 593, decided December 22, 1998, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/428/428mass593.html`.
+
+BrandeisNOW, `Update: Schuster Institute's dogged work exonerates man of wrongful murder conviction`, published June 16, 2015: `https://www.brandeis.edu/now/2015/may/echvarria-now.html`.
+
+WBUR / Associated Press, `Prosecutors Won't Re-Try Man Who Served 21 Years For 1994 Massachusetts Murder`, updated June 15, 2015: `https://www.wbur.org/news/2015/06/15/prosecutors-wont-re-try-man-in-1994-massachusetts-murder`.
+
+United States District Court, District of Massachusetts, `Echavarria v. Roach`, memorandum and order on summary judgment, Civil Action No. 16-cv-11118-ADB, September 30, 2021, GovInfo: `https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_16-cv-11118/pdf/USCOURTS-mad-1_16-cv-11118-3.pdf`.
+
+Boston.com / Associated Press, `Man who spent 21 years in prison sues police, claims framing`, published June 15, 2016: `https://www.boston.com/news/local-news/2016/06/15/man-spent-21-years-prison-sues-police-claims-framing/`.
+
+Extracted facts:
+
+The SJC's 1998 decision records Echavarria's first-degree murder conviction and identifies Daniel Rodriguez as the victim killed in Lynn after two armed men entered an apartment. The SJC decision also records that the case was tried in Superior Court, that the principal identification evidence came from witnesses in or around the apartment, and that the appeal challenged the identification and sufficiency theories.
+
+BrandeisNOW reports that Essex County Superior Court Judge David A. Lowy granted Echavarria a new trial, vacated the conviction, and released him after twenty-one years. BrandeisNOW and WBUR both report that Essex County DA Jonathan Blodgett decided not to retry Echavarria in June 2015. WBUR quotes Blodgett's feasibility rationale and identifies the underlying case as the 1994 shooting death of Daniel Rodriguez in Lynn.
+
+The federal summary-judgment order in `Echavarria v. Roach` describes Echavarria's civil-rights claims against the City of Lynn, former Lynn Police officers, and former Massachusetts State Police officers, arising from the investigation that led to his vacated murder conviction. The order left claims pending against J. Michael Roach, John Garvin, Raymond Guillermo, John Hollow, and the City of Lynn in different capacities, while granting summary judgment to several other defendants. Boston.com / AP similarly describes the civil suit as alleging framing by city and state police, while reporting the defense allegations and the separate no-retrial posture.
+
+Board implications:
+
+Echavarria already appears as a small gold-ring wrongful-conviction node. Strengthen the visible lane by adding direct connectors from Echavarria to Lynn Police Department, Essex Superior Court, Massachusetts State Police, and Daniel Rodriguez as the underlying homicide victim. Connect Daniel Rodriguez narrowly to Lynn Police Department and Essex County DA. Connect Judge David Lowy to Essex Superior Court for the 2015 new-trial/vacatur role. Keep John Garvin, Raymond Guillermo, John Hollow, the City of Lynn, Mariano Bonifacio, Gary Sevinor, Isidoro Rodriguez, Juan Rodriguez / Raul Miranda, trial counsel, civil-litigation counsel, and settlement/trial posture internal unless a later repeated-actor or civil-rights pattern pass supports visible use.
+
 ## WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019
 
 Status: `ingested`, `implemented as narrow Worcester County / Milford small-node expansion`.
