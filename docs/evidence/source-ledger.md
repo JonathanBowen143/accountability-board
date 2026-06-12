@@ -676,6 +676,34 @@ Board implications:
 
 Echavarria already appears as a small gold-ring wrongful-conviction node. Strengthen the visible lane by adding direct connectors from Echavarria to Lynn Police Department, Essex Superior Court, Massachusetts State Police, and Daniel Rodriguez as the underlying homicide victim. Connect Daniel Rodriguez narrowly to Lynn Police Department and Essex County DA. Connect Judge David Lowy to Essex Superior Court for the 2015 new-trial/vacatur role. Keep John Garvin, Raymond Guillermo, John Hollow, the City of Lynn, Mariano Bonifacio, Gary Sevinor, Isidoro Rodriguez, Juan Rodriguez / Raul Miranda, trial counsel, civil-litigation counsel, and settlement/trial posture internal unless a later repeated-actor or civil-rights pattern pass supports visible use.
 
+## WEB-FITZSIMMONS-NORTH-ANDOVER-ESSEX-2025-2026
+
+Status: `ingested`, `graph-ready for narrow North Andover / Essex court connectors; not a large victim anchor`.
+
+Source titles:
+
+Massachusetts Supreme Judicial Court, `Fitzsimmons v. Commonwealth`, SJC-13839, decided December 22, 2025, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/2025/sjc-13839.html`.
+
+CBS Boston, `Kelsey Fitzsimmons, North Andover police officer shot by colleague, found not guilty after bench trial`, updated March 27, 2026: `https://www.cbsnews.com/boston/news/kelsey-fitzsimmons-trial-closing-arguments-verdict/`.
+
+Boston 25 News, `Former North Andover officer Kelsey Fitzsimmons found not guilty of assault with a dangerous weapon`, published March 26, 2026: `https://www.boston25news.com/news/local/former-north-andover-officer-kelsey-fitzsimmons-found-not-guilty-assault-with-dangerous-weapon/4CW3AEJWBBEBJLWISJLZ456GOQ/`.
+
+Police1 / MassLive, `Mass. PD to add body cameras after Kelsey Fitzsimmons's acquittal`, published April 6, 2026: `https://www.police1.com/law-enforcement-policies/mass-pd-to-add-body-cameras-after-kelsey-fitzsimmonss-acquittal`.
+
+Boston.com, `North Andover police unions call for immediate removal of chief after Fitzsimmons acquittal`, published April 8, 2026: `https://www.boston.com/news/local-news/2026/04/08/north-andover-police-unions-call-for-immediate-removal-of-chief-after-fitzsimmons-acquittal/`.
+
+Extracted facts:
+
+The reviewed sources identify the person as Kelsey Fitzsimmons, not Kelsey Fitzgerald. The SJC opinion concerns a pretrial detention and extraordinary-relief posture, not the final trial outcome. It records that Fitzsimmons was indicted in Essex County after a June 30, 2025 incident and that a police officer shot her in the chest during the incident.
+
+CBS Boston and Boston 25 report that Fitzsimmons was found not guilty after a March 2026 bench trial before Essex Superior Court Judge Jeffrey T. Karp. Boston 25 identifies North Andover Officer Patrick Noonan as the officer who shot Fitzsimmons. The public accounts describe disputed prosecution and defense theories, including defense evidence about postpartum mental-health crisis and lack of body-worn-camera footage. CBS Boston reports Essex DA Paul Tucker's statement disagreeing with the verdict while respecting the court's decision.
+
+Police1 / MassLive and Boston.com report that the lack of body-worn-camera footage became a central post-verdict issue. Those sources report that North Andover Police moved toward body-worn cameras after the acquittal, and that North Andover police unions later cited the lack of cameras and officer-involved-shooting policy concerns in a no-confidence call involving Chief Charles Grey / Gray.
+
+Board implications:
+
+Preserve the public-board spelling as Kelsey Fitzsimmons. Keep Fitzsimmons as a small system-harm / acquittal node, not a large victim anchor or murdered-person lane. The public board supports narrow connectors to North Andover Police Department, Officer Patrick Noonan, Essex County DA, DA Paul Tucker, Essex Superior Court, and Judge Jeffrey Karp. Do not add the former fiance, child-custody actors, union leaders, Chief Grey / Gray, private attorneys, or broader body-camera-policy actors in this pass.
+
 ## WEB-CHOY-PLYMOUTH-BROCKTON-WRONGFUL-CONVICTION-2003-2026
 
 Status: `ingested`, `implemented as narrow Plymouth / Brockton / State Police lab small-node expansion`.

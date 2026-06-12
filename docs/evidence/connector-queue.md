@@ -164,9 +164,19 @@ Status: `graph-ready`.
 
 Evidence: `WEB-LOCAL-POLICE-DA-JURISDICTION-2026-06`.
 
-Current board state: Boston Police now connects to Suffolk County DA; Canton, Stoughton, and Brookline Police connect to Norfolk County DA; Lynn Police connects to Essex County DA; and Ayer Police connects to Middlesex County DA.
+Current board state: Boston Police now connects to Suffolk County DA; Canton, Stoughton, and Brookline Police connect to Norfolk County DA; Lynn Police and North Andover Police connect to Essex County DA; and Ayer Police connects to Middlesex County DA.
 
 Decision: Keep these as `juris` edges only. They are structural prosecutorial-district connectors, not case-specific claims about conduct, discipline, or charging decisions.
+
+### Kelsey Fitzsimmons / North Andover Officer Shooting and Acquittal Lane
+
+Status: `graph-ready`.
+
+Evidence: `WEB-FITZSIMMONS-NORTH-ANDOVER-ESSEX-2025-2026`.
+
+Current board state: Kelsey Fitzsimmons is already visible as a small victim/system-harm node connected to Essex County DA and DA Paul Tucker, but the board did not yet show the North Andover police and Essex Superior Court structure that makes the lane legible.
+
+Decision: Preserve the spelling as Kelsey Fitzsimmons; do not create a Kelsey Fitzgerald duplicate. Add North Andover Police Department as a visible institution, Officer Patrick Noonan as the direct officer-involved-shooting actor, Essex Superior Court as the trial forum, and Judge Jeffrey Karp as the bench-trial verdict actor. Keep Fitzsimmons as a small node, not a large victim anchor. Do not add the former fiance, child-custody actors, Chief Grey / Gray, union leaders, private attorneys, or broader body-camera-policy actors in this pass. The visible claim is limited to employment, Essex prosecution/court structure, the shooting by Noonan, the not-guilty verdict, and the body-camera caveat documented in the verdict reporting.
 
 ### Victor Rosario / Lowell Regional Connector
 
