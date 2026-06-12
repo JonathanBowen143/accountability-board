@@ -324,15 +324,27 @@ NBC10 Boston, `How is the second Karen Read trial different from the first? Let 
 
 Boston 25 News, `'Irremediable': Karen Read's defense team demands mistrial over prosecutor's questioning`, published June 3, 2025: `https://www.boston25news.com/news/local/irremediable-karen-reads-defense-team-demands-mistrial-over-prosecutors-questioning/U52J5F5FQ5GD5OXQ6SWDY7R5VM/`.
 
+WHDH, `Karen Read assembling legal dream team for retrial`, published March 31, 2025: `https://whdh.com/news/karen-read-assembling-legal-dream-team-for-retrial/`.
+
+WCVB, `Karen Read's attorneys, father, 'Turtleboy', Trooper Proctor appear on prosecution's amended witness list`, updated March 20, 2025: `https://www.wcvb.com/article/karen-read-prosecution-witness-list-2nd-trial-amended/64178190`.
+
+NBC10 Boston, `Karen Read trial: Owners of home where John O'Keefe was found testify`, published May 10, 2024: `https://www.nbcboston.com/news/local/karen-read-trial-day-9/3365017/`.
+
+Werksman Jackson & Quinn LLP, `Elizabeth Little | Partner`: `https://werksmanjackson.com/attorneys/elizabeth-little.html`.
+
 Project witness ledger, `docs/karen-read-witness-ledger.md`.
 
 Commonwealth v. Read trial archive, `Trial 1`, covering April 29 through July 1, 2024, before Judge Beverly J. Cannone: `https://www.commonwealthvread.com/trial-1/`.
 
 Commonwealth v. Read trial archive, `Trial 2`, covering April 22 through June 18, 2025, before Judge Beverly J. Cannone: `https://www.commonwealthvread.com/trial-2/`.
 
+Commonwealth v. Read trial archive, `People`, identifying 97 witnesses, attorneys, law-enforcement actors, and experts across both trials: `https://www.commonwealthvread.com/people/`.
+
 Extracted facts:
 
 CBS Boston reports that David Yannetti was Read's only attorney when she was first arrested, that Yannetti, Read, and Alan Jackson later discussed how the defense team expanded, and that Jackson was added to Read's defense team. Vanity Fair reports that Jackson represented Read alongside David Yannetti, Elizabeth Little, Robert Alessi, and Victoria George during the second trial. The project witness ledger separately records Alan Jackson and David Yannetti as defense attorneys listed by the Commonwealth as possible authentication witnesses for the retrial.
+
+The Commonwealth v. Read people archive identifies Elizabeth Little as a defense-team attorney in both trials and as a Werksman Jackson & Quinn partner who represented Read in both trials. WHDH lists David Yannetti, Alan Jackson, Elizabeth Little, Robert Alessi, and Victoria George as members of Read's retrial defense team. WCVB reports that prosecutors added Alan Jackson, Elizabeth Little, and David Yannetti to the amended retrial witness list to authenticate public statements attributed to Read. Werksman Jackson & Quinn's attorney profile identifies Little as a firm partner and as a key member of Read's defense team.
 
 CBS Boston's 2024 closing-arguments article identifies Jackson and Yannetti as Read's lead attorneys, says Elizabeth Little also questioned witnesses, and states that Yannetti handled the defense opening while Jackson handled closing argument. CBS Boston's timeline records that Jackson and Yannetti jointly advanced the May 2023 defense claim that O'Keefe was involved in a fight inside Brian Albert's home and that Jackson's May 2023 statements named Brian Albert and Jennifer McCabe in the alleged cover-up theory. The same timeline records several hours of Alan Jackson cross-examination of Jennifer McCabe, a tense Proctor cross-examination, and a defense cross-examination of Colin Albert.
 
@@ -342,11 +354,13 @@ CBS Boston reports that Jackson cross-examined Yuri Bukhenik during the second t
 
 The Commonwealth v. Read trial archive identifies both trials as Cannone courtroom proceedings. Its Trial 1 page summarizes the first criminal trial as running April 29 through July 1, 2024, before Judge Beverly J. Cannone. Its Trial 2 page summarizes the retrial as running April 22 through June 18, 2025, also before Cannone. The project witness ledger uses those trial-archive day summaries, with caveats, to preserve called-witness names separately from prospective witness lists.
 
+The Trial 1 archive identifies Elizabeth Little on several courtroom days with visible board nodes, including the May 10, 2024 Albert-family testimony day, the May 13, 2024 Brian Albert/Brian Albert Jr./Caitlin Albert testimony day, the May 22, 2024 Jennifer McCabe/Kerry Roberts/Laura Sullivan day, the May 28, 2024 Brian Higgins continuation day, the June 13, 2024 Brian Tully day, the June 21, 2024 Scordi-Bello/Russell/Loughran day, and the June 24, 2024 defense-rests expert day. NBC10 Boston separately reports that Little cross-examined Nicole Albert about Read and O'Keefe at the Waterfall, Brian Albert's boxing background, the Albert family's dog, the dog being rehomed, and Nicole Albert's prior interview.
+
 WCVB identifies Brennan as the Special Assistant District Attorney appointed to lead the state's team for the retrial, identifies Lally as the prosecutor who led the Commonwealth's presentation during the first trial, identifies Yannetti as leading Read's defense team, identifies Jackson as a key part of the first trial, and identifies Alessi as joining the defense team after the mistrial. CBS Boston reports that Brennan was appointed to lead the prosecution for the second trial and would work with Lally, Laura McLaughlin, and Caleb Schillinger. NBC10 Boston reports that Brennan gave the second-trial opening statement instead of Lally, while Jackson gave the defense opening instead of Yannetti. Boston 25 reports that Alessi objected to Brennan's questioning of Marie Russell, moved for a mistrial, and argued the issue outside the jury's presence after Judge Cannone sent the jury out.
 
 Board implications:
 
-Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, and Yannetti-to-Alessi `business/professional tie` connectors among existing Read defense-counsel nodes. Add source-backed attorney-to-actor `case` connectors from Jackson and Yannetti to visible board nodes that appear in the project ledger as called witnesses in either the first or second Read criminal trial. Add Alessi-to-called-witness `case` connectors only for visible board nodes that appear in the project ledger as second-trial called witnesses. Connect Jackson, Yannetti, and Alessi to Judge Beverly Cannone because both trials occurred before Cannone and Alessi was part of the second-trial defense team. Add defense-to-prosecution courtroom-role connectors from Jackson, Yannetti, and Alessi to Brennan, and from Jackson and Yannetti to Lally. These edges document public courtroom/trial-role structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason.
+Add narrow Jackson-to-Yannetti, Jackson-to-Alessi, Yannetti-to-Alessi, and Elizabeth Little co-counsel `business/professional tie` connectors among existing Read defense-counsel nodes. Add Elizabeth Little as a visible attorney node because multiple sources identify her as Read defense counsel, she appears in both trial-archive and witness-list sources, and her courtroom role generates more than two source-backed connectors. Add source-backed attorney-to-actor `case` connectors from Jackson and Yannetti to visible board nodes that appear in the project ledger as called witnesses in either the first or second Read criminal trial. Add Alessi-to-called-witness `case` connectors only for visible board nodes that appear in the project ledger as second-trial called witnesses. Add Little-to-called-witness `case` connectors only for visible board nodes that appear in trial-archive day summaries with Little or are directly tied to her examination in reporting. Connect Jackson, Yannetti, Alessi, and Little to Judge Beverly Cannone where their trial or motion work occurred before Cannone. Add defense-to-prosecution courtroom-role connectors from Jackson, Yannetti, Alessi, and Little to Brennan where the sources support retrial or motion conflict, and from Jackson, Yannetti, and Little to Lally. Add a narrow Elizabeth Little-to-Birchmore `filing` edge for the public discovery-motion argument. These edges document public courtroom/trial-role structure only. They are not new misconduct findings and should not be used to add every witness, expert, prosecutor, or private defense-team member to the public board without a separate source-backed reason. Victoria George remains documented internally as a retrial defense-team member, but this pass does not add her to the public graph without a more specific public connector.
 
 ## WEB-PRINCE-OCONNELL-SJC-2012
 
@@ -380,7 +394,7 @@ The public motion mirror states that Read's defense sought discovery related to 
 
 Board implications:
 
-Treat the Birchmore discovery-motion allegations as a cross-case discovery lead, not a visible Birchmore graph expansion yet. Lynn Beland is now visible from separate Walshe and Read/O'Keefe correspondence sources, but this mirror alone still should not support a Beland-to-Birchmore edge without an official docket copy or another stable court-record source.
+Treat the Birchmore discovery-motion allegations as a cross-case discovery lead, not a visible Birchmore graph expansion yet. The public reporting supports a narrow Elizabeth Little-to-Birchmore `filing` connector because Little argued the Read defense discovery motion about the Birchmore investigation. Lynn Beland is now visible from separate Walshe and Read/O'Keefe correspondence sources, but this mirror alone still should not support a Beland-to-Birchmore edge without an official docket copy or another stable court-record source.
 
 ## WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024
 
