@@ -588,7 +588,7 @@ Worcester County District Attorney's Office, `Charges Dropped Against Gary Cifiz
 
 New England Innocence Project, `Commonwealth Drops Case Against Gary Cifizzari`, published December 10, 2019: `https://www.newenglandinnocence.org/innocence-blog/2019/12/10/commonwealth-drops-case-against-gary-cifizzari`.
 
-Massachusetts Supreme Judicial Court, `Commonwealth v. Gary J. Cifizzari`, 397 Mass. 560, decided June 12, 1986, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/397/397mass560.html`.
+Massachusetts Supreme Judicial Court, `Commonwealth v. Gary J. Cifizzari`, 397 Mass. 560, decided May 14, 1986, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/397/397mass560.html`.
 
 Massachusetts Supreme Judicial Court, `Commonwealth v. Mark Schand`, 420 Mass. 783, decided June 14, 1995, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/420/420mass783.html`.
 
@@ -614,7 +614,29 @@ The New Bedford/Bristol lane is significant but not exoneration-ready. NEIP repo
 
 Board implications:
 
-Next regional priorities should be sequenced rather than dumped into the public board. Lowell / Rosario has been hardened through a separate pass, and Springfield / Hampden has been extended through the later `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` entry. Next, document Cifizzari as a Worcester County candidate, but do not treat it as a Worcester city police lane. Keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
+Next regional priorities should be sequenced rather than dumped into the public board. Lowell / Rosario has been hardened through a separate pass, Springfield / Hampden has been extended through the later `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` entry, and Cifizzari has been separated into the later `WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019` entry. Keep Tanner / New Bedford-Bristol internal pending DNA-testing outcome and final legal posture. Do not add Dana Gaul to the public board from this pass because he appears to be a wrongful-arrest / dismissed-charge lane, not an overturned murder conviction or resolved exoneration.
+
+## WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019
+
+Status: `ingested`, `implemented as narrow Worcester County / Milford small-node expansion`.
+
+Source titles:
+
+Worcester County District Attorney's Office, `Charges Dropped Against Gary Cifizzari in 1979 Murder`, published December 10, 2019: `https://worcesterda.com/charges-dropped-against-gary-cifizzari-in-1979-murder/`.
+
+New England Innocence Project, `Commonwealth Drops Case Against Gary Cifizzari`, published December 10, 2019: `https://www.newenglandinnocence.org/innocence-blog/2019/12/10/commonwealth-drops-case-against-gary-cifizzari`.
+
+Massachusetts Supreme Judicial Court, `Commonwealth v. Gary J. Cifizzari`, 397 Mass. 560, decided May 14, 1986, Justia mirror: `https://law.justia.com/cases/massachusetts/supreme-court/volumes/397/397mass560.html`.
+
+Extracted facts:
+
+The SJC opinion records the original Worcester County first-degree-murder conviction and identifies Concetta Schiappa as the murdered person. The opinion also records the Superior Court posture and the bite-mark evidence used at trial. The Worcester County DA's 2019 release reports that DA Joseph D. Early Jr. ordered charges dropped in the interest of justice after additional DNA testing excluded Cifizzari, identified Michael Giroux through CODIS, and produced no additional DNA link between Cifizzari and the crime. The DA's office filed a nolle prosequi and stated that the conviction had been obtained using bite-mark evidence, with one trial expert later recanting.
+
+NEIP reports that Cifizzari was wrongfully convicted of the 1979 murder of his great aunt, 75-year-old Concetta Schiappa, spent 35 years in prison, was released while his new-trial motion was pending, and had his conviction officially overturned when the court allowed the new-trial motion. NEIP also identifies Worcester Superior Court as the forum for the 2019 new-trial motion and describes the DNA evidence from the victim's nightgown and the recanted bite-mark testimony.
+
+Board implications:
+
+Add Gary Cifizzari as a small gold-ring wrongful-conviction node, not a large victim anchor. Add Concetta Schiappa as the underlying homicide-victim node, also not a large anchor. Add Milford Police Department and Worcester Superior Court as institution nodes, connect them to the existing Worcester County DA lane, and connect the existing DA Joseph D. Early Jr. node to Cifizzari only to document the 2019 dismissal/nolle role. Keep Michael Giroux, Dr. Richard Souviron, other bite-mark experts, counsel, family/witnesses, trial prosecutors, and civil-litigation actors internal unless a later forensic-science or repeated-actor pass supports public-board use.
 
 ## WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020
 

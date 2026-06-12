@@ -124,11 +124,11 @@ Candidate next action: search for another resolved Massachusetts overturned murd
 
 ### Regional City Expansion
 
-Current board state: Lowell / Middlesex has been tightened through Victor Rosario; Springfield / Hampden has been expanded through Edward Wright, Mark Schand, and Charles Wilhite; Worcester County, Bristol / New Bedford-Dartmouth, Essex / Beverly, Plymouth, and Ayer/Middlesex remain unevenly represented.
+Current board state: Lowell / Middlesex has been tightened through Victor Rosario; Springfield / Hampden has been expanded through Edward Wright, Mark Schand, and Charles Wilhite; Worcester County / Milford has been expanded through Gary Cifizzari; Bristol / New Bedford-Dartmouth, Essex / Beverly, Plymouth, and Ayer/Middlesex remain unevenly represented.
 
-Source trail: `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023` supports adding Lowell Police and Middlesex Superior Court connectors to the existing Victor Rosario node. `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025` and `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` support the narrow Springfield / Hampden public-board treatment. `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026` identifies Gary Cifizzari as a strong Worcester County / Milford candidate and Shawn Tanner as a Bristol / Dartmouth-New Bedford DNA-testing lead that is not yet exoneration-ready.
+Source trail: `WEB-ROSARIO-LOWELL-MIDDLESEX-ARSON-MURDER-WRONGFUL-CONVICTION-1982-2023` supports adding Lowell Police and Middlesex Superior Court connectors to the existing Victor Rosario node. `WEB-WRIGHT-HAMPDEN-SPRINGFIELD-WRONGFUL-CONVICTION-2025` and `WEB-SCHAND-WILHITE-SPRINGFIELD-HAMPDEN-WRONGFUL-CONVICTIONS-1986-2020` support the narrow Springfield / Hampden public-board treatment. `WEB-CIFIZZARI-WORCESTER-MILFORD-WRONGFUL-CONVICTION-1979-2019` supports the narrow Worcester County / Milford public-board treatment. `WEB-REGIONAL-CITY-MURDER-CANDIDATE-SCAN-1979-2026` identifies Shawn Tanner as a Bristol / Dartmouth-New Bedford DNA-testing lead that is not yet exoneration-ready.
 
-Candidate next action: with Lowell / Rosario and Springfield / Hampden tightened, treat Worcester carefully next. Cifizzari belongs to Worcester County accountability, but it is not a Worcester city police lane. Keep Tanner internal until DNA testing or posthumous-exoneration posture changes.
+Candidate next action: with Lowell / Rosario, Springfield / Hampden, and Worcester County / Cifizzari tightened, watch Bristol / Tanner but keep Tanner internal until DNA testing or posthumous-exoneration posture changes. Another Worcester pass should require a distinct repeated actor or court-level source set rather than broad city filling.
 
 ### Historical Gap: Deegan / FBI Informant Murder Convictions
 
