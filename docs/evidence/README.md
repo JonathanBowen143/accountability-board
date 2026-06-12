@@ -1,6 +1,6 @@
 # Evidence Ingestion Surface
 
-Last updated: June 10, 2026.
+Last updated: June 12, 2026.
 
 This folder is the project-owned evidence layer for the Commonwealth Accountability Board. The board itself can stay compact and visual; this folder is where source records, extracted claims, and connector decisions should hold up over time.
 
@@ -24,11 +24,14 @@ Prefer primary records first: court filings, public-record productions, official
 
 Treat local research notes as leads unless they cite a recoverable source. The local `_CAREER_INVENTORY_NorfolkCounty.md` file is useful because it preserves prior work, but it is not by itself a final source for new graph edges.
 
+A source-note-only entry can inform chronology, caveats, internal context, or the next research queue, but it should not create or strengthen a visible node or connector by itself. Before a source-note-only claim reaches the public board, `connector-queue.md` should record the supporting source, the exact relationship type, the reason the relationship belongs in the public graph, and any limits on allegation, phase, or source-class language.
+
 ## Status Labels
 
 - `ingested`: reviewed in this project folder and summarized with source detail.
 - `indexed`: present in a Drive index or mirror inventory, but the content was not reviewed in this pass.
 - `lead`: useful for future research, but not enough for a graph change.
+- `source-note only`: reviewed context that can support internal chronology or caveats, but not a visible graph change by itself.
 - `graph-ready`: strong enough to support a graph connector if the board needs it.
 - `hold`: do not graph yet; requires OCR, official copy, or corroboration.
 

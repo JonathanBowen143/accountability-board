@@ -278,6 +278,16 @@ Current board state: The public board keeps the Godin/BPD/BWC lane visible throu
 
 Decision: Separate source classes before creating or strengthening connectors. Administrative and audit sources can support evidence-handling, access, review, and institutional-role connectors, but only for the log, review, or handling facts they directly record. Litigation filings by the Root family or estate can preserve party status, claims, discovery disputes, and alleged BWC conduct, but they are not adjudicated proof by themselves. Godin's interrogatory answers can support self-stated facts and the narrow Norfolk DA interview connector, but not a broader misconduct finding. The First Circuit opinion controls adjudicated federal outcome language and should be used as the check against turning complaint or sanctions language into graph conclusions. Do not use filing titles, family statements, or advocacy framing as public-board labels unless a matching official, adjudicated, or independently reviewed record supports the same claim.
 
+### Root Direct Edges and Source-Note Claims
+
+Status: `decided`, `evidence-boundary rule`.
+
+Evidence: `ROOT-DRIVE-FULL-INDEX`; `ROOT-BPD-CAD-HOSPITAL-HISTORY-2020`; `ROOT-BPD-VIDEO-RECOVERY-TIMELINE-2020`; `ROOT-BPD-DIT-VIDEO-CHRONOLOGY-2020`; `ROOT-BWH-SECURITY-THOMPSON-INTERVIEW-2020`; `ROOT-BPD-BAPERN-AUDIO-2020`; `ROOT-BROOKLINE-MAPPING-IMAGES-2020`; `ROOT-NDAO-CELLEBRITE-INVOICES-2019-2024`; `ROOT-CAREER-INVENTORY`.
+
+Current board state: The public Root lane already contains the core institutional, officer, investigator, and evidence-handling connectors. Several reviewed Root files remain source-note-only because they support chronology, orientation, media custody, private-witness context, procurement context, or future retrieval rather than a visible public-actor relationship.
+
+Decision: A visible Root node or edge needs three things before it leaves the evidence layer: a recoverable source-ledger entry, a connector-queue decision naming the exact relationship type, and a public-board reason that is stronger than mere presence in the file. Source-note-only material can refine chronology, caveats, internal names, phase boundaries, retrieval paths, and future research priorities, but it should not create a direct edge by itself. If a source-note-only file touches an existing public actor, update the source note unless it also proves a distinct public relationship such as employment, assignment, interview, filing, jurisdiction, evidence transfer, or adjudicated outcome. Do not promote camera views, audio files, map images, private witnesses, procurement records, Drive index rows, or career-inventory leads into public graph edges without a separate connector decision.
+
 ### Root Federal Civil Action / Shooting Officer Cluster
 
 Status: `graph-ready`.
