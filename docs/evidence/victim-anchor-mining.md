@@ -22,7 +22,7 @@ Current source surfaces: `ROOT-NDAO-2020-REPORT`, `ROOT-GODIN-IAD-2022-0053`, `R
 
 Connector work already started: Norfolk DA, Michael Morrissey, OCME, Boston Police, Massachusetts State Police, Brookline jurisdiction, City of Boston, the six fatal-shooting officers, Godin/body-worn-camera chronology, William Doogan, Marc Sullivan, St. Peter/Broderick/Boston-side context, Elcock/Wagner/Brookline interview context, and the Fanning/Bukhenik/Tully/DiCicco/Guarino overlap lane.
 
-Next mining actions: recover or OCR the Fanning February 6, 2020 public-records email; recover or OCR Bukhenik correspondence; ingest the Suffolk DA nonfatal-shooting report; review the underlying FDIT reports for Michael Sullivan and Marc/Mark Sullivan; separate body-camera facts from family/lawsuit allegations; and keep direct graph edges distinct from source-note-only claims.
+Next mining actions: continue the remaining NDAO public-record and Axon audit review; ingest the Suffolk DA nonfatal-shooting report; review the underlying FDIT reports for Michael Sullivan and Marc/Mark Sullivan; separate body-camera facts from family/lawsuit allegations; and keep direct graph edges distinct from source-note-only claims.
 
 ### Sandra Birchmore
 

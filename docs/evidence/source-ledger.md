@@ -1308,6 +1308,46 @@ Board implications:
 
 This is the strongest adjudicated federal source for the Root civil-rights lane. It supports existing Root connectors to the six defendant officers, Boston Police, Massachusetts State Police, City of Boston, Broderick, St. Peter, Elcock, Wagner, and the newly separated Marc Sullivan FDIT connector. It also requires the board to preserve the majority outcome: the federal appellate decision affirmed summary judgment for the defendants.
 
+## ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020
+
+Status: `ingested`, `graph-supporting for Root evidence-search roles; source-note only for stronger Fanning-specific expansion`.
+
+Source title: `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1A0hrA0rqA3deqfDbb-N8HZsSaZp4hYHQ/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1A0hrA0rqA3deqfDbb-N8HZsSaZp4hYHQ`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The February 7-8, 2020 email thread concerns a Massachusetts State Police Special Emergency Response Team evidence search at the Route 9 Brookline/Newton town-line Star Market area after the officer-involved shooting. Lt. M.J. Igielski wrote that six SERT troopers were requested for a ballistic-evidence search, that SERT met with Troopers Yuriy Bukhenik and David DiCicco, and that Bukhenik and DiCicco directed SERT to the search area. The email reports that a marijuana pipe, broken metal knife handle, eight casings, and one lodged bullet were located or collected, and that Bukhenik and DiCicco were satisfied with the search before SERT was dismissed. John Fanning was copied on the request and follow-up thread.
+
+Board implications:
+
+This strengthens the existing Root/Bukhenik and Root/DiCicco evidence-handling lane and supports keeping Fanning documented as copied into Root public-record correspondence. It does not support a new Fanning-specific graph edge beyond the existing Fanning Root/Norfolk/Bukhenik/Broderick/Crawford connectors, and it should not be used as a misconduct finding by itself. Do not add the broader SERT cc list to the public board from this email alone.
+
+## ROOT-GUARINO-DIGITAL-EVIDENCE-2020
+
+Status: `ingested`, `graph-ready for Root/Brookline digital-evidence connectors`.
+
+Source title: `34 Digital Evidence Report.pdf`.
+
+Google Drive URL: `https://drive.google.com/file/d/1uKiSnSBJqyjEpavNHj6Kly4d_Pf1BwFE/view`.
+
+Drive ID from `_DRIVE_FULL_INDEX.tsv`: `1uKiSnSBJqyjEpavNHj6Kly4d_Pf1BwFE`.
+
+Reviewed OCR from recovered Drive file on June 12, 2026.
+
+Extracted facts:
+
+The February 13, 2020 report is from Trooper Nicholas Guarino to Lieutenant Gerard Mattaliano and is titled `Digital Evidence Collection RE: Officer Involved Shooting Brookline`, case number `2020-112-47`. Guarino states that he responded to assist homicide personnel and collect digital evidence for processing. He says he and Trooper Edward Keefe spoke with area businesses and obtained video from AT&T, Star Market, and CVS. He also says Brookline Officer Scott Wilder, identified as the Brookline Police Department Director of Technology, provided traffic-camera footage, 911 audio, BAPERN audio, and police radio audio.
+
+Board implications:
+
+Add Scott Wilder as a narrow Brookline/Root evidence-source node, connect Wilder to Brookline Police and Root, and connect Guarino to Wilder as a communication/evidence-transfer connector. Add Guarino-to-Keefe as a professional evidence-collection connector and Guarino-to-Mattaliano as a report/communication connector. These are evidence-handling connectors only; they do not adjudicate the accuracy of the media, the shooting analysis, or any misconduct allegation.
+
 ## ROOT-BUKHENIK-FANNING-IMAGE-2020
 
 Status: `ingested`, `graph-supporting lead`.
@@ -1358,11 +1398,11 @@ Relevant local lines: `1-55`, `808-816`.
 
 Extracted facts:
 
-The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files and Boston Police interview records.
+The index lists the Root report, public-record files, ballistics reports, First Circuit record appendices, NDAO Axon audit PDFs, a February 6, 2020 Fanning email PDF, a February 18, 2020 NDAO media-readiness email image, a Bukhenik Brookline officers image, a digital-evidence report, and two indexed copies of Bukhenik email correspondence. It also lists Suffolk/Boston investigation files and Boston Police interview records. The Fanning email and digital-evidence report have since been recovered and ingested as `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020` and `ROOT-GUARINO-DIGITAL-EVIDENCE-2020`.
 
 Board implications:
 
-The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning and Bukhenik entries are high-priority retrieval/OCR targets.
+The index is a recovery surface and lead generator. Items listed here should not become graph edges until the underlying file is reviewed or OCR'd. The Fanning, Bukhenik, and digital-evidence entries have now produced graph-supporting source notes; remaining NDAO Axon and public-record files still require separate review before graph use.
 
 ## ROOT-CAREER-INVENTORY
 

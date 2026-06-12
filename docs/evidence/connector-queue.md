@@ -322,33 +322,33 @@ Decision: Treat Doogan as a chain-of-handling/source-note connector, not as a bl
 
 ### John Fanning / Root Public-Records Email
 
-Status: `graph-ready for Root/Brookline correspondence; separate Fanning public-records PDF still hold`.
+Status: `ingested; source-note only for stronger Fanning-specific expansion`.
 
-Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flags the separate Fanning PDF as a priority retrieval item.
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`; `_DRIVE_FULL_INDEX.tsv` lists `8 BULLETS 02-06-20 FANNING Email from Public Records Request Norfolk DA.pdf`; `_CAREER_INVENTORY_NorfolkCounty.md` flagged the separate Fanning PDF as a priority retrieval item.
 
 Current board state: Fanning already connects to Root, Karen Read, Birchmore, MSP, Norfolk DA, Bukhenik, Broderick, Mattaliano, and Crawford. The Root/Brookline correspondence now includes a direct Fanning-to-Broderick communication connector in addition to their professional connector.
 
-Next action: locate or download the separate Fanning PDF, OCR it, and determine whether it supports a stronger Fanning-specific public-record connector, a Norfolk DA communication connector, or only a source note. Do not infer that stronger connector from the Drive filename alone.
+Decision: The recovered Fanning PDF is primarily a SERT evidence-search email copied to Fanning. It strengthens the Root evidence-handling lane for Bukhenik and DiCicco and documents Fanning as copied into the public-record correspondence, but it does not support a new stronger Fanning-specific graph connector by itself.
 
 ### Yuriy Bukhenik / Root Public-Records Correspondence
 
 Status: `graph-ready`.
 
-Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`.
+Evidence: `ROOT-BUKHENIK-FANNING-IMAGE-2020`; `ROOT-BUKHENIK-CRAWFORD-FANNING-EMAIL-2020`; `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`; `_DRIVE_FULL_INDEX.tsv` lists `MSP- Yuri Bukhenik Brookline officers.png` and two indexed copies of `Tpr. Bukhenik Email Correspondence_redacted.pdf`.
 
 Current board state: Bukhenik already connects to Root, Karen Read, MSP, Norfolk DA, Proctor, Tully, Guarino, Prince, DiCicco, Stoughton, Stoughton High context, Fanning, Crawford, Elcock, and Wagner.
 
-Decision: The correspondence supports Bukhenik as a Root/Brookline communication, interview-handling, and report/transcript-coordination connector. The Elcock and Wagner connectors are case-handling links, not blame connectors. Do not use the Guarino/Brookline interview reference as a public board edge until a reviewed transcript or named-subject record supports a narrower connector. Do not use any of this correspondence as a misconduct source without a separate adjudicated or investigative record.
+Decision: The correspondence supports Bukhenik as a Root/Brookline communication, interview-handling, report/transcript-coordination, and evidence-search connector. The SERT email specifically says Bukhenik and DiCicco directed SERT to the Star Market search area. The Elcock and Wagner connectors are case-handling links, not blame connectors. Do not use any of this correspondence as a misconduct source without a separate adjudicated or investigative record.
 
 ### David DiCicco
 
-Status: `lead`.
+Status: `graph-ready for existing Root edge; no expansion needed from this record`.
 
-Evidence: `_CAREER_INVENTORY_NorfolkCounty.md` says DiCicco overlaps Root, Read, and Walshe, but the first local Root-mirror text search only found that inventory entry.
+Evidence: `ROOT-FANNING-SERT-EVIDENCE-SEARCH-2020`; `_CAREER_INVENTORY_NorfolkCounty.md` says DiCicco overlaps Root, Read, and Walshe.
 
 Current board state: DiCicco already has Root and Read spine edges and a Walshe edge.
 
-Decision: Do not strengthen or expand DiCicco until the Root-specific source is identified. Treat the existing edge as inherited from prior documented work, not freshly proven by this pass.
+Decision: The recovered SERT email directly supports DiCicco's existing Root evidence-search role because it says Bukhenik and DiCicco directed SERT to the search area and were satisfied with the search results. No new DiCicco edge is needed because the board already shows his Root spine edge and his recurring MSP/Norfolk overlap lane.
 
 ## Needs Primary Source
 
@@ -386,11 +386,11 @@ Decision: The Read/O'Keefe and Norfolk DA connectors are supported by witness-li
 
 Status: `partly graph-ready; active lead for additional office staff`.
 
-Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024` supports Beland's visible Norfolk DA, Walshe, and Read/O'Keefe correspondence connectors. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` remains only a lead for Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
+Evidence: `ROOT-NDAO-2020-REPORT` supports Morrissey and the office-level Root review. `ROOT-GUARINO-DIGITAL-EVIDENCE-2020` supports Guarino, Keefe, Mattaliano, and Brookline Officer Scott Wilder as Root digital-evidence actors. `WEB-READ-RETRIAL-NORFOLK-STAFF-2025` documents Steve Nelson internally as a Read/O'Keefe/Norfolk DA office witness-list actor. `WEB-BELAND-NORFOLK-WALSHE-READ-2023-2024` supports Beland's visible Norfolk DA, Walshe, and Read/O'Keefe correspondence connectors. `WEB-READ-BIRCHMORE-DISCOVERY-MOTION-2025` remains only a lead for Beland and other Read/Birchmore crossover names, pending official court-copy verification. `_DRIVE_FULL_INDEX.tsv` lists NDAO public-record and Axon audit items that may identify additional office staff. `_CAREER_INVENTORY_NorfolkCounty.md` lists David Traub and Hank Brennan, but those entries are Read-prosecution context rather than Root-specific evidence.
 
 Current board state: Beland is represented as a Norfolk DA prosecutor connected to the Walshe lane and to the Read/O'Keefe correspondence/filing lane. She is not connected to Birchmore on the public board.
 
-Next action: ingest NDAO public-record files and identify staff names from primary records before adding office-wide connectors. The Drive file `34 Digital Evidence Report.pdf` is present but image-only through the connector, so it should be OCR'd before any claims are drawn from it. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
+Next action: continue with the remaining NDAO public-record and Axon audit files. The Drive file `34 Digital Evidence Report.pdf` has been OCR'd and ingested; it supports a narrow Wilder addition plus Guarino-to-Keefe and Guarino-to-Mattaliano connectors. Do not add every DA employee from a witness list; add only role-based connectors that clarify the public-accountability structure.
 
 ### Recent Overturned Murder Conviction Mining
 
