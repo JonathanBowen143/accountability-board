@@ -110,7 +110,7 @@ Boston.com also reported that Read reserved the right to call Commonwealth witne
 
 Do not add every witness. The graph should prioritize people whose testimony or public record creates a meaningful accountability connector beyond routine appearance at trial.
 
-Attorney connector rule: Jackson and Yannetti may connect to existing public-board nodes that appear as called witnesses in either Read criminal trial. Alessi may connect to existing public-board nodes that appear as called witnesses in the second trial, where he joined the defense team. Elizabeth Little may connect to existing public-board nodes that appear in trial-archive day summaries with Little or are directly tied to her examination or motion work in reporting. This rule does not require adding every called witness to the visible board.
+Attorney connector rule: Jackson, Yannetti, and Little may connect to existing public-board nodes that appear as called witnesses in either Read criminal trial. Alessi may connect to existing public-board nodes that appear as called witnesses in the second trial, where he joined the defense team. This rule does not require adding every called witness to the visible board.
 
 Prosecutor connector rule: defense attorneys may connect to opposing prosecutors when source material identifies the prosecutor's trial role, a shared courtroom phase, or a documented courtroom dispute. Use `case` for those courtroom-role links.
 
