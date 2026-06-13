@@ -1,8 +1,36 @@
 # Source Ledger
 
-Last updated: June 11, 2026.
+Last updated: June 13, 2026.
 
 This ledger records source surfaces reviewed or identified for the board. It is intentionally separate from `index.html`; evidence belongs here first, graph edges second.
+
+## WEB-SWETZOFF-BOSTON-UNSOLVED-HOMICIDE-1968-2000
+
+Status: `ingested`, `internal-only historical lead; not public-board-ready`.
+
+Source titles:
+
+Boston Police Department, `1968 Unsolved Homicides`: `https://police.boston.gov/1968-unsolved-homicides/`.
+
+New Day Films, `Theme: Murder`: `https://www.newday.com/films/theme-murder`.
+
+Full Frame Documentary Film Festival, `Theme: Murder`: `https://www.fullframefest.org/film/theme-murder/`.
+
+Frick Art Reference Library, Archives Directory for the History of Collecting in America, `Swetzoff Gallery (Boston, Mass.)`: `https://research.frick.org/directory/detail/524`.
+
+Extracted facts:
+
+The Boston Police Department's 1968 unsolved-homicide list records that on May 20, 1968, BPD responded to a trauma at 47 Winchester Street in Boston, that the victim was identified as Hyman Swetzoff, age 45, and that the Office of the Chief Medical Examiner determined the manner of death to be homicide.
+
+New Day Films describes `Theme: Murder` as a true-crime documentary about murder, sexuality, and the aftermath of an unsolved homicide. Its synopsis states that filmmaker Martha Swetzoff was nine when her father, Boston art dealer Hyman Swetzoff, was beaten and left to die in his home, and that the film examines homicide survivors, homophobia, and the relationship between families and law enforcement. New Day also says the film includes interviews with James Ellroy and the Boston Cold Case Squad.
+
+Full Frame describes Hyman Swetzoff as an art dealer murdered in Boston in 1968, says the murder remains unsolved and was rumored to be related to homophobia, and says Martha Swetzoff interviews friends, colleagues, detectives, and James Ellroy while reconstructing her father's life and death.
+
+The Frick archives directory identifies Swetzoff Gallery as a Boston dealer/gallery active from 1948 to 1968. It says the gallery originated as Frameshop Gallery with Hyman and Seymour Swetzoff as directors, and that Hyman later ran it until his death in 1968.
+
+Board implications:
+
+Do not add Hyman Swetzoff to the visible public board from this pass alone. The source base supports an internal historical lead tied to Boston Police, OCME, cold-case practice, homophobia, and Boston cultural history, but it does not yet identify a repeated public official, a contested prosecution, a known investigative failure, a court proceeding, or a named law-enforcement actor that would make the graph more informative than a two-institution unsolved-homicide stub. Revisit if primary records, press accounts, or the film itself identify named BPD detectives, DA involvement, cold-case-unit actors, public-official handling, or another connector already present on the board.
 
 ## WEB-HISTORICAL-CONNECTOR-TIGHTENING-1921-2022
 

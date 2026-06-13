@@ -1,6 +1,6 @@
 # Connector Queue
 
-Last updated: June 12, 2026.
+Last updated: June 13, 2026.
 
 This queue is the holding area between evidence ingestion and graph edits. It prevents the board from becoming either under-connected or over-claimed.
 
@@ -147,6 +147,16 @@ Evidence: `WEB-DEEGAN-FBI-INFORMANT-MURDER-CONVICTIONS-1965-2009`.
 Current board state: The public board has Sacco/Vanzetti, Boston Strangler / DeSalvo, Bridgewater/SJC, Watch and Ward/Pelletier, and several recent wrongful-conviction lanes, but it does not yet represent the 1965 Edward "Teddy" Deegan murder convictions or the later Limone / Greco / Tameleo / Salvati exoneration and FBI-informant misconduct findings.
 
 Decision: Treat Deegan as the obvious mid-20th-century murder-corruption coverage gap. Hold visible graph changes for one scope decision: whether the board allows a historical federal-lane exception for FBI Boston because the misconduct center is federal, even though the prosecution and conviction posture are Massachusetts/Suffolk County. If approved later, add only a small minimal structure first: Deegan as the underlying murdered person; Limone, Greco, Tameleo, and Salvati as small wrongful-conviction victims; Suffolk DA and Suffolk Superior Court as state institutions; and a restrained FBI Boston / federal-informant institution connector. Keep named FBI agents, Barboza, Flemmi, Patriarca, Durham, Hinkle, prosecutors, detectives, and civil-litigation family actors internal until the public graph can carry that complexity without over-expanding.
+
+### Hyman Swetzoff / `Theme: Murder` Historical Lead
+
+Status: `internal-only lead; not public-board-ready`.
+
+Evidence: `WEB-SWETZOFF-BOSTON-UNSOLVED-HOMICIDE-1968-2000`.
+
+Current board state: Boston Police Department and the Office of Chief Medical Examiner already exist as visible institutions. Hyman Swetzoff, Swetzoff Gallery, Martha Swetzoff, `Theme: Murder`, the Boston Cold Case Squad, and any individual detectives are not visible graph nodes.
+
+Decision: Keep Swetzoff documented internally for now. The official BPD unsolved-homicide entry gives clean institutional connectors to BPD and OCME, and the documentary sources add homophobia, survivor, and law-enforcement-access context. That is not enough for a public graph node under the current two-connector rule because both confirmed connectors are generic institutional handling of a single unsolved homicide, not repeated actors, contested public decisions, or an identifiable accountability mechanism. Reopen the lane if additional sources identify named BPD detectives, DA-office involvement, a cold-case-unit actor, an official public-record dispute, or another connector already present on the board. Do not add `Theme: Murder` as a documentary/media node unless the board later opens a dedicated media-and-public-memory layer.
 
 ### Watch and Ward / Pelletier Historical Lane
 

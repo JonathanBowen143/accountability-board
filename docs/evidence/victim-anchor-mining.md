@@ -1,6 +1,6 @@
 # Victim Anchor Mining
 
-Last updated: June 12, 2026.
+Last updated: June 13, 2026.
 
 This file documents the logic behind larger victim-anchor nodes and the current connector-mining status for those people. It should be read with `source-ledger.md` and `connector-queue.md`.
 
@@ -69,5 +69,7 @@ Next mining actions: localize the indictment or charging documents if available;
 The board has other victim-category nodes, including exonerees, wrongfully convicted people, legally invalid conviction victims, collateral injury/death subjects, and historically important people. They should remain smaller unless the project opens an active accountability lane around their death or prosecution and documents that lane in the source ledger.
 
 The June 2026 overturned-conviction pass added Robert Foxworth, Barry Kamara, Raymond Gaines, Milton Jones, Floyd Hamilton, Joseph Jabir Pope, James Lucien, Rickey McGee, Edward Wright, Mark Schand, Charles Wilhite, Gary Cifizzari, Dewane Tse, and Michael J. Sullivan as small gold-ring nodes for the same reason. Penny Anderson, Victoria Seymour, Alberto Rodriguez, and Concetta Schiappa were added as underlying homicide-victim nodes in the regional wrongful-conviction lanes, but not as large victim anchors. Kelsey Fitzsimmons is also a small system-harm / acquittal node, not a large victim anchor, because the documented lane is an officer-involved shooting, prosecution, acquittal, and body-camera caveat rather than a murdered-person accountability lane. Those nodes document wrongful-conviction, exoneration, legally invalid conviction, underlying homicide-victim, or comparable system-harm patterns and repeated public actors, but they are not new large victim anchors.
+
+Hyman Swetzoff is now documented as an internal historical unsolved-homicide lead through `WEB-SWETZOFF-BOSTON-UNSOLVED-HOMICIDE-1968-2000`. He should not become a large victim anchor unless later source work identifies an active accountability lane around public officials, investigative handling, prosecution, cold-case actors, or another repeated connector. The current evidence supports documentation, not visible anchor status.
 
 This keeps the visual language coherent. Large nodes identify the current murdered-person anchor lanes; small nodes can still be morally and evidentially important without becoming organizing centers for this version of the board.
