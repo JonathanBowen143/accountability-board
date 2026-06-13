@@ -8,6 +8,7 @@ This repository lives on local disk at `~/Developer/Massachusetts Accountability
 ## Layout
 - `index.html` — the board page and graph data. Edit this directly; pushing deploys it. GitHub Pages requires this exact filename, so it is not renamed.
 - `docs/evidence/` — source ledger, connector queue, and victim-anchor mining notes for evidence-backed graph changes.
+- `docs/evidence/unsolved-homicide-triage.md` — intake rules for unsolved murder leads before they become graph candidates.
 - `docs/karen-read-witness-ledger.md` — documented witness ledger for Karen Read's first trial and retrial, separated from graph-add decisions.
 - `docs/read-root-birchmore-connectors.md` — source notes for the Read / O'Keefe / Root / Birchmore connector pass.
 - `vendor/d3.v7.min.js` — local D3 runtime, vendored so the board does not depend on a CDN.
